@@ -84,14 +84,20 @@ summary_rows = [
      "=Bavaria_Costs!E28", "=Bavaria_Costs!F28", "=Bavaria_Costs!G28", "=Bavaria_Costs!F28/C4",
      "Medium-High", "Medium", "Moderate (mountain weather)", "High", "Very High",
      "Most balanced and stress-light", "Weather-sensitive mountain days; over-design risk"],
-    # Row 5: St. Lucia A — TOTAL row 26; Cost/Night uses C5
+    # Row 5: Bavaria Opt 2 — TOTAL row 27 in Bavaria2_Costs
+    ["Bavaria — Opt 2 (Cities & Castles)", "Cities and castles (Munich-Berchtesgaden-Salzburg)", 9, 1,
+     "=Bavaria2_Costs!E27", "=Bavaria2_Costs!F27", "=Bavaria2_Costs!G27", "=Bavaria2_Costs!F27/C5",
+     "Medium-High", "Low-Medium", "Moderate (mountain weather)", "High", "Very High",
+     "Neuschwanstein; Hallstatt; castle-focused; less hiking",
+     "No alpine village base; Mittenwald removed; similar cost to Opt 1"],
+    # Row 6: St. Lucia A — TOTAL row 26; Cost/Night uses C6 (shifted from C5)
     ["St. Lucia — Option A (All-Inclusive)", "Tropical adventure + resort base", 10, 0,
-     "=StLucia_Costs!E26", "=StLucia_Costs!F26", "=StLucia_Costs!G26", "=StLucia_Costs!F26/C5",
+     "=StLucia_Costs!E26", "=StLucia_Costs!F26", "=StLucia_Costs!G26", "=StLucia_Costs!F26/C6",
      "Medium", "Low", "Moderate-High (hurricane season)", "Moderate", "High",
      "Full 10 nights; easy logistics; all-in pricing", "Lower cultural depth; lodging cost dominates"],
-    # Row 6: St. Lucia B — TOTAL row 27; Cost/Night uses C6
+    # Row 7: St. Lucia B — TOTAL row 27; Cost/Night uses C7 (shifted from C6)
     ["St. Lucia — Option B (Villa + Bay Gardens)", "Tropical adventure + villa/split", 10, 0,
-     "=StLucia_Costs!E27", "=StLucia_Costs!F27", "=StLucia_Costs!G27", "=StLucia_Costs!F27/C6",
+     "=StLucia_Costs!E27", "=StLucia_Costs!F27", "=StLucia_Costs!G27", "=StLucia_Costs!F27/C7",
      "Medium", "Medium", "Moderate-High (hurricane season)", "Moderate", "High",
      "Best value; most local feel", "One transfer mid-trip; more daily decisions"],
 ]
@@ -177,7 +183,31 @@ set_col_widths(ws, [5, 11, 24, 22, 42, 40, 36, 26, 16, 12, 18, 36, 16, 44])
 freeze(ws)
 
 # ============================================================
-# TAB 5 — Greece Option 2 Itinerary (Crete + Athens)
+# TAB 5 — Bavaria Option 2 Itinerary (Cities & Castles)
+# ============================================================
+ws = wb.create_sheet("Bavaria2_Itinerary")
+ws.row_dimensions[1].height = 36
+write_header(ws, 1, ITIN_COLS)
+bavaria2_itin = [
+    [1,"Sat Jul 11","DC → Munich","In-flight","Airport departure","Overnight transatlantic","In-flight","IAD nonstop (Lufthansa/United)","~8–10 hrs","Y","N","None",0,"Europe clock begins on flight night"],
+    [2,"Sun Jul 12","Munich","Munich","Arrive MUC ~9–10 am; S-Bahn to city; hotel check-in","Marienplatz; Viktualienmarkt; Glockenspiel at noon","Englischer Garten + Eisbach surfers; beer garden dinner","S-Bahn S1/S8","40–50 min","N","N","Hotel pool/nap day",300,"Eisbach river surfers free; a genuine teen highlight"],
+    [3,"Mon Jul 13","Munich","Munich","Deutsches Museum (4–5 hrs; €15/adult; €4.50/youth)","BMW Welt (free) + BMW Museum (€10/adult)","Hofbräuhaus or neighborhood beer garden","Local U-Bahn","Local","N","N","Extra museum day; Alte Pinakothek alternative",380,"BMW Welt is free and worth 2 hrs even for non-car people"],
+    [4,"Tue Jul 14","Neuschwanstein day trip","Munich","Regional train to Füssen (~2 hrs); bus to castle; timed interior tour","Marienbrücke bridge view over gorge; optional Hohenschwangau Castle","Return to Munich; dinner","Bayern-Ticket + regional train","2 hrs each way","Y (Neuschwanstein timed entry — book immediately)","N","Exterior + Marienbrücke if interior sells out",430,"Book timed entry at tickets.hohenschwangau.de immediately; July sells out weeks ahead; under 18 free"],
+    [5,"Wed Jul 15","Munich","Munich","Nymphenburg Palace + formal gardens (~2 hrs; €15/adult)","Olympic Park grounds (free) + Maximilianstrasse or Schwabing district","Dinner in Munich","U-Bahn + local","Local","N","N","Dachau Memorial if family interested in WWII history",350,"Nymphenburg is a genuine royal palace; canals and formal gardens free even without entry"],
+    [6,"Thu Jul 16","Munich → Berchtesgaden","Berchtesgaden","Check out; regional train to Berchtesgaden (~2.5 hrs via Freilassing)","Arrive mid-afternoon; Berchtesgaden Old Town walk; Royal Palace square","Dinner at local Gasthof; early night","Bayern-Ticket + regional rail","~2h 30m","Y (Bayern-Ticket)","N","Break in Munich midway if needed",350,"Bayern-Ticket covers the full day; straightforward connection"],
+    [7,"Fri Jul 17","Königssee","Berchtesgaden","Bus 841 to Königssee dock (~10 min); first electric boat to St. Bartholomä — cliff-echo flugelhorn","Return by boat; afternoon rest or Old Town walk","Dinner in Berchtesgaden","Bus 841 + electric boat","10 min bus + 35 min each way boat","Y (boat dock)","Y (weather-dependent)","Documentation Center Obersalzberg (indoor)",400,"Take first morning boat; crowds build fast after 10 am"],
+    [8,"Sat Jul 18","Berchtesgaden → Salzburg","Salzburg","Bus 838; Documentation Center Obersalzberg (€6/adult); Kehlstein bus + tunnel elevator to Eagle's Nest (€36.10/adult; €21/youth)","Berchtesgaden salt mine (~1.5 hrs; €23/adult) — core plan, not optional","Bus 840 to Salzburg (~50 min); check in; light dinner","Bus 838 + Bus 840","~2 hrs activity + 50 min transfer","Y (Eagle's Nest seasonal)","Y (Eagle's Nest closes in cloud/wind)","Salt mine only + travel to Salzburg if Eagle's Nest closed",520,"Eagle's Nest historically moving; salt mine adds variety; Day 8 is full but manageable"],
+    [9,"Sun Jul 19","Salzburg","Salzburg","Hohensalzburg Fortress funicular (€14.50/adult; €8.30/youth)","Mirabell Gardens (free); Mozart's Birthplace (€13.50/adult); Getreidegasse stroll","St. Peter Stiftskeller dinner (Europe's oldest restaurant; book ahead)","Walk + local bus","Local","Y (restaurant reservation)","N","Salzburg Card if doing 3+ paid sites",480,"Compact walkable city; one of the most enjoyable low-effort days on this trip"],
+    [10,"Mon Jul 20","Hallstatt day trip","Salzburg","Regional train + bus to Hallstatt (~1.5 hrs each way); lake village walk; boat across the Hallstätter See","Hallstatt salt mine museum (~1 hr); Beinhaus charnel house (unusual and memorable); lakeside lunch","Return to Salzburg; evening Salzach riverside walk","Regional train + bus","1.5 hrs each way","N","N","Salzburg Museum der Moderne or Sound of Music tour instead",400,"Arrive early to beat tour buses; Hallstatt is UNESCO-listed and unmistakably beautiful"],
+    [11,"Tue Jul 21","Salzburg → Munich → DC","At home","ÖBB Railjet 06:23 or 07:11 Salzburg → Munich (1h 28m; book seat reservation ~$30/pp, 3–4 wks ahead)","S-Bahn S1/S8 to MUC airport (40 min); fly home","Arrive DC","Railjet + S-Bahn","2h 10m total","Y (Railjet reservation)","N","None",170,"Leave Salzburg by 7:15 am for a midday MUC departure"],
+]
+for i, row in enumerate(bavaria2_itin):
+    write_row(ws, i + 2, row, bg=HDR_LIGHT if i % 2 == 0 else WHITE, num_fmt={13: USD})
+set_col_widths(ws, [5, 11, 26, 18, 40, 40, 34, 26, 16, 22, 20, 36, 16, 44])
+freeze(ws)
+
+# ============================================================
+# TAB 6 — Greece Option 2 Itinerary (Crete + Athens)
 # ============================================================
 ws = wb.create_sheet("Greece2_Itinerary")
 ws.row_dimensions[1].height = 36
@@ -355,7 +385,87 @@ set_col_widths(ws, [18, 46, 24, 14, 12, 12, 12, 14, 52, 12])
 freeze(ws)
 
 # ============================================================
-# TAB 8 — St. Lucia Costs (Options A & B combined)
+# TAB 8 — Bavaria Option 2 Costs
+# Row map (data rows 2-26, TOTAL row 27):
+#   2-3:   Flights, Bags
+#   4-6:   Lodging (Munich 4n, Berchtesgaden 2n, Salzburg 3n)
+#   7-11:  Rail + Transit
+#   12-24: Activities (13 rows)
+#   25:    Food
+#   26:    Insurance
+# Verified totals: Low $8,644 / Mid $12,309 / High $17,334
+# ============================================================
+ws = wb.create_sheet("Bavaria2_Costs")
+ws.row_dimensions[1].height = 36
+write_header(ws, 1, COST_COLS)
+
+bavaria2_costs = [
+    # row 2
+    ["Flights","IAD→MUC round-trip economy × 4","$950–1,600/pp","4",3800,4800,6400,"Medium-High","Same IAD–MUC routing as Option 1; Lufthansa/United nonstop","BA-FL"],
+    # row 3
+    ["Bags & Seats","Economy bags + seat selection","$90/pp RT","4",200,300,450,"Low","Carrier-dependent","BA-FL"],
+    # row 4
+    ["Lodging","Munich — 4 nights","$200–450/night","4",800,1200,1800,"Medium","Same hotel range as Option 1; 2 additional nights","BA-LO"],
+    # row 5
+    ["Lodging","Berchtesgaden — 2 nights","$180–450/night","2",360,560,900,"Medium","Hotel Edelweiss / Vier Jahreszeiten range","BA-LO"],
+    # row 6
+    ["Lodging","Salzburg — 3 nights (Festspiele premium applies)","$250–600/night","3",750,1125,1800,"Medium","1 additional night vs. Option 1; book 5–6 months ahead","BA-LO"],
+    # row 7
+    ["Rail","Bayern-Ticket × 2 days (Neuschwanstein + Munich→Berchtesgaden)","€49/day","2 days",110,116,116,"High","DB Bayern-Ticket; 14yo free; 17yo adult rate","BA-RT"],
+    # row 8
+    ["Transit","Munich local transit — non–Bayern-Ticket days (MVV day tickets)","~$25/family/day","4 days",60,100,100,"High","MVV day tickets; S-Bahn and U-Bahn","BA-RT"],
+    # row 9
+    ["Rail","Salzburg → Munich Railjet + seat reservation","~$35/pp","4",100,140,200,"High","ÖBB Railjet; book 3–4 weeks ahead","BA-RT"],
+    # row 10
+    ["Rail","MUC airport S-Bahn round-trip (2 × family day ticket)","$70/family × 2","2 trips",80,140,140,"High","MVV airport day ticket","BA-RT"],
+    # row 11
+    ["Transit","Bus 840 Berchtesgaden → Salzburg (family)","~€11/pp","4",35,52,52,"High","Regional bus; not covered by Bayern-Ticket","BA-RT"],
+    # row 12
+    ["Transit","Local Berchtesgaden buses (Eagle's Nest + Königssee; 2 days)","~€8/pp/day","4 pp × 2 days",30,38,38,"High","Berchtesgaden local transit","BA-RT"],
+    # row 13
+    ["Activities","Deutsches Museum","€15/adult; €4.50/youth","2+2",30,45,45,"High","Deutsches Museum official site","BA-AC"],
+    # row 14
+    ["Activities","BMW Welt (free) + BMW Museum","€10/adult","2",0,24,24,"High","BMW Museum official site","BA-AC"],
+    # row 15
+    ["Activities","Neuschwanstein Castle (timed interior tour + Füssen bus)","€15/adult; under 18 free","4",80,200,280,"Medium","tickets.hohenschwangau.de; under 18 free with guardian; July sells out weeks ahead","BA2-AC"],
+    # row 16
+    ["Activities","Nymphenburg Palace","€15/adult","4",36,50,50,"High","Schloss Nymphenburg official; grounds free","BA2-AC"],
+    # row 17
+    ["Activities","Königssee electric boat (round-trip to Salet)","€22/adult; €11/youth (14yo)","4",80,92,92,"High","Bayerische Seenschifffahrt official pricing","BA-AC"],
+    # row 18
+    ["Activities","Eagle's Nest (Kehlstein bus + tunnel elevator)","€36.10/adult; €21/youth","4",110,143,143,"High","Official Kehlstein; credit card only at top; seasonal","BA-AC"],
+    # row 19
+    ["Activities","Documentation Center Obersalzberg","€6/adult","4",28,28,28,"High","Official Berchtesgaden tourism","BA-AC"],
+    # row 20
+    ["Activities","Berchtesgaden salt mine (core plan)","€23/adult + youth est.","4",90,109,109,"Medium","Salzbergwerk official site; now in core plan not optional","BA-AC"],
+    # row 21
+    ["Activities","Hohensalzburg Fortress funicular","€14.50/adult; €8.30/youth","4",45,63,63,"High","Festung Salzburg official","BA-AC"],
+    # row 22
+    ["Activities","Mozart's Birthplace","€13.50/adult","4",0,64,64,"High","Mozarteum Foundation","BA-AC"],
+    # row 23
+    ["Activities","Hallstatt day trip (regional train + bus + salt mine museum entry)","Estimate","4",120,180,240,"Medium","Regional rail Salzburg–Hallstatt; Hallstatt Salzwelten ~€15/adult","BA2-AC"],
+    # row 24
+    ["Activities","Misc (Olympic Park; village fees; incidentals)","Estimate","—",60,100,150,"Low","Estimate","—"],
+    # row 25
+    ["Food & Dining","9 ground days × 4 people","$40/$65/$100 pp/day","36 pp-days",1440,2340,3600,"Medium","Same food model as Option 1; bakeries + beer gardens","BA-FD"],
+    # row 26
+    ["Travel Insurance","Trip protection","$75/pp","4",200,300,450,"Medium","Standard comprehensive policy","—"],
+]
+
+for i, row in enumerate(bavaria2_costs):
+    write_row(ws, i + 2, row, bg=HDR_LIGHT if i % 2 == 0 else WHITE, num_fmt=d3)
+
+# TOTAL row 27 — formulas sum rows 2:26
+# Low $8,644 / Mid $12,309 / High $17,334
+write_row(ws, 27,
+    ["TOTAL", "", "", "", "=SUM(E2:E26)", "=SUM(F2:F26)", "=SUM(G2:G26)", "", "", ""],
+    bg=TOTAL_CLR, bold=True, num_fmt=d3)
+
+set_col_widths(ws, [18, 46, 24, 14, 12, 12, 12, 14, 52, 12])
+freeze(ws)
+
+# ============================================================
+# TAB 10 — St. Lucia Costs (Options A & B combined)
 # Row map (data rows 2-25, TOTAL A row 26, TOTAL B row 27):
 #   2-3:   Flights, Bags  (Both)
 #   4:     Lodging_A Coconut Bay  (Option A only)
@@ -519,26 +629,22 @@ set_col_widths(ws, [18, 46, 24, 10, 12, 12, 12, 14, 52, 12])
 freeze(ws)
 
 # ============================================================
-# TAB 10 — Cost Comparison (Mid-Range)
-# 6 columns: A=Category, B=Greece Opt1, C=Greece Opt2, D=Bavaria, E=StLucia-A, F=StLucia-B
+# TAB 12 — Cost Comparison (Mid-Range)
+# 7 columns: A=Category, B=Greece Opt1, C=Greece Opt2, D=Bavaria Opt1,
+#            E=Bavaria Opt2, F=StLucia-A, G=StLucia-B
 # All values pulled via cross-sheet formulas.
 # Row map:
 #   2: Flights + bags
-#        GR1: rows 2-3; GR2: rows 2-5 (IAD+bags+both domestics); BA: 2-3; SL: 2-3
 #   3: Lodging
-#        GR1: rows 4-7; GR2: rows 6-8; BA: 4-7; SL-A: row 4; SL-B: rows 5-6
 #   4: Ground transport / car / rail / ferries
-#        GR1: rows 8-12; GR2: rows 9-10 (car+fuel; domestics counted in flights); BA: 8-12
-#        SL-A: rows 7-8; SL-B: rows 9-12
+#        BA2: rows 7-12 (rail+transit only; domestics not applicable)
 #   5: Activities
-#        GR1: rows 13-20; GR2: rows 11-18; BA: 13-25; SL: rows 13-21
-#   6: Food
-#        GR1: row 21; GR2: row 19; BA: row 26; SL-A: row 22; SL-B: row 23
-#   7: Insurance & misc
-#        GR1: row 22; GR2: row 20; BA: row 27; SL: rows 24-25
-#   8: TOTAL MID (sum rows 2-7)
-#   9: Nights on ground (from Summary C2:C6)
-#  10: Cost per night mid (row 8 / row 9)
+#        BA1: rows 13-25; BA2: rows 13-24
+#   6: Food       BA1: row 26; BA2: row 25
+#   7: Insurance  BA1: row 27; BA2: row 26
+#   8: TOTAL MID
+#   9: Nights on ground (Summary C2:C7)
+#  10: Cost per night mid
 # ============================================================
 ws = wb.create_sheet("Cost_Comparison")
 ws.row_dimensions[1].height = 36
@@ -546,7 +652,8 @@ write_header(ws, 1, [
     "Category (Mid-Range)",
     "Greece — Opt 1 (Cyclades)",
     "Greece — Opt 2 (Crete)",
-    "Bavaria + Salzburg",
+    "Bavaria — Opt 1 (Alpine)",
+    "Bavaria — Opt 2 (Cities)",
     "St. Lucia (A) All-Incl.",
     "St. Lucia (B) Independent"
 ])
@@ -557,6 +664,7 @@ comp_rows = [
      "=SUM(Greece_Costs!F2:F3)",
      "=SUM(Greece2_Costs!F2:F5)",
      "=SUM(Bavaria_Costs!F2:F3)",
+     "=SUM(Bavaria2_Costs!F2:F3)",
      "=SUM(StLucia_Costs!F2:F3)",
      "=SUM(StLucia_Costs!F2:F3)"],
     # row 3: Lodging
@@ -564,6 +672,7 @@ comp_rows = [
      "=SUM(Greece_Costs!F4:F7)",
      "=SUM(Greece2_Costs!F6:F8)",
      "=SUM(Bavaria_Costs!F4:F7)",
+     "=SUM(Bavaria2_Costs!F4:F6)",
      "=StLucia_Costs!F4",
      "=SUM(StLucia_Costs!F5:F6)"],
     # row 4: Ground transport / car / rail / ferries
@@ -571,6 +680,7 @@ comp_rows = [
      "=SUM(Greece_Costs!F8:F12)",
      "=SUM(Greece2_Costs!F9:F10)",
      "=SUM(Bavaria_Costs!F8:F12)",
+     "=SUM(Bavaria2_Costs!F7:F12)",
      "=SUM(StLucia_Costs!F7:F8)",
      "=SUM(StLucia_Costs!F9:F12)"],
     # row 5: Activities
@@ -578,6 +688,7 @@ comp_rows = [
      "=SUM(Greece_Costs!F13:F20)",
      "=SUM(Greece2_Costs!F11:F18)",
      "=SUM(Bavaria_Costs!F13:F25)",
+     "=SUM(Bavaria2_Costs!F13:F24)",
      "=SUM(StLucia_Costs!F13:F21)",
      "=SUM(StLucia_Costs!F13:F21)"],
     # row 6: Food
@@ -585,6 +696,7 @@ comp_rows = [
      "=Greece_Costs!F21",
      "=Greece2_Costs!F19",
      "=Bavaria_Costs!F26",
+     "=Bavaria2_Costs!F25",
      "=StLucia_Costs!F22",
      "=StLucia_Costs!F23"],
     # row 7: Insurance & misc
@@ -592,34 +704,35 @@ comp_rows = [
      "=Greece_Costs!F22",
      "=Greece2_Costs!F20",
      "=Bavaria_Costs!F27",
+     "=Bavaria2_Costs!F26",
      "=SUM(StLucia_Costs!F24:F25)",
      "=SUM(StLucia_Costs!F24:F25)"],
 ]
 
-d_comp = {2: USD, 3: USD, 4: USD, 5: USD, 6: USD}
+d_comp = {2: USD, 3: USD, 4: USD, 5: USD, 6: USD, 7: USD}
 for i, row in enumerate(comp_rows):
     write_row(ws, i + 2, row, bg=HDR_LIGHT if i % 2 == 0 else WHITE, num_fmt=d_comp)
 
 # TOTAL MID — row 8
 write_row(ws, 8,
     ["TOTAL MID (Family of 4)",
-     "=SUM(B2:B7)", "=SUM(C2:C7)", "=SUM(D2:D7)", "=SUM(E2:E7)", "=SUM(F2:F7)"],
+     "=SUM(B2:B7)", "=SUM(C2:C7)", "=SUM(D2:D7)", "=SUM(E2:E7)", "=SUM(F2:F7)", "=SUM(G2:G7)"],
     bg=TOTAL_CLR, bold=True, num_fmt=d_comp)
 
 # Nights on ground — row 9: single source of truth from Summary tab
-# Summary rows: 2=Greece Opt1, 3=Greece Opt2, 4=Bavaria, 5=StLucia-A, 6=StLucia-B
+# Summary rows: 2=Greece Opt1, 3=Greece Opt2, 4=Bavaria Opt1, 5=Bavaria Opt2, 6=StLucia-A, 7=StLucia-B
 write_row(ws, 9,
     ["Nights on Ground",
-     "=Summary!C2", "=Summary!C3", "=Summary!C4", "=Summary!C5", "=Summary!C6"],
+     "=Summary!C2", "=Summary!C3", "=Summary!C4", "=Summary!C5", "=Summary!C6", "=Summary!C7"],
     bg=WHITE)
 
 # Cost per night — row 10
 write_row(ws, 10,
     ["Cost per Night on Ground (Mid)",
-     "=B8/B9", "=C8/C9", "=D8/D9", "=E8/E9", "=F8/F9"],
+     "=B8/B9", "=C8/C9", "=D8/D9", "=E8/E9", "=F8/F9", "=G8/G9"],
     bg=HDR_LIGHT, num_fmt=d_comp)
 
-set_col_widths(ws, [36, 20, 20, 20, 24, 24])
+set_col_widths(ws, [36, 20, 20, 20, 20, 24, 24])
 freeze(ws)
 
 # ============================================================
@@ -665,6 +778,9 @@ sources = [
     ["BA-AC","Bavaria","Attractions","Festung Hohensalzburg","salzburg-burgen.at","Fortress funicular pricing; adult/youth rates","High",""],
     ["BA-LO","Bavaria","Lodging","Booking.com / direct hotels","booking.com","Munich / Mittenwald / Berchtesgaden / Salzburg family room rates","Medium","Salzburg: book 5–6 months ahead due to Festspiele"],
     ["BA-FD","Bavaria","Food","Munich / Bavaria general tourism","munich.travel","Food cost benchmarks; beer garden pricing","Medium","Bavaria moderately priced; bakery + beer garden strategy keeps costs low"],
+    ["BA2-AC","Bavaria Opt 2","Attractions","Neuschwanstein / Hohenschwangau official tickets","tickets.hohenschwangau.de","Neuschwanstein timed interior tour; under 18 free with guardian; July availability","High","Book immediately upon confirming trip; July sells out weeks ahead"],
+    ["BA2-AC","Bavaria Opt 2","Attractions","Schloss Nymphenburg official","schloss-nymphenburg.de","Palace entry pricing; grounds and canals free; summer café on-site","High","Good half-day activity; grounds free even without palace entry"],
+    ["BA2-AC","Bavaria Opt 2","Attractions","Hallstatt tourism / ÖBB regional rail","hallstatt.net / oebb.at","Hallstatt day trip logistics from Salzburg; train + bus combo; Salzwelten mine museum","Medium","Regional rail Salzburg–Attnang-Puchheim–Hallstatt; arrive early to beat July tour buses"],
     # St. Lucia sources
     ["SL-FL","St. Lucia","Flights","American Airlines PHL–UVF","aa.com","Weekly nonstop PHL–UVF; ~4h 45m; fare range","High","Verify exact July 2026 schedule; check early for PHL nonstop availability"],
     ["SL-LO","St. Lucia","Lodging","Coconut Bay Resort","cbayresort.com","All-inclusive family Splash wing; rates; inclusions","Medium","2026 July rates not yet published; get direct quote"],

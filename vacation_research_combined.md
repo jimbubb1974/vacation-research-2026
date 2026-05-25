@@ -19,7 +19,7 @@ These three trips are genuinely different vacations, not just different location
 
 **Greece (Athens + Naxos + Santorini)** is the "big trip" — the one with ancient ruins at dawn, ferry departures across the Aegean, whitewashed villages above the caldera, and the kind of moments that your 14- and 17-year-old will describe to people for years. It is also the most logistically demanding: July in Athens runs 95–104°F, the meltemi winds can disrupt fast ferries, and every added island leg compresses the clock. The itinerary here threads Athens and two Cycladic islands — Naxos for adventure and authentic island life, Santorini for the iconic finale — into 9 ground nights. It works, but it requires tight sequencing. **Mid-range total: ~$14,400.**
 
-**Bavaria + Salzburg by train** is the most balanced and forgiving of the three. The German and Austrian rail networks are among the best in the world, July temperatures stay in the comfortable 70s°F, and the itinerary moves through four distinct settings — Munich's museums and beer gardens, Mittenwald's painted alpine village, Berchtesgaden's lakes and history, and Salzburg's baroque old city — without ever requiring a car. The biggest risk is over-design: too many bases, too many weather-sensitive mountain days stacked without fallbacks. Done well, this trip delivers extraordinary variety in a remarkably stress-light package. **Mid-range total: ~$12,000.**
+**Bavaria + Salzburg by train** is the most balanced and forgiving of the three. The German and Austrian rail networks are among the best in the world, July temperatures stay in the comfortable 70s°F, and the itinerary moves through four distinct settings — Munich's museums and beer gardens, Mittenwald's painted alpine village, Berchtesgaden's lakes and history, and Salzburg's baroque old city — without ever requiring a car. The biggest risk is over-design: too many bases, too many weather-sensitive mountain days stacked without fallbacks. Done well, this trip delivers extraordinary variety in a remarkably stress-light package. **Two routing options are costed here:** Option 1 (Alpine) includes Mittenwald with mountain day trips; Option 2 (Cities & Castles) drops Mittenwald, extends Munich to four nights with Neuschwanstein, and extends Salzburg to three nights with a Hallstatt day trip — better suited for a family that prefers sightseeing over hiking. **Mid-range total: ~$12,000–12,300 depending on option.**
 
 **St. Lucia** earns its place as an active trip, not a passive resort week. The south of the island — the Pitons, Sulphur Springs, rainforest zip-lines, catamaran excursions — gives the family enough adventure to fill ten days without feeling contrived. The north adds beach time, dining, and easy downtime. The upsides are significant: cheaper flights, a same-day arrival, the full 10 nights on-island, and the simplest logistics of the three options. The honest tradeoffs are lower cultural depth compared to Europe and the reality that July sits inside Atlantic hurricane season, meaning some outings — especially boat days — need flexibility built in. **Mid-range total: ~$11,700–$13,600** depending on lodging strategy.
 
@@ -281,6 +281,57 @@ Athens appears as a one-night finale — the Acropolis at dawn before the 10am h
 
 ---
 
+# DESTINATION 5 — BAVARIA + SALZBURG OPTION 2: Cities & Castles
+
+## Why this itinerary works
+
+This is a direct response to one practical question: what does the Bavaria trip look like for a family that wants sightseeing and iconic landmarks over hikes and mountain vistas? The answer is to drop Mittenwald — a village whose main appeal is as a hiking hub — and redistribute those three nights between Munich (gains two) and Salzburg (gains one).
+
+The key unlock is **Neuschwanstein**. In Option 1, Neuschwanstein was noted as logistically awkward from Mittenwald and left off the core plan. From Munich, it is a straightforward regional train to Füssen and a bus to the castle — a natural full-day trip, the most iconic castle in Europe, and exactly the kind of landmark a family with teens will remember. The fourth Munich day accommodates Nymphenburg Palace and the city itself without feeling rushed.
+
+Salzburg at three nights, rather than two, unlocks a **Hallstatt day trip** — the breathtaking lake village in the Salzkammergut that draws visitors for a reason. It takes the better part of a day (train + bus, ~1.5 hrs each way) but is well worth it and requires no hiking. The third Salzburg night also allows more relaxed pacing in the city itself, including the option to book St. Peter Stiftskeller for dinner without worrying about an early departure the next morning.
+
+**Berchtesgaden remains at two nights** and the salt mine moves from "optional" to the core plan — paired with Eagle's Nest morning on the same day before the Bus 840 transfer to Salzburg.
+
+The travel-to-seeing ratio improves vs. Option 1: Mittenwald required a dedicated travel day in and another out, burning two of nine ground days on logistics. The Option 2 structure has one main transit day (Munich → Berchtesgaden) and one combined activity + transit day (Eagle's Nest + salt mine + Salzburg).
+
+## Structure
+
+**Munich 4 nights → Berchtesgaden 2 nights → Salzburg 3 nights**
+
+## Day-by-Day Itinerary
+
+| Day | Date | Location | Overnight | Morning | Afternoon | Evening | Transport | Travel Time | Book Ahead | Weather Sensitive | Backup Option | Est. Daily Cost (Family USD) | Notes |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 1 | Sat Jul 11 | DC → Munich | In-flight | Airport departure | Overnight transatlantic | In-flight | IAD nonstop (Lufthansa/United) | ~8–10 hrs | Y | N | None | $0 | Europe clock begins on flight night |
+| 2 | Sun Jul 12 | Munich | Munich | Arrive MUC; S-Bahn to city; hotel check-in | Marienplatz; Viktualienmarkt; Glockenspiel at noon | Englischer Garten + Eisbach surfers; beer garden dinner | S-Bahn S1/S8 | 40–50 min | N | N | Hotel pool/nap day | $300 | Eisbach surfers are a genuine teen highlight; free |
+| 3 | Mon Jul 13 | Munich | Munich | Deutsches Museum (4–5 hrs; €15/adult; €4.50/youth) | BMW Welt (free) + BMW Museum (€10/adult) | Hofbräuhaus or neighborhood beer garden | Local U-Bahn | Local | N | N | Extra museum day or Alte Pinakothek | $380 | BMW Welt is free and worth 2 hrs even for non-car people |
+| 4 | Tue Jul 14 | Neuschwanstein day trip | Munich | Regional train to Füssen (~2 hrs); bus to castle; timed interior tour (book ahead) | Marienbrücke bridge view; optional Hohenschwangau Castle | Return to Munich; dinner | Bayern-Ticket + regional train | 2 hrs each way | Y (Neuschwanstein timed entry — book immediately) | N | Füssen Old Town walk if castle interior sells out | $430 | Neuschwanstein interior requires timed ticket; July sells out weeks ahead; under 18 free entry |
+| 5 | Wed Jul 15 | Munich | Munich | Nymphenburg Palace + formal gardens (~2 hrs; €15/adult) | Olympic Park grounds (free) + Maximilianstrasse or Schwabing | Dinner in Munich | U-Bahn + local | Local | N | N | Day trip to Dachau if family interested in WWII history | $350 | Nymphenburg is underrated; grounds and canals are beautiful; summer café on-site |
+| 6 | Thu Jul 16 | Munich → Berchtesgaden | Berchtesgaden | Check out; regional train to Berchtesgaden (~2.5 hrs via Freilassing) | Arrive mid-afternoon; Old Town walk; Royal Palace square | Dinner at local Gasthof; early night | Bayern-Ticket + regional rail | ~2h 30m | Y (Bayern-Ticket) | N | Break in Munich midway if needed | $350 | Straightforward train connection; Bavaria Ticket covers it |
+| 7 | Fri Jul 17 | Königssee | Berchtesgaden | Bus 841 to Königssee dock; first electric boat (~8 am) to St. Bartholomä — cliff-echo flugelhorn | Return by boat; afternoon rest or Old Town walk | Dinner in Berchtesgaden | Bus 841 + electric boat | 10 min bus + 35 min boat each way | Y (boat dock) | Y (boat weather-dependent) | Documentation Center Obersalzberg (indoor) | $400 | Take the first morning boat; crowds build fast after 10 am |
+| 8 | Sat Jul 18 | Berchtesgaden → Salzburg | Salzburg | Bus 838; Documentation Center Obersalzberg (€6/adult); Kehlstein bus + elevator to Eagle's Nest (€36.10/adult; €21/youth; credit card only) | Berchtesgaden salt mine (~1.5 hrs; €23/adult) | Bus 840 to Salzburg (~50 min); check in; light dinner | Bus 838 + Bus 840 | ~2 hrs activity + 50 min transfer | Y (Eagle's Nest seasonal) | Y (Eagle's Nest closes in cloud/wind) | Salt mine only + travel to Salzburg if Eagle's Nest closed | $520 | Eagle's Nest historically moving; salt mine adds variety without more hiking |
+| 9 | Sun Jul 19 | Salzburg | Salzburg | Hohensalzburg Fortress funicular (€14.50/adult; €8.30/youth) | Mirabell Gardens (free); Mozart's Birthplace (€13.50/adult); Getreidegasse stroll | St. Peter Stiftskeller dinner (Europe's oldest restaurant; book ahead) | Walk + local bus | Local | Y (restaurant reservation) | N | Salzburg Card if doing 3+ paid sites | $480 | Compact walkable city; one of the most enjoyable low-effort days on this trip |
+| 10 | Mon Jul 20 | Hallstatt day trip | Salzburg | Regional train + bus to Hallstatt (~1.5 hrs); lake village walk; boat across the Hallstätter See | Hallstatt salt mine museum (~1 hr); Beinhaus (charnel house — unusual and memorable); lakeside lunch | Return to Salzburg; evening stroll along the Salzach | Regional train + bus | 1.5 hrs each way | N | N | Salzburg extra city day (Museum der Moderne or Sound of Music tour) | $400 | Hallstatt is unmistakably beautiful; arrive early to beat tour buses; return by late afternoon |
+| 11 | Tue Jul 21 | Salzburg → Munich → DC | At home | ÖBB Railjet 06:23 or 07:11 Salzburg → Munich (1h 28m; book seat reservation ~$30/pp, 3–4 wks ahead) | S-Bahn S1/S8 to MUC airport (40 min); fly home | Arrive DC | Railjet + S-Bahn | 2h 10m total | Y (Railjet reservation) | N | None | $170 | Leave Salzburg by 7:15 am for a midday MUC departure |
+
+## Teen Highlights
+
+1. **Neuschwanstein Castle interior tour** — the most famous castle in the world, recognizable from Disney's Cinderella. The guided interior, Marienbrücke bridge view over the gorge, and the backdrop of the Alps make this a genuine visual highlight even for skeptical teenagers.
+2. **Eagle's Nest** — historically and visually stunning; the Documentation Center Obersalzberg provides essential context. One of the most moving historical sites on any of these itineraries.
+3. **Hallstatt** — the UNESCO-listed lake village that genuinely looks like a movie set. The charnel house (Beinhaus) with painted and decorated skulls is unusual and fascinating — exactly the kind of detail teenagers remember.
+
+## Key Risks & Fallbacks
+
+| Risk | Likelihood | Impact | Fallback |
+|---|---|---|---|
+| Neuschwanstein timed entry sells out | High if not booked immediately | Medium | Exterior + Marienbrücke + Hohenschwangau still fills the day |
+| Eagle's Nest closes (weather/maintenance) | Low-Medium | Low | Salt mine still runs; head to Salzburg earlier |
+| Hallstatt overcrowded (tour buses) | Medium (July) | Low | Arrive first train; leave by 2 pm before afternoon crush |
+| Salzburg Festival hotel surge | High (if July 19–20 overlap confirmed) | Medium (cost) | Book 5–6 months ahead; Linzergasse-area hotels less exposed |
+
+---
+
 ## PART B — COST TABLES
 
 > **All prices in USD. FX: €1 = $1.18. Low = value-conscious but realistic. Mid = comfortable, realistic, core experience. High = better flights/lodging/private transfers.** Prices are estimates based on May 2026 market research; actual fares and rates fluctuate. Lock flights 3–5 months ahead; book hotels immediately for Santorini and Salzburg Festival dates.
@@ -347,6 +398,39 @@ Athens appears as a one-night finale — the Acropolis at dawn before the 10am h
 | Food & dining | 9 ground days × 4 people | $40/$65/$100 pp/day | 36 pp-days | $1,440 | $2,340 | $3,600 | Medium | Bakery breakfasts, beer-garden lunches, one sit-down dinner/day; Bavaria moderately priced | BA-FD |
 | Travel insurance | Trip protection | $75/pp | 4 | $200 | $300 | $450 | Medium | Standard comprehensive policy | — |
 | **TOTAL** | | | | **$8,458** | **$11,944** | **$16,933** | | | |
+
+---
+
+### Bavaria + Salzburg Option 2 — Detailed Cost Breakdown (Family of 4, 9 hotel nights)
+
+| Category | Item | Unit Cost | Qty | Low USD | Mid USD | High USD | Confidence | Basis | Source IDs |
+|---|---|---|---|---|---|---|---|---|---|
+| Flights | IAD→MUC round-trip economy | $950–1,600/pp | 4 | $3,800 | $4,800 | $6,400 | Medium-High | Same IAD–MUC routing as Option 1; Lufthansa/United nonstop | BA-FL |
+| Bags & seat selection | Economy typical fees | $90/pp RT | 4 | $200 | $300 | $450 | Low | Carrier-dependent | BA-FL |
+| Lodging | Munich — 4 nights | $200–450/night | 4 | $800 | $1,200 | $1,800 | Medium | Same hotel range as Option 1; 2 additional nights | BA-LO |
+| Lodging | Berchtesgaden — 2 nights | $180–450/night | 2 | $360 | $560 | $900 | Medium | Hotel Edelweiss / Vier Jahreszeiten range | BA-LO |
+| Lodging | Salzburg — 3 nights (Festspiele premium applies) | $250–600/night | 3 | $750 | $1,125 | $1,800 | Medium | 1 additional night vs. Option 1; book 5–6 months ahead | BA-LO |
+| Bayern-Ticket | €49/family × 2 days (Neuschwanstein + Munich→Berchtesgaden) | €49/day | 2 days | $110 | $116 | $116 | High | DB official Bayern-Ticket; 14yo free; 17yo adult rate | BA-RT |
+| Transit | Munich local transit — non–Bayern-Ticket days (MVV day tickets) | ~$25/family/day | 4 days | $60 | $100 | $100 | High | MVV day tickets for S-Bahn/U-Bahn; not on Bayern-Ticket days | BA-RT |
+| Rail | Salzburg → Munich Railjet + seat reservation | ~$35/pp | 4 | $100 | $140 | $200 | High | ÖBB Railjet; book 3–4 wks ahead | BA-RT |
+| Rail | MUC airport S-Bahn round-trip (2 × family day ticket) | $70/family × 2 | 2 trips | $80 | $140 | $140 | High | MVV airport day ticket | BA-RT |
+| Transit | Bus 840 Berchtesgaden → Salzburg (family) | ~€11/pp | 4 | $35 | $52 | $52 | High | Regional bus; not covered by Bayern-Ticket | BA-RT |
+| Transit | Local Berchtesgaden buses (Eagle's Nest + Königssee; 2 days) | ~€8/pp/day | 4 pp × 2 days | $30 | $38 | $38 | High | Berchtesgaden local transit | BA-RT |
+| Activities | Deutsches Museum | €15/adult; €4.50/youth | 2+2 | $30 | $45 | $45 | High | Deutsches Museum official site | BA-AC |
+| Activities | BMW Welt (free) + BMW Museum | €10/adult | 2 | $0 | $24 | $24 | High | BMW Museum official site | BA-AC |
+| Activities | Neuschwanstein Castle (timed interior tour + Füssen bus) | €15/adult; under 18 free | 4 | $80 | $200 | $280 | Medium | tickets.hohenschwangau.de; July sells out weeks ahead; under 18 free with adult | BA2-AC |
+| Activities | Nymphenburg Palace | €15/adult | 4 | $36 | $50 | $50 | High | Schloss Nymphenburg official | BA2-AC |
+| Activities | Königssee electric boat (round-trip to Salet) | €22/adult; €11/youth (14yo) | 4 | $80 | $92 | $92 | High | Bayerische Seenschifffahrt official | BA-AC |
+| Activities | Eagle's Nest (Kehlstein bus + tunnel elevator) | €36.10/adult; €21/youth | 4 | $110 | $143 | $143 | High | Kehlstein official; credit card only at top | BA-AC |
+| Activities | Documentation Center Obersalzberg | €6/adult | 4 | $28 | $28 | $28 | High | Official Berchtesgaden tourism | BA-AC |
+| Activities | Berchtesgaden salt mine (in core plan) | €23/adult + youth est. | 4 | $90 | $109 | $109 | Medium | Salzbergwerk official site | BA-AC |
+| Activities | Hohensalzburg Fortress + funicular | €14.50/adult; €8.30/youth | 4 | $45 | $63 | $63 | High | Festung Salzburg official | BA-AC |
+| Activities | Mozart's Birthplace | €13.50/adult | 4 | $0 | $64 | $64 | High | Mozarteum Foundation | BA-AC |
+| Activities | Hallstatt day trip (train + bus + mine museum entry) | Estimate | 4 | $120 | $180 | $240 | Medium | Regional rail Salzburg–Hallstatt; Hallstatt salt mine museum ~€15/adult | BA2-AC |
+| Activities | Misc (Olympic Park, village fees, incidentals) | Estimate | — | $60 | $100 | $150 | Low | Estimate | — |
+| Food & dining | 9 ground days × 4 people | $40/$65/$100 pp/day | 36 pp-days | $1,440 | $2,340 | $3,600 | Medium | Same food cost model as Option 1 | BA-FD |
+| Travel insurance | Trip protection | $75/pp | 4 | $200 | $300 | $450 | Medium | Standard comprehensive policy | — |
+| **TOTAL** | | | | **$8,644** | **$12,309** | **$17,334** | | | |
 
 ---
 
@@ -424,17 +508,17 @@ Athens appears as a one-night finale — the Acropolis at dawn before the 10am h
 
 ### Side-by-Side Cost Comparison (Mid-Range, Family of 4)
 
-| Category | Greece Opt 1 (Cyclades) | Greece Opt 2 (Crete) | Bavaria + Salzburg | St. Lucia (A) | St. Lucia (B) |
-|---|---|---|---|---|---|
-| Flights + bags | $5,560 | $6,320 | $5,100 | $3,240 | $3,240 |
-| Lodging | $2,930 | $2,010 | $2,720 | $7,800 | $3,440 |
-| Ground transport / ferries / rail / car | $1,462 | $780 | $601 | $120 | $640 |
-| Activities | $1,619 | $695 | $1,263 | $1,529 | $1,129 |
-| Food | $2,880 | $2,880 | $2,340 | $300 | $3,000 |
-| Insurance & misc | $820 | $320 | $820 | $650 | $700 |
-| **TOTAL MID** | **~$15,271** | **~$13,005** | **~$12,844** | **~$13,639** | **~$12,149** |
-| Nights on ground | 9 | 9 | 9 | 10 | 10 |
-| Cost per night on ground | ~$1,697 | ~$1,445 | ~$1,427 | ~$1,364 | ~$1,215 |
+| Category | Greece Opt 1 (Cyclades) | Greece Opt 2 (Crete) | Bavaria Opt 1 (Alpine) | Bavaria Opt 2 (Cities) | St. Lucia (A) | St. Lucia (B) |
+|---|---|---|---|---|---|---|
+| Flights + bags | $5,560 | $6,320 | $5,100 | $5,100 | $3,240 | $3,240 |
+| Lodging | $2,930 | $2,010 | $2,720 | $2,885 | $7,800 | $3,440 |
+| Ground transport / ferries / rail / car | $1,462 | $780 | $601 | $586 | $120 | $640 |
+| Activities | $1,619 | $695 | $1,263 | $1,098 | $1,529 | $1,129 |
+| Food | $2,880 | $2,880 | $2,340 | $2,340 | $300 | $3,000 |
+| Insurance & misc | $820 | $320 | $820 | $300 | $650 | $700 |
+| **TOTAL MID** | **~$15,271** | **~$13,005** | **~$12,844** | **~$12,309** | **~$13,639** | **~$12,149** |
+| Nights on ground | 9 | 9 | 9 | 9 | 10 | 10 |
+| Cost per night on ground | ~$1,697 | ~$1,445 | ~$1,427 | ~$1,368 | ~$1,364 | ~$1,215 |
 
 > Note: Totals derived from spreadsheet line-item sums; see individual cost tabs for authoritative figures.
 
@@ -450,11 +534,12 @@ Athens appears as a one-night finale — the Acropolis at dawn before the 10am h
 
 | Destination_Option | Trip_Character | Ground_Nights | Flight_Nights | Low_Total_USD | Mid_Total_USD | High_Total_USD | Cost_Per_Ground_Night_Mid | Cost_Confidence | Logistics_Friction | Weather_Risk_July | Cultural_Depth | Teen_Appeal | Key_Strength | Key_Weakness |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Greece | Ancient city + two-island Cyclades | 9 | 1 | 8300 | 14711 | 19130 | 1635 | Medium | Medium-High | High (heat + meltemi) | Highest | High | Most iconic and memorable trip | Transfer drag; heat; Santorini crowds |
-| Bavaria_Salzburg | Rail-based Alpine and city tour | 9 | 1 | 8458 | 12844 | 16933 | 1427 | Medium-High | Medium | Moderate (mountain weather) | High | Very High | Most balanced and stress-light | Weather-sensitive mountain days; over-design risk |
+| Greece_Opt1 | Ancient city + two-island Cyclades | 9 | 1 | 8300 | 14711 | 19130 | 1635 | Medium | Medium-High | High (heat + meltemi) | Highest | High | Most iconic and memorable trip | Transfer drag; heat; Santorini crowds |
+| Greece_Opt2 | Crete + Athens with rental car | 9 | 1 | 9280 | 13005 | 17185 | 1445 | Medium | Medium | Moderate (heat; car on narrow roads) | Highest | High | Most historically rich; car freedom; no ferry anxiety | No Santorini caldera view; car adds rental/fuel complexity |
+| Bavaria_Opt1_Alpine | Rail-based Alpine and city tour | 9 | 1 | 8458 | 12844 | 16933 | 1427 | Medium-High | Medium | Moderate (mountain weather) | High | Very High | Most balanced and stress-light | Hiking-heavy; weather-sensitive mountain days |
+| Bavaria_Opt2_Cities | Cities and castles (Munich-Berchtesgaden-Salzburg) | 9 | 1 | 8644 | 12309 | 17334 | 1368 | Medium-High | Low-Medium | Moderate (mountain weather) | High | Very High | Neuschwanstein; Hallstatt; castle-focused; less hiking | No alpine village base; similar cost to Opt 1 |
 | St_Lucia_A_AI | Tropical adventure + resort base | 10 | 0 | 10510 | 13639 | 18204 | 1364 | Medium | Low | Moderate-High (hurricane season) | Moderate | High | Full 10 nights; easy logistics; all-in pricing | Lower cultural depth; lodging cost dominates |
 | St_Lucia_B_Independent | Tropical adventure + villa/split | 10 | 0 | 8920 | 12149 | 16714 | 1215 | Medium | Medium | Moderate-High (hurricane season) | Moderate | High | Best value; most local feel | One transfer mid-trip; more daily decisions |
-| Greece_Option2 | Crete + Athens with rental car | 9 | 1 | 9280 | 13005 | 17185 | 1445 | Medium | Medium | Moderate (heat; car on narrow roads) | Highest | High | Most historically rich; car freedom; no ferry anxiety | No Santorini caldera view; car adds rental/fuel complexity |
 
 ---
 
@@ -490,6 +575,24 @@ Athens appears as a one-night finale — the Acropolis at dawn before the 10am h
 | 8 | Sat Jul 18 | Königssee | Berchtesgaden | Bus 841 to Königssee dock; first electric boat to St. Bartholoma (captain plays cliff echo) | Hike Salet→Obersee (hidden glacial lake) | Return; optional salt mine (€23/adult) | Bus 841 + electric boat | 10 min bus + 35 min each way boat | Y (boat dock tickets) | Y (boat weather-dependent) | Documentation Center Obersalzberg (indoor) | 400 | Take first morning boat; crowds build after 10 am |
 | 9 | Sun Jul 19 | Eagles Nest + Salzburg | Salzburg | Bus 838 to Obersalzberg; Documentation Center (€6); Kehlstein bus + tunnel to Eagle's Nest (€36/adult; €21/youth; credit card only at top) | Lunch at Kehlsteinhaus with Watzmann views | Bus 840 Watzmann Express to Salzburg (50 min; ~€11/adult); Old Town evening stroll | Buses + Bus 840 | ~2 hrs activity + 50 min transfer | Y (Eagle's Nest seasonal) | Y (closes in cloud/wind) | Ramsau valley hike if Eagle's Nest closed | 510 | Eagle's Nest is historically moving and visually spectacular |
 | 10 | Mon Jul 20 | Salzburg | Salzburg | Hohensalzburg Fortress funicular (€14.50/adult; €8.30/youth) | Mirabell Gardens (free); Mozart's Birthplace (€13.50); Getreidegasse | St. Peter Stiftskeller dinner (Europe's oldest restaurant; book ahead) | Walk + local bus | Local | Y (restaurant) | N | Salzburg Card if doing 3+ paid sites | 480 | Compact walkable city; one of the most enjoyable low-effort days |
+| 11 | Tue Jul 21 | Salzburg to Munich to DC | At home | OeBB Railjet 06:23 or 07:11 Salzburg→Munich (1h 28m; book seat reservation 3-4 wks ahead) | S-Bahn S1/S8 to MUC airport (40 min); fly home | Arrive DC | Railjet + S-Bahn | 2h 10m total | Y (Railjet reservation) | N | None | 170 | Leave Salzburg by 7:15 am for midday MUC departure |
+
+---
+
+### TAB: Bavaria2_Itinerary
+
+| Day | Date | Location | Overnight | Morning | Afternoon | Evening | Transport | Travel_Time | Book_Ahead | Weather_Sensitive | Backup_Option | Est_Daily_Cost_Family_USD | Notes |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 1 | Sat Jul 11 | DC to Munich | In-flight | Airport departure | Overnight transatlantic | In-flight | IAD nonstop (Lufthansa/United) | ~8-10 hrs | Y | N | None | 0 | Europe clock begins on flight night |
+| 2 | Sun Jul 12 | Munich | Munich | Arrive MUC; S-Bahn to city; hotel check-in | Marienplatz; Viktualienmarkt; Glockenspiel at noon | Englischer Garten + Eisbach surfers; beer garden dinner | S-Bahn S1/S8 | 40-50 min | N | N | Hotel/pool day | 300 | Eisbach surfers free; a genuine teen highlight |
+| 3 | Mon Jul 13 | Munich | Munich | Deutsches Museum (4-5 hrs; €15/adult; €4.50/youth) | BMW Welt (free) + BMW Museum (€10/adult) | Hofbraeuhaus or beer garden | Local U-Bahn | Local | N | N | Extra museum day; Alte Pinakothek alternative | 380 | BMW Welt is free and worth 2 hrs |
+| 4 | Tue Jul 14 | Neuschwanstein day trip | Munich | Regional train to Füssen (~2 hrs) + bus to castle; timed interior tour | Marienbrücke bridge view; optional Hohenschwangau Castle | Return to Munich; dinner | Bayern-Ticket + regional train | 2 hrs each way | Y (Neuschwanstein timed entry) | N | Exterior + Marienbrücke if interior sells out | 430 | Book timed entry immediately; July sells out weeks ahead; under 18 free |
+| 5 | Wed Jul 15 | Munich | Munich | Nymphenburg Palace + formal gardens (~2 hrs; €15/adult) | Olympic Park grounds (free) + Maximilianstrasse or Schwabing | Dinner in Munich | U-Bahn + local | Local | N | N | Dachau Memorial if family interested | 350 | Nymphenburg is a genuine palace; canals and grounds are beautiful |
+| 6 | Thu Jul 16 | Munich to Berchtesgaden | Berchtesgaden | Check out; regional train to Berchtesgaden (~2.5 hrs via Freilassing) | Arrive mid-afternoon; Old Town walk; Royal Palace square | Dinner at local Gasthof | Bayern-Ticket + regional rail | ~2h 30m | Y (Bayern-Ticket) | N | Break in Munich midway if needed | 350 | Straightforward connection; Bayern-Ticket covers full day |
+| 7 | Fri Jul 17 | Königssee | Berchtesgaden | Bus 841 to Königssee dock; first electric boat to St. Bartholoma; cliff-echo flugelhorn | Return by boat; afternoon rest or Old Town | Dinner in Berchtesgaden | Bus 841 + electric boat | 10 min bus + 35 min each way boat | Y (boat dock) | Y (weather-dependent) | Documentation Center Obersalzberg (indoor) | 400 | Take first morning boat; crowds build after 10 am |
+| 8 | Sat Jul 18 | Berchtesgaden to Salzburg | Salzburg | Bus 838; Documentation Center Obersalzberg (€6/adult); Kehlstein bus + elevator to Eagle's Nest (€36/adult; €21/youth) | Berchtesgaden salt mine (~1.5 hrs; €23/adult) | Bus 840 to Salzburg (50 min); check in; light dinner | Bus 838 + Bus 840 | ~2 hrs activity + 50 min transfer | Y (Eagle's Nest seasonal) | Y (closes in cloud/wind) | Salt mine only + travel if Eagle's Nest closed | 520 | Eagle's Nest morning + salt mine afternoon + Salzburg evening is a full day |
+| 9 | Sun Jul 19 | Salzburg | Salzburg | Hohensalzburg Fortress funicular (€14.50/adult; €8.30/youth) | Mirabell Gardens (free); Mozart's Birthplace (€13.50); Getreidegasse | St. Peter Stiftskeller dinner (Europe's oldest restaurant; book ahead) | Walk + local bus | Local | Y (restaurant) | N | Salzburg Card if doing 3+ paid sites | 480 | Compact walkable city; one of the most enjoyable low-effort days |
+| 10 | Mon Jul 20 | Hallstatt day trip | Salzburg | Regional train + bus to Hallstatt (~1.5 hrs each way) | Hallstatt salt mine museum; Beinhaus charnel house; lakeside lunch | Return to Salzburg; evening Salzach walk | Regional train + bus | 1.5 hrs each way | N | N | Salzburg Museum der Moderne or Sound of Music tour instead | 400 | Hallstatt is stunning; arrive early to beat tour buses; return by late afternoon |
 | 11 | Tue Jul 21 | Salzburg to Munich to DC | At home | OeBB Railjet 06:23 or 07:11 Salzburg→Munich (1h 28m; book seat reservation 3-4 wks ahead) | S-Bahn S1/S8 to MUC airport (40 min); fly home | Arrive DC | Railjet + S-Bahn | 2h 10m total | Y (Railjet reservation) | N | None | 170 | Leave Salzburg by 7:15 am for midday MUC departure |
 
 ---
@@ -593,6 +696,39 @@ Athens appears as a one-night finale — the Acropolis at dawn before the 10am h
 
 ---
 
+### TAB: Bavaria2_Costs
+
+| Category | Item | Unit_Cost | Qty | Low_USD | Mid_USD | High_USD | Confidence | Basis | Source_IDs |
+|---|---|---|---|---|---|---|---|---|---|
+| Flights | IAD-MUC round-trip economy x4 | 950-1600 pp | 4 | 3800 | 4800 | 6400 | Medium-High | Same as Option 1; Lufthansa / United nonstop | BA-FL |
+| Bags_Seat | Economy bags + seat selection | 90 pp RT | 4 | 200 | 300 | 450 | Low | Carrier-dependent | BA-FL |
+| Lodging | Munich 4 nights | 200-450 night | 4 | 800 | 1200 | 1800 | Medium | Same hotel range as Option 1; 2 extra nights | BA-LO |
+| Lodging | Berchtesgaden 2 nights | 180-450 night | 2 | 360 | 560 | 900 | Medium | Hotel Edelweiss / Vier Jahreszeiten | BA-LO |
+| Lodging | Salzburg 3 nights (Festspiele premium applies) | 250-600 night | 3 | 750 | 1125 | 1800 | Medium | 1 extra night vs. Option 1; book 5-6 months ahead | BA-LO |
+| Rail | Bayern-Ticket family x2 days (Neuschwanstein + Munich→Berchtesgaden) | 49 EUR/day | 2 days | 110 | 116 | 116 | High | DB Bayern-Ticket; 14yo free; 17yo adult rate | BA-RT |
+| Transit | Munich local transit non-Bayern-Ticket days (MVV day tickets) | ~25 family/day | 4 days | 60 | 100 | 100 | High | MVV day tickets; S-Bahn and U-Bahn | BA-RT |
+| Rail | Salzburg→Munich Railjet + seat reservation | 35 pp | 4 | 100 | 140 | 200 | High | OeBB Railjet; book 3-4 wks ahead | BA-RT |
+| Rail | MUC airport S-Bahn round-trip | 70 family x2 | 2 trips | 80 | 140 | 140 | High | MVV airport day ticket | BA-RT |
+| Transit | Bus 840 Berchtesgaden→Salzburg (family) | 11 EUR pp | 4 | 35 | 52 | 52 | High | Regional bus; not covered by Bayern-Ticket | BA-RT |
+| Transit | Local Berchtesgaden buses (Eagle's Nest + Königssee; 2 days) | 8 EUR pp x2 | 4 pp | 30 | 38 | 38 | High | Berchtesgaden local transit | BA-RT |
+| Activity | Deutsches Museum | 15 adult / 4.50 youth | 2+2 | 30 | 45 | 45 | High | Deutsches Museum official site | BA-AC |
+| Activity | BMW Welt (free) + BMW Museum | 10 adult | 2 | 0 | 24 | 24 | High | BMW Museum official | BA-AC |
+| Activity | Neuschwanstein Castle timed entry + Füssen bus | 15 adult; under 18 free | 4 | 80 | 200 | 280 | Medium | tickets.hohenschwangau.de; July sells out weeks ahead | BA2-AC |
+| Activity | Nymphenburg Palace | 15 adult | 4 | 36 | 50 | 50 | High | Schloss Nymphenburg official | BA2-AC |
+| Activity | Königssee electric boat round-trip to Salet | 22 adult / 11 youth (14yo) | 4 | 80 | 92 | 92 | High | Bayerische Seenschifffahrt official | BA-AC |
+| Activity | Eagle's Nest (Kehlstein bus + tunnel elevator) | 36.10 adult / 21 youth | 4 | 110 | 143 | 143 | High | Official Kehlstein; credit card only at top | BA-AC |
+| Activity | Documentation Center Obersalzberg | 6 EUR adult | 4 | 28 | 28 | 28 | High | Official Berchtesgaden tourism | BA-AC |
+| Activity | Berchtesgaden salt mine (core plan) | 23 EUR adult + est youth | 4 | 90 | 109 | 109 | Medium | Salzbergwerk official site | BA-AC |
+| Activity | Hohensalzburg Fortress funicular | 14.50 adult / 8.30 youth | 4 | 45 | 63 | 63 | High | Festung Salzburg official | BA-AC |
+| Activity | Mozart's Birthplace | 13.50 adult | 4 | 0 | 64 | 64 | High | Mozarteum Foundation | BA-AC |
+| Activity | Hallstatt day trip (transport + mine museum entry) | Estimate | 4 | 120 | 180 | 240 | Medium | Regional rail Salzburg-Hallstatt; Hallstatt salt mine museum ~€15/adult | BA2-AC |
+| Activity | Misc (Olympic Park; village fees; incidentals) | Estimate | — | 60 | 100 | 150 | Low | Estimate | — |
+| Food | 9 ground days x4 people ($40/$65/$100 pp/day) | varies | 36 pp-days | 1440 | 2340 | 3600 | Medium | Same food model as Option 1; bakeries; beer gardens | BA-FD |
+| Insurance | Travel insurance | 75 pp | 4 | 200 | 300 | 450 | Medium | Standard comprehensive policy | — |
+| TOTAL | | | | 8644 | 12309 | 17334 | | | |
+
+---
+
 ### TAB: StLucia_Costs
 
 | Category | Item | Unit_Cost | Qty | Low_USD | Mid_USD | High_USD | Confidence | Basis | Source_IDs | Option |
@@ -681,6 +817,9 @@ Athens appears as a one-night finale — the Acropolis at dawn before the 10am h
 | BA-AC | Bavaria | Attractions | Festung Hohensalzburg | salzburg-burgen.at | Fortress funicular pricing; adult/youth rates | High | |
 | BA-LO | Bavaria | Lodging | Booking.com / direct hotels | booking.com | Munich / Mittenwald / Berchtesgaden / Salzburg family room rates | Medium | Salzburg: book 5-6 months ahead due to Festspiele |
 | BA-FD | Bavaria | Food | Munich / Bavaria general tourism | munich.travel | Food cost benchmarks; beer garden pricing | Medium | Bavaria moderately priced; bakery + beer garden strategy keeps costs low |
+| BA2-AC | Bavaria Opt 2 | Attractions | Neuschwanstein / Hohenschwangau official tickets | tickets.hohenschwangau.de | Neuschwanstein timed interior tour; pricing; July availability | High | Book immediately upon confirming trip; July interior tours sell out weeks ahead; under 18 free with guardian |
+| BA2-AC | Bavaria Opt 2 | Attractions | Schloss Nymphenburg | schloss-nymphenburg.de | Nymphenburg Palace entry; gardens free; hours | High | Good half-day; canals and formal gardens are free even without palace entry |
+| BA2-AC | Bavaria Opt 2 | Attractions | Hallstatt tourism / regional rail | hallstatt.net / oebb.at | Hallstatt day trip logistics from Salzburg; train + bus combo; salt mine museum entry | Medium | Regional rail Salzburg-Attnang-Puchheim-Hallstatt; book seat day before; July busy |
 | SL-FL | St. Lucia | Flights | American Airlines PHL-UVF | aa.com | Weekly nonstop PHL-UVF; ~4h 45m; fare range | High | Verify exact July 2026 schedule; check early for PHL nonstop availability |
 | SL-LO | St. Lucia | Lodging | Coconut Bay Resort | cbayresort.com | All-inclusive family Splash wing; rates; inclusions | Medium | 2026 July rates not yet published; estimate based on historical pricing; get direct quote |
 | SL-LO | St. Lucia | Lodging | Bay Gardens Beach Resort | baygardensresorts.com | Rodney Bay family rooms; nightly rates | High | |
