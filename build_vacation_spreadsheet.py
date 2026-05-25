@@ -47,7 +47,7 @@ def set_col_widths(ws, widths):
 def freeze(ws, cell="A2"):
     ws.freeze_panes = cell
 
-# Dollar format sets
+# Dollar format
 USD = "$#,##0"
 
 # ── Workbook ─────────────────────────────────────────────────────────────────
@@ -56,6 +56,8 @@ wb.remove(wb.active)
 
 # ============================================================
 # TAB 1 — Summary
+# Row map: 2=Greece Opt1, 3=Greece Opt2, 4=Bavaria, 5=StLucia-A, 6=StLucia-B
+# Cost/Night formula references C<row> for each destination's ground nights.
 # ============================================================
 ws = wb.create_sheet("Summary")
 ws.row_dimensions[1].height = 36
@@ -66,24 +68,30 @@ write_header(ws, 1, [
     "Cultural Depth", "Teen Appeal", "Key Strength", "Key Weakness"
 ])
 summary_rows = [
-    # Greece — Low/Mid/High reference Greece_Costs TOTAL row 23; Cost/Night = Mid / Ground Nights (C2)
-    ["Greece", "Ancient city + two-island Cyclades", 9, 1,
+    # Row 2: Greece Opt 1 — TOTAL row 23 in Greece_Costs
+    ["Greece — Opt 1 (Cyclades)", "Ancient city + two-island Cyclades", 9, 1,
      "=Greece_Costs!E23", "=Greece_Costs!F23", "=Greece_Costs!G23", "=Greece_Costs!F23/C2",
      "Medium", "Medium-High", "High (heat + meltemi)", "Highest", "High",
      "Most iconic and memorable trip", "Transfer drag; heat; Santorini crowds"],
-    # Bavaria — TOTAL row 28
+    # Row 3: Greece Opt 2 — TOTAL row 21 in Greece2_Costs
+    ["Greece — Opt 2 (Crete)", "Crete beaches + history + Athens day", 9, 1,
+     "=Greece2_Costs!E21", "=Greece2_Costs!F21", "=Greece2_Costs!G21", "=Greece2_Costs!F21/C3",
+     "Medium", "Medium", "Moderate (heat; car on narrow roads)", "Highest", "High",
+     "Most historically rich; car freedom; no ferry anxiety",
+     "No Santorini caldera view; car adds rental/fuel complexity"],
+    # Row 4: Bavaria — TOTAL row 28; Cost/Night uses C4
     ["Bavaria + Salzburg", "Rail-based Alpine and city tour", 9, 1,
-     "=Bavaria_Costs!E28", "=Bavaria_Costs!F28", "=Bavaria_Costs!G28", "=Bavaria_Costs!F28/C3",
+     "=Bavaria_Costs!E28", "=Bavaria_Costs!F28", "=Bavaria_Costs!G28", "=Bavaria_Costs!F28/C4",
      "Medium-High", "Medium", "Moderate (mountain weather)", "High", "Very High",
      "Most balanced and stress-light", "Weather-sensitive mountain days; over-design risk"],
-    # St. Lucia A — StLucia_Costs TOTAL A row 26
+    # Row 5: St. Lucia A — TOTAL row 26; Cost/Night uses C5
     ["St. Lucia — Option A (All-Inclusive)", "Tropical adventure + resort base", 10, 0,
-     "=StLucia_Costs!E26", "=StLucia_Costs!F26", "=StLucia_Costs!G26", "=StLucia_Costs!F26/C4",
+     "=StLucia_Costs!E26", "=StLucia_Costs!F26", "=StLucia_Costs!G26", "=StLucia_Costs!F26/C5",
      "Medium", "Low", "Moderate-High (hurricane season)", "Moderate", "High",
      "Full 10 nights; easy logistics; all-in pricing", "Lower cultural depth; lodging cost dominates"],
-    # St. Lucia B — StLucia_Costs TOTAL B row 27
+    # Row 6: St. Lucia B — TOTAL row 27; Cost/Night uses C6
     ["St. Lucia — Option B (Villa + Bay Gardens)", "Tropical adventure + villa/split", 10, 0,
-     "=StLucia_Costs!E27", "=StLucia_Costs!F27", "=StLucia_Costs!G27", "=StLucia_Costs!F27/C5",
+     "=StLucia_Costs!E27", "=StLucia_Costs!F27", "=StLucia_Costs!G27", "=StLucia_Costs!F27/C6",
      "Medium", "Medium", "Moderate-High (hurricane season)", "Moderate", "High",
      "Best value; most local feel", "One transfer mid-trip; more daily decisions"],
 ]
@@ -94,7 +102,7 @@ set_col_widths(ws, [28, 30, 12, 12, 14, 14, 14, 14, 14, 16, 24, 14, 11, 35, 35])
 freeze(ws)
 
 # ============================================================
-# TAB 2 — Greece Itinerary
+# TAB 2 — Greece Option 1 Itinerary
 # ============================================================
 ws = wb.create_sheet("Greece_Itinerary")
 ws.row_dimensions[1].height = 36
@@ -169,7 +177,31 @@ set_col_widths(ws, [5, 11, 24, 22, 42, 40, 36, 26, 16, 12, 18, 36, 16, 44])
 freeze(ws)
 
 # ============================================================
-# TAB 5 — Greece Costs
+# TAB 5 — Greece Option 2 Itinerary (Crete + Athens)
+# ============================================================
+ws = wb.create_sheet("Greece2_Itinerary")
+ws.row_dimensions[1].height = 36
+write_header(ws, 1, ITIN_COLS)
+greece2_itin = [
+    [1,"Sat Jul 11","DC → Athens","In-flight","Airport departure","Transatlantic flight","In-flight","IAD nonstop or via FRA/IST","Overnight","Y","N","None",0,"Europe clock begins on flight night"],
+    [2,"Sun Jul 12","Athens → Chania","Chania area","Arrive ATH; connect to CHQ (Aegean ~50 min)","Pick up rental car (CHQ airport); check in to Chania beach hotel","Easy beach swim; dinner near hotel","ATH→CHQ domestic + rental car pickup","~50 min flight + 20 min to hotel","Y (Aegean domestic)","N","Relax at hotel on delayed arrival",360,"Agia Marina / Stalos area; beach within walking distance of hotel"],
+    [3,"Mon Jul 13","Chania area","Chania area","Recovery beach morning; pool time","Pool or beach; light lunch near hotel","Chania Old Town + Venetian Harbor evening walk","Short drive (~15 min)","Local","N","N","Full beach day",300,"Chania Old Town is walkable; Venetian lighthouse is free"],
+    [4,"Tue Jul 14","West Crete","Chania area","Balos Lagoon (early start) — Kissamos ferry (~1.5 hrs) or drive to overlook","Beach / swim at Balos or Falassarna (nearby alternative)","Casual seafood dinner; return to hotel","Rental car + Kissamos ferry","~1.5 hrs each way ferry","Y (Kissamos ferry)","Y (ferry cancels in wind)","Falassarna beach by car — equally scenic; no ferry",480,"Balos ferry fills in July — pre-book Kissamos ferry tickets"],
+    [5,"Wed Jul 15","Chania / villages","Chania area","Chania Old Town covered market + municipal market; morning shop","Inland village drive (Vamos or Gavalochori); olive oil tasting","Dinner in Chania","Rental car","~30 min to villages","N","N","Extra beach morning instead",280,"Cretan olive oil tasting ~€20/pp; village kafeneion lunch is good value"],
+    [6,"Thu Jul 16","Imbros Gorge","Chania area","Imbros Gorge hike early start (~7 am; 8 km point-to-point; ~3.5 hrs)","South coast lunch in Sfakia; swim at Sweetwater Beach (short boat from Sfakia)","Low-key evening; early dinner; pack for drive east tomorrow","Rental car (~45 min to trailhead)","45 min drive; 3.5 hr hike","N","Y (heat — start early)","Beach day at Frangokastello instead",380,"Gorge entry ~€5/pp; arrange taxi back from Sfakia (~€15 total)"],
+    [7,"Fri Jul 17","Chania → East Crete","East Crete","Check out; leisurely drive east on E75 (2.5–3 hrs total)","Stop Rethymno Old Town — Venetian fortress (Fortezza), harbor lunch (~1 hr)","Check in Agios Nikolaos; seaside harbor dinner","Rental car (~2.5–3 hrs with stop)","2.5–3 hrs driving","N","N","Skip Rethymno if tired; drive straight",400,"Rethymno Fortezza ~€5 entry; worth 30–45 min; harbor seafood lunch"],
+    [8,"Sat Jul 18","East Crete — mythology day","East Crete","Knossos Palace early (opens 8 am; 1.5–2 hrs; book timed entry)","Heraklion Archaeological Museum (2–3 hrs; excellent A/C midday)","Heraklion harbor dinner; return to Agios Nikolaos (~1 hr)","Rental car (~1 hr to Heraklion)","~1 hr each way","Y (Knossos timed entry)","Y (heat)","Museum only if exhausted",490,"Knossos + museum make the strongest possible Minoan double; don't split"],
+    [9,"Sun Jul 19","East Crete — island day","East Crete","Spinalonga boat trip from Elounda (~20 min crossing; 1.5 hrs on island)","Beach or pool afternoon in Elounda","Elounda or Agios Nikolaos harbor dinner","Rental car + local boat","20 min boat each way","Y (morning boat)","Y (boat cancels in wind)","Agios Nikolaos Archaeological Museum if seas rough",420,"Spinalonga leper colony island is historically striking; book early boat to avoid crowds"],
+    [10,"Mon Jul 20","Crete → Athens","Athens","Return rental car at HER airport; fly HER→ATH (Aegean ~45 min)","Check in Athens (Plaka or Koukaki area); afternoon rest","Plaka walk + rooftop dinner with Acropolis view","Rental car → HER + domestic flight","~45 min flight","Y (Aegean; rental return timing)","N","Airport hotel if very late arrival",480,"Return car before check-in to avoid Athens city parking fees"],
+    [11,"Tue Jul 21","Athens → DC","At home","Acropolis timed entry 7:30–9 am (FIRM; pre-book) OR relaxed hotel breakfast if flight too early","Fly ATH→IAD (depart midday or afternoon)","Arrive DC","Taxi to ATH airport + transatlantic","Long-haul","Y (Acropolis — must pre-book)","N","Skip Acropolis if flight is early morning",170,"Book Acropolis timed entry immediately; July 7:30 am slots sell out weeks ahead"],
+]
+for i, row in enumerate(greece2_itin):
+    write_row(ws, i + 2, row, bg=HDR_LIGHT if i % 2 == 0 else WHITE, num_fmt={13: USD})
+set_col_widths(ws, [5, 11, 26, 18, 40, 38, 34, 26, 16, 14, 20, 36, 16, 44])
+freeze(ws)
+
+# ============================================================
+# TAB 6 — Greece Option 1 Costs
 # Row map (data rows 2-22, TOTAL row 23):
 #   2-3: Flights, Bags
 #   4-7: Lodging (Athens-2n, Naxos-3n, Santorini-3n, Athens-buf)
@@ -243,14 +275,12 @@ set_col_widths(ws, [18, 44, 22, 10, 12, 12, 12, 14, 50, 12])
 freeze(ws)
 
 # ============================================================
-# TAB 6 — Bavaria Costs
+# TAB 7 — Bavaria Costs
 # Row map (data rows 2-27, TOTAL row 28):
 #   2-3: Flights, Bags
 #   4-7: Lodging (Munich-2n, Mittenwald-3n, Berchtesgaden-2n, Salzburg-2n)
-#   8-12: Rail + Transit (Bayern-Ticket, Railjet, S-Bahn, Bus840, local buses)
-#   13-25: Activities (13 rows: Deutsches, BMW, Karwendel, Zugspitze, Partnach,
-#           Königssee, Eagle's Nest, Doc Center, Hohensalzburg, Mozart,
-#           Opt-Neuschwanstein, Opt-salt mine, Misc)
+#   8-12: Rail + Transit
+#   13-25: Activities (13 rows)
 #   26: Food
 #   27: Insurance
 # ============================================================
@@ -325,13 +355,13 @@ set_col_widths(ws, [18, 46, 24, 14, 12, 12, 12, 14, 52, 12])
 freeze(ws)
 
 # ============================================================
-# TAB 7 — St. Lucia Costs (Options A & B combined)
+# TAB 8 — St. Lucia Costs (Options A & B combined)
 # Row map (data rows 2-25, TOTAL A row 26, TOTAL B row 27):
 #   2-3:   Flights, Bags  (Both)
 #   4:     Lodging_A Coconut Bay  (Option A only)
 #   5-6:   Lodging_B Soufrière villa, Bay Gardens  (Option B only)
-#   7-8:   Transfer_A (free shuttle, excursion taxis)  (Option A only)
-#   9-12:  Transfer_B (UVF→Sou, Sou→RB, RB→UVF, local)  (Option B only)
+#   7-8:   Transfer_A  (Option A only)
+#   9-12:  Transfer_B  (Option B only)
 #   13-21: Activities — all marked Both
 #   22:    Food_A  (Option A only)
 #   23:    Food_B  (Option B only)
@@ -420,105 +450,209 @@ set_col_widths(ws, [18, 46, 24, 12, 12, 12, 12, 14, 52, 12, 14])
 freeze(ws)
 
 # ============================================================
-# TAB 8 — Cost Comparison (Mid-Range)
-# All values pulled via formulas referencing cost sheet cells.
-# Column map: A=Category, B=Greece, C=Bavaria, D=StLucia-A, E=StLucia-B
+# TAB 9 — Greece Option 2 Costs
+# Row map (data rows 2-20, TOTAL row 21):
+#   2-3:   Flights IAD-ATH, Bags & Seats
+#   4-5:   Domestic flights ATH→CHQ, HER→ATH
+#   6-8:   Lodging (West Crete 5n, East Crete/Agios Nikolaos 3n, Athens 1n)
+#   9-10:  Rental car, Fuel & parking
+#   11-18: Activities (8 rows)
+#   19:    Food
+#   20:    Travel Insurance
+# Verified totals: Low $9,280 / Mid $13,005 / High $17,185
+# ============================================================
+ws = wb.create_sheet("Greece2_Costs")
+ws.row_dimensions[1].height = 36
+write_header(ws, 1, COST_COLS)
+
+greece2_costs = [
+    # row 2
+    ["Flights","IAD→ATH round-trip economy × 4","$1,000–1,600/pp","4",4000,5200,6400,"Medium","Live IAD–ATH searches May 2026; Aegean/United/Lufthansa range","GR-FL"],
+    # row 3
+    ["Bags & Seats","Economy bags + seat selection","$50–140/pp RT","4",200,360,560,"Low","Carrier-dependent; assume 1 checked bag/pp","GR-FL"],
+    # row 4
+    ["Domestic Flight","Athens → Chania (ATH→CHQ; Aegean Airlines)","$70–120/pp","4",280,380,480,"High","Aegean Airlines; book 2–3 months ahead","GR2-DO"],
+    # row 5
+    ["Domestic Flight","Heraklion → Athens (HER→ATH; Aegean Airlines)","$70–120/pp","4",280,380,480,"High","Aegean Airlines; book 2–3 months ahead","GR2-DO"],
+    # row 6
+    ["Lodging","West Crete (Agia Marina/Stalos/Kalamaki) — 5 nights","$180–280/night","5",900,1150,1400,"Medium","Booking.com; beach-area family hotels with pool and parking","GR2-LO"],
+    # row 7
+    ["Lodging","East Crete — Agios Nikolaos mid-tier — 3 nights","$150–260/night","3",450,660,780,"Medium","Mid-tier hotel near harbor; Agios Nikolaos recommended over Elounda for value","GR2-LO"],
+    # row 8
+    ["Lodging","Athens — 1 night (Plaka/Koukaki area)","$150–280/night","1",150,200,280,"Medium","Central Athens hotel; Plaka or Koukaki walkable to Acropolis","GR2-LO"],
+    # row 9
+    ["Rental Car","Economy/compact 9 days CHQ pickup → HER return","$50–85/day","9",450,580,765,"Medium","Budget/Sixt/Europcar Crete; CHQ one-way to HER adds drop fee ~$50–100","GR2-CA"],
+    # row 10
+    ["Fuel & Parking","Crete driving 9 days (~700 km total)","Estimate","—",150,200,300,"Low","Crete petrol ~€1.90/L May 2026; minimal tolls; parking €5–10/day in cities","GR2-CA"],
+    # row 11
+    ["Activities","Knossos Palace (timed entry)","€15/adult; €8/youth","4",50,55,55,"High","Greek Ministry of Culture / hhticket.gr","GR2-AC"],
+    # row 12
+    ["Activities","Heraklion Archaeological Museum","€15/adult; €8/youth","4",50,55,55,"High","Official museum site; world-class Minoan collection","GR2-AC"],
+    # row 13
+    ["Activities","Acropolis timed entry Day 11 — FIRM","€30/adult; €15/youth","4",120,170,170,"High","hhticket.gr; book immediately — July 7:30 am slots sell out","GR2-AC"],
+    # row 14
+    ["Activities","Spinalonga boat + island entry","€15–25/pp RT + €8 entry","4",70,105,140,"High","Elounda–Spinalonga local operators; book morning boat","GR2-AC"],
+    # row 15
+    ["Activities","Imbros Gorge entry","€5/pp + taxi return from Sfakia","4",10,10,10,"High","Pay at trailhead; taxi return ~€15 total","GR2-AC"],
+    # row 16
+    ["Activities","Balos Lagoon (Kissamos ferry round-trip)","€18–25/pp","4",70,100,140,"Medium","Kissamos ferry operator; pre-book July; alternatively drive to overlook","GR2-AC"],
+    # row 17
+    ["Activities (opt.)","Inland village olive oil / food tasting","€20/pp","4",0,80,130,"Low","Optional; Cretan olive oil estates in Vamos / Gavalochori area","—"],
+    # row 18
+    ["Activities","Misc (Rethymno Fortezza, Sfakia taxi, beach incidentals, parking)","Estimate","—",50,120,220,"Low","Estimate","—"],
+    # row 19
+    ["Food & Dining","9 ground days × 4 people","$50/$80/$120 pp/day","36 pp-days",1800,2880,4320,"Medium","Crete tavernas competitive; Agios Nikolaos harbor restaurants mid-range","GR2-FD"],
+    # row 20
+    ["Travel Insurance","Trip protection (rental car + flight delays)","$80/pp","4",200,320,500,"Medium","Recommended; ensure rental car coverage included","—"],
+]
+
+for i, row in enumerate(greece2_costs):
+    write_row(ws, i + 2, row, bg=HDR_LIGHT if i % 2 == 0 else WHITE, num_fmt=d3)
+
+# TOTAL row 21 — formulas sum rows 2:20
+# Low=$9,280 / Mid=$13,005 / High=$17,185
+write_row(ws, 21,
+    ["TOTAL", "", "", "", "=SUM(E2:E20)", "=SUM(F2:F20)", "=SUM(G2:G20)", "", "", ""],
+    bg=TOTAL_CLR, bold=True, num_fmt=d3)
+
+set_col_widths(ws, [18, 46, 24, 10, 12, 12, 12, 14, 52, 12])
+freeze(ws)
+
+# ============================================================
+# TAB 10 — Cost Comparison (Mid-Range)
+# 6 columns: A=Category, B=Greece Opt1, C=Greece Opt2, D=Bavaria, E=StLucia-A, F=StLucia-B
+# All values pulled via cross-sheet formulas.
 # Row map:
-#   2: Flights + bags        (Greece rows 2-3, Bavaria rows 2-3, SL rows 2-3)
-#   3: Lodging               (GR 4-7, BA 4-7, SL-A row4, SL-B rows5-6)
-#   4: Ground transport      (GR 8-12, BA 8-12, SL-A rows7-8, SL-B rows9-12)
-#   5: Activities            (GR 13-20, BA 13-25, SL rows13-21 both options)
-#   6: Food                  (GR row21, BA row26, SL-A row22, SL-B row23)
-#   7: Insurance & misc      (GR row22, BA row27, SL rows24-25)
-#   8: TOTAL MID             (sum of rows 2-7 per column)
-#   9: Nights on ground      (hardcoded)
-#  10: Cost per night (mid)  (row8/row9)
+#   2: Flights + bags
+#        GR1: rows 2-3; GR2: rows 2-5 (IAD+bags+both domestics); BA: 2-3; SL: 2-3
+#   3: Lodging
+#        GR1: rows 4-7; GR2: rows 6-8; BA: 4-7; SL-A: row 4; SL-B: rows 5-6
+#   4: Ground transport / car / rail / ferries
+#        GR1: rows 8-12; GR2: rows 9-10 (car+fuel; domestics counted in flights); BA: 8-12
+#        SL-A: rows 7-8; SL-B: rows 9-12
+#   5: Activities
+#        GR1: rows 13-20; GR2: rows 11-18; BA: 13-25; SL: rows 13-21
+#   6: Food
+#        GR1: row 21; GR2: row 19; BA: row 26; SL-A: row 22; SL-B: row 23
+#   7: Insurance & misc
+#        GR1: row 22; GR2: row 20; BA: row 27; SL: rows 24-25
+#   8: TOTAL MID (sum rows 2-7)
+#   9: Nights on ground (from Summary C2:C6)
+#  10: Cost per night mid (row 8 / row 9)
 # ============================================================
 ws = wb.create_sheet("Cost_Comparison")
 ws.row_dimensions[1].height = 36
-write_header(ws, 1, ["Category (Mid-Range)", "Greece", "Bavaria + Salzburg",
-                      "St. Lucia (A) All-Incl.", "St. Lucia (B) Independent"])
+write_header(ws, 1, [
+    "Category (Mid-Range)",
+    "Greece — Opt 1 (Cyclades)",
+    "Greece — Opt 2 (Crete)",
+    "Bavaria + Salzburg",
+    "St. Lucia (A) All-Incl.",
+    "St. Lucia (B) Independent"
+])
 
 comp_rows = [
-    # row 2
+    # row 2: Flights + bags
     ["Flights + Bags",
      "=SUM(Greece_Costs!F2:F3)",
+     "=SUM(Greece2_Costs!F2:F5)",
      "=SUM(Bavaria_Costs!F2:F3)",
      "=SUM(StLucia_Costs!F2:F3)",
      "=SUM(StLucia_Costs!F2:F3)"],
-    # row 3
+    # row 3: Lodging
     ["Lodging",
      "=SUM(Greece_Costs!F4:F7)",
+     "=SUM(Greece2_Costs!F6:F8)",
      "=SUM(Bavaria_Costs!F4:F7)",
      "=StLucia_Costs!F4",
      "=SUM(StLucia_Costs!F5:F6)"],
-    # row 4
+    # row 4: Ground transport / car / rail / ferries
     ["Ground Transport / Ferries / Rail",
      "=SUM(Greece_Costs!F8:F12)",
+     "=SUM(Greece2_Costs!F9:F10)",
      "=SUM(Bavaria_Costs!F8:F12)",
      "=SUM(StLucia_Costs!F7:F8)",
      "=SUM(StLucia_Costs!F9:F12)"],
-    # row 5
+    # row 5: Activities
     ["Activities",
      "=SUM(Greece_Costs!F13:F20)",
+     "=SUM(Greece2_Costs!F11:F18)",
      "=SUM(Bavaria_Costs!F13:F25)",
      "=SUM(StLucia_Costs!F13:F21)",
      "=SUM(StLucia_Costs!F13:F21)"],
-    # row 6
+    # row 6: Food
     ["Food & Dining",
      "=Greece_Costs!F21",
+     "=Greece2_Costs!F19",
      "=Bavaria_Costs!F26",
      "=StLucia_Costs!F22",
      "=StLucia_Costs!F23"],
-    # row 7
+    # row 7: Insurance & misc
     ["Insurance & Misc",
      "=Greece_Costs!F22",
+     "=Greece2_Costs!F20",
      "=Bavaria_Costs!F27",
      "=SUM(StLucia_Costs!F24:F25)",
      "=SUM(StLucia_Costs!F24:F25)"],
 ]
 
-d_comp = {2: USD, 3: USD, 4: USD, 5: USD}
+d_comp = {2: USD, 3: USD, 4: USD, 5: USD, 6: USD}
 for i, row in enumerate(comp_rows):
     write_row(ws, i + 2, row, bg=HDR_LIGHT if i % 2 == 0 else WHITE, num_fmt=d_comp)
 
-# TOTAL MID — row 8: sum the six category rows above
+# TOTAL MID — row 8
 write_row(ws, 8,
-    ["TOTAL MID (Family of 4)", "=SUM(B2:B7)", "=SUM(C2:C7)", "=SUM(D2:D7)", "=SUM(E2:E7)"],
+    ["TOTAL MID (Family of 4)",
+     "=SUM(B2:B7)", "=SUM(C2:C7)", "=SUM(D2:D7)", "=SUM(E2:E7)", "=SUM(F2:F7)"],
     bg=TOTAL_CLR, bold=True, num_fmt=d_comp)
 
-# Nights — row 9: pull from Summary tab so ground-night count has one source of truth
-write_row(ws, 9, ["Nights on Ground",
-                  "=Summary!C2", "=Summary!C3", "=Summary!C4", "=Summary!C5"], bg=WHITE)
+# Nights on ground — row 9: single source of truth from Summary tab
+# Summary rows: 2=Greece Opt1, 3=Greece Opt2, 4=Bavaria, 5=StLucia-A, 6=StLucia-B
+write_row(ws, 9,
+    ["Nights on Ground",
+     "=Summary!C2", "=Summary!C3", "=Summary!C4", "=Summary!C5", "=Summary!C6"],
+    bg=WHITE)
 
-# Cost per night — row 10: TOTAL / nights
+# Cost per night — row 10
 write_row(ws, 10,
-    ["Cost per Night on Ground (Mid)", "=B8/B9", "=C8/C9", "=D8/D9", "=E8/E9"],
+    ["Cost per Night on Ground (Mid)",
+     "=B8/B9", "=C8/C9", "=D8/D9", "=E8/E9", "=F8/F9"],
     bg=HDR_LIGHT, num_fmt=d_comp)
 
-set_col_widths(ws, [36, 18, 20, 24, 24])
+set_col_widths(ws, [36, 20, 20, 20, 24, 24])
 freeze(ws)
 
 # ============================================================
-# TAB 9 — Source Register
+# TAB 11 — Source Register
 # ============================================================
 ws = wb.create_sheet("Source_Register")
 ws.row_dimensions[1].height = 36
 write_header(ws, 1, ["Source ID", "Destination", "Category", "Source Name",
                       "URL / Where to Find", "What It Supports", "Reliability", "Notes"])
 sources = [
-    ["GR-FL","Greece","Flights","United Airlines IAD–ATH seasonal nonstop","united.com","IAD–ATH nonstop routing and fare confirmation","High","Seasonal summer nonstop; verify July 2026 schedule"],
-    ["GR-FL","Greece","Flights","Lufthansa IAD–FRA–ATH","lufthansa.com","Connecting option; typically competitive in advance","High",""],
-    ["GR-FL","Greece","Flights","Google Flights / Kayak","flights.google.com / kayak.com","Fare market scanning and range validation","Medium","Fares highly volatile; use as range only"],
-    ["GR-AC","Greece","Attractions","Greek Ministry of Culture / hhticket.gr","hhticket.gr","Acropolis timed-entry booking; official pricing (€30 flat 2026)","High","Book timed entry immediately; July slots sell out weeks ahead"],
-    ["GR-AC","Greece","Attractions","Acropolis Museum official","theacropolismuseum.gr","Museum hours; admission pricing (€15 adult)","High",""],
-    ["GR-FE","Greece","Ferries","Blue Star Ferries","bluestarferries.com","Piraeus–Naxos schedules; pricing; stability in meltemi winds","High","Blue Star far more wind-stable than Seajets; recommended for Piraeus–Naxos leg"],
-    ["GR-FE","Greece","Ferries","Seajets","seajets.com","Fast-ferry schedules Naxos–Santorini; pricing","High","Weather-sensitive; check before travel"],
-    ["GR-FE","Greece","Ferries","Ferryhopper (aggregator)","ferryhopper.com","Ferry booking aggregator; compares operators","Medium-High","Good for comparing Blue Star vs. Seajets options"],
-    ["GR-DF","Greece","Domestic Flights","Aegean Airlines","aegeanair.com","Santorini → Athens domestic; 5–6 daily; ~50 min","High","Recommended for buffer-day return to Athens"],
-    ["GR-LO","Greece","Lodging","Booking.com / Expedia / direct hotels","booking.com","Athens, Naxos, Santorini family room rates","Medium","July peak; Santorini caldera-view hotels sell out 6+ months ahead"],
-    ["GR-TR","Greece","Transfers","Proastiakos Athens Metro (airport express)","stasy.gr","Athens airport express train; fares; under-18 half price","High",""],
-    ["GR-FD","Greece","Food","Greek National Tourism Org / Santorini Dave","visitgreece.gr","Dining cost benchmarks for Athens, Naxos, Santorini","Medium","Estimate; confirm on arrival"],
+    # Greece Option 1 sources
+    ["GR-FL","Greece Opt 1","Flights","United Airlines IAD–ATH seasonal nonstop","united.com","IAD–ATH nonstop routing and fare confirmation","High","Seasonal summer nonstop; verify July 2026 schedule"],
+    ["GR-FL","Greece Opt 1","Flights","Lufthansa IAD–FRA–ATH","lufthansa.com","Connecting option; typically competitive in advance","High",""],
+    ["GR-FL","Greece Opt 1","Flights","Google Flights / Kayak","flights.google.com / kayak.com","Fare market scanning and range validation","Medium","Fares highly volatile; use as range only"],
+    ["GR-AC","Greece Opt 1","Attractions","Greek Ministry of Culture / hhticket.gr","hhticket.gr","Acropolis timed-entry booking; official pricing (€30 flat 2026)","High","Book timed entry immediately; July slots sell out weeks ahead"],
+    ["GR-AC","Greece Opt 1","Attractions","Acropolis Museum official","theacropolismuseum.gr","Museum hours; admission pricing (€15 adult)","High",""],
+    ["GR-FE","Greece Opt 1","Ferries","Blue Star Ferries","bluestarferries.com","Piraeus–Naxos schedules; pricing; stability in meltemi winds","High","Blue Star far more wind-stable than Seajets; recommended for Piraeus–Naxos leg"],
+    ["GR-FE","Greece Opt 1","Ferries","Seajets","seajets.com","Fast-ferry schedules Naxos–Santorini; pricing","High","Weather-sensitive; check before travel"],
+    ["GR-FE","Greece Opt 1","Ferries","Ferryhopper (aggregator)","ferryhopper.com","Ferry booking aggregator; compares operators","Medium-High","Good for comparing Blue Star vs. Seajets options"],
+    ["GR-DF","Greece Opt 1","Domestic Flights","Aegean Airlines","aegeanair.com","Santorini → Athens domestic; 5–6 daily; ~50 min","High","Recommended for buffer-day return to Athens"],
+    ["GR-LO","Greece Opt 1","Lodging","Booking.com / Expedia / direct hotels","booking.com","Athens, Naxos, Santorini family room rates","Medium","July peak; Santorini caldera-view hotels sell out 6+ months ahead"],
+    ["GR-TR","Greece Opt 1","Transfers","Proastiakos Athens Metro (airport express)","stasy.gr","Athens airport express train; fares; under-18 half price","High",""],
+    ["GR-FD","Greece Opt 1","Food","Greek National Tourism Org / Santorini Dave","visitgreece.gr","Dining cost benchmarks for Athens, Naxos, Santorini","Medium","Estimate; confirm on arrival"],
+    # Greece Option 2 sources
+    ["GR2-DO","Greece Opt 2","Domestic Flights","Aegean Airlines ATH–CHQ / HER–ATH","aegeanair.com","Both Crete domestic legs; ~50 min each; book 2–3 months ahead","High","Book together with main IAD–ATH international itinerary"],
+    ["GR2-LO","Greece Opt 2","Lodging","Booking.com / direct Crete hotels","booking.com","West Crete (Agia Marina/Stalos) and East Crete (Agios Nikolaos) family hotel rates","Medium","Book Agios Nikolaos mid-tier hotel 4–5 months ahead for July"],
+    ["GR2-CA","Greece Opt 2","Car Rental","Budget / Sixt / Europcar Crete","budget.com / sixt.com","Economy/compact rental CHQ pickup one-way to HER; 9 days","Medium","One-way drop fee varies; compare operators directly; fuel full-to-full"],
+    ["GR2-AC","Greece Opt 2","Attractions","Greek Ministry of Culture / hhticket.gr — Knossos & Heraklion Museum","hhticket.gr","Knossos Palace timed entry and Heraklion Archaeological Museum pricing","High","Knossos timed entry recommended in July; museum is world-class"],
+    ["GR2-AC","Greece Opt 2","Attractions","hhticket.gr — Acropolis timed entry","hhticket.gr","Acropolis Day 11 firm activity; €30 adult flat rate 2026","High","Book immediately; July 7:30 am slots sell out weeks ahead"],
+    ["GR2-AC","Greece Opt 2","Attractions","Elounda–Spinalonga local boat operators","elounda.gr / local dock","Spinalonga round-trip boat and island entry; morning boats recommended","High","Multiple operators at Elounda dock; pre-book July"],
+    ["GR2-AC","Greece Opt 2","Attractions","Kissamos Ferry (Balos Lagoon)","kissamos-ferries.gr","Kissamos–Balos return ferry; seasonal May–Oct; July books up","Medium","Pre-book ferry; alternatively drive to Balos overlook for free"],
+    ["GR2-FD","Greece Opt 2","Food","Crete dining benchmarks","visitcrete.gr / local restaurant guides","Cretan taverna food cost benchmarks; Agios Nikolaos harbor restaurants","Medium","Crete generally good value vs. Santorini; harbor slightly premium"],
+    # Bavaria sources
     ["BA-FL","Bavaria","Flights","Lufthansa IAD–MUC nonstop","lufthansa.com","Direct nonstop service; ~8h 10m","High","Also check United IAD–MUC"],
     ["BA-FL","Bavaria","Flights","Icelandair via KEF","icelandair.com","Budget routing option; adds ~2–3 hrs","Medium","Good for low scenario pricing"],
     ["BA-RT","Bavaria","Rail","Deutsche Bahn Bayern-Ticket","bahn.de","Bayern-Ticket pricing; validity; free-child rule (ages 6–14 free)","High","14yo rides free; 17yo is adult rate; €49/family of 4 per day"],
@@ -531,6 +665,7 @@ sources = [
     ["BA-AC","Bavaria","Attractions","Festung Hohensalzburg","salzburg-burgen.at","Fortress funicular pricing; adult/youth rates","High",""],
     ["BA-LO","Bavaria","Lodging","Booking.com / direct hotels","booking.com","Munich / Mittenwald / Berchtesgaden / Salzburg family room rates","Medium","Salzburg: book 5–6 months ahead due to Festspiele"],
     ["BA-FD","Bavaria","Food","Munich / Bavaria general tourism","munich.travel","Food cost benchmarks; beer garden pricing","Medium","Bavaria moderately priced; bakery + beer garden strategy keeps costs low"],
+    # St. Lucia sources
     ["SL-FL","St. Lucia","Flights","American Airlines PHL–UVF","aa.com","Weekly nonstop PHL–UVF; ~4h 45m; fare range","High","Verify exact July 2026 schedule; check early for PHL nonstop availability"],
     ["SL-LO","St. Lucia","Lodging","Coconut Bay Resort","cbayresort.com","All-inclusive family Splash wing; rates; inclusions","Medium","2026 July rates not yet published; get direct quote"],
     ["SL-LO","St. Lucia","Lodging","Bay Gardens Beach Resort","baygardensresorts.com","Rodney Bay family rooms; nightly rates","High",""],
@@ -543,12 +678,13 @@ sources = [
     ["SL-TR","St. Lucia","Transfers","Local taxi operators","stluciataxiservice.com","UVF transfer cost estimates; Soufrière / Rodney Bay rates","Medium","Get quotes directly on arrival; prices can vary"],
     ["SL-WX","St. Lucia","Weather","NOAA / National Hurricane Center","nhc.noaa.gov","July hurricane season framing; historical risk profile","High","Early July historically lower risk than Aug/Sep; buy CFAR travel insurance"],
     ["SL-WX","St. Lucia","Weather","Saint Lucia Tourism Authority","stlucia.org","July weather and travel season guidance","High",""],
+    # Cross-destination
     ["FX","All","FX Reference","ECB EUR/USD reference rate (May 2026)","ecb.europa.eu","EUR to USD conversion: €1 = $1.18 used throughout","High","Verify current rate when booking; significant FX moves possible before July 2026"],
     ["US-DOS","All","Safety","U.S. Department of State","travel.state.gov","Travel advisories: Greece L1; Germany L1; Austria L1; St. Lucia L1","High","Verify before departure"],
 ]
 for i, row in enumerate(sources):
     write_row(ws, i + 2, row, bg=HDR_LIGHT if i % 2 == 0 else WHITE)
-set_col_widths(ws, [12, 12, 16, 34, 32, 46, 12, 44])
+set_col_widths(ws, [12, 14, 16, 34, 32, 46, 12, 44])
 freeze(ws)
 
 # ── Save ─────────────────────────────────────────────────────────────────────
