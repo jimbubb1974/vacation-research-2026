@@ -1,0 +1,563 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Greece Family Trip Brochure</title>
+  <style>
+    @page {
+      size: letter;
+      margin: 0;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      margin: 0;
+      background: #fff;
+      color: #1f2426;
+      font-family: "Aptos", "Segoe UI", Arial, sans-serif;
+      line-height: 1.35;
+    }
+
+    body {
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+
+    .page {
+      position: relative;
+      width: 8.5in;
+      height: 11in;
+      margin: 0 auto 24px;
+      padding: 0.45in;
+      overflow: hidden;
+      background: #fff;
+      break-after: page;
+      page-break-after: always;
+    }
+
+    .page:last-child {
+      break-after: auto;
+      page-break-after: auto;
+    }
+
+    .cover {
+      display: grid;
+      grid-template-rows: 2.15in 3.3in 1fr;
+      gap: 0.2in;
+      background: #fff;
+    }
+
+    .kicker {
+      color: #a44d2f;
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 1.4px;
+      text-transform: uppercase;
+    }
+
+    h1,
+    h2,
+    h3,
+    p {
+      margin: 0;
+    }
+
+    h1 {
+      margin-top: 0.12in;
+      max-width: 7in;
+      font-size: 52px;
+      line-height: 0.96;
+      font-weight: 850;
+      color: #17384a;
+    }
+
+    .subhead {
+      margin-top: 0.16in;
+      max-width: 7.05in;
+      color: #4b4d47;
+      font-size: 16px;
+      line-height: 1.35;
+    }
+
+    .map-wrap {
+      position: relative;
+      border: 1px solid #d5cfbf;
+      background: #e6edf0;
+      height: 3.3in;
+      overflow: hidden;
+    }
+
+    .osm-tiles {
+      position: absolute;
+      inset: 0;
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+    }
+
+    .osm-tiles img,
+    .photo img,
+    .wide-photo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .osm-tiles img {
+      object-fit: fill;
+    }
+
+    .map-label {
+      position: absolute;
+      padding: 5px 7px;
+      border-radius: 5px;
+      background: rgba(251, 250, 245, 0.92);
+      color: #17384a;
+      font-size: 10px;
+      font-weight: 800;
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
+      white-space: nowrap;
+    }
+
+    .map-dot {
+      position: absolute;
+      width: 13px;
+      height: 13px;
+      border: 2px solid #fffaf0;
+      border-radius: 50%;
+      background: #a44d2f;
+      box-shadow: 0 1px 5px rgba(0, 0, 0, 0.28);
+      transform: translate(-50%, -50%);
+      z-index: 3;
+    }
+
+    .athens-dot { left: 41.04%; top: 25.37%; }
+    .naxos-dot { left: 57.80%; top: 51.69%; }
+    .santorini-dot { left: 58.66%; top: 72.70%; }
+    .athens { left: 42.3%; top: 19.0%; }
+    .naxos { left: 59.0%; top: 45.4%; }
+    .santorini { left: 59.9%; top: 66.3%; }
+    .route-line {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+    }
+
+    .cover-grid {
+      display: grid;
+      grid-template-columns: 1.05fr 1fr;
+      gap: 0.25in;
+      align-items: start;
+    }
+
+    .why-box {
+      padding: 0.18in;
+      border-left: 5px solid #2f8b9a;
+      background: #fff;
+    }
+
+    .why-box h2 {
+      color: #17384a;
+      font-size: 22px;
+      margin-bottom: 0.1in;
+    }
+
+    .why-box p,
+    .short-copy p {
+      color: #41443f;
+      font-size: 13.5px;
+    }
+
+    .quick-list {
+      display: grid;
+      gap: 8px;
+      margin-top: 0.14in;
+    }
+
+    .quick-list div {
+      padding: 9px 10px;
+      background: #eef2ef;
+      border-left: 3px solid #a44d2f;
+      color: #2d342f;
+      font-size: 12.5px;
+      font-weight: 650;
+    }
+
+    .page-header {
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      border-bottom: 2px solid #d9d2c2;
+      padding-bottom: 0.12in;
+      margin-bottom: 0.22in;
+    }
+
+    .page-header h2 {
+      color: #17384a;
+      font-size: 34px;
+      line-height: 1;
+    }
+
+    .page-number {
+      color: #a44d2f;
+      font-size: 12px;
+      font-weight: 800;
+      text-transform: uppercase;
+    }
+
+    .two-col {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.24in;
+    }
+
+    .wide-photo {
+      height: 2.65in;
+      margin-bottom: 0.18in;
+      border: 1px solid #d5cfbf;
+      background: #e6edf0;
+      overflow: hidden;
+    }
+
+    .photo-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.13in;
+      margin-bottom: 0.18in;
+    }
+
+    .photo {
+      height: 2.3in;
+      border: 1px solid #d5cfbf;
+      background: #e6edf0;
+      overflow: hidden;
+    }
+
+    .copy h3 {
+      color: #a44d2f;
+      font-size: 17px;
+      margin: 0 0 0.07in;
+    }
+
+    .copy p {
+      color: #373b36;
+      font-size: 13.2px;
+      margin-bottom: 0.11in;
+    }
+
+    .mini-itinerary {
+      display: grid;
+      gap: 7px;
+      margin-top: 0.1in;
+    }
+
+    .day {
+      display: grid;
+      grid-template-columns: 0.55in 1fr;
+      gap: 10px;
+      align-items: start;
+      padding: 8px 9px;
+      background: #eef2ef;
+      border-left: 3px solid #2f8b9a;
+    }
+
+    .day b {
+      color: #17384a;
+      font-size: 11px;
+      text-transform: uppercase;
+    }
+
+    .day span {
+      color: #383b36;
+      font-size: 12.3px;
+    }
+
+    .callout {
+      margin-top: 0.18in;
+      padding: 0.16in;
+      background: #17384a;
+      color: #fffaf0;
+    }
+
+    .callout h3 {
+      color: #fffaf0;
+      font-size: 17px;
+      margin-bottom: 0.07in;
+    }
+
+    .callout p {
+      color: #f1ecdf;
+      font-size: 12.7px;
+    }
+
+    .caption,
+    .credits {
+      color: #6a685f;
+      font-size: 8.5px;
+      line-height: 1.25;
+    }
+
+    .caption {
+      margin-top: -0.12in;
+      margin-bottom: 0.12in;
+    }
+
+    .credits {
+      position: absolute;
+      left: 0.45in;
+      right: 0.45in;
+      bottom: 0.23in;
+      border-top: 1px solid #ded8c9;
+      padding-top: 0.06in;
+    }
+
+    .final-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.22in;
+      margin-top: 0.12in;
+    }
+
+    .highlight-card {
+      min-height: 1.1in;
+      padding: 0.14in;
+      background: #eef2ef;
+      border-top: 4px solid #2f8b9a;
+    }
+
+    .highlight-card h3 {
+      color: #17384a;
+      font-size: 15px;
+      margin-bottom: 0.05in;
+    }
+
+    .highlight-card p {
+      color: #41443f;
+      font-size: 12.2px;
+    }
+
+    @media print {
+      html,
+      body {
+        background: #fff;
+      }
+
+      .page {
+        margin: 0;
+        box-shadow: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <section class="page cover">
+    <div>
+      <div class="kicker">July 11-21, 2026 | Athens + Cyclades</div>
+      <h1>Greece: Athens, Naxos & Santorini</h1>
+      <p class="subhead">Ancient ruins at first light, ferry crossings through the Aegean, sandy beach days, whitewashed island towns, and a caldera finale that feels unmistakably Greek.</p>
+    </div>
+
+    <div class="map-wrap">
+      <div class="osm-tiles" aria-label="Map route overview from Athens to Naxos, Santorini, and back to Athens">
+        <img src="https://a.basemaps.cartocdn.com/rastertiles/voyager/8/142/98.png" alt="">
+        <img src="https://a.basemaps.cartocdn.com/rastertiles/voyager/8/143/98.png" alt="">
+        <img src="https://a.basemaps.cartocdn.com/rastertiles/voyager/8/144/98.png" alt="">
+        <img src="https://a.basemaps.cartocdn.com/rastertiles/voyager/8/145/98.png" alt="">
+        <img src="https://a.basemaps.cartocdn.com/rastertiles/voyager/8/146/98.png" alt="">
+        <img src="https://a.basemaps.cartocdn.com/rastertiles/voyager/8/147/98.png" alt="">
+        <img src="https://a.basemaps.cartocdn.com/rastertiles/voyager/8/148/98.png" alt="">
+        <img src="https://a.basemaps.cartocdn.com/rastertiles/voyager/8/142/99.png" alt="">
+        <img src="https://a.basemaps.cartocdn.com/rastertiles/voyager/8/143/99.png" alt="">
+        <img src="https://a.basemaps.cartocdn.com/rastertiles/voyager/8/144/99.png" alt="">
+        <img src="https://a.basemaps.cartocdn.com/rastertiles/voyager/8/145/99.png" alt="">
+        <img src="https://a.basemaps.cartocdn.com/rastertiles/voyager/8/146/99.png" alt="">
+        <img src="https://a.basemaps.cartocdn.com/rastertiles/voyager/8/147/99.png" alt="">
+        <img src="https://a.basemaps.cartocdn.com/rastertiles/voyager/8/148/99.png" alt="">
+        <img src="https://a.basemaps.cartocdn.com/rastertiles/voyager/8/142/100.png" alt="">
+        <img src="https://a.basemaps.cartocdn.com/rastertiles/voyager/8/143/100.png" alt="">
+        <img src="https://a.basemaps.cartocdn.com/rastertiles/voyager/8/144/100.png" alt="">
+        <img src="https://a.basemaps.cartocdn.com/rastertiles/voyager/8/145/100.png" alt="">
+        <img src="https://a.basemaps.cartocdn.com/rastertiles/voyager/8/146/100.png" alt="">
+        <img src="https://a.basemaps.cartocdn.com/rastertiles/voyager/8/147/100.png" alt="">
+        <img src="https://a.basemaps.cartocdn.com/rastertiles/voyager/8/148/100.png" alt="">
+      </div>
+      <svg class="route-line" viewBox="0 0 900 520" preserveAspectRatio="none" aria-hidden="true">
+        <path d="M369 132 C435 185, 488 238, 520 269 C548 302, 550 346, 528 378 C485 324, 420 218, 369 132" fill="none" stroke="#a44d2f" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" opacity="0.92"/>
+        <path d="M369 132 C435 185, 488 238, 520 269 C548 302, 550 346, 528 378 C485 324, 420 218, 369 132" fill="none" stroke="#fffaf0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.95"/>
+      </svg>
+      <div class="map-dot athens-dot"></div>
+      <div class="map-dot naxos-dot"></div>
+      <div class="map-dot santorini-dot"></div>
+      <div class="map-label athens">1 Athens</div>
+      <div class="map-label naxos">2 Naxos</div>
+      <div class="map-label santorini">3 Santorini</div>
+    </div>
+
+    <div class="cover-grid">
+      <div class="why-box">
+        <h2>Why this one works</h2>
+        <p>This is the big, iconic trip. Athens brings the ancient-world weight, Naxos gives the route room to breathe, and Santorini finishes with the view everyone already has in their head.</p>
+      </div>
+      <div class="short-copy">
+        <p>The structure is deliberate: two Athens nights, three Naxos nights, three Santorini nights, then one Athens buffer before the flight home. July heat is real, so the best days start early, pause in the middle, and come back alive at sunset.</p>
+        <div class="quick-list">
+          <div>9 hotel nights on the ground</div>
+          <div>2 islands plus Athens</div>
+          <div>Ancient sites, beaches, villages, boats, and caldera views</div>
+          <div>Early starts and midday downtime built in for July heat</div>
+        </div>
+      </div>
+    </div>
+    <div class="credits">Map tiles: CARTO Voyager, using OpenStreetMap contributor data. Route overlay is illustrative, based on the planned ferry and flight sequence.</div>
+  </section>
+
+  <section class="page">
+    <div class="page-header">
+      <div>
+        <div class="kicker">Days 2-4</div>
+        <h2>Athens</h2>
+      </div>
+      <div class="page-number">Page 2</div>
+    </div>
+
+    <div class="photo-grid">
+      <div class="photo"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/The%20Parthenon%20in%20Athens.jpg?width=900" alt="The Parthenon in Athens"></div>
+      <div class="photo"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Athens%2C%20Anafiotika%2C%20225870.jpg?width=900" alt="Anafiotika neighborhood lanes in Athens"></div>
+    </div>
+    <div class="caption">Photos: The Parthenon and Anafiotika, Athens, via Wikimedia Commons.</div>
+
+    <div class="two-col">
+      <div class="copy">
+        <h3>The opening scene</h3>
+        <p>Athens is the arrival point, but it should not feel like a layover. The first day stays light: airport train, hotel check-in, Plaka, Anafiotika, and a rooftop dinner with the Acropolis lit above the city.</p>
+        <p>The second morning is the moment: timed Acropolis entry right at opening, before the heat and tour groups take over. The museum and a shaded lunch carry the day through the hottest hours.</p>
+        <div class="mini-itinerary">
+          <div class="day"><b>Jul 12</b><span>Arrive ATH, settle in, Plaka and Anafiotika walk, rooftop dinner with Acropolis view.</span></div>
+          <div class="day"><b>Jul 13</b><span>Acropolis at 8 am, Acropolis Museum, shaded lunch, siesta, food tour or Monastiraki evening.</span></div>
+        </div>
+      </div>
+      <div class="copy">
+        <h3>Designed around the heat</h3>
+        <p>July in Athens can push 95-104°F. That does not ruin the city, but it changes the rhythm: archaeology early, museum or shade midday, streets and dinner after the temperature drops.</p>
+        <p>The next move is also part of the experience. A conventional Blue Star ferry from Piraeus to Naxos is slower than the fast boats, but steadier in summer winds and easier to enjoy as a real Aegean crossing.</p>
+        <div class="mini-itinerary">
+          <div class="day"><b>Jul 14</b><span>Morning ferry from Piraeus to Naxos, arrive early afternoon, swim at Agios Georgios, sunset at the Portara.</span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="callout">
+      <h3>The vibe</h3>
+      <p>Athens gives the trip its depth right away. It is hot, layered, a little chaotic, and exactly where this itinerary should begin.</p>
+    </div>
+  </section>
+
+  <section class="page">
+    <div class="page-header">
+      <div>
+        <div class="kicker">Days 4-7</div>
+        <h2>Naxos</h2>
+      </div>
+      <div class="page-number">Page 3</div>
+    </div>
+
+    <div class="wide-photo">
+      <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Portara%20Naxos.jpg?width=1300" alt="Portara of Naxos">
+    </div>
+    <div class="caption">Photo: Portara, Naxos, via Wikimedia Commons.</div>
+
+    <div class="two-col">
+      <div class="copy">
+        <h3>The island that makes the trip breathe</h3>
+        <p>Naxos is the right middle act because it is beautiful without being over-tight. It has Chora, beaches, mountain villages, the Portara, and enough space to feel like an island rather than a stage set.</p>
+        <p>The Mount Zas morning gives the trip an active spine: start before the heat, pass Zeus's Cave, then loop through Filoti, Apeiranthos, Halki, and the citron distillery for the village side of the island.</p>
+        <div class="mini-itinerary">
+          <div class="day"><b>Jul 14</b><span>Arrive by ferry, beach reset, Portara sunset, dinner in Chora.</span></div>
+          <div class="day"><b>Jul 15</b><span>Mount Zas at dawn, Filoti lunch, Apeiranthos marble village, Halki and citron tasting.</span></div>
+        </div>
+      </div>
+      <div class="copy">
+        <h3>Beach day, boat day, easy evening</h3>
+        <p>The second full day can go two ways: catamaran and snorkeling if winds cooperate, or a simpler beach day at Plaka or Agia Anna if the meltemi is up.</p>
+        <p>That flexibility is the point. Naxos carries the adventure and recovery parts of the trip at the same time, which makes the faster Santorini finale feel earned rather than rushed.</p>
+        <div class="mini-itinerary">
+          <div class="day"><b>Jul 16</b><span>Half-day catamaran, snorkeling, beach club afternoon, waterfront dinner in Naxos Town.</span></div>
+          <div class="day"><b>Jul 17</b><span>Late swim, lunch in Chora, fast ferry to Santorini, Skaros Rock sunset walk.</span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="callout">
+      <h3>Why this stop matters</h3>
+      <p>Naxos keeps Greece from becoming only heat, crowds, and logistics. It gives the route room, texture, beaches, villages, and a few days where the schedule can loosen.</p>
+    </div>
+  </section>
+
+  <section class="page">
+    <div class="page-header">
+      <div>
+        <div class="kicker">Days 7-11</div>
+        <h2>Santorini Finale</h2>
+      </div>
+      <div class="page-number">Page 4</div>
+    </div>
+
+    <div class="wide-photo">
+      <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Oia%2C%20Santorini%20HDR%20sunset.jpg?width=1300" alt="Oia and the Santorini caldera at sunset">
+    </div>
+    <div class="caption">Photo: Oia, Santorini at sunset, via Wikimedia Commons.</div>
+
+    <div class="two-col">
+      <div class="copy">
+        <h3>The view everyone came for</h3>
+        <p>Santorini is more intense than Naxos, which is why it belongs at the end. By the time the ferry pulls in, the family is already in island mode and ready for the caldera drama.</p>
+        <p>The best day starts early on the Fira-to-Oia hike. Ten kilometers along the rim is a real experience, especially before the heat rises and before Oia turns into the afternoon version of itself.</p>
+        <div class="mini-itinerary">
+          <div class="day"><b>Jul 17</b><span>Arrive Santorini, check into Imerovigli or Fira, Skaros Rock sunset walk.</span></div>
+          <div class="day"><b>Jul 18</b><span>Fira-to-Oia hike at 6:30 am, Oia lunch, bus or taxi back, quieter caldera dinner.</span></div>
+        </div>
+      </div>
+      <div>
+        <div class="final-grid">
+          <div class="highlight-card">
+            <h3>Ancient-world depth</h3>
+            <p>Acropolis, Acropolis Museum, Akrotiri, and the sense that the trip is connected to something older than the scenery.</p>
+          </div>
+          <div class="highlight-card">
+            <h3>Island movement</h3>
+            <p>Ferries, harbors, beach towns, village roads, boat days, and the shift from Naxos ease to Santorini spectacle.</p>
+          </div>
+          <div class="highlight-card">
+            <h3>Heat-smart rhythm</h3>
+            <p>Early starts, midday shade, beach or pool pauses, and evening walks make July workable instead of punishing.</p>
+          </div>
+          <div class="highlight-card">
+            <h3>Protected ending</h3>
+            <p>The final Athens buffer night keeps the international flight away from ferry and island-delay risk.</p>
+          </div>
+        </div>
+        <div class="callout">
+          <h3>The pitch</h3>
+          <p>This is the most iconic option: not the easiest, not the quietest, but the one with ancient Athens, real island time, and the Santorini finish. It is the big trip for a reason.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="mini-itinerary" style="margin-top:0.12in;">
+      <div class="day"><b>Jul 19</b><span>Caldera catamaran with volcano, hot springs, and Red Beach; Akrotiri by afternoon; quiet viewpoint dinner.</span></div>
+      <div class="day"><b>Jul 20</b><span>Morning flight Santorini to Athens, buffer afternoon, airport-area hotel.</span></div>
+      <div class="day"><b>Jul 21</b><span>Depart Athens and fly home.</span></div>
+    </div>
+
+    <div class="credits">Research basis: vacation_research_combined.md. Photo sources: Wikimedia Commons file pages for the Parthenon, Anafiotika, Portara Naxos, and Oia Santorini sunset. Map data: OpenStreetMap contributors.</div>
+  </section>
+</body>
+</html>

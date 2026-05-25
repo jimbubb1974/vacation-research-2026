@@ -1,0 +1,569 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bavaria + Salzburg Family Trip Brochure</title>
+  <style>
+    @page {
+      size: letter;
+      margin: 0;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      margin: 0;
+      background: #fff;
+      color: #1e211d;
+      font-family: "Aptos", "Segoe UI", Arial, sans-serif;
+      line-height: 1.35;
+    }
+
+    body {
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+
+    .page {
+      position: relative;
+      width: 8.5in;
+      height: 11in;
+      margin: 0 auto 24px;
+      padding: 0.45in;
+      overflow: hidden;
+      background: #fff;
+      break-after: page;
+      page-break-after: always;
+    }
+
+    .page:last-child {
+      break-after: auto;
+      page-break-after: auto;
+    }
+
+    .cover {
+      display: grid;
+      grid-template-rows: 2.15in 3.3in 1fr;
+      gap: 0.2in;
+      background: #fff;
+    }
+
+    .kicker {
+      color: #8a3e2d;
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 1.4px;
+      text-transform: uppercase;
+    }
+
+    h1,
+    h2,
+    h3,
+    p {
+      margin: 0;
+    }
+
+    h1 {
+      margin-top: 0.12in;
+      max-width: 6.6in;
+      font-size: 52px;
+      line-height: 0.96;
+      font-weight: 850;
+      color: #15342f;
+    }
+
+    .subhead {
+      margin-top: 0.16in;
+      max-width: 6.9in;
+      color: #4b4d47;
+      font-size: 16px;
+      line-height: 1.35;
+    }
+
+    .map-wrap {
+      position: relative;
+      border: 1px solid #d5cfbf;
+      background: #eee8dc;
+      height: 3.3in;
+      overflow: hidden;
+    }
+
+    .map-wrap img,
+    .photo img,
+    .wide-photo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .osm-tiles {
+      position: absolute;
+      left: 0;
+      top: 50%;
+      width: 100%;
+      aspect-ratio: 5 / 3;
+      transform: translateY(-50%);
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+    }
+
+    .osm-tiles img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .osm-tiles img {
+      object-fit: fill;
+    }
+
+    .map-label {
+      position: absolute;
+      padding: 5px 7px;
+      border-radius: 5px;
+      background: rgba(251, 250, 246, 0.92);
+      color: #18352f;
+      font-size: 10px;
+      font-weight: 800;
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
+      white-space: nowrap;
+    }
+
+    .map-dot {
+      position: absolute;
+      width: 13px;
+      height: 13px;
+      border: 2px solid #fffaf0;
+      border-radius: 50%;
+      background: #c86d3c;
+      box-shadow: 0 1px 5px rgba(0, 0, 0, 0.28);
+      transform: translate(-50%, -50%);
+      z-index: 3;
+    }
+
+    .munich-dot { left: 29.26%; top: 12.52%; }
+    .mittenwald-dot { left: 20.34%; top: 80.31%; }
+    .berchtesgaden-dot { left: 69.81%; top: 61.84%; }
+    .salzburg-dot { left: 71.34%; top: 44.60%; }
+    .munich { left: 30.5%; top: 6.2%; }
+    .mittenwald { left: 21.5%; top: 74.0%; }
+    .berchtesgaden { left: 71.0%; top: 55.5%; }
+    .salzburg { left: 72.5%; top: 38.3%; }
+
+    .route-line {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+    }
+
+    .cover-grid {
+      display: grid;
+      grid-template-columns: 1.05fr 1fr;
+      gap: 0.25in;
+      align-items: start;
+    }
+
+    .why-box {
+      padding: 0.18in;
+      border-left: 5px solid #c86d3c;
+      background: #fff;
+    }
+
+    .why-box h2 {
+      color: #15342f;
+      font-size: 22px;
+      margin-bottom: 0.1in;
+    }
+
+    .why-box p,
+    .short-copy p {
+      color: #41443f;
+      font-size: 13.5px;
+    }
+
+    .quick-list {
+      display: grid;
+      gap: 8px;
+      margin-top: 0.14in;
+    }
+
+    .quick-list div {
+      padding: 9px 10px;
+      background: #f0efe8;
+      border-left: 3px solid #2f6f62;
+      color: #2d342f;
+      font-size: 12.5px;
+      font-weight: 650;
+    }
+
+    .page-header {
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      border-bottom: 2px solid #d9d2c2;
+      padding-bottom: 0.12in;
+      margin-bottom: 0.22in;
+    }
+
+    .page-header h2 {
+      color: #15342f;
+      font-size: 34px;
+      line-height: 1;
+    }
+
+    .page-number {
+      color: #8a3e2d;
+      font-size: 12px;
+      font-weight: 800;
+      text-transform: uppercase;
+    }
+
+    .two-col {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.24in;
+    }
+
+    .wide-photo {
+      height: 2.65in;
+      margin-bottom: 0.18in;
+      border: 1px solid #d5cfbf;
+      background: #eee8dc;
+      overflow: hidden;
+    }
+
+    .photo-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.13in;
+      margin-bottom: 0.18in;
+    }
+
+    .photo {
+      height: 2.3in;
+      border: 1px solid #d5cfbf;
+      background: #eee8dc;
+      overflow: hidden;
+    }
+
+    .copy h3 {
+      color: #8a3e2d;
+      font-size: 17px;
+      margin: 0 0 0.07in;
+    }
+
+    .copy p {
+      color: #373b36;
+      font-size: 13.2px;
+      margin-bottom: 0.11in;
+    }
+
+    .mini-itinerary {
+      display: grid;
+      gap: 7px;
+      margin-top: 0.1in;
+    }
+
+    .day {
+      display: grid;
+      grid-template-columns: 0.55in 1fr;
+      gap: 10px;
+      align-items: start;
+      padding: 8px 9px;
+      background: #f0efe8;
+      border-left: 3px solid #2f6f62;
+    }
+
+    .day b {
+      color: #15342f;
+      font-size: 11px;
+      text-transform: uppercase;
+    }
+
+    .day span {
+      color: #383b36;
+      font-size: 12.3px;
+    }
+
+    .callout {
+      margin-top: 0.18in;
+      padding: 0.16in;
+      background: #15342f;
+      color: #fffaf0;
+    }
+
+    .callout h3 {
+      color: #fffaf0;
+      font-size: 17px;
+      margin-bottom: 0.07in;
+    }
+
+    .callout p {
+      color: #f1ecdf;
+      font-size: 12.7px;
+    }
+
+    .caption,
+    .credits {
+      color: #6a685f;
+      font-size: 8.5px;
+      line-height: 1.25;
+    }
+
+    .caption {
+      margin-top: -0.12in;
+      margin-bottom: 0.12in;
+    }
+
+    .credits {
+      position: absolute;
+      left: 0.45in;
+      right: 0.45in;
+      bottom: 0.23in;
+      border-top: 1px solid #ded8c9;
+      padding-top: 0.06in;
+    }
+
+    .final-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.22in;
+      margin-top: 0.12in;
+    }
+
+    .highlight-card {
+      min-height: 1.1in;
+      padding: 0.14in;
+      background: #f0efe8;
+      border-top: 4px solid #c86d3c;
+    }
+
+    .highlight-card h3 {
+      color: #15342f;
+      font-size: 15px;
+      margin-bottom: 0.05in;
+    }
+
+    .highlight-card p {
+      color: #41443f;
+      font-size: 12.2px;
+    }
+
+    @media print {
+      html,
+      body {
+        background: #fff;
+      }
+
+      .page {
+        margin: 0;
+        box-shadow: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <section class="page cover">
+    <div>
+      <div class="kicker">July 11-21, 2026 | rail-based family trip</div>
+      <h1>Bavaria + Salzburg</h1>
+      <p class="subhead">Four distinct worlds in one trip: Munich energy, painted Alpine villages, glass-clear mountain lakes, and a Salzburg finale that feels like stepping onto a film set.</p>
+    </div>
+
+    <div class="map-wrap">
+      <div class="osm-tiles" aria-label="Map route overview from Munich to Mittenwald, Berchtesgaden, and Salzburg">
+        <img src="https://a.basemaps.cartocdn.com/rastertiles/voyager/9/271/177.png" alt="">
+        <img src="https://a.basemaps.cartocdn.com/rastertiles/voyager/9/272/177.png" alt="">
+        <img src="https://a.basemaps.cartocdn.com/rastertiles/voyager/9/273/177.png" alt="">
+        <img src="https://a.basemaps.cartocdn.com/rastertiles/voyager/9/274/177.png" alt="">
+        <img src="https://a.basemaps.cartocdn.com/rastertiles/voyager/9/275/177.png" alt="">
+        <img src="https://a.basemaps.cartocdn.com/rastertiles/voyager/9/271/178.png" alt="">
+        <img src="https://a.basemaps.cartocdn.com/rastertiles/voyager/9/272/178.png" alt="">
+        <img src="https://a.basemaps.cartocdn.com/rastertiles/voyager/9/273/178.png" alt="">
+        <img src="https://a.basemaps.cartocdn.com/rastertiles/voyager/9/274/178.png" alt="">
+        <img src="https://a.basemaps.cartocdn.com/rastertiles/voyager/9/275/178.png" alt="">
+        <img src="https://a.basemaps.cartocdn.com/rastertiles/voyager/9/271/179.png" alt="">
+        <img src="https://a.basemaps.cartocdn.com/rastertiles/voyager/9/272/179.png" alt="">
+        <img src="https://a.basemaps.cartocdn.com/rastertiles/voyager/9/273/179.png" alt="">
+        <img src="https://a.basemaps.cartocdn.com/rastertiles/voyager/9/274/179.png" alt="">
+        <img src="https://a.basemaps.cartocdn.com/rastertiles/voyager/9/275/179.png" alt="">
+      </div>
+      <svg class="route-line" viewBox="0 0 900 520" preserveAspectRatio="none" aria-hidden="true">
+        <path d="M263 65 C218 155, 192 312, 183 418 C325 392, 505 344, 628 322 C638 290, 642 256, 642 232" fill="none" stroke="#c86d3c" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/>
+        <path d="M263 65 C218 155, 192 312, 183 418 C325 392, 505 344, 628 322 C638 290, 642 256, 642 232" fill="none" stroke="#fffaf0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.95"/>
+      </svg>
+      <div class="map-dot munich-dot"></div>
+      <div class="map-dot mittenwald-dot"></div>
+      <div class="map-dot berchtesgaden-dot"></div>
+      <div class="map-dot salzburg-dot"></div>
+      <div class="map-label munich">1 Munich</div>
+      <div class="map-label mittenwald">2 Mittenwald</div>
+      <div class="map-label berchtesgaden">3 Berchtesgaden</div>
+      <div class="map-label salzburg">4 Salzburg</div>
+    </div>
+
+    <div class="cover-grid">
+      <div class="why-box">
+        <h2>Why this one works</h2>
+        <p>This is the balanced trip: active without being punishing, European without being hot and hectic, varied without needing a car. Every move is by train or bus, every base earns its nights, and the itinerary keeps weather-sensitive mountain days flexible.</p>
+      </div>
+      <div class="short-copy">
+        <p>Think science museum and river surfers, painted Alpine houses, slot canyons and cable cars, a silent electric boat across Konigssee, a serious history day at Eagle's Nest, then Salzburg's fortress, gardens, cafes, and old streets.</p>
+        <div class="quick-list">
+          <div>9 hotel nights on the ground</div>
+          <div>4 bases, 3 luggage moves</div>
+          <div>No rental car needed</div>
+          <div>Comfortable July weather: mostly 60s-70s F</div>
+        </div>
+      </div>
+    </div>
+    <div class="credits">Map tiles: CARTO Voyager, using OpenStreetMap contributor data. Route overlay is illustrative, based on the planned rail/bus sequence.</div>
+  </section>
+
+  <section class="page">
+    <div class="page-header">
+      <div>
+        <div class="kicker">Days 2-6</div>
+        <h2>Munich to Mittenwald</h2>
+      </div>
+      <div class="page-number">Page 2</div>
+    </div>
+
+    <div class="photo-grid">
+      <div class="photo"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Marienplatz%20and%20New%20City%20Hall%20-%20Munich%2C%20Germany%20-%20panoramio.jpg?width=900" alt="Marienplatz and New City Hall in Munich"></div>
+      <div class="photo"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Mittenwald%20view%20to%20Karwendel.jpg?width=900" alt="Mittenwald with the Karwendel Alps rising behind town"></div>
+    </div>
+    <div class="caption">Photos: Marienplatz and New City Hall, and Mittenwald with Karwendel Alps, via Wikimedia Commons.</div>
+
+    <div class="two-col">
+      <div class="copy">
+        <h3>The trip starts with city energy</h3>
+        <p>Munich is the soft landing: arrive, ride the S-Bahn into town, get outside, eat well, and let everyone adjust to Europe time without wasting the first day.</p>
+        <p>It is also an easy place to find memorable stops: Eisbach river surfers in the Englischer Garten, BMW Welt, the BMW Museum, and the Deutsches Museum with its U-boat, mine, aviation, space, and technology exhibits.</p>
+        <div class="mini-itinerary">
+          <div class="day"><b>Jul 12</b><span>Marienplatz, Viktualienmarkt, Glockenspiel, Eisbach surfers, beer garden dinner.</span></div>
+          <div class="day"><b>Jul 13</b><span>Deutsches Museum, BMW Welt, BMW Museum, Hofbrauhaus or neighborhood beer garden.</span></div>
+        </div>
+      </div>
+      <div class="copy">
+        <h3>Then the Alps show up</h3>
+        <p>Mittenwald is the visual pivot: painted houses, mountain walls, violin-making history, lake swims, and easy rail access to the big Alpine day trips.</p>
+        <p>The best part is flexibility. If Zugspitze is clear, go high. If it is clouded in, Leutaschklamm and the lakes near Mittenwald still make the day feel like a win.</p>
+        <div class="mini-itinerary">
+          <div class="day"><b>Jul 14</b><span>Train to Mittenwald, painted old town, Geigenbaumuseum, optional Karwendelbahn sunset.</span></div>
+          <div class="day"><b>Jul 15</b><span>Garmisch day trip: Partnach Gorge, Alpspitzbahn panorama, summer luge option.</span></div>
+          <div class="day"><b>Jul 16</b><span>Zugspitze if clear; Leutaschklamm, Lautersee, or Ferchensee if weather says stay lower.</span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="callout">
+      <h3>The vibe</h3>
+      <p>Munich gives the trip momentum. Mittenwald gives it the "we are really in the Alps now" feeling, without forcing the route into a car-dependent mountain lodge version of the trip.</p>
+    </div>
+  </section>
+
+  <section class="page">
+    <div class="page-header">
+      <div>
+        <div class="kicker">Days 7-9</div>
+        <h2>Berchtesgaden</h2>
+      </div>
+      <div class="page-number">Page 3</div>
+    </div>
+
+    <div class="wide-photo">
+      <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Obersee%2C%20Bayern%2C%20Germany.jpg?width=1300" alt="Obersee near Konigssee in Berchtesgaden National Park">
+    </div>
+    <div class="caption">Photo: Obersee, Bavaria, Germany, via Wikimedia Commons.</div>
+
+    <div class="two-col">
+      <div class="copy">
+        <h3>The lake day is the showstopper</h3>
+        <p>Konigssee is not a normal lake stop. The morning starts with a short bus ride, then a quiet electric boat between steep green walls to St. Bartholoma and onward toward Salet.</p>
+        <p>The payoff is Obersee: a short walk to a glacial lake that looks almost unreal, especially before the crowds build. This is the day that makes the photo album.</p>
+        <div class="mini-itinerary">
+          <div class="day"><b>Jul 17</b><span>Mittenwald to Berchtesgaden by regional rail. Longest luggage day, then old town and early dinner.</span></div>
+          <div class="day"><b>Jul 18</b><span>First boat to St. Bartholoma and Salet, hike to Obersee, optional salt mine if rain moves in.</span></div>
+        </div>
+      </div>
+      <div class="copy">
+        <h3>A serious history day, then Austria</h3>
+        <p>Eagle's Nest is worth doing because it combines spectacular mountain access with real historical context. The Documentation Center first keeps it grounded, then the Kehlstein bus and elevator take the group to the ridge.</p>
+        <p>By evening, the trip changes countries almost casually: Bus 840, the Watzmann Express, carries everyone from Berchtesgaden into Salzburg in under an hour.</p>
+        <div class="mini-itinerary">
+          <div class="day"><b>Jul 19</b><span>Documentation Center Obersalzberg, Eagle's Nest if weather allows, lunch with Watzmann views, bus to Salzburg.</span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="callout">
+      <h3>Why this stretch stands out</h3>
+      <p>Boat echo, glacial lake, mountain tunnels, wartime history, and a cross-border bus ride in one 48-hour stretch. It feels active and cinematic without being overbuilt.</p>
+    </div>
+  </section>
+
+  <section class="page">
+    <div class="page-header">
+      <div>
+        <div class="kicker">Days 9-11</div>
+        <h2>Salzburg Finale</h2>
+      </div>
+      <div class="page-number">Page 4</div>
+    </div>
+
+    <div class="wide-photo">
+      <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Salzburg%20aerial%20view.jpg?width=1300" alt="Aerial view of Salzburg old town and surrounding Alpine landscape">
+    </div>
+    <div class="caption">Photo: Aerial view of Salzburg old town, via Wikimedia Commons.</div>
+
+    <div class="two-col">
+      <div class="copy">
+        <h3>A compact, beautiful ending</h3>
+        <p>Salzburg is the low-friction finale: walkable old streets, fortress views, Mirabell Gardens, cafes, Mozart sites, and dinner in a city that feels polished without needing a packed schedule.</p>
+        <p>It also gives the trip a clean emotional arc. Start in Munich, climb into the Alps, spend two days in Berchtesgaden's mountains and history, then finish in a baroque city with the Alps still visible behind it.</p>
+        <div class="mini-itinerary">
+          <div class="day"><b>Jul 19</b><span>Arrive from Berchtesgaden, check in, evening old town stroll.</span></div>
+          <div class="day"><b>Jul 20</b><span>Hohensalzburg Fortress, Mirabell Gardens, Mozart's Birthplace, Getreidegasse, St. Peter Stiftskeller dinner.</span></div>
+          <div class="day"><b>Jul 21</b><span>Early Railjet to Munich, S-Bahn to MUC, fly home.</span></div>
+        </div>
+      </div>
+      <div>
+        <div class="final-grid">
+          <div class="highlight-card">
+            <h3>City energy</h3>
+            <p>Munich museums, old squares, markets, beer gardens, BMW, and Salzburg's old town.</p>
+          </div>
+          <div class="highlight-card">
+            <h3>Mountain days</h3>
+            <p>Partnach Gorge, Zugspitze or Leutaschklamm, Konigssee, Obersee, and Alpine lake swims.</p>
+          </div>
+          <div class="highlight-card">
+            <h3>Clean logistics</h3>
+            <p>Trains and buses do the work. No rental car, no island ferries, no extreme July heat.</p>
+          </div>
+          <div class="highlight-card">
+            <h3>Built-in breathing room</h3>
+            <p>Enough structure to feel substantial, enough backup options to keep weather from taking over.</p>
+          </div>
+        </div>
+        <div class="callout">
+          <h3>The pitch</h3>
+          <p>This is the trip that gives you Europe, mountains, history, water, food, and downtime in one clean route. It is not the flashiest option. It is the one most likely to feel good every day.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="credits">Research basis: vacation_research_combined.md. Photo sources: Wikimedia Commons file pages for Marienplatz, Mittenwald Luftlmalerei, Obersee, and Hohensalzburg from Mirabellgarten. Map data: OpenStreetMap contributors.</div>
+  </section>
+</body>
+</html>
