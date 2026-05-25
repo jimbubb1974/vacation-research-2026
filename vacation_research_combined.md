@@ -223,6 +223,64 @@ The cultural caveat is honest: St. Lucia offers nature-and-water culture more th
 
 ---
 
+# DESTINATION 4 — GREECE OPTION 2: Crete + Athens
+
+## Why this itinerary works
+
+The Crete + Athens structure is a meaningfully different Greece experience from the Cyclades option. Where Option 1 delivers iconic caldera views and island hopping, Option 2 delivers Europe's oldest civilization, dramatic gorge hikes, crystalline lagoons, and enough variety across a single large island to fill a full week without repeating yourself. The rental car is the enabling asset: Crete stretches 250 km end to end, and a car transforms it from a single-base beach trip into a cross-island cultural and adventure journey.
+
+The **5 nights West Crete / 3 nights East Crete** split works because the two ends of the island hold fundamentally different experiences. West Crete (the Chania region) has the island's greatest natural experiences: Balos Lagoon, Falassarna, Imbros Gorge, and the beautiful Venetian harbor of Chania itself. East Crete holds the mythology and history: Knossos Palace, the Heraklion Archaeological Museum (the finest collection of Minoan artifacts in the world), and Spinalonga Island. A scenic transit day through Rethymno's Venetian old city connects the two bases without wasting a day.
+
+Athens appears as a one-night finale — the Acropolis at dawn before the 10am heat arrives, then straight to the airport. It is the right amount of Athens for a Crete-focused trip: enough to stand on the hill, not enough to exhaust the family the night before a transatlantic flight.
+
+**Honest tradeoffs vs. Cyclades Option 1:** No Santorini caldera view, no island-hopping ferry experience, and slightly lower "postcard moment" visual drama. The returns are a more relaxed pace, richer mythology depth (Knossos is arguably the single best archaeology site on this list), no ferry-weather anxiety, no luggage moves across water, and a rental-car freedom that makes detours easy. For a family where the teenagers have any interest in ancient history or mythology, this trip arguably delivers more intellectual substance.
+
+## Logistics, weather & advisories
+
+**July weather:** Same fundamental advice as Option 1 — archaeology before 10 am, beaches and pools midday, town wandering after 6 pm. Crete benefits from persistent sea breezes and is generally more comfortable than Athens in July. Mountain roads to Balos can be rough and narrow; a standard compact handles them fine at slow speeds.
+
+**Rental car:** Pick up at CHQ (Chania Airport) on Day 2 arrival; drop one-way at HER (Heraklion Airport) on Day 10. Most major operators (Hertz, Enterprise, Europcar) include the one-way Crete drop-off fee at no charge or a small surcharge. Book with full CDW (collision damage waiver) — Crete road surfaces vary, and tight village streets reward full coverage. An economy/compact fits four passengers and carry-on luggage; if checking heavy bags, budget up to a compact wagon or small SUV.
+
+**Domestic flights:** ATH→CHQ and HER→ATH are both served by Aegean Airlines with multiple daily departures (~45 min each). Book these when booking the international legs; July demand is high and both Chania and Heraklion airports have limited capacity.
+
+**Safety:** Greece Level 1 (Exercise Normal Precautions). Crete has no material security concerns. Petty theft risk is concentrated in Athens (Syntagma, Plaka, metro); standard precautions apply.
+
+**Flights:** Same IAD→ATH routing as Option 1 (United nonstop seasonal, Lufthansa via FRA, Turkish via IST). Round-trip economy: **$1,100–1,300/pp** advance, **$1,300–1,600** mid-range.
+
+## Day-by-Day Itinerary
+
+| Day | Date | Location | Overnight | Morning | Afternoon | Evening | Transport | Travel Time | Book Ahead | Weather Sensitive | Backup Option | Est. Daily Cost (Family USD) | Notes |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 1 | Sat Jul 11 | DC → Athens | In-flight | Airport departure | Transatlantic flight | In-flight | IAD→ATH nonstop or connecting | Overnight | Y | N | None | 0 | Europe clock begins on flight night |
+| 2 | Sun Jul 12 | Athens → Chania | Chania area | Arrive ATH; Aegean/Olympic to CHQ (~45 min); pick up rental car | Check in Agia Marina or Stalos; beach walk | Chania Old Town + Venetian Harbor first look | ATH→CHQ domestic; rental car | 45 min flight + 30 min drive | Y (domestic flight + car) | N | If very delayed in ATH, skip Old Town; rest at hotel | 480 | Do not attempt Athens sightseeing on Day 2 — go straight to Chania; arrival recovery is the priority |
+| 3 | Mon Jul 13 | Chania area | Chania area | Recovery beach morning (Agia Marina; most hotels have pools) | Pool or beach; light taverna lunch | Chania Old Town + Venetian Lighthouse walk; waterfront dinner | Rental car | 20 min to Chania | N | N | Pure pool day if exhausted | 340 | Chania harbor is one of the most beautiful in Greece; an unhurried first evening there is ideal |
+| 4 | Tue Jul 14 | West Crete | Chania area | **Balos Lagoon boat** from Kissamos port (~10 am departure; 45 min each way; turquoise lagoon + Gramvousa Island; reserve day before); OR Falassarna beach (45 min drive; one of Greece's best sand beaches; free) | Swim at Balos or Falassarna through late afternoon | Casual taverna dinner near hotel | Rental car + seasonal ferry (Balos) | 45 min drive to Kissamos + 45 min boat each way | Y (Balos ferry reservation) | Y (seas can cancel Balos ferry) | Falassarna by car if Balos ferry cancelled; equally spectacular, no booking required | 380 | Balos is among the most photographed beaches in Greece; approach by boat is far better than the rough road drive; Falassarna is a worthy alternative |
+| 5 | Wed Jul 15 | Chania / inland villages | Chania area | Chania Old Town covered market (Agora; one of the best covered markets in Greece); Venetian walls and lighthouse | Inland villages: Vamos or Gavalochori (well-preserved stone architecture) + olive oil cooperative tasting (~€15–25/pp) | Chania waterfront dinner | Rental car | 30–60 min for inland loop | N | N | Extra beach day or Elafonissi if skipped earlier | 280 | Crete's inland villages are largely untouristy; Vamos is a beautifully preserved stone village with a cooperative-run café |
+| 6 | Thu Jul 16 | Imbros Gorge | Chania area | **Imbros Gorge** (start 7 am; 8 km one-way; ~2.5–3 hrs; far less crowded than Samaria; dramatic limestone narrows, wildflowers, mule tracks; €2/person entry) | South coast seafood lunch in Loutro or Hora Sfakion | Easy evening in Chania | Rental car | 50 min to gorge trailhead (Imbros village); arrange car shuttle or return drive | N | Y (start early; midday heat is intense) | Chania market day and beach if too hot | 280 | Imbros is significantly easier than Samaria Gorge but comparably dramatic; shuttle from Hora Sfakion back to car is ~€5/person and runs regularly |
+| 7 | Fri Jul 17 | West → East Crete | East Crete | Late breakfast; check out; drive east on coastal highway (scenic E75) | Stop Rethymno: Venetian Fortress Fortezza (~€4/adult; 30-min visit) + Old Town walk + lunch | Arrive Agios Nikolaos; check in; evening walk along the famous inner lake | Rental car | ~2.5 hrs total (Chania→Rethymno ~1 hr; Rethymno→Agios Nikolaos ~1.5 hrs) | N | N | Skip Rethymno stop; drive straight through | 370 | Rethymno is a genuine Venetian gem often overlooked; worth 90 min; Agios Nikolaos lake is beautiful at sunset |
+| 8 | Sat Jul 18 | Knossos + Heraklion | East Crete | Drive to Heraklion (~45 min); **Knossos Palace** at 8 am opening (timed entry; allow 2–2.5 hrs; €15/adult; reconstructed Minoan palace; mythological home of King Minos and the Minotaur) | **Heraklion Archaeological Museum** (the finest Minoan collection in the world; €15/adult; combo ticket with Knossos available; allow 2 hrs in air-conditioned gallery) | Drive back to Agios Nikolaos; harbor dinner | Rental car | 45 min each way | Y (Knossos timed entry) | Y (Knossos brutal in midday heat) | Museum first if very hot; Knossos after 5 pm works if entry available | 380 | Knossos + Museum is the single best mythology day across all itinerary options; do them on the same day |
+| 9 | Sun Jul 19 | Spinalonga | East Crete | Easy morning; drive to Elounda (~20 min); **Spinalonga Island** boat (€15–20 RT from Elounda dock; boats every 15–30 min 9 am–5 pm; former Venetian fortress + last active leper colony in Europe, closed 1957; ~1.5 hrs on island) | Swim at Elounda beach; late lunch at harbor taverna | Agios Nikolaos harbor dinner; final Crete evening | Rental car + small boat | 20 min drive + 15 min boat each way | N | N | Pure pool/beach day if exhausted | 390 | Spinalonga is one of the most historically fascinating sites on Crete; reading Victoria Hislop's *The Island* or watching the series in advance makes the visit much richer |
+| 10 | Mon Jul 20 | Crete → Athens | Athens | Return rental car at HER airport; Aegean HER→ATH (~45 min); airport express to city | Check in Athens (Plaka or Koukaki area) | Plaka walk + rooftop dinner with Acropolis view | HER→ATH domestic flight; airport express train | 45 min flight + 40 min train | Y (domestic flight) | N | Airport-adjacent hotel if late arrival; skip Plaka walk | 510 | Buffer night in Athens before transatlantic is non-negotiable; a missed HER→ATH domestic could cascade into missing the international departure |
+| 11 | Tue Jul 21 | Athens → DC | Home | **Acropolis at 8 am opening** (timed entry required; same approach as Option 1 — before heat and crowds; €30/adult, €15/youth) | Airport express train to ATH; fly IAD | Arrive DC | Airport express + IAD nonstop or connecting | 40 min train + long-haul | Y (Acropolis timed entry + flight) | Y (heat; start no later than 7:45 am) | Skip Acropolis; go directly to airport if flight is before noon | 240 | Book Acropolis timed entry for 8 am slot weeks ahead; July fills fast |
+
+## Teen Highlights
+
+1. **Knossos Palace + Heraklion Museum on the same day** — the palace of King Minos, the mythological labyrinth of the Minotaur, and the world's greatest collection of Minoan frescoes and artifacts. Better mythology storytelling than any other site on this list for history-interested teenagers.
+2. **Imbros Gorge at dawn** — an 8 km slot-canyon hike where the walls narrow to 2 meters and you're alone in the gorge for the first hour. Genuinely dramatic and far less crowded than the famous Samaria Gorge.
+3. **Spinalonga Island** — a Venetian fortress that became Europe's last active leper colony (closed 1957, 49 years after the rest of the world). Haunting, beautiful, and fascinating to teenagers who engage with the history. Recommending they watch or read *The Island* beforehand pays dividends here.
+
+## Key Risks & Fallbacks
+
+| Risk | Likelihood | Impact | Fallback |
+|---|---|---|---|
+| Balos Lagoon ferry cancelled (seas/wind) | Medium (July) | Low | Drive to Falassarna instead; free, equally spectacular, no booking required |
+| Knossos midday heat closure or extreme crowding | Medium (July peak) | Low (8 am visit planned) | Heraklion Museum first if very hot; Knossos after 5 pm has lower crowds |
+| Rental car mechanical issue or accident | Low | Medium | Rent full CDW coverage; major operators have roadside assistance on Crete; main roads are good quality |
+| HER→ATH domestic delay (Day 10) | Low-Medium | Low (buffer night absorbs it) | Buffer night in Athens eliminates cascade risk; do not remove it |
+| Imbros Gorge extreme heat | Medium (July midday) | Low (7 am start planned) | Chania market day + beach instead; or Loutro beach by ferry |
+
+---
+
 ## PART B — COST TABLES
 
 > **All prices in USD. FX: €1 = $1.18. Low = value-conscious but realistic. Mid = comfortable, realistic, core experience. High = better flights/lodging/private transfers.** Prices are estimates based on May 2026 market research; actual fares and rates fluctuate. Lock flights 3–5 months ahead; book hotels immediately for Santorini and Salzburg Festival dates.
@@ -337,19 +395,48 @@ The cultural caveat is honest: St. Lucia offers nature-and-water culture more th
 
 ---
 
+### Greece Option 2 — Detailed Cost Breakdown (Family of 4, 9 hotel nights)
+
+| Category | Item | Unit Cost | Qty | Low USD | Mid USD | High USD | Confidence | Basis | Source IDs |
+|---|---|---|---|---|---|---|---|---|---|
+| Flights | IAD→ATH round-trip economy | $1,100–1,600/pp | 4 | $4,000 | $5,200 | $6,400 | Medium | Same IAD–ATH routing as Option 1; United nonstop or Lufthansa via FRA | GR-FL |
+| Bags & seat selection | Economy class typical fees | $90/pp RT | 4 | $200 | $360 | $560 | Low | Carrier-dependent; assume 1 checked bag/pp | GR-FL |
+| Domestic flight | ATH→CHQ (Aegean Airlines, Athens–Chania) | $70–120/pp | 4 | $280 | $380 | $480 | Medium-High | Aegean Airlines; multiple daily; ~45 min; book with international leg for July availability | GR2-DO |
+| Domestic flight | HER→ATH (Aegean Airlines, Heraklion–Athens) | $70–120/pp | 4 | $280 | $380 | $480 | Medium-High | Aegean Airlines; multiple daily; one-way domestic to reach ATH departure | GR2-DO |
+| Lodging | West Crete — Chania area, 5 nights | $180–280/night | 5 | $900 | $1,150 | $1,400 | Medium | Agia Marina / Stalos beach-area hotels; pools, parking; July peak pricing | GR2-LO |
+| Lodging | East Crete — Agios Nikolaos area, 3 nights | $150–260/night | 3 | $450 | $660 | $780 | Medium | Agios Nikolaos mid-range hotels; Elounda commands 30–50% premium over mid-range | GR2-LO |
+| Lodging | Athens — 1 night (Plaka or airport-adjacent) | $150–280/night | 1 | $150 | $200 | $280 | Medium | Same range as Option 1 Athens buffer; Plaka or Koukaki area | GR-LO |
+| Rental car | Economy/compact, 9 days, one-way CHQ→HER | $50–85/day | 9 days | $450 | $580 | $765 | Medium | Major aggregators (Hertz, Europcar); July peak demand; one-way fee typically included or small surcharge; book full CDW coverage | GR2-CA |
+| Fuel & parking | Crete driving (~400–600 km estimated) | Estimate | — | $150 | $200 | $300 | Low | Fuel ~€1.85/L; parking fees at Balos (Kissamos), Imbros trailhead, Knossos, Heraklion | GR2-CA |
+| Activities | Knossos Palace (timed entry) | €15/adult; €8/youth | 4 | $50 | $55 | $55 | High | Greek Ministry of Culture; timed entry required July; under-18 non-EU reduced rate | GR2-AC |
+| Activities | Heraklion Archaeological Museum | €15/adult; €8/youth | 4 | $50 | $55 | $55 | High | Official museum pricing; combo ticket with Knossos (~€20/adult) saves ~€10/adult — verify at heraklionmuseum.gr | GR2-AC |
+| Activities | Acropolis timed entry (Day 11, firm) | €30/adult; €15/youth | 4 | $120 | $170 | $170 | High | Greek Ministry of Culture / hhticket.gr; same as Option 1; book July slots weeks ahead | GR-AC |
+| Activities | Spinalonga boat trip + island entry (from Elounda) | €20–30/pp | 4 | $70 | $105 | $140 | Medium | Elounda dock operators; boats every 15–30 min; island entry ~€8/adult often included in combined ticket | GR2-AC |
+| Activities | Imbros Gorge entry | ~€2/pp | 4 | $10 | $10 | $10 | High | Small local entry fee; one of the best gorge hikes in Greece | GR2-AC |
+| Activities | Balos Lagoon boat — Kissamos ferry, round-trip | €20–25/pp | 4 | $70 | $100 | $140 | Medium | Seasonal ferry from Kissamos port; ~45 min each way; alternative is free road drive (rough track, parking ~€5) | GR2-AC |
+| Activities | Inland village / olive oil tasting (optional) | €15–25/pp | 4 | $0 | $80 | $130 | Low | Cooperative estates near Vamos/Gavalochori; includes tasting and small purchase | GR2-AC |
+| Activities | Misc (Chania market, Rethymno Fortress, Venetian Harbor, beach clubs, incidentals) | Estimate | — | $50 | $120 | $220 | Low | Rethymno Fortress ~€4/adult; rest is free or small fees | — |
+| Food & dining | 9 ground days × 4 people | $50/$80/$120 pp/day | 36 pp-days | $1,800 | $2,880 | $4,320 | Medium | Beach tavernas ($15–25/pp lunch), sit-down dinners ($30–60/pp); Crete moderately priced — cheaper than Santorini, comparable to Naxos | GR2-FD |
+| Travel insurance | Trip protection (rental car + weather) | $80/pp | 4 | $200 | $320 | $500 | Medium | Recommended; note: CDW for rental car is separate line item in car rental | — |
+| **TOTAL** | | | | **$9,280** | **$13,005** | **$17,185** | | | |
+
+---
+
 ### Side-by-Side Cost Comparison (Mid-Range, Family of 4)
 
-| Category | Greece | Bavaria | St. Lucia (A) | St. Lucia (B) |
-|---|---|---|---|---|
-| Flights + bags | $5,560 | $5,100 | $3,240 | $3,240 |
-| Lodging | $2,930 | $2,720 | $7,800 | $3,440 |
-| Ground transport / ferries / rail | $902 | $601 | $120 | $640 |
-| Activities | $1,619 | $1,263 | $1,529 | $1,129 |
-| Food | $2,880 | $2,340 | $300 | $3,000 |
-| Insurance & misc | $820 | $820 | $650 | $700 |
-| **TOTAL MID** | **~$14,711** | **~$12,844** | **~$13,639** | **~$12,149** |
-| Nights on ground | 9 | 9 | 10 | 10 |
-| Cost per night on ground | ~$1,635 | ~$1,427 | ~$1,364 | ~$1,215 |
+| Category | Greece Opt 1 (Cyclades) | Greece Opt 2 (Crete) | Bavaria + Salzburg | St. Lucia (A) | St. Lucia (B) |
+|---|---|---|---|---|---|
+| Flights + bags | $5,560 | $6,320 | $5,100 | $3,240 | $3,240 |
+| Lodging | $2,930 | $2,010 | $2,720 | $7,800 | $3,440 |
+| Ground transport / ferries / rail / car | $1,462 | $780 | $601 | $120 | $640 |
+| Activities | $1,619 | $695 | $1,263 | $1,529 | $1,129 |
+| Food | $2,880 | $2,880 | $2,340 | $300 | $3,000 |
+| Insurance & misc | $820 | $320 | $820 | $650 | $700 |
+| **TOTAL MID** | **~$15,271** | **~$13,005** | **~$12,844** | **~$13,639** | **~$12,149** |
+| Nights on ground | 9 | 9 | 9 | 10 | 10 |
+| Cost per night on ground | ~$1,697 | ~$1,445 | ~$1,427 | ~$1,364 | ~$1,215 |
+
+> Note: Totals derived from spreadsheet line-item sums; see individual cost tabs for authoritative figures.
 
 ---
 
@@ -367,6 +454,7 @@ The cultural caveat is honest: St. Lucia offers nature-and-water culture more th
 | Bavaria_Salzburg | Rail-based Alpine and city tour | 9 | 1 | 8458 | 12844 | 16933 | 1427 | Medium-High | Medium | Moderate (mountain weather) | High | Very High | Most balanced and stress-light | Weather-sensitive mountain days; over-design risk |
 | St_Lucia_A_AI | Tropical adventure + resort base | 10 | 0 | 10510 | 13639 | 18204 | 1364 | Medium | Low | Moderate-High (hurricane season) | Moderate | High | Full 10 nights; easy logistics; all-in pricing | Lower cultural depth; lodging cost dominates |
 | St_Lucia_B_Independent | Tropical adventure + villa/split | 10 | 0 | 8920 | 12149 | 16714 | 1215 | Medium | Medium | Moderate-High (hurricane season) | Moderate | High | Best value; most local feel | One transfer mid-trip; more daily decisions |
+| Greece_Option2 | Crete + Athens with rental car | 9 | 1 | 9280 | 13005 | 17185 | 1445 | Medium | Medium | Moderate (heat; car on narrow roads) | Highest | High | Most historically rich; car freedom; no ferry anxiety | No Santorini caldera view; car adds rental/fuel complexity |
 
 ---
 
@@ -421,6 +509,24 @@ The cultural caveat is honest: St. Lucia offers nature-and-water culture more th
 | 9 | Sun Jul 19 | Snorkel + downtime | Rodney Bay area | Anse Chastanet snorkel (boat transfer ~$40/person; turtles; parrotfish; drops off beach) | Afternoon beach club; sunbeds and bar | Sunset marina dinner | Boat or taxi | 30-45 min | Optional | Y (visibility) | Pure resort beach day | 380 | Anse Chastanet reef is worth the transfer |
 | 10 | Mon Jul 20 | Reserve / flexible | Rodney Bay area | Weather makeup day or pure downtime. Pre-book nothing. | Shopping; final swim; Castries market | Farewell dinner; pack | Local | Local | N | Y | Leave unplanned by design | 270 | The most important day to protect from pre-programming in July hurricane season |
 | 11 | Tue Jul 21 | St Lucia to DC | At home | Resort shuttle to UVF (1.5 hrs from Rodney Bay) | AA nonstop UVF→PHL (~4h 45m); arrive ~7 pm; drive home | At home | Taxi + AA nonstop | 1.5 hrs + 4h 45m | Y | N | None | 0 | |
+
+---
+
+### TAB: Greece2_Itinerary
+
+| Day | Date | Location | Overnight | Morning | Afternoon | Evening | Transport | Travel_Time | Book_Ahead | Weather_Sensitive | Backup_Option | Est_Daily_Cost_Family_USD | Notes |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 1 | Sat Jul 11 | DC to Athens | In-flight | Airport departure | Transatlantic flight | In-flight | IAD nonstop or connecting | Overnight | Y | N | None | 0 | Europe clock begins on flight night |
+| 2 | Sun Jul 12 | Athens to Chania | Chania area | Arrive ATH; Aegean/Olympic to CHQ (~45 min); pick up rental car | Check in; Agia Marina beach | Chania Old Town + Venetian Harbor | ATH-CHQ domestic; rental car | 45 min flight + 30 min drive | Y (domestic flight + car) | N | If delayed in ATH skip Old Town; rest at hotel | 480 | Do not attempt Athens sightseeing on Day 2; go straight to Chania |
+| 3 | Mon Jul 13 | Chania area | Chania area | Recovery beach morning | Pool or beach; light taverna lunch | Chania Old Town + Venetian Lighthouse walk; waterfront dinner | Rental car | 20 min to Chania | N | N | Pure pool day if exhausted | 340 | Chania harbor is one of the most beautiful in Greece; unhurried evening there is ideal |
+| 4 | Tue Jul 14 | West Crete | Chania area | Balos Lagoon boat from Kissamos (~10 am; 45 min each way; reserve day before); OR Falassarna beach (free; 45 min drive) | Swim at Balos or Falassarna through afternoon | Casual taverna dinner near hotel | Rental car + seasonal ferry (Balos) | 45 min drive to Kissamos + 45 min boat each way | Y (Balos ferry reservation) | Y (seas can cancel Balos ferry) | Falassarna by car if Balos cancelled; free; no booking needed | 380 | Balos by boat is far better than the rough road access; Falassarna is an equally valid choice |
+| 5 | Wed Jul 15 | Chania inland villages | Chania area | Chania Old Town covered market (Agora) | Inland villages: Vamos or Gavalochori + olive oil cooperative tasting (~€15-25/pp) | Chania waterfront dinner | Rental car | 30-60 min inland loop | N | N | Extra beach day or Elafonissi if skipped earlier | 280 | Crete inland villages are largely untouristy; Vamos is beautifully preserved |
+| 6 | Thu Jul 16 | Imbros Gorge | Chania area | Imbros Gorge (start 7 am; 8 km one-way; ~2.5-3 hrs; €2/person entry; limestone narrows; far less crowded than Samaria) | South coast seafood lunch in Loutro or Hora Sfakion | Easy evening in Chania | Rental car | 50 min to gorge trailhead; arrange shuttle from Hora Sfakion (~€5/person) | N | Y (start early; midday heat intense) | Chania market + beach if too hot | 280 | Shuttle from Hora Sfakion back to car runs regularly; one-way hike is preferable to out-and-back |
+| 7 | Fri Jul 17 | West to East Crete | East Crete | Late breakfast; check out; drive east on coastal highway | Stop Rethymno: Venetian Fortress Fortezza (~€4/adult; 30 min) + Old Town walk + lunch | Arrive Agios Nikolaos; check in; evening walk along the inner lake | Rental car | ~2.5 hrs total (Chania-Rethymno 1 hr; Rethymno-Agios Nikolaos 1.5 hrs) | N | N | Skip Rethymno and drive straight through if needed | 370 | Rethymno Old Town is a genuine Venetian gem; worth 90 min; Agios Nikolaos lake is beautiful at sunset |
+| 8 | Sat Jul 18 | Knossos + Heraklion | East Crete | Drive to Heraklion (~45 min); Knossos Palace at 8 am (timed entry; €15/adult; €8/youth; 2-2.5 hrs; mythological home of King Minos) | Heraklion Archaeological Museum (finest Minoan collection in world; €15/adult; combo ticket with Knossos available; 2 hrs) | Drive back to Agios Nikolaos; harbor dinner | Rental car | 45 min each way | Y (Knossos timed entry) | Y (Knossos brutal in midday heat) | Museum first if very hot; Knossos after 5 pm if entry still available | 380 | Knossos + Museum is the best mythology day across all itinerary options |
+| 9 | Sun Jul 19 | Spinalonga | East Crete | Drive to Elounda (~20 min); Spinalonga Island boat (€15-20 RT; boats every 15-30 min 9 am-5 pm; former Venetian fortress + last active leper colony in Europe closed 1957; 1.5 hrs on island) | Swim at Elounda beach; late lunch | Agios Nikolaos harbor dinner; final Crete evening | Rental car + small boat | 20 min drive + 15 min boat each way | N | N | Pure pool or beach day if exhausted | 390 | Reading or watching The Island (Victoria Hislop) in advance makes Spinalonga significantly richer |
+| 10 | Mon Jul 20 | Crete to Athens | Athens | Return rental car at HER airport; Aegean HER-ATH (~45 min) | Check in Athens (Plaka or Koukaki) | Plaka walk + rooftop dinner with Acropolis view | HER-ATH domestic flight; airport express train | 45 min flight + 40 min train | Y (domestic flight) | N | Airport-adjacent hotel if late arrival; skip Plaka walk | 510 | Buffer night in Athens before transatlantic is non-negotiable |
+| 11 | Tue Jul 21 | Athens to DC | Home | Acropolis at 8 am opening (timed entry; €30/adult; €15/youth; book weeks ahead for July) | Airport express to ATH; fly IAD | Arrive DC | Airport express + IAD nonstop or connecting | 40 min train + long-haul | Y (Acropolis timed entry + flight) | Y (heat if midday; start by 7:45 am) | Skip Acropolis; go directly to airport if flight before noon | 240 | Book 8 am Acropolis slot well in advance; July fills weeks ahead |
 
 ---
 
@@ -520,6 +626,33 @@ The cultural caveat is honest: St. Lucia offers nature-and-water culture more th
 
 ---
 
+### TAB: Greece2_Costs
+
+| Category | Item | Unit_Cost | Qty | Low_USD | Mid_USD | High_USD | Confidence | Basis | Source_IDs |
+|---|---|---|---|---|---|---|---|---|---|
+| Flights | IAD-ATH round-trip economy x4 | 1100-1600 pp | 4 | 4000 | 5200 | 6400 | Medium | Same IAD-ATH routing as Option 1; United nonstop or Lufthansa via FRA | GR-FL |
+| Bags_Seat | Economy bags + seat selection | 90 pp RT | 4 | 200 | 360 | 560 | Low | Carrier-dependent | GR-FL |
+| Domestic_Flight | ATH-CHQ Aegean Airlines Athens-Chania | 70-120 pp | 4 | 280 | 380 | 480 | Medium-High | Aegean Airlines; multiple daily; ~45 min; book with international leg | GR2-DO |
+| Domestic_Flight | HER-ATH Aegean Airlines Heraklion-Athens | 70-120 pp | 4 | 280 | 380 | 480 | Medium-High | Aegean Airlines; multiple daily; one-way domestic to reach ATH departure | GR2-DO |
+| Lodging | West Crete Chania area 5 nights | 180-280 night | 5 | 900 | 1150 | 1400 | Medium | Agia Marina / Stalos beach-area hotels; pools and parking; July peak | GR2-LO |
+| Lodging | East Crete Agios Nikolaos area 3 nights | 150-260 night | 3 | 450 | 660 | 780 | Medium | Agios Nikolaos mid-range; Elounda commands 30-50% premium | GR2-LO |
+| Lodging | Athens 1 night Plaka or airport area | 150-280 night | 1 | 150 | 200 | 280 | Medium | Same range as Option 1 Athens buffer night | GR-LO |
+| Rental_Car | Economy compact 9 days one-way CHQ to HER | 50-85 day | 9 days | 450 | 580 | 765 | Medium | Major aggregators; July peak; one-way fee; full CDW coverage included | GR2-CA |
+| Fuel_Parking | Crete driving est 400-600 km | Estimate | — | 150 | 200 | 300 | Low | Fuel ~€1.85/L; parking at Balos, Imbros, Knossos, Heraklion | GR2-CA |
+| Activity | Knossos Palace timed entry | 15 adult / 8 youth | 4 | 50 | 55 | 55 | High | Greek Ministry of Culture; timed entry required July; under-18 non-EU reduced rate | GR2-AC |
+| Activity | Heraklion Archaeological Museum | 15 adult / 8 youth | 4 | 50 | 55 | 55 | High | Official museum pricing; combo ticket with Knossos ~€20/adult saves ~€10/adult | GR2-AC |
+| Activity | Acropolis timed entry Day 11 | 30 adult / 15 youth | 4 | 120 | 170 | 170 | High | Greek Ministry of Culture / hhticket.gr; same as Option 1; book July slots weeks ahead | GR-AC |
+| Activity | Spinalonga boat trip and island entry from Elounda | 20-30 pp | 4 | 70 | 105 | 140 | Medium | Elounda dock operators; boats every 15-30 min; island entry ~€8 often included | GR2-AC |
+| Activity | Imbros Gorge entry | ~2 pp | 4 | 10 | 10 | 10 | High | Small local entry fee; one of the best gorge hikes in Greece | GR2-AC |
+| Activity | Balos Lagoon boat Kissamos ferry round-trip | 20-25 pp | 4 | 70 | 100 | 140 | Medium | Seasonal ferry from Kissamos port; ~45 min each way; free road drive is backup | GR2-AC |
+| Activity | Inland village olive oil tasting (optional) | 15-25 pp | 4 | 0 | 80 | 130 | Low | Cooperative estates near Vamos/Gavalochori | GR2-AC |
+| Activity | Misc (Chania market; Rethymno Fortress; Venetian Harbor; beach clubs; incidentals) | Estimate | — | 50 | 120 | 220 | Low | Rethymno Fortress ~€4/adult; rest free or minimal | — |
+| Food | 9 ground days x4 people ($50/$80/$120 pp/day) | varies | 36 pp-days | 1800 | 2880 | 4320 | Medium | Beach tavernas ($15-25/pp lunch); sit-down dinners ($30-60/pp); Crete moderately priced | GR2-FD |
+| Insurance | Travel insurance (rental car + weather) | 80 pp | 4 | 200 | 320 | 500 | Medium | Recommended; CDW for rental car is separate in car rental booking | — |
+| TOTAL | | | | 9280 | 13005 | 17185 | | | |
+
+---
+
 ### TAB: Source_Register
 
 | Source_ID | Destination | Category | Source_Name | URL | What_It_Supports | Reliability | Notes |
@@ -562,6 +695,14 @@ The cultural caveat is honest: St. Lucia offers nature-and-water culture more th
 | SL-WX | St. Lucia | Weather | Saint Lucia Tourism Authority | stlucia.org | July weather and travel season guidance | High | |
 | FX | Cross-cutting | FX | ECB EUR/USD reference rate (May 2026) | ecb.europa.eu | EUR to USD conversion: €1 = $1.18 used throughout | High | Verify current rate when booking; significant FX moves possible between now and July 2026 |
 | US-DOS | Cross-cutting | Safety | U.S. Department of State | travel.state.gov | Travel advisories: Greece Level 1; Germany Level 1; Austria Level 1; St. Lucia Level 1 | High | Verify before departure |
+| GR2-DO | Greece Opt 2 | Domestic Flights | Aegean Airlines ATH-CHQ / HER-ATH | aegeanair.com | Athens-Chania and Heraklion-Athens domestic fares and schedules; ~45 min each | High | Multiple daily; July demand high; book at same time as international leg |
+| GR2-LO | Greece Opt 2 | Lodging | Booking.com / direct hotels Crete | booking.com | West Crete (Agia Marina/Stalos) and East Crete (Agios Nikolaos) family room rates | Medium | July peak; book 4-5 months ahead; Elounda area commands significant premium |
+| GR2-CA | Greece Opt 2 | Rental Car | Hertz / Europcar / Kayak Cars Crete | kayak.com/cars | Economy/compact rental CHQ pickup HER drop-off; July peak rates; full CDW pricing | Medium | One-way fee often included on Crete island rentals; always rent full CDW |
+| GR2-AC | Greece Opt 2 | Attractions | Greek Ministry of Culture — Knossos | culture.gov.gr | Knossos timed entry; pricing; booking; July capacity limits | High | Timed entry required in July; book 2-3 weeks ahead |
+| GR2-AC | Greece Opt 2 | Attractions | Heraklion Archaeological Museum | heraklionmuseum.gr | Museum pricing; hours; combo ticket with Knossos | High | Air-conditioned; good midday refuge; combo ticket saves ~€10/adult |
+| GR2-AC | Greece Opt 2 | Attractions | Elounda boat operators (Spinalonga) | elounda.gr (area) | Spinalonga boat schedule; pricing; island entry inclusion | Medium | Multiple operators at Elounda dock; no advance booking needed; first boat ~9 am |
+| GR2-AC | Greece Opt 2 | Attractions | Balos Lagoon ferry (Kissamos port) | balos.gr | Seasonal ferry schedule; pricing; Gramvousa/Balos roundtrip | Medium | Seasonal operation April-October; reserve 1 day ahead in July; rough road is free backup |
+| GR2-FD | Greece Opt 2 | Food | Crete Tourism / general research | incrediblecrete.gr | Dining cost benchmarks for Chania, Rethymno, Agios Nikolaos, Elounda | Medium | Crete slightly cheaper than Cyclades islands; estimate; confirm on arrival |
 
 ---
 
@@ -582,186 +723,3 @@ The cultural caveat is honest: St. Lucia offers nature-and-water culture more th
 **Food budgets** reflect 9 ground days for Europe and 10 days for St. Lucia, based on the overnight-flight structure of July 11 departures. Day 1 (July 11) is spent in the air for European destinations; St. Lucia delivers a same-day afternoon arrival and full 10 nights on the ground.
 
 **FX rates** used throughout: €1 = $1.18 USD (May 2026 reference). Rates will shift between now and July 2026. All euro-denominated costs should be re-verified closer to the trip.
-
----
-
-## PART A — NARRATIVE (continued)
-
----
-
-# DESTINATION 4 — GREECE OPTION 2: Crete + Athens
-
-## Why this itinerary works
-
-The Crete + Athens structure is a meaningfully different Greece experience from the Cyclades option. Where Option 1 delivers iconic caldera views and island hopping, Option 2 delivers Europe's oldest civilization, dramatic gorge hikes, crystalline lagoons, and enough variety across a single large island to fill a full week without repeating yourself. The rental car is the enabling asset: Crete stretches 250 km end to end, and a car transforms it from a single-base beach trip into a cross-island cultural and adventure journey.
-
-The **5 nights West Crete / 3 nights East Crete** split works because the two ends of the island hold fundamentally different experiences. West Crete (the Chania region) has the island's greatest natural experiences: Balos Lagoon, Falassarna, Imbros Gorge, and the beautiful Venetian harbor of Chania itself. East Crete holds the mythology and history: Knossos Palace, the Heraklion Archaeological Museum (the finest collection of Minoan artifacts in the world), and Spinalonga Island. A scenic transit day through Rethymno's Venetian old city connects the two bases without wasting a day.
-
-Athens appears as a one-night finale — the Acropolis at dawn before the 10am heat arrives, then straight to the airport. It is the right amount of Athens for a Crete-focused trip: enough to stand on the hill, not enough to exhaust the family the night before a transatlantic flight.
-
-**Honest tradeoffs vs. Cyclades Option 1:** No Santorini caldera view, no island-hopping ferry experience, and slightly lower "postcard moment" visual drama. The returns are a more relaxed pace, richer mythology depth (Knossos is arguable the single best archaeology site on this list), no ferry-weather anxiety, no luggage moves across water, and a rental-car freedom that makes detours easy. For a family where the teenagers have any interest in ancient history or mythology, this trip arguably delivers more intellectual substance.
-
-## Logistics, weather & advisories
-
-**July weather:** Same fundamental advice as Option 1 — archaeology before 10 am, beaches and pools midday, town wandering after 6 pm. Crete benefits from persistent sea breezes and is generally more comfortable than Athens in July. Mountain roads to Balos can be rough and narrow; a standard compact handles them fine at slow speeds.
-
-**Rental car:** Pick up at CHQ (Chania Airport) on Day 2 arrival; drop one-way at HER (Heraklion Airport) on Day 10. Most major operators (Hertz, Enterprise, Europcar) include the one-way Crete drop-off fee at no charge or a small surcharge. Book with full CDW (collision damage waiver) — Crete road surfaces vary, and tight village streets reward full coverage. An economy/compact fits four passengers and carry-on luggage; if checking heavy bags, budget up to a compact wagon or small SUV.
-
-**Domestic flights:** ATH→CHQ and HER→ATH are both served by Aegean Airlines with multiple daily departures (~45 min each). Book these when booking the international legs; July demand is high and both Chania and Heraklion airports have limited capacity.
-
-**Safety:** Greece Level 1 (Exercise Normal Precautions). Crete has no material security concerns. Petty theft risk is concentrated in Athens (Syntagma, Plaka, metro); standard precautions apply.
-
-**Flights:** Same IAD→ATH routing as Option 1 (United nonstop seasonal, Lufthansa via FRA, Turkish via IST). Round-trip economy: **$1,100–1,300/pp** advance, **$1,300–1,600** mid-range.
-
-## Day-by-Day Itinerary
-
-| Day | Date | Location | Overnight | Morning | Afternoon | Evening | Transport | Travel Time | Book Ahead | Weather Sensitive | Backup Option | Est. Daily Cost (Family USD) | Notes |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 1 | Sat Jul 11 | DC → Athens | In-flight | Airport departure | Transatlantic flight | In-flight | IAD→ATH nonstop or connecting | Overnight | Y | N | None | 0 | Europe clock begins on flight night |
-| 2 | Sun Jul 12 | Athens → Chania | Chania area | Arrive ATH; Aegean/Olympic to CHQ (~45 min); pick up rental car | Check in Agia Marina or Stalos; beach walk | Chania Old Town + Venetian Harbor first look | ATH→CHQ domestic; rental car | 45 min flight + 30 min drive | Y (domestic flight + car) | N | If very delayed in ATH, skip Old Town; rest at hotel | 480 | Do not attempt Athens sightseeing on Day 2 — go straight to Chania; arrival recovery is the priority |
-| 3 | Mon Jul 13 | Chania area | Chania area | Recovery beach morning (Agia Marina; most hotels have pools) | Pool or beach; light taverna lunch | Chania Old Town + Venetian Lighthouse walk; waterfront dinner | Rental car | 20 min to Chania | N | N | Pure pool day if exhausted | 340 | Chania harbor is one of the most beautiful in Greece; an unhurried first evening there is ideal |
-| 4 | Tue Jul 14 | West Crete | Chania area | **Balos Lagoon boat** from Kissamos port (~10 am departure; 45 min each way; turquoise lagoon + Gramvousa Island; reserve day before); OR Falassarna beach (45 min drive; one of Greece's best sand beaches; free) | Swim at Balos or Falassarna through late afternoon | Casual taverna dinner near hotel | Rental car + seasonal ferry (Balos) | 45 min drive to Kissamos + 45 min boat each way | Y (Balos ferry reservation) | Y (seas can cancel Balos ferry) | Falassarna by car if Balos ferry cancelled; equally spectacular, no booking required | 380 | Balos is among the most photographed beaches in Greece; approach by boat is far better than the rough road drive; Falassarna is a worthy alternative |
-| 5 | Wed Jul 15 | Chania / inland villages | Chania area | Chania Old Town covered market (Agora; one of the best covered markets in Greece); Venetian walls and lighthouse | Inland villages: Vamos or Gavalochori (well-preserved stone architecture) + olive oil cooperative tasting (~€15–25/pp) | Chania waterfront dinner | Rental car | 30–60 min for inland loop | N | N | Extra beach day or Elafonissi if skipped earlier | 280 | Crete's inland villages are largely untouristy; Vamos is a beautifully preserved stone village with a cooperative-run café |
-| 6 | Thu Jul 16 | Imbros Gorge | Chania area | **Imbros Gorge** (start 7 am; 8 km one-way; ~2.5–3 hrs; far less crowded than Samaria; dramatic limestone narrows, wildflowers, mule tracks; €2/person entry) | South coast seafood lunch in Loutro or Hora Sfakion | Easy evening in Chania | Rental car | 50 min to gorge trailhead (Imbros village); arrange car shuttle or return drive | N | Y (start early; midday heat is intense) | Chania market day and beach if too hot | 280 | Imbros is significantly easier than Samaria Gorge but comparably dramatic; shuttle from Hora Sfakion back to car is ~€5/person and runs regularly |
-| 7 | Fri Jul 17 | West → East Crete | East Crete | Late breakfast; check out; drive east on coastal highway (scenic E75) | Stop Rethymno: Venetian Fortress Fortezza (~€4/adult; 30-min visit) + Old Town walk + lunch | Arrive Agios Nikolaos; check in; evening walk along the famous inner lake | Rental car | ~2.5 hrs total (Chania→Rethymno ~1 hr; Rethymno→Agios Nikolaos ~1.5 hrs) | N | N | Skip Rethymno stop; drive straight through | 370 | Rethymno is a genuine Venetian gem often overlooked; worth 90 min; Agios Nikolaos lake is beautiful at sunset |
-| 8 | Sat Jul 18 | Knossos + Heraklion | East Crete | Drive to Heraklion (~45 min); **Knossos Palace** at 8 am opening (timed entry; allow 2–2.5 hrs; €15/adult; reconstructed Minoan palace; mythological home of King Minos and the Minotaur) | **Heraklion Archaeological Museum** (the finest Minoan collection in the world; €15/adult; combo ticket with Knossos available; allow 2 hrs in air-conditioned gallery) | Drive back to Agios Nikolaos; harbor dinner | Rental car | 45 min each way | Y (Knossos timed entry) | Y (Knossos brutal in midday heat) | Museum first if very hot; Knossos after 5 pm works if entry available | 380 | Knossos + Museum is the single best mythology day across all three itinerary options; do them on the same day |
-| 9 | Sun Jul 19 | Spinalonga | East Crete | Easy morning; drive to Elounda (~20 min); **Spinalonga Island** boat (€15–20 RT from Elounda dock; boats every 15–30 min 9 am–5 pm; former Venetian fortress + last active leper colony in Europe, closed 1957; ~1.5 hrs on island) | Swim at Elounda beach; late lunch at harbor taverna | Agios Nikolaos harbor dinner; final Crete evening | Rental car + small boat | 20 min drive + 15 min boat each way | N | N | Pure pool/beach day if exhausted | 390 | Spinalonga is one of the most historically fascinating sites on Crete; reading Victoria Hislop's *The Island* or watching the series in advance makes the visit much richer |
-| 10 | Mon Jul 20 | Crete → Athens | Athens | Return rental car at HER airport; Aegean HER→ATH (~45 min); airport express to city | Check in Athens (Plaka or Koukaki area) | Plaka walk + rooftop dinner with Acropolis view | HER→ATH domestic flight; airport express train | 45 min flight + 40 min train | Y (domestic flight) | N | Airport-adjacent hotel if late arrival; skip Plaka walk | 510 | Buffer night in Athens before transatlantic is non-negotiable; a missed HER→ATH domestic could cascade into missing the international departure |
-| 11 | Tue Jul 21 | Athens → DC | Home | **Acropolis at 8 am opening** (timed entry required; same approach as Option 1 — before heat and crowds; €30/adult, €15/youth) | Airport express train to ATH; fly IAD | Arrive DC | Airport express + IAD nonstop or connecting | 40 min train + long-haul | Y (Acropolis timed entry + flight) | Y (heat; start no later than 7:45 am) | Skip Acropolis; go directly to airport if flight is before noon | 240 | Book Acropolis timed entry for 8 am slot weeks ahead; July fills fast |
-
-## Teen Highlights
-
-1. **Knossos Palace + Heraklion Museum on the same day** — the palace of King Minos, the mythological labyrinth of the Minotaur, and the world's greatest collection of Minoan frescoes and artifacts. Better mythology storytelling than any other site on this list for history-interested teenagers.
-2. **Imbros Gorge at dawn** — an 8 km slot-canyon hike where the walls narrow to 2 meters and you're alone in the gorge for the first hour. Genuinely dramatic and far less crowded than the famous Samaria Gorge.
-3. **Spinalonga Island** — a Venetian fortress that became Europe's last active leper colony (closed 1957, 49 years after the rest of the world). Haunting, beautiful, and fascinating to teenagers who engage with the history. Recommending they watch or read *The Island* beforehand pays dividends here.
-
-## Key Risks & Fallbacks
-
-| Risk | Likelihood | Impact | Fallback |
-|---|---|---|---|
-| Balos Lagoon ferry cancelled (seas/wind) | Medium (July) | Low | Drive to Falassarna instead; free, equally spectacular, no booking required |
-| Knossos midday heat closure or extreme crowding | Medium (July peak) | Low (8 am visit planned) | Heraklion Museum first if very hot; Knossos after 5 pm has lower crowds |
-| Rental car mechanical issue or accident | Low | Medium | Rent full CDW coverage; major operators have roadside assistance on Crete; main roads are good quality |
-| HER→ATH domestic delay (Day 10) | Low-Medium | Low (buffer night absorbs it) | Buffer night in Athens eliminates cascade risk; do not remove it |
-| Imbros Gorge extreme heat | Medium (July midday) | Low (7 am start planned) | Chania market day + beach instead; or Loutro beach by ferry |
-
----
-
-## PART B — COST TABLES (continued)
-
----
-
-### Greece Option 2 — Detailed Cost Breakdown (Family of 4, 9 hotel nights)
-
-| Category | Item | Unit Cost | Qty | Low USD | Mid USD | High USD | Confidence | Basis | Source IDs |
-|---|---|---|---|---|---|---|---|---|---|
-| Flights | IAD→ATH round-trip economy | $1,100–1,600/pp | 4 | $4,000 | $5,200 | $6,400 | Medium | Same IAD–ATH routing as Option 1; United nonstop or Lufthansa via FRA | GR-FL |
-| Bags & seat selection | Economy class typical fees | $90/pp RT | 4 | $200 | $360 | $560 | Low | Carrier-dependent; assume 1 checked bag/pp | GR-FL |
-| Domestic flight | ATH→CHQ (Aegean Airlines, Athens–Chania) | $70–120/pp | 4 | $280 | $380 | $480 | Medium-High | Aegean Airlines; multiple daily; ~45 min; book with international leg for July availability | GR2-DO |
-| Domestic flight | HER→ATH (Aegean Airlines, Heraklion–Athens) | $70–120/pp | 4 | $280 | $380 | $480 | Medium-High | Aegean Airlines; multiple daily; one-way domestic to reach ATH departure | GR2-DO |
-| Lodging | West Crete — Chania area, 5 nights | $180–280/night | 5 | $900 | $1,150 | $1,400 | Medium | Agia Marina / Stalos beach-area hotels; pools, parking; July peak pricing | GR2-LO |
-| Lodging | East Crete — Agios Nikolaos area, 3 nights | $150–260/night | 3 | $450 | $660 | $780 | Medium | Agios Nikolaos mid-range hotels; Elounda commands 30–50% premium over mid-range | GR2-LO |
-| Lodging | Athens — 1 night (Plaka or airport-adjacent) | $150–280/night | 1 | $150 | $200 | $280 | Medium | Same range as Option 1 Athens buffer; Plaka or Koukaki area | GR-LO |
-| Rental car | Economy/compact, 9 days, one-way CHQ→HER | $50–85/day | 9 days | $450 | $580 | $765 | Medium | Major aggregators (Hertz, Europcar); July peak demand; one-way fee typically included or small surcharge; book full CDW coverage | GR2-CA |
-| Fuel & parking | Crete driving (~400–600 km estimated) | Estimate | — | $150 | $200 | $300 | Low | Fuel ~€1.85/L; parking fees at Balos (Kissamos), Imbros trailhead, Knossos, Heraklion | GR2-CA |
-| Activities | Knossos Palace (timed entry) | €15/adult; €8/youth | 4 | $50 | $55 | $55 | High | Greek Ministry of Culture; timed entry required July; under-18 non-EU reduced rate | GR2-AC |
-| Activities | Heraklion Archaeological Museum | €15/adult; €8/youth | 4 | $50 | $55 | $55 | High | Official museum pricing; combo ticket with Knossos (~€20/adult) saves ~€10/adult — verify at heraklionmuseum.gr | GR2-AC |
-| Activities | Acropolis timed entry (Day 11, firm) | €30/adult; €15/youth | 4 | $120 | $170 | $170 | High | Greek Ministry of Culture / hhticket.gr; same as Option 1; book July slots weeks ahead | GR-AC |
-| Activities | Spinalonga boat trip + island entry (from Elounda) | €20–30/pp | 4 | $70 | $105 | $140 | Medium | Elounda dock operators; boats every 15–30 min; island entry ~€8/adult often included in combined ticket | GR2-AC |
-| Activities | Imbros Gorge entry | ~€2/pp | 4 | $10 | $10 | $10 | High | Small local entry fee; one of the best gorge hikes in Greece | GR2-AC |
-| Activities | Balos Lagoon boat — Kissamos ferry, round-trip | €20–25/pp | 4 | $70 | $100 | $140 | Medium | Seasonal ferry from Kissamos port; ~45 min each way; alternative is free road drive (rough track, parking ~€5) | GR2-AC |
-| Activities | Inland village / olive oil tasting (optional) | €15–25/pp | 4 | $0 | $80 | $130 | Low | Cooperative estates near Vamos/Gavalochori; includes tasting and small purchase | GR2-AC |
-| Activities | Misc (Chania market, Rethymno Fortress, Venetian Harbor, beach clubs, incidentals) | Estimate | — | $50 | $120 | $220 | Low | Rethymno Fortress ~€4/adult; rest is free or small fees | — |
-| Food & dining | 9 ground days × 4 people | $50/$80/$120 pp/day | 36 pp-days | $1,800 | $2,880 | $4,320 | Medium | Beach tavernas ($15–25/pp lunch), sit-down dinners ($30–60/pp); Crete is moderately priced — cheaper than Santorini, comparable to Naxos | GR2-FD |
-| Travel insurance | Trip protection (rental car + weather) | $80/pp | 4 | $200 | $320 | $500 | Medium | Recommended; note: CDW for rental car is separate line item in car rental | — |
-| **TOTAL** | | | | **$9,280** | **$13,005** | **$17,185** | | | |
-
----
-
-### Updated Side-by-Side Cost Comparison Including Greece Option 2 (Mid-Range, Family of 4)
-
-| Category | Greece Opt 1 (Cyclades) | Greece Opt 2 (Crete) | Bavaria + Salzburg | St. Lucia (A) | St. Lucia (B) |
-|---|---|---|---|---|---|
-| Flights + bags | $5,560 | $6,320 | $5,100 | $3,240 | $3,240 |
-| Lodging | $2,930 | $2,010 | $2,720 | $7,800 | $3,440 |
-| Ground transport / ferries / rail / car | $1,462 | $780 | $601 | $120 | $640 |
-| Activities | $1,619 | $695 | $1,263 | $1,529 | $1,129 |
-| Food | $2,880 | $2,880 | $2,340 | $300 | $3,000 |
-| Insurance & misc | $820 | $320 | $820 | $650 | $700 |
-| **TOTAL MID** | **~$15,271** | **~$13,005** | **~$12,844** | **~$13,639** | **~$12,149** |
-| Nights on ground | 9 | 9 | 9 | 10 | 10 |
-| Cost per night on ground | ~$1,697 | ~$1,445 | ~$1,427 | ~$1,364 | ~$1,215 |
-
-> Note: Greece Option 1 total in this table is recalculated from spreadsheet line-item sums; see Greece_Costs tab for authoritative figures. The side-by-side uses sum-of-line-items totals, not the TOTAL row values stated in the narrative (which contained arithmetic errors identified during spreadsheet build).
-
----
-
-## SPREADSHEET TABS (additions for Greece Option 2)
-
----
-
-### TAB: Greece2_Itinerary
-
-| Day | Date | Location | Overnight | Morning | Afternoon | Evening | Transport | Travel_Time | Book_Ahead | Weather_Sensitive | Backup_Option | Est_Daily_Cost_Family_USD | Notes |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 1 | Sat Jul 11 | DC to Athens | In-flight | Airport departure | Transatlantic flight | In-flight | IAD nonstop or connecting | Overnight | Y | N | None | 0 | Europe clock begins on flight night |
-| 2 | Sun Jul 12 | Athens to Chania | Chania area | Arrive ATH; Aegean/Olympic to CHQ (~45 min); pick up rental car | Check in; Agia Marina beach | Chania Old Town + Venetian Harbor | ATH-CHQ domestic; rental car | 45 min flight + 30 min drive | Y (domestic flight + car) | N | If delayed in ATH skip Old Town; rest at hotel | 480 | Do not attempt Athens sightseeing on Day 2; go straight to Chania |
-| 3 | Mon Jul 13 | Chania area | Chania area | Recovery beach morning | Pool or beach; light taverna lunch | Chania Old Town + Venetian Lighthouse walk; waterfront dinner | Rental car | 20 min to Chania | N | N | Pure pool day if exhausted | 340 | Chania harbor is one of the most beautiful in Greece; unhurried evening there is ideal |
-| 4 | Tue Jul 14 | West Crete | Chania area | Balos Lagoon boat from Kissamos (~10 am; 45 min each way; reserve day before); OR Falassarna beach (free; 45 min drive) | Swim at Balos or Falassarna through afternoon | Casual taverna dinner near hotel | Rental car + seasonal ferry (Balos) | 45 min drive to Kissamos + 45 min boat each way | Y (Balos ferry reservation) | Y (seas can cancel Balos ferry) | Falassarna by car if Balos cancelled; free; no booking needed | 380 | Balos by boat is far better than the rough road access; Falassarna is an equally valid choice |
-| 5 | Wed Jul 15 | Chania inland villages | Chania area | Chania Old Town covered market (Agora) | Inland villages: Vamos or Gavalochori + olive oil cooperative tasting (~€15-25/pp) | Chania waterfront dinner | Rental car | 30-60 min inland loop | N | N | Extra beach day or Elafonissi if skipped earlier | 280 | Crete inland villages are largely untouristy; Vamos is beautifully preserved |
-| 6 | Thu Jul 16 | Imbros Gorge | Chania area | Imbros Gorge (start 7 am; 8 km one-way; ~2.5-3 hrs; €2/person entry; limestone narrows; far less crowded than Samaria) | South coast seafood lunch in Loutro or Hora Sfakion | Easy evening in Chania | Rental car | 50 min to gorge trailhead; arrange shuttle from Hora Sfakion (~€5/person) | N | Y (start early; midday heat intense) | Chania market + beach if too hot | 280 | Shuttle from Hora Sfakion back to car runs regularly; one-way hike is preferable to out-and-back |
-| 7 | Fri Jul 17 | West to East Crete | East Crete | Late breakfast; check out; drive east on coastal highway | Stop Rethymno: Venetian Fortress Fortezza (~€4/adult; 30 min) + Old Town walk + lunch | Arrive Agios Nikolaos; check in; evening walk along the inner lake | Rental car | ~2.5 hrs total (Chania-Rethymno 1 hr; Rethymno-Agios Nikolaos 1.5 hrs) | N | N | Skip Rethymno and drive straight through if needed | 370 | Rethymno Old Town is a genuine Venetian gem; worth 90 min; Agios Nikolaos lake is beautiful at sunset |
-| 8 | Sat Jul 18 | Knossos + Heraklion | East Crete | Drive to Heraklion (~45 min); Knossos Palace at 8 am (timed entry; €15/adult; €8/youth; 2-2.5 hrs; mythological home of King Minos) | Heraklion Archaeological Museum (finest Minoan collection in world; €15/adult; combo ticket with Knossos available; 2 hrs) | Drive back to Agios Nikolaos; harbor dinner | Rental car | 45 min each way | Y (Knossos timed entry) | Y (Knossos brutal in midday heat) | Museum first if very hot; Knossos after 5 pm if entry still available | 380 | Knossos + Museum is the best mythology day across all itinerary options |
-| 9 | Sun Jul 19 | Spinalonga | East Crete | Drive to Elounda (~20 min); Spinalonga Island boat (€15-20 RT; boats every 15-30 min 9 am-5 pm; former Venetian fortress + last active leper colony in Europe closed 1957; 1.5 hrs on island) | Swim at Elounda beach; late lunch | Agios Nikolaos harbor dinner; final Crete evening | Rental car + small boat | 20 min drive + 15 min boat each way | N | N | Pure pool or beach day if exhausted | 390 | Reading or watching The Island (Victoria Hislop) in advance makes Spinalonga significantly richer |
-| 10 | Mon Jul 20 | Crete to Athens | Athens | Return rental car at HER airport; Aegean HER-ATH (~45 min) | Check in Athens (Plaka or Koukaki) | Plaka walk + rooftop dinner with Acropolis view | HER-ATH domestic flight; airport express train | 45 min flight + 40 min train | Y (domestic flight) | N | Airport-adjacent hotel if late arrival; skip Plaka walk | 510 | Buffer night in Athens before transatlantic is non-negotiable |
-| 11 | Tue Jul 21 | Athens to DC | Home | Acropolis at 8 am opening (timed entry; €30/adult; €15/youth; book weeks ahead for July) | Airport express to ATH; fly IAD | Arrive DC | Airport express + IAD nonstop or connecting | 40 min train + long-haul | Y (Acropolis timed entry + flight) | Y (heat if midday; start by 7:45 am) | Skip Acropolis; go directly to airport if flight before noon | 240 | Book 8 am Acropolis slot well in advance; July fills weeks ahead |
-
----
-
-### TAB: Greece2_Costs
-
-| Category | Item | Unit_Cost | Qty | Low_USD | Mid_USD | High_USD | Confidence | Basis | Source_IDs |
-|---|---|---|---|---|---|---|---|---|---|
-| Flights | IAD-ATH round-trip economy x4 | 1100-1600 pp | 4 | 4000 | 5200 | 6400 | Medium | Same IAD-ATH routing as Option 1; United nonstop or Lufthansa via FRA | GR-FL |
-| Bags_Seat | Economy bags + seat selection | 90 pp RT | 4 | 200 | 360 | 560 | Low | Carrier-dependent | GR-FL |
-| Domestic_Flight | ATH-CHQ Aegean Airlines Athens-Chania | 70-120 pp | 4 | 280 | 380 | 480 | Medium-High | Aegean Airlines; multiple daily; ~45 min; book with international leg | GR2-DO |
-| Domestic_Flight | HER-ATH Aegean Airlines Heraklion-Athens | 70-120 pp | 4 | 280 | 380 | 480 | Medium-High | Aegean Airlines; multiple daily; one-way domestic to reach ATH departure | GR2-DO |
-| Lodging | West Crete Chania area 5 nights | 180-280 night | 5 | 900 | 1150 | 1400 | Medium | Agia Marina / Stalos beach-area hotels; pools and parking; July peak | GR2-LO |
-| Lodging | East Crete Agios Nikolaos area 3 nights | 150-260 night | 3 | 450 | 660 | 780 | Medium | Agios Nikolaos mid-range; Elounda commands 30-50% premium | GR2-LO |
-| Lodging | Athens 1 night Plaka or airport area | 150-280 night | 1 | 150 | 200 | 280 | Medium | Same range as Option 1 Athens buffer night | GR-LO |
-| Rental_Car | Economy compact 9 days one-way CHQ to HER | 50-85 day | 9 days | 450 | 580 | 765 | Medium | Major aggregators; July peak; one-way fee; full CDW coverage included | GR2-CA |
-| Fuel_Parking | Crete driving est 400-600 km | Estimate | — | 150 | 200 | 300 | Low | Fuel ~€1.85/L; parking at Balos, Imbros, Knossos, Heraklion | GR2-CA |
-| Activity | Knossos Palace timed entry | 15 adult / 8 youth | 4 | 50 | 55 | 55 | High | Greek Ministry of Culture; timed entry required July; under-18 non-EU reduced rate | GR2-AC |
-| Activity | Heraklion Archaeological Museum | 15 adult / 8 youth | 4 | 50 | 55 | 55 | High | Official museum pricing; combo ticket with Knossos ~€20/adult saves ~€10/adult | GR2-AC |
-| Activity | Acropolis timed entry Day 11 | 30 adult / 15 youth | 4 | 120 | 170 | 170 | High | Greek Ministry of Culture / hhticket.gr; same as Option 1; book July slots weeks ahead | GR-AC |
-| Activity | Spinalonga boat trip and island entry from Elounda | 20-30 pp | 4 | 70 | 105 | 140 | Medium | Elounda dock operators; boats every 15-30 min; island entry ~€8 often included | GR2-AC |
-| Activity | Imbros Gorge entry | ~2 pp | 4 | 10 | 10 | 10 | High | Small local entry fee; one of the best gorge hikes in Greece | GR2-AC |
-| Activity | Balos Lagoon boat Kissamos ferry round-trip | 20-25 pp | 4 | 70 | 100 | 140 | Medium | Seasonal ferry from Kissamos port; ~45 min each way; free road drive is backup | GR2-AC |
-| Activity | Inland village olive oil tasting (optional) | 15-25 pp | 4 | 0 | 80 | 130 | Low | Cooperative estates near Vamos/Gavalochori | GR2-AC |
-| Activity | Misc (Chania market; Rethymno Fortress; Venetian Harbor; beach clubs; incidentals) | Estimate | — | 50 | 120 | 220 | Low | Rethymno Fortress ~€4/adult; rest free or minimal | — |
-| Food | 9 ground days x4 people ($50/$80/$120 pp/day) | varies | 36 pp-days | 1800 | 2880 | 4320 | Medium | Beach tavernas ($15-25/pp lunch); sit-down dinners ($30-60/pp); Crete moderately priced | GR2-FD |
-| Insurance | Travel insurance (rental car + weather) | 80 pp | 4 | 200 | 320 | 500 | Medium | Recommended; CDW for rental car is separate in car rental booking | — |
-| TOTAL | | | | 9280 | 13005 | 17185 | | | |
-
----
-
-### TAB: Summary — Greece Option 2 Row (add as row 3, renumber existing rows 3-5 to 4-6)
-
-| Destination_Option | Trip_Character | Ground_Nights | Flight_Nights | Low_Total_USD | Mid_Total_USD | High_Total_USD | Cost_Per_Ground_Night_Mid | Cost_Confidence | Logistics_Friction | Weather_Risk_July | Cultural_Depth | Teen_Appeal | Key_Strength | Key_Weakness |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Greece_Option2 | Crete + Athens with rental car | 9 | 1 | 9280 | 13005 | 17185 | 1445 | Medium | Medium | Moderate (heat; car on narrow roads) | Highest | High | Most historically rich; car freedom; no ferry anxiety | No Santorini caldera view; car adds rental/fuel complexity |
-
----
-
-### TAB: Source_Register — New Rows for Greece Option 2
-
-| Source_ID | Destination | Category | Source_Name | URL | What_It_Supports | Reliability | Notes |
-|---|---|---|---|---|---|---|---|
-| GR2-DO | Greece Opt 2 | Domestic Flights | Aegean Airlines ATH-CHQ / HER-ATH | aegeanair.com | Athens-Chania and Heraklion-Athens domestic fares and schedules; ~45 min each | High | Multiple daily; July demand high; book at same time as international leg |
-| GR2-LO | Greece Opt 2 | Lodging | Booking.com / direct hotels Crete | booking.com | West Crete (Agia Marina/Stalos) and East Crete (Agios Nikolaos) family room rates | Medium | July peak; book 4-5 months ahead; Elounda area commands significant premium |
-| GR2-CA | Greece Opt 2 | Rental Car | Hertz / Europcar / Kayak Cars Crete | kayak.com/cars | Economy/compact rental CHQ pickup HER drop-off; July peak rates; full CDW pricing | Medium | One-way fee often included on Crete island rentals; always rent full CDW |
-| GR2-AC | Greece Opt 2 | Attractions | Greek Ministry of Culture — Knossos | culture.gov.gr | Knossos timed entry; pricing; booking; July capacity limits | High | Timed entry required in July; book 2-3 weeks ahead |
-| GR2-AC | Greece Opt 2 | Attractions | Heraklion Archaeological Museum | heraklionmuseum.gr | Museum pricing; hours; combo ticket with Knossos | High | Air-conditioned; good midday refuge; combo ticket saves ~€10/adult |
-| GR2-AC | Greece Opt 2 | Attractions | Elounda boat operators (Spinalonga) | elounda.gr (area) | Spinalonga boat schedule; pricing; island entry inclusion | Medium | Multiple operators at Elounda dock; no advance booking needed; first boat ~9 am |
-| GR2-AC | Greece Opt 2 | Attractions | Balos Lagoon ferry (Kissamos port) | balos.gr | Seasonal ferry schedule; pricing; Gramvousa/Balos roundtrip | Medium | Seasonal operation April-October; reserve 1 day ahead in July; rough road is free backup |
-| GR2-FD | Greece Opt 2 | Food | Crete Tourism / general research | incrediblecrete.gr | Dining cost benchmarks for Chania, Rethymno, Agios Nikolaos, Elounda | Medium | Crete slightly cheaper than Cyclades islands; estimate; confirm on arrival |
