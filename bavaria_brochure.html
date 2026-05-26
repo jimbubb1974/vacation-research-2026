@@ -25,6 +25,7 @@ body {
   margin: 0.4in auto;
   background: white;
   box-shadow: 0 3px 16px rgba(0,0,0,0.15);
+  overflow: hidden;
 }
 
 /* ─── Overview ─── */
@@ -32,9 +33,7 @@ body {
 .overview-sub { font-size: 12pt; color: #B8860B; font-style: italic; letter-spacing: 0.06em; margin-bottom: 0.22in; }
 .trip-meta { display: flex; gap: 1.5rem; margin-bottom: 0.2in; font-size: 9.5pt; color: #555; }
 .trip-meta span { border-left: 3px solid #B8860B; padding-left: 8px; }
-
 #map { height: 310px; width: 100%; border: 1px solid #CCC; border-radius: 3px; margin-bottom: 0.22in; }
-
 .ov-table { width: 100%; border-collapse: collapse; font-size: 9pt; }
 .ov-table th { background: #1C3557; color: white; padding: 5px 9px; text-align: left; font-weight: normal; font-size: 8pt; letter-spacing: 0.06em; text-transform: uppercase; }
 .ov-table td { padding: 4px 9px; border-bottom: 1px solid #E8E4DC; vertical-align: top; }
@@ -48,35 +47,66 @@ body {
 .dh-left .day-date { font-size: 9pt; color: #A0BAD0; margin-top: 1px; }
 .day-badge { background: #B8860B; color: white; padding: 4px 13px; border-radius: 18px; font-size: 8.5pt; letter-spacing: 0.06em; text-transform: uppercase; white-space: nowrap; }
 
-/* ─── Photo Grid ─── */
-.photo-grid { display: grid; gap: 7px; margin-bottom: 0.18in; }
-.g2 { grid-template-columns: 1fr 1fr; }
-.g3 { grid-template-columns: 1fr 1fr 1fr; }
-.ghero { grid-template-columns: 3fr 2fr; }
-.photo-grid img { width: 100%; height: 185px; object-fit: cover; border-radius: 3px; display: block; }
-.g3 img { height: 150px; }
-.ghero img { height: 190px; }
-.cap { font-size: 7pt; color: #999; font-style: italic; margin-top: 2px; line-height: 1.3; }
-
 /* ─── Activities ─── */
 .act { margin-bottom: 0.13in; padding-left: 12px; border-left: 3px solid #B8860B; }
 .act-name { font-size: 8.5pt; font-weight: bold; color: #1C3557; text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 2px; }
 .act-text { font-size: 9.5pt; color: #3A3A3A; line-height: 1.5; }
 .act-tip { font-size: 8pt; color: #B8860B; font-style: italic; margin-top: 2px; }
 
+/* ─── Caption ─── */
+.cap { font-size: 7pt; color: #999; font-style: italic; margin-top: 2px; line-height: 1.3; }
+
+/* ─── Pull quote ─── */
+.pull { font-size: 10pt; font-style: italic; color: #1C3557; border-left: 4px solid #B8860B; padding: 6px 12px; margin: 0 0 0.13in; line-height: 1.65; background: #F9F7F3; }
+
+/* ─── Two-column grid layouts ─── */
+.lay-2col { display: grid; gap: 0.22in; align-items: start; }
+.col-6040 { grid-template-columns: 3fr 2fr; }
+.col-5545 { grid-template-columns: 55fr 45fr; }
+.col-4555 { grid-template-columns: 45fr 55fr; }
+.col-5050 { grid-template-columns: 1fr 1fr; }
+.col-4060 { grid-template-columns: 2fr 3fr; }
+.col-3565 { grid-template-columns: 35fr 65fr; }
+
+/* ─── Bleed: image breaks out of page padding ─── */
+.bleed { margin-left: -0.65in; margin-right: -0.65in; font-size: 0; line-height: 0; }
+.bleed img { display: block; width: 100%; object-fit: cover; }
+.bleed-grid { display: grid; gap: 4px; }
+.bleed-grid img { width: 100%; object-fit: cover; display: block; }
+.bg-2 { grid-template-columns: 1fr 1fr; }
+.bg-3 { grid-template-columns: 1fr 1fr 1fr; }
+
+/* ─── Photo strip (within page padding) ─── */
+.strip-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 6px; }
+.strip-3 img { width: 100%; object-fit: cover; display: block; border-radius: 2px; }
+
+/* ─── Photo stack ─── */
+.photo-stack { display: flex; flex-direction: column; gap: 7px; }
+.photo-stack img { width: 100%; object-fit: cover; display: block; border-radius: 2px; }
+
+/* ─── Standalone fill image ─── */
+img.fill { width: 100%; object-fit: cover; display: block; border-radius: 2px; }
+
 /* ─── Print ─── */
 @media print {
   body { background: white; }
-  .page { width: 100%; min-height: auto; padding: 0; margin: 0; box-shadow: none; }
+  .page {
+    width: 100%;
+    min-height: auto;
+    height: 11in;
+    padding: 0;
+    margin: 0;
+    box-shadow: none;
+    overflow: hidden;
+  }
   .day-page { page-break-before: always; break-before: page; }
   .day-header { padding: 0.15in 0.5in; margin: 0 0 0.18in; }
-  .page > *:not(.day-header) { margin-left: 0.5in; margin-right: 0.5in; }
+  .page > *:not(.day-header):not(.bleed) { margin-left: 0.5in; margin-right: 0.5in; }
+  .page > .bleed { margin-left: 0 !important; margin-right: 0 !important; }
   #map { height: 250px; }
-  .photo-grid img { height: 145px; }
-  .g3 img { height: 118px; }
-  .ghero img { height: 150px; }
   .act-text { font-size: 9pt; }
-  .act { margin-bottom: 0.11in; }
+  .act { margin-bottom: 0.1in; }
+  .pull { font-size: 9.5pt; }
 }
 
 @page { size: letter portrait; margin: 0.45in 0; }
@@ -84,7 +114,9 @@ body {
 </head>
 <body>
 
-<!-- ═══ OVERVIEW ═══ -->
+<!-- ═══════════════════════════════════════════
+     OVERVIEW PAGE
+════════════════════════════════════════════ -->
 <div class="page" id="overview">
   <div class="overview-title">Bavaria &amp; Salzburg</div>
   <div class="overview-sub">A Family Adventure · Summer 2026</div>
@@ -115,7 +147,10 @@ body {
   </table>
 </div>
 
-<!-- ═══ DAY 2 ═══ -->
+<!-- ═══════════════════════════════════════════
+     DAY 2 · ARRIVAL DAY
+     Layout: Sidebar-right — text left, stacked photos right, Eisbach strip at bottom
+════════════════════════════════════════════ -->
 <div class="page day-page" id="day2">
   <div class="day-header">
     <div class="dh-left">
@@ -125,32 +160,49 @@ body {
     </div>
     <div class="day-badge">Munich</div>
   </div>
-  <div class="photo-grid g3">
-    <div><img src="brochure_images/day2_glockenspiel.jpg" alt="Glockenspiel, Marienplatz"><div class="cap">Rathaus-Glockenspiel, Marienplatz</div></div>
-    <div><img src="brochure_images/day2_asamkirche.jpg" alt="Asamkirche interior"><div class="cap">Asamkirche — baroque interior, Sendlinger Strasse</div></div>
-    <div><img src="brochure_images/day2_eisbach_surfers.jpg" alt="Eisbach surfers"><div class="cap">Eisbach surfers, Englischer Garten</div></div>
+
+  <div class="lay-2col col-5545" style="align-items: start;">
+    <!-- Left: activities -->
+    <div>
+      <div class="act">
+        <div class="act-name">Marienplatz &amp; the Glockenspiel</div>
+        <div class="act-text">Munich's central square has been the city's heart since 1158 — the perfect soft landing after an overnight flight. The neo-Gothic Town Hall's Glockenspiel performs at noon and 5pm, with 43 bells and 32 figures re-enacting 16th-century Munich history. Sit at a café terrace, order a coffee, and let the city come to you.</div>
+      </div>
+      <div class="act">
+        <div class="act-name">Asamkirche</div>
+        <div class="act-text">A five-minute walk south on Sendlinger Strasse, the Asamkirche is one of Munich's great surprises — a private baroque chapel built in the 1730s that packs gilded stucco, frescoed ceilings, and a ceiling-height altar into a space barely eight meters wide. Free to enter and 20 minutes that will stay with you.</div>
+        <div class="act-tip">Free · Sendlinger Str. 62 · Allow 20 minutes</div>
+      </div>
+      <div class="act">
+        <div class="act-name">Viktualienmarkt</div>
+        <div class="act-text">Munich's famous outdoor market, steps from Marienplatz, is great for snacks, fresh pretzels, and absorbing the city at street level. Vendors have sold produce, cheese, and flowers here continuously since 1807.</div>
+      </div>
+      <div class="act">
+        <div class="act-name">Englischer Garten &amp; Beer Garden Dinner</div>
+        <div class="act-text">Bigger than Central Park, Munich's great urban park is where the city exhales. At the Eisbach, local surfers carve turns on a standing river wave year-round within 50 meters of a busy city street. End the day at the Chinesischer Turm beer garden — roast chicken, pretzels, and a proper Bavarian welcome.</div>
+        <div class="act-tip">Chinesischer Turm · 7,000 seats · Self-service · Cash preferred</div>
+      </div>
+    </div>
+    <!-- Right: stacked photos -->
+    <div class="photo-stack">
+      <img src="brochure_images/day2_asamkirche.jpg" style="height: 4.1in;">
+      <div class="cap">Asamkirche interior — baroque masterpiece, Sendlinger Strasse</div>
+      <img src="brochure_images/day2_glockenspiel.jpg" style="height: 3.0in;">
+      <div class="cap">Rathaus-Glockenspiel, Marienplatz</div>
+    </div>
   </div>
-  <div class="act">
-    <div class="act-name">Marienplatz &amp; the Glockenspiel</div>
-    <div class="act-text">Munich's central square has been the city's heart since 1158 — the perfect soft landing after an overnight flight. The neo-Gothic Town Hall's Glockenspiel performs at noon and 5pm, with 43 bells and 32 figures re-enacting scenes from 16th-century Munich history. Sit at a café terrace, order a coffee, and let the city come to you.</div>
+
+  <!-- Eisbach full-bleed strip at bottom -->
+  <div class="bleed" style="margin-top: 0.18in;">
+    <img src="brochure_images/day2_eisbach_surfers.jpg" style="height: 1.85in; object-position: center 35%;">
   </div>
-  <div class="act">
-    <div class="act-name">Asamkirche</div>
-    <div class="act-text">A five-minute walk south on Sendlinger Strasse, the Asamkirche is one of Munich's great surprises — a private baroque chapel built in the 1730s that packs gilded stucco, frescoed ceilings, and a ceiling-height altar into a space barely eight meters wide. Free to enter and 20 minutes that will stay with you.</div>
-    <div class="act-tip">Free · Sendlinger Str. 62 · Allow 20 minutes</div>
-  </div>
-  <div class="act">
-    <div class="act-name">Englischer Garten &amp; Eisbach Surfers</div>
-    <div class="act-text">Munich's great urban park is bigger than Central Park. At the Eisbach, a standing river wave at the park's south entrance, local surfers carve turns year-round within 50 meters of a busy city street — one of the more genuinely surreal sights in any European city. The park itself offers shade and lawns for a jet-lagged afternoon wander.</div>
-  </div>
-  <div class="act">
-    <div class="act-name">Beer Garden Dinner — Chinesischer Turm</div>
-    <div class="act-text">End the day the Munich way. The Chinesischer Turm beer garden seats 7,000 beneath its painted pagoda in the heart of the Englischer Garten and has been serving Bavarian beer since 1791. Order at the self-service counter — roast chicken, obatzda cheese, fresh pretzel — find a bench, and raise a glass to the start of the trip.</div>
-    <div class="act-tip">Chinesischer Turm · Englischer Garten · Self-service · Cash preferred</div>
-  </div>
+  <div class="cap" style="margin-top: 3px; font-size: 6.5pt;">Eisbach river wave, Englischer Garten · Munich's legendary year-round surfers</div>
 </div>
 
-<!-- ═══ DAY 3 ═══ -->
+<!-- ═══════════════════════════════════════════
+     DAY 3 · THE BIKE TOUR
+     Layout: Photo-left — images fill left column, activities right
+════════════════════════════════════════════ -->
 <div class="page day-page" id="day3">
   <div class="day-header">
     <div class="dh-left">
@@ -160,30 +212,43 @@ body {
     </div>
     <div class="day-badge">Munich</div>
   </div>
-  <div class="photo-grid ghero">
-    <div><img src="brochure_images/day3_beer_garden.jpg" alt="Chinesischer Turm Beer Garden"><div class="cap">Chinesischer Turm beer garden — the midpoint stop on the Classic Tour</div></div>
-    <div><img src="brochure_images/day3_englischer_garten.jpg" alt="Englischer Garten"><div class="cap">Eisbach river, Englischer Garten</div></div>
-  </div>
-  <div class="act">
-    <div class="act-name">Mike's Bike Tours — Classic Munich Tour</div>
-    <div class="act-text">One of Munich's best-loved experiences. The Classic Tour covers roughly 7 km through the city at a relaxed, guided pace — past the Hofbräuhaus, along the Isar, through the Maxvorstadt gallery district, and into the Englischer Garten. Midway through, the group stops for a full lunch break at the Chinesischer Turm beer garden: beer ordered, bench claimed, pace dropped entirely. The second half of the tour is, famously, a little wobbly for some. Family-friendly; bikes for all sizes.</div>
-    <div class="act-tip">~4 hours · ~€32/person · Starts near Marienplatz · Book ahead: mikesbiketours.com</div>
-  </div>
-  <div class="act">
-    <div class="act-name">Why on Day 3</div>
-    <div class="act-text">Doing the bike tour on the first full day is the right call — it functions as a guided city orientation, giving everyone a working mental map of Munich before the rest of the stay. Every subsequent walk will feel more familiar because of it.</div>
-  </div>
-  <div class="act">
-    <div class="act-name">Afternoon: Englischer Garten on Foot</div>
-    <div class="act-text">After the tour, the park is right there. The Monopteros rotunda on its small hill offers one of the best city panoramas in Munich, looking south over the park toward the skyline. Find a lawn, buy an ice cream from a park vendor, and let the afternoon find its own pace.</div>
-  </div>
-  <div class="act">
-    <div class="act-name">Evening: Schwabing or Maxvorstadt</div>
-    <div class="act-text">The neighborhoods north of the Old Town have a quieter, more local character. Leopoldstrasse and the streets around Münchner Freiheit offer good casual restaurants — Bavarian and Italian — with outdoor seating throughout July. No agenda needed; just wander and eat well.</div>
+
+  <div class="lay-2col col-4060" style="gap: 0.26in; align-items: start;">
+    <!-- Left: stacked photos -->
+    <div class="photo-stack">
+      <img src="brochure_images/day3_beer_garden.jpg" style="height: 4.3in;">
+      <div class="cap">Chinesischer Turm beer garden — the midpoint stop on the Classic Tour</div>
+      <img src="brochure_images/day3_englischer_garten.jpg" style="height: 3.9in;">
+      <div class="cap">Eisbach river, Englischer Garten</div>
+    </div>
+    <!-- Right: activities -->
+    <div>
+      <div class="pull">"Four hours in the saddle through Munich's parks, with a full lunch stop at the best beer garden in the city. The best city orientation there is."</div>
+      <div class="act">
+        <div class="act-name">Mike's Bike Tours — Classic Munich</div>
+        <div class="act-text">The Classic Tour covers roughly 7 km through the city at a relaxed, guided pace — past the Hofbräuhaus, along the Isar, through the Maxvorstadt gallery district, and into the Englischer Garten. Midway, the group stops for a full lunch break at the Chinesischer Turm beer garden: beer ordered, bench claimed, pace dropped. Family-friendly; bikes for all sizes.</div>
+        <div class="act-tip">~4 hours · ~€32/person · Starts near Marienplatz · Book: mikesbiketours.com</div>
+      </div>
+      <div class="act">
+        <div class="act-name">Why on Day 3</div>
+        <div class="act-text">The bike tour functions as a guided city orientation, giving everyone a working mental map of Munich before the rest of the stay. Every subsequent walk will feel more familiar because of it.</div>
+      </div>
+      <div class="act">
+        <div class="act-name">Afternoon — Englischer Garten</div>
+        <div class="act-text">After the tour, the park is right there. The Monopteros rotunda offers one of the best city panoramas in Munich. Find a lawn, buy an ice cream from a park vendor, and let the afternoon find its own pace.</div>
+      </div>
+      <div class="act">
+        <div class="act-name">Evening — Schwabing or Maxvorstadt</div>
+        <div class="act-text">The neighborhoods north of the Old Town have a quieter, more local character. Leopoldstrasse offers good casual restaurants with outdoor seating throughout July. No agenda needed; just wander and eat well.</div>
+      </div>
+    </div>
   </div>
 </div>
 
-<!-- ═══ DAY 4 ═══ -->
+<!-- ═══════════════════════════════════════════
+     DAY 4 · NEUSCHWANSTEIN
+     Layout: Hero-top — full-bleed castle photo, then 2-col below
+════════════════════════════════════════════ -->
 <div class="page day-page" id="day4">
   <div class="day-header">
     <div class="dh-left">
@@ -193,32 +258,47 @@ body {
     </div>
     <div class="day-badge">Füssen / Schwangau</div>
   </div>
-  <div class="photo-grid g2">
-    <div><img src="brochure_images/day4_neuschwanstein.jpg" alt="Neuschwanstein Castle"><div class="cap">Neuschwanstein Castle — the inspiration for Disney's Sleeping Beauty Castle</div></div>
-    <div><img src="brochure_images/day4_marienbrucke.jpg" alt="Marienbrücke bridge"><div class="cap">View from Marienbrücke, 90 meters above the Pöllat Gorge</div></div>
+
+  <!-- Hero: Neuschwanstein full-bleed -->
+  <div class="bleed">
+    <img src="brochure_images/day4_neuschwanstein.jpg" style="height: 3.3in; object-position: center 20%;">
   </div>
-  <div class="act">
-    <div class="act-name">Getting There</div>
-    <div class="act-text">Regional train from Munich Hauptbahnhof to Füssen takes about 2 hours and is covered by the Bayern-Ticket, then Bus 73 or 78 from Füssen station to the castle base (10 minutes). Depart Munich by 8am to stay ahead of the July crowds at the top.</div>
-    <div class="act-tip">Bayern-Ticket covers train + regional bus · Depart Munich ~8am</div>
-  </div>
-  <div class="act">
-    <div class="act-name">Neuschwanstein — Interior Timed Tour</div>
-    <div class="act-text">King Ludwig II began construction in 1869 and never finished — he died in 1886 with only 14 of the planned 200 rooms complete. The finished rooms are extraordinary: the Singers' Hall re-creates Wagner's Hall of the Holy Grail in full scale, and the throne room reaches 13 meters high, designed for a throne Ludwig never lived to receive. The interior tour runs about 35 minutes with a timed ticket.</div>
-    <div class="act-tip">Book immediately at tickets.hohenschwangau.de — July sells out weeks ahead · ~€15/adult, ~€10/youth</div>
-  </div>
-  <div class="act">
-    <div class="act-name">Marienbrücke — The Postcard View</div>
-    <div class="act-text">A 15-minute uphill walk leads to the iron bridge suspended 90 meters above the Pöllat Gorge. This is the view on every postcard: the castle rising above pine forest with the Alpsee lake below and the Alps behind. Arrive early to avoid the queue for a clear shot.</div>
-  </div>
-  <div class="act">
-    <div class="act-name">Optional: Hohenschwangau Castle</div>
-    <div class="act-text">The yellow castle at the base of the hill is where Ludwig grew up — better preserved than Neuschwanstein and more personal, showing the childhood that shaped his obsessions. Worth adding if the family has energy; entirely skippable if not.</div>
-    <div class="act-tip">Separate ticket · Same booking platform as Neuschwanstein</div>
+  <div class="cap" style="margin-top: 3px; margin-bottom: 0.16in; font-size: 6.5pt;">Neuschwanstein Castle, Bavaria — the inspiration for Disney's Sleeping Beauty Castle</div>
+
+  <!-- 2-col: activities + Marienbrücke photo + activities -->
+  <div class="lay-2col col-5050">
+    <div>
+      <div class="act">
+        <div class="act-name">Getting There</div>
+        <div class="act-text">Regional train from Munich Hauptbahnhof to Füssen takes about 2 hours (Bayern-Ticket), then Bus 73 or 78 to the castle base. Depart Munich by 8am to stay ahead of the July crowds — Neuschwanstein is one of Germany's busiest sites and the queues build early.</div>
+        <div class="act-tip">Bayern-Ticket covers train + regional bus · Depart Munich ~8am</div>
+      </div>
+      <div class="act">
+        <div class="act-name">Interior Timed Tour</div>
+        <div class="act-text">King Ludwig II began construction in 1869 and never finished — he died in 1886 with only 14 of the planned 200 rooms complete. The Singers' Hall re-creates Wagner's Hall of the Holy Grail at full scale; the throne room reaches 13 meters high, designed for a throne Ludwig never lived to receive. Tours run ~35 minutes.</div>
+        <div class="act-tip">Book immediately at tickets.hohenschwangau.de — July sells out weeks ahead</div>
+      </div>
+    </div>
+    <div>
+      <img src="brochure_images/day4_marienbrucke.jpg" class="fill" style="height: 3.5in; object-position: center 40%;">
+      <div class="cap">View from Marienbrücke — 90 meters above the Pöllat Gorge</div>
+      <div class="act" style="margin-top: 0.14in;">
+        <div class="act-name">Marienbrücke</div>
+        <div class="act-text">A 15-minute uphill walk from the castle leads to the iron bridge suspended 90 meters above the Pöllat Gorge — the postcard view: castle rising above pine forest, Alpsee below, Alps behind. Arrive early to avoid the queue for a clear shot.</div>
+      </div>
+      <div class="act">
+        <div class="act-name">Optional: Hohenschwangau</div>
+        <div class="act-text">The yellow castle at the base is where Ludwig grew up — better preserved, more personal, showing the childhood that shaped his obsessions. Worth adding if the family has energy.</div>
+        <div class="act-tip">Separate ticket · Same booking platform</div>
+      </div>
+    </div>
   </div>
 </div>
 
-<!-- ═══ DAY 5 ═══ -->
+<!-- ═══════════════════════════════════════════
+     DAY 5 · RESIDENZ & TOLLWOOD
+     Layout: Sandwich — Residenz top, 2-col activities, Olympiapark strip bottom
+════════════════════════════════════════════ -->
 <div class="page day-page" id="day5">
   <div class="day-header">
     <div class="dh-left">
@@ -228,27 +308,47 @@ body {
     </div>
     <div class="day-badge">Munich</div>
   </div>
-  <div class="photo-grid g2">
-    <div><img src="brochure_images/day5_residenz.jpg" alt="Antiquarium, Munich Residenz"><div class="cap">The Antiquarium — 66-meter Renaissance hall inside the Munich Residenz</div></div>
-    <div><img src="brochure_images/day5_olympiapark.jpg" alt="Olympic Park Munich"><div class="cap">Olympiapark — venue for the Tollwood Summer Festival</div></div>
+
+  <!-- Top: Residenz full-bleed -->
+  <div class="bleed">
+    <img src="brochure_images/day5_residenz.jpg" style="height: 2.95in; object-position: center 50%;">
   </div>
-  <div class="act">
-    <div class="act-name">Munich Residenz</div>
-    <div class="act-text">For 500 years, the Residenz was the seat of Bavarian dukes, electors, and kings — 130 rooms in the heart of the city, a 10-minute walk from Marienplatz. Start in the Treasury: Wittelsbach crown jewels, medieval reliquaries, a portable 16th-century altar the size of a book. Then the State Rooms: the Antiquarium, a 66-meter barrel-vaulted hall covered top-to-bottom in grotesque frescoes, is one of the most impressive rooms in Munich. Allow 2.5–3 hours for both wings.</div>
-    <div class="act-tip">Opens 9am · ~€10/adult, ~€9/student · Max-Joseph-Platz 3</div>
+  <div class="cap" style="margin-top: 3px; margin-bottom: 0.17in; font-size: 6.5pt;">The Antiquarium — a 66-meter barrel-vaulted Renaissance hall inside the Munich Residenz, built c. 1568</div>
+
+  <!-- Middle: 2-col activities -->
+  <div class="lay-2col col-5050">
+    <div>
+      <div class="act">
+        <div class="act-name">Munich Residenz</div>
+        <div class="act-text">For 500 years the Residenz was the seat of Bavarian dukes, electors, and kings — 130 rooms in the heart of the city, a 10-minute walk from Marienplatz. Start in the Treasury: Wittelsbach crown jewels, medieval reliquaries, a portable 16th-century altar the size of a book. Then the State Rooms, crowned by the Antiquarium — 66 meters of barrel-vaulted hall frescoed top-to-bottom. Allow 2.5–3 hours for both wings.</div>
+        <div class="act-tip">Opens 9am · ~€10/adult · Max-Joseph-Platz 3</div>
+      </div>
+      <div class="act">
+        <div class="act-name">Afternoon Free Time</div>
+        <div class="act-text">With the Residenz done by midday, the afternoon is yours before Tollwood. Maximilianstrasse, Viktualienmarkt, or a long lunch in the Old Town — tomorrow you leave for the mountains, so this is the last easy Munich afternoon.</div>
+      </div>
+    </div>
+    <div>
+      <div class="act">
+        <div class="act-name">Tollwood Summer Festival</div>
+        <div class="act-text">Every July, Olympic Park transforms into one of Munich's great summer events — free entry, with dozens of international food stalls, multiple live music stages, arts installations, and a night market atmosphere that peaks after 7pm. It draws locals as much as tourists and feels genuinely festive rather than commercial. Aim for 7pm and stay as long as energy holds.</div>
+        <div class="act-tip">Free entry · Olympic Park · U3 to Olympiazentrum · Open until late</div>
+      </div>
+      <div class="pull">"Pack a light jacket and arrive at dusk — the food-stall lights and live music stages come alive as the evening cools."</div>
+    </div>
   </div>
-  <div class="act">
-    <div class="act-name">Afternoon Free Time</div>
-    <div class="act-text">With the Residenz done by midday, the afternoon is free before Tollwood. The Maximilianstrasse grand boulevard, Viktualienmarkt for last-minute souvenirs, or a long lunch in the Old Town — tomorrow you leave for the mountains, so this is the last easy Munich afternoon.</div>
+
+  <!-- Bottom: Olympiapark full-bleed -->
+  <div class="bleed" style="margin-top: 0.18in;">
+    <img src="brochure_images/day5_olympiapark.jpg" style="height: 2.35in; object-position: center 40%;">
   </div>
-  <div class="act">
-    <div class="act-name">Tollwood Summer Festival</div>
-    <div class="act-text">Every July, Olympic Park transforms into one of Munich's great summer events — free to enter, with dozens of international food stalls, multiple live music stages, arts installations, and a night market atmosphere that peaks after 7pm. It draws locals as much as tourists and feels genuinely festive rather than commercial. Aim for 7pm and stay as long as energy holds.</div>
-    <div class="act-tip">Free entry · Olympic Park · U3 to Olympiazentrum · Open until late</div>
-  </div>
+  <div class="cap" style="margin-top: 3px; font-size: 6.5pt;">Olympic Park, Munich · Venue for Tollwood Summer Festival each July</div>
 </div>
 
-<!-- ═══ DAY 6 ═══ -->
+<!-- ═══════════════════════════════════════════
+     DAY 6 · INTO THE ALPS
+     Layout: Sidebar-right — activities left, Ramsau church (tall) + Berchtesgaden stacked right
+════════════════════════════════════════════ -->
 <div class="page day-page" id="day6">
   <div class="day-header">
     <div class="dh-left">
@@ -258,30 +358,42 @@ body {
     </div>
     <div class="day-badge">Berchtesgaden</div>
   </div>
-  <div class="photo-grid g2">
-    <div><img src="brochure_images/day6_berchtesgaden.jpg" alt="Berchtesgaden village"><div class="cap">Berchtesgaden — Bavarian market town at the base of the Watzmann</div></div>
-    <div><img src="brochure_images/day6_ramsau_church.jpg" alt="Ramsau church"><div class="cap">Ramsau bei Berchtesgaden — one of Bavaria's most photographed scenes</div></div>
-  </div>
-  <div class="act">
-    <div class="act-name">Train: Munich to Berchtesgaden</div>
-    <div class="act-text">Regional train from Munich Hauptbahnhof takes about 2.5 hours via Freilassing, covered by the Bayern-Ticket. The final stretch climbs into the Berchtesgadener Land through increasingly dramatic Alpine scenery — the Watzmann massif appears suddenly and fills the window. Aim for an 8–9am departure to have a full afternoon on arrival.</div>
-    <div class="act-tip">Bayern-Ticket covers the full journey · ~2h 30m · Change at Freilassing</div>
-  </div>
-  <div class="act">
-    <div class="act-name">Berchtesgaden Old Town</div>
-    <div class="act-text">Berchtesgaden is a real Bavarian market town, not a tourist village. The Schlossplatz is the heart of it: a wide cobbled square flanked by the Wittelsbach Palace on one side and the Collegiate Church on the other. Walk the main street, absorb the shift from city to mountains, and pick up any provisions for the next two days.</div>
-  </div>
-  <div class="act">
-    <div class="act-name">Optional: Ramsau Parish Church</div>
-    <div class="act-text">About 20 minutes by taxi, the Ramsau church sits on a stone bridge over the Ramsauer Ache river with the Reiteralpe behind it — the most reproduced image in Bavaria. Worth the short detour for a late afternoon photograph if the family has energy after a travel day.</div>
-  </div>
-  <div class="act">
-    <div class="act-name">Dinner at a Local Gasthof</div>
-    <div class="act-text">Traditional Berchtesgaden Gasthöfe serve hearty mountain food: Schweinsbraten (roast pork), Kasnocken (cheese noodles), and Germknödel (sweet yeast dumplings with poppy seed butter). Portions are large and unhurried. Ask the hotel for a recommendation — the best tend not to have a significant online presence.</div>
+
+  <div class="lay-2col col-5545" style="align-items: start; gap: 0.24in;">
+    <!-- Left: activities -->
+    <div>
+      <div class="act">
+        <div class="act-name">Train: Munich → Berchtesgaden</div>
+        <div class="act-text">Regional train from Munich Hauptbahnhof takes about 2.5 hours via Freilassing, covered by the Bayern-Ticket. The final stretch climbs into the Berchtesgadener Land through increasingly dramatic Alpine scenery — the Watzmann massif appears suddenly and fills the window. Aim for an 8–9am departure to have a full afternoon on arrival.</div>
+        <div class="act-tip">Bayern-Ticket covers full journey · ~2h 30m · Change at Freilassing</div>
+      </div>
+      <div class="act">
+        <div class="act-name">Berchtesgaden Old Town</div>
+        <div class="act-text">Berchtesgaden is a real Bavarian market town, not a tourist village. The Schlossplatz is the heart of it: a wide cobbled square flanked by the Wittelsbach Palace on one side and the Collegiate Church on the other. Walk the main street, absorb the shift from city to mountains, and pick up provisions for the next two days.</div>
+      </div>
+      <div class="act">
+        <div class="act-name">Optional: Ramsau Parish Church</div>
+        <div class="act-text">About 20 minutes by taxi, the Ramsau church sits on a stone bridge over the Ramsauer Ache with the Reiteralpe rising behind it — the most reproduced image in Bavaria. Worth the short detour for a late afternoon photograph if energy allows.</div>
+      </div>
+      <div class="act">
+        <div class="act-name">Dinner at a Local Gasthof</div>
+        <div class="act-text">Traditional Berchtesgaden Gasthöfe serve hearty mountain food: Schweinsbraten (roast pork), Kasnocken (cheese noodles), and Germknödel with poppy seed butter. Portions are large and unhurried. Ask the hotel for a recommendation — the best tend not to have an online presence.</div>
+      </div>
+    </div>
+    <!-- Right: stacked photos — Ramsau church tall, Berchtesgaden town below -->
+    <div class="photo-stack">
+      <img src="brochure_images/day6_ramsau_church.jpg" style="height: 5.3in;">
+      <div class="cap">Ramsau Parish Church — Bavaria's most photographed scene</div>
+      <img src="brochure_images/day6_berchtesgaden.jpg" style="height: 2.8in;">
+      <div class="cap">Berchtesgaden market town at the base of the Watzmann</div>
+    </div>
   </div>
 </div>
 
-<!-- ═══ DAY 7 ═══ -->
+<!-- ═══════════════════════════════════════════
+     DAY 7 · KÖNIGSSEE
+     Layout: Panorama-hero top, 2-col activities + chapel photo, boat strip bottom
+════════════════════════════════════════════ -->
 <div class="page day-page" id="day7">
   <div class="day-header">
     <div class="dh-left">
@@ -291,32 +403,52 @@ body {
     </div>
     <div class="day-badge">Berchtesgaden</div>
   </div>
-  <div class="photo-grid g3">
-    <div><img src="brochure_images/day7_koenigssee.jpg" alt="Königssee mirror view"><div class="cap">Königssee — mirror reflection from Malerwinkel</div></div>
-    <div><img src="brochure_images/day7_st_bartholoma.jpg" alt="St. Bartholomä chapel"><div class="cap">St. Bartholomä chapel on the Königssee shore</div></div>
-    <div><img src="brochure_images/day7_boat.jpg" alt="Electric passenger boat"><div class="cap">Silent electric boat on the Königssee</div></div>
+
+  <!-- Hero: Königssee panorama full-bleed -->
+  <div class="bleed">
+    <img src="brochure_images/day7_koenigssee.jpg" style="height: 2.85in; object-position: center 55%;">
   </div>
-  <div class="act">
-    <div class="act-name">Getting There</div>
-    <div class="act-text">Bus 841 runs from Berchtesgaden town center to the Königssee dock in about 20 minutes. Take the first morning bus and join the queue for the first boat departure — July mornings fill quickly, and early arrival means better light and a seat on the right side for the best cliff views.</div>
-    <div class="act-tip">Bus 841 · First boats ~8am · Buy round-trip ticket at the dock</div>
+  <div class="cap" style="margin-top: 3px; margin-bottom: 0.15in; font-size: 6.5pt;">Königssee — mirror reflection at Malerwinkel, Berchtesgaden National Park</div>
+
+  <!-- 2-col: activities left, St. Bartholomä photo + activity right -->
+  <div class="lay-2col col-5545">
+    <div>
+      <div class="act">
+        <div class="act-name">Getting There</div>
+        <div class="act-text">Bus 841 runs from Berchtesgaden town center to the Königssee dock in about 20 minutes. Take the first morning bus and join the queue for the first boat — July mornings fill quickly, and early arrival means better light on the cliff walls.</div>
+        <div class="act-tip">Bus 841 · First boats ~8am · Buy round-trip ticket at dock</div>
+      </div>
+      <div class="act">
+        <div class="act-name">The Electric Boat &amp; the Cliff Echo</div>
+        <div class="act-text">Gasoline engines have been banned on the Königssee since 1909. The all-electric boats run in near-silence between vertical rock walls that drop from 2,700-meter peaks straight into dark green water. Midway across, the captain pauses the boat, raises a flugelhorn, and plays a short phrase toward the cliff. Three seconds later it returns, perfectly preserved. Every time, it silences the whole boat.</div>
+      </div>
+      <div class="act">
+        <div class="act-name">Afternoon: Rest Before the Big Day</div>
+        <div class="act-text">Return by mid-afternoon. Tomorrow covers the Eagle's Nest, the salt mine, and the transfer to Salzburg — a full day from early morning. An easy evening and an early night is the right call.</div>
+      </div>
+    </div>
+    <div>
+      <img src="brochure_images/day7_st_bartholoma.jpg" class="fill" style="height: 3.3in; object-position: center 40%;">
+      <div class="cap">St. Bartholomä chapel — the Watzmann east face rises 2,000m directly behind</div>
+      <div class="act" style="margin-top: 0.14in;">
+        <div class="act-name">St. Bartholomä</div>
+        <div class="act-text">The onion-domed chapel has stood on its narrow peninsula since the 12th century. Walk around the church, eat lunch at the lakeside restaurant — trout pulled from the lake that morning — and watch the light move across the cliff face before the return boat.</div>
+        <div class="act-tip">Restaurant serves lake trout · Allow 1–1.5 hrs at the landing</div>
+      </div>
+    </div>
   </div>
-  <div class="act">
-    <div class="act-name">The Electric Boat &amp; the Cliff Echo</div>
-    <div class="act-text">Gasoline engines have been banned on the Königssee since 1909. The all-electric boats run in near-silence between vertical rock walls that drop from 2,700-meter peaks straight into dark green water. Midway across, the captain pauses the boat, raises a flugelhorn, and plays a short phrase toward the cliff. Three seconds later it returns, perfectly preserved. Every time, it silences the whole boat.</div>
+
+  <!-- Bottom: boat strip full-bleed -->
+  <div class="bleed" style="margin-top: 0.17in;">
+    <img src="brochure_images/day7_boat.jpg" style="height: 1.65in; object-position: center 50%;">
   </div>
-  <div class="act">
-    <div class="act-name">St. Bartholomä</div>
-    <div class="act-text">The onion-domed chapel at the far end of the lake has stood on its narrow peninsula since the 12th century, with the Watzmann's east face rising 2,000 meters directly behind it. Walk around the church, eat lunch at the lakeside restaurant — trout pulled from the lake that morning — and watch the light move across the cliff face before the return boat.</div>
-    <div class="act-tip">Restaurant serves lake trout · Allow 1–1.5 hrs at the landing before the return boat</div>
-  </div>
-  <div class="act">
-    <div class="act-name">Afternoon: Rest Before the Big Day</div>
-    <div class="act-text">Return by mid-afternoon. Tomorrow covers the Eagle's Nest, the salt mine, and the transfer to Salzburg — a full day from early morning. An easy evening and an early night is the right call.</div>
-  </div>
+  <div class="cap" style="margin-top: 3px; font-size: 6.5pt;">The silent electric fleet — no gasoline engines on the Königssee since 1909</div>
 </div>
 
-<!-- ═══ DAY 8 ═══ -->
+<!-- ═══════════════════════════════════════════
+     DAY 8 · EAGLE'S NEST & ARRIVAL IN SALZBURG
+     Layout: Strip-top — 3 photos across full width, 2-col activities below
+════════════════════════════════════════════ -->
 <div class="page day-page" id="day8">
   <div class="day-header">
     <div class="dh-left">
@@ -326,34 +458,56 @@ body {
     </div>
     <div class="day-badge">Salzburg</div>
   </div>
-  <div class="photo-grid g3">
-    <div><img src="brochure_images/day8_eagles_nest.jpg" alt="Eagle's Nest"><div class="cap">Kehlsteinhaus (Eagle's Nest) at 1,834 meters</div></div>
-    <div><img src="brochure_images/day8_salt_mine.jpg" alt="Berchtesgaden salt mine"><div class="cap">Berchtesgaden Salzbergwerk — working since 1517</div></div>
-    <div><img src="brochure_images/day8_salzburg.jpg" alt="Salzburg Old Town"><div class="cap">Salzburg Altstadt — your home for the next three nights</div></div>
+
+  <!-- 3-photo horizontal strip -->
+  <div class="strip-3" style="margin-bottom: 0.06in;">
+    <div>
+      <img src="brochure_images/day8_eagles_nest.jpg" style="height: 3.2in; object-position: center 30%;">
+      <div class="cap">Kehlsteinhaus at 1,834 meters</div>
+    </div>
+    <div>
+      <img src="brochure_images/day8_salt_mine.jpg" style="height: 3.2in;">
+      <div class="cap">Salzbergwerk — working since 1517</div>
+    </div>
+    <div>
+      <img src="brochure_images/day8_salzburg.jpg" style="height: 3.2in; object-position: center 30%;">
+      <div class="cap">Salzburg Altstadt — your home for three nights</div>
+    </div>
   </div>
-  <div class="act">
-    <div class="act-name">Documentation Center Obersalzberg</div>
-    <div class="act-text">Before ascending to the Eagle's Nest, the Documentation Center tells the history of this mountain with clarity and without sensationalism — how ordinary Bavarian villagers were displaced to build Hitler's private retreat, how the Nazi hierarchy gathered here through the war years, and what followed. It's honest, sobering, and useful context for what you're about to see above.</div>
-    <div class="act-tip">~€6/adult · Allow 1.5 hrs · Eagle's Nest buses depart from the Kehlstein bus station nearby</div>
-  </div>
-  <div class="act">
-    <div class="act-name">Eagle's Nest (Kehlsteinhaus)</div>
-    <div class="act-text">A mountain bus climbs 6.5 km of switchbacks to 1,710m, where a tunnel blasted through the peak leads to a brass-lined elevator rising the final 124 meters to the summit at 1,834m. The building sits on exposed rock with a 360-degree panorama over Germany and Austria. The whole excursion — bus up, time at the top, bus back — takes about 2.5 hours.</div>
-    <div class="act-tip">Seasonal May–Oct · kehlsteinhaus.de · ~€33/person round-trip bus + elevator</div>
-  </div>
-  <div class="act">
-    <div class="act-name">Berchtesgaden Salt Mine</div>
-    <div class="act-text">Active since 1517, the Salzbergwerk tour puts visitors in white mining suits, sends them down wooden miners' chutes between levels, across an underground lake on a raft, and through tunnels bored over five centuries. Active and unusual enough to hold a teenager's attention — allow 1.5 hours and book ahead.</div>
-    <div class="act-tip">~€23/adult · ~1.5 hrs · Book ahead in July · Close to Berchtesgaden town center</div>
-  </div>
-  <div class="act">
-    <div class="act-name">Bus 840 to Salzburg — Arrival Evening</div>
-    <div class="act-text">The regional bus from Berchtesgaden to Salzburg runs approximately hourly and takes about 50 minutes through the Austrian border. Check in, find a light dinner in the Linzergasse neighborhood or Old Town, and let Salzburg introduce itself slowly. The heavy day is behind you.</div>
-    <div class="act-tip">~€11/person · ~50 min · Arrives Salzburg Hauptbahnhof</div>
+
+  <!-- 2-col activities -->
+  <div class="lay-2col col-5050" style="margin-top: 0.13in;">
+    <div>
+      <div class="act">
+        <div class="act-name">Documentation Center Obersalzberg</div>
+        <div class="act-text">Before ascending, the Documentation Center tells the history of this mountain clearly — how ordinary Bavarian villagers were displaced to build Hitler's private retreat, how the Nazi hierarchy gathered here through the war years. Honest, sobering, and useful context for what you're about to see above.</div>
+        <div class="act-tip">~€6/adult · Allow 1.5 hrs · Eagle's Nest buses depart nearby</div>
+      </div>
+      <div class="act">
+        <div class="act-name">Eagle's Nest (Kehlsteinhaus)</div>
+        <div class="act-text">A mountain bus climbs 6.5 km of switchbacks to 1,710m, where a tunnel blasted through the peak leads to a brass-lined elevator rising the final 124 meters to the summit at 1,834m. The building sits on exposed rock with a 360-degree panorama over Germany and Austria.</div>
+        <div class="act-tip">Seasonal May–Oct · kehlsteinhaus.de · ~€33/pp round-trip</div>
+      </div>
+    </div>
+    <div>
+      <div class="act">
+        <div class="act-name">Berchtesgaden Salt Mine</div>
+        <div class="act-text">Active since 1517, the Salzbergwerk tour puts visitors in white mining suits, sends them down wooden miners' chutes between levels, across an underground lake on a raft, and through tunnels bored over five centuries. Active and unusual enough to hold a teenager's full attention — allow 1.5 hours.</div>
+        <div class="act-tip">~€23/adult · ~1.5 hrs · Book ahead in July</div>
+      </div>
+      <div class="act">
+        <div class="act-name">Bus 840 to Salzburg — Arrival Evening</div>
+        <div class="act-text">The regional bus from Berchtesgaden to Salzburg runs hourly and takes about 50 minutes through the Austrian border. Check in, find a light dinner in the Linzergasse neighborhood. The heavy day is behind you.</div>
+        <div class="act-tip">~€11/pp · ~50 min · Arrives Salzburg Hauptbahnhof</div>
+      </div>
+    </div>
   </div>
 </div>
 
-<!-- ═══ DAY 9 ═══ -->
+<!-- ═══════════════════════════════════════════
+     DAY 9 · SALZBURG OLD CITY
+     Layout: Photo-left — Hohensalzburg tower fills left, activities + 2 photos right
+════════════════════════════════════════════ -->
 <div class="page day-page" id="day9">
   <div class="day-header">
     <div class="dh-left">
@@ -363,33 +517,46 @@ body {
     </div>
     <div class="day-badge">Salzburg</div>
   </div>
-  <div class="photo-grid g3">
-    <div><img src="brochure_images/day9_hohensalzburg.jpg" alt="Hohensalzburg Fortress"><div class="cap">Hohensalzburg Fortress — aerial view</div></div>
-    <div><img src="brochure_images/day9_getreidegasse.jpg" alt="Getreidegasse"><div class="cap">Getreidegasse — Salzburg's oldest shopping street</div></div>
-    <div><img src="brochure_images/day9_mirabell.jpg" alt="Mirabell Palace"><div class="cap">Mirabell Palace and Gardens</div></div>
-  </div>
-  <div class="act">
-    <div class="act-name">Hohensalzburg Fortress</div>
-    <div class="act-text">The largest fully preserved castle in the German-speaking world has stood on its dolomite cliff since 1077. The funicular from Festungsgasse takes a minute; spend the morning on the ramparts, in the medieval State Rooms with their original tile stoves, and absorbing the views over the Old Town rooftops and the Salzach below. Best views in Salzburg.</div>
-    <div class="act-tip">Funicular + castle ~€14.50/adult, ~€8.30/youth · Opens 9am · Allow 2 hours</div>
-  </div>
-  <div class="act">
-    <div class="act-name">Getreidegasse</div>
-    <div class="act-text">Descending from the fortress, Salzburg's oldest street runs through the heart of the Old Town — buildings from the 13th–16th centuries, each shopfront still marked by its traditional wrought-iron guild sign. Mozart was born at number 9. Walk it slowly; the side passages (Durchhäuser) lead to hidden courtyards worth finding.</div>
-  </div>
-  <div class="act">
-    <div class="act-name">Mirabell Palace &amp; Gardens</div>
-    <div class="act-text">A 15-minute walk across the Salzach, the free formal gardens of Mirabell Palace are at their best in July bloom — geometric parterres, rose beds, and the baroque Dwarf Garden. The Marble Hall inside still hosts evening concerts; check the schedule for a possible add-on to the evening.</div>
-    <div class="act-tip">Gardens free · Check stiftung-mozarteum.at for summer concert schedule</div>
-  </div>
-  <div class="act">
-    <div class="act-name">St. Peter Stiftskeller — Dinner</div>
-    <div class="act-text">Established in 803 AD and continuously operated ever since, St. Peter Stiftskeller may be the oldest restaurant in Europe — vaulted stone rooms carved into the Mönchsberg cliff, candlelit, serving Austrian regional food. Order the Salzburger Nockerl — a soufflé dessert the size of a small mountain — at least one for the table. Book well in advance.</div>
-    <div class="act-tip">Book 2–4 weeks ahead · stpeter.at · St.-Peter-Bezirk 1/4</div>
+
+  <div class="lay-2col col-4060" style="gap: 0.26in; align-items: start;">
+    <!-- Left: tall Hohensalzburg fills the column -->
+    <div>
+      <img src="brochure_images/day9_hohensalzburg.jpg" class="fill" style="height: 8.75in; object-position: center 30%;">
+      <div class="cap">Hohensalzburg Fortress — aerial view over the Old City rooftops</div>
+    </div>
+    <!-- Right: activities + Getreidegasse photo + Mirabell photo -->
+    <div>
+      <div class="act">
+        <div class="act-name">Hohensalzburg Fortress</div>
+        <div class="act-text">The largest fully preserved castle in the German-speaking world has stood on its dolomite cliff since 1077. Take the funicular and spend the morning on the ramparts, in the medieval State Rooms with original tile stoves, and absorbing the views over the Old Town rooftops and the Salzach below.</div>
+        <div class="act-tip">Funicular + castle ~€14.50/adult, ~€8.30/youth · Opens 9am · Allow 2 hours</div>
+      </div>
+      <div class="act">
+        <div class="act-name">Getreidegasse</div>
+        <div class="act-text">Salzburg's oldest street runs through the heart of the Old Town — buildings from the 13th–16th centuries, each shopfront still marked by its traditional wrought-iron guild sign. Walk it slowly; the side passages (Durchhäuser) lead to hidden courtyards worth finding.</div>
+      </div>
+      <img src="brochure_images/day9_getreidegasse.jpg" class="fill" style="height: 2.1in; margin: 0.1in 0;">
+      <div class="cap">Getreidegasse — iron guild signs, 16th-century storefronts</div>
+      <div class="act" style="margin-top: 0.13in;">
+        <div class="act-name">Mirabell Gardens</div>
+        <div class="act-text">A 15-minute walk across the Salzach, the free formal gardens are at their July bloom peak — geometric parterres and rose beds at their best.</div>
+        <div class="act-tip">Gardens free · Check concert schedule at stiftung-mozarteum.at</div>
+      </div>
+      <div class="act">
+        <div class="act-name">St. Peter Stiftskeller — Dinner</div>
+        <div class="act-text">Established in 803 AD and continuously operated since — vaulted stone rooms carved into the Mönchsberg cliff, candlelit, serving Austrian regional food. Order the Salzburger Nockerl — a soufflé dessert the size of a small mountain — at least one for the table.</div>
+        <div class="act-tip">Book 2–4 weeks ahead · stpeter.at · St.-Peter-Bezirk 1/4</div>
+      </div>
+      <img src="brochure_images/day9_mirabell.jpg" class="fill" style="height: 1.95in; margin-top: 0.1in;">
+      <div class="cap">Mirabell Palace and Gardens</div>
+    </div>
   </div>
 </div>
 
-<!-- ═══ DAY 10 ═══ -->
+<!-- ═══════════════════════════════════════════
+     DAY 10 · HALLSTATT
+     Layout: Hero panorama top, 2-col activities, lake + Beinhaus strip bottom
+════════════════════════════════════════════ -->
 <div class="page day-page" id="day10">
   <div class="day-header">
     <div class="dh-left">
@@ -399,35 +566,53 @@ body {
     </div>
     <div class="day-badge">Hallstatt, Austria</div>
   </div>
-  <div class="photo-grid g3">
-    <div><img src="brochure_images/day10_hallstatt_panorama.jpg" alt="Hallstatt village panorama"><div class="cap">Hallstatt village and shoreline from the lake</div></div>
-    <div><img src="brochure_images/day10_hallstatt_lake.jpg" alt="Hallstatt from the lake"><div class="cap">Hallstatt from the southern end of the Hallstätter See</div></div>
-    <div><img src="brochure_images/day10_beinhaus.jpg" alt="Hallstatt Beinhaus"><div class="cap">The Beinhaus — over 1,200 painted skulls in the churchyard chapel</div></div>
+
+  <!-- Hero: Hallstatt panorama full-bleed -->
+  <div class="bleed">
+    <img src="brochure_images/day10_hallstatt_panorama.jpg" style="height: 2.85in; object-position: center 45%;">
   </div>
-  <div class="act">
-    <div class="act-name">Getting There — Depart Early</div>
-    <div class="act-text">Train and bus from Salzburg takes about 1.5 hours; depart by 8am to arrive ahead of the tour buses that fill the village by 10:30am. The final leg is a short ferry across the lake from Hallstatt Bahnhof — the train station sits on the opposite bank and the ferry runs with every arriving train.</div>
-    <div class="act-tip">Depart Salzburg ~8am · Ferry from Hallstatt Bahnhof ~€8/pp round-trip</div>
+  <div class="cap" style="margin-top: 3px; margin-bottom: 0.16in; font-size: 6.5pt;">Hallstatt village and shoreline — one of the most photographed places on earth</div>
+
+  <!-- 2-col activities -->
+  <div class="lay-2col col-5050">
+    <div>
+      <div class="act">
+        <div class="act-name">Getting There — Depart Early</div>
+        <div class="act-text">Train and bus from Salzburg takes about 1.5 hours; depart by 8am to arrive ahead of the tour buses that fill the village by 10:30am. The final leg is a short ferry across the lake from Hallstatt Bahnhof — the train station sits on the opposite bank and the ferry runs with every arriving train.</div>
+        <div class="act-tip">Depart Salzburg ~8am · Ferry from Hallstatt Bahnhof ~€8/pp round-trip</div>
+      </div>
+      <div class="act">
+        <div class="act-name">The Village</div>
+        <div class="act-text">Hallstatt has about 800 residents and almost no flat ground — wedged between a sheer cliff and the lake, buildings stacked almost vertically above the water. One of the most photographed villages on earth, and the photographs do not overstate it. Walk slowly and find the side lanes before the groups arrive.</div>
+      </div>
+      <div class="act">
+        <div class="act-name">Return to Salzburg — Last Evening</div>
+        <div class="act-text">Return to Salzburg by late afternoon. An unhurried last evening — stroll the Salzach, dinner in the Linzergasse, an early night. Tomorrow's Railjet departs at 6:23 or 7:11am; the early start is real.</div>
+        <div class="act-tip">ÖBB Railjet Salzburg → Munich 6:23 or 7:11 · Book seat reservation 3–4 wks ahead</div>
+      </div>
+    </div>
+    <div>
+      <div class="act">
+        <div class="act-name">The Beinhaus (Charnel House)</div>
+        <div class="act-text">Because the cemetery had nowhere to expand — cliffs one side, lake the other — Hallstatt developed a tradition of exhuming old remains and painting the skulls with names, birth years, and floral designs. Over 1,200 painted skulls are on display in the chapel. Unusual, genuine, and quietly unforgettable. Teenagers consistently remember it.</div>
+        <div class="act-tip">~€1.50 · Michael's Chapel, Hallstatt churchyard</div>
+      </div>
+      <div class="act">
+        <div class="act-name">Salt Mine &amp; Lakeside Lunch</div>
+        <div class="act-text">The Hallstatt salt mine has been worked since at least 1000 BC — the oldest in the world, and the site that gave the Iron Age's first phase its name. The guided tour ends with a slide down a wooden miners' chute. Lunch afterward at a lakefront restaurant; order the trout or Zander from the lake.</div>
+        <div class="act-tip">~€36/adult · Book ahead in July · ~1.5 hrs · Funicular from village center</div>
+      </div>
+    </div>
   </div>
-  <div class="act">
-    <div class="act-name">The Village</div>
-    <div class="act-text">Hallstatt has about 800 residents and almost no flat ground — wedged between a sheer cliff and the lake, with buildings, churches, and narrow lanes stacked almost vertically above the water. One of the most photographed villages on earth, and the photographs do not overstate it. Walk slowly and find the side lanes before the tour groups arrive.</div>
+
+  <!-- Bottom: lake + Beinhaus two-up strip, full-bleed -->
+  <div class="bleed" style="margin-top: 0.17in;">
+    <div class="bleed-grid bg-2">
+      <img src="brochure_images/day10_hallstatt_lake.jpg" style="height: 2.05in; object-position: center 50%;">
+      <img src="brochure_images/day10_beinhaus.jpg" style="height: 2.05in; object-position: center 40%;">
+    </div>
   </div>
-  <div class="act">
-    <div class="act-name">The Beinhaus (Charnel House)</div>
-    <div class="act-text">Because the cemetery had nowhere to expand — cliffs one side, lake the other — Hallstatt developed a tradition of exhuming old remains and painting the skulls with the deceased's name, birth year, and floral designs before placing them in the Beinhaus chapel. Over 1,200 painted skulls are on display. Unusual, genuine, and quietly unforgettable. Teenagers consistently remember it.</div>
-    <div class="act-tip">~€1.50 · Michael's Chapel, Hallstatt churchyard</div>
-  </div>
-  <div class="act">
-    <div class="act-name">Salt Mine &amp; Lakeside Lunch</div>
-    <div class="act-text">The Hallstatt salt mine has been worked continuously since at least 1000 BC — the oldest in the world, and the site that gave the Iron Age's first phase its name. The guided tour goes deep into the mountain past preserved Bronze Age tools and ends with a slide down a wooden miners' chute. Lunch afterward at a lakefront restaurant; order the trout or Zander from the lake.</div>
-    <div class="act-tip">~€36/adult · Book ahead in July · ~1.5 hrs · Funicular from village center</div>
-  </div>
-  <div class="act">
-    <div class="act-name">Return to Salzburg — Last Evening</div>
-    <div class="act-text">Return ferry and train back to Salzburg by late afternoon. An unhurried last evening — a stroll along the Salzach, dinner in the Linzergasse, an early night. Tomorrow's Railjet departs at 6:23 or 7:11am; the early start is real.</div>
-    <div class="act-tip">ÖBB Railjet Salzburg → Munich: 6:23 or 7:11 · Seat reservation ~$30/pp · Book 3–4 weeks ahead</div>
-  </div>
+  <div class="cap" style="margin-top: 3px; font-size: 6.5pt;">Left: the Hallstätter See · Right: the Beinhaus — over 1,200 painted skulls in the churchyard chapel</div>
 </div>
 
 <!-- ═══ LEAFLET MAP ═══ -->
