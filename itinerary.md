@@ -194,8 +194,10 @@
 |---|---|---|---|---|---|
 | Munich | TBD | — | Jul 12–14 (2 nights) | — | — |
 | Schönau am Königssee | Villa Alpenrausch | Under consideration | Jul 14–17 (3 nights) | ~$1,500 est. (3 nights) | [Airbnb](https://www.airbnb.com/rooms/1575373648492118883) |
-| Salzburg | TBD | — | Jul 17–19 (2 nights) | — | — |
+| Salzburg | Numa Salzburg Vogelweider | Under consideration | Jul 17–19 (2 nights) | $850.66 (taxes incl.) | Booking.com |
 | Vienna | TBD | — | Jul 19–21 (2 nights) | — | — |
+
+**Numa Salzburg Vogelweider notes:** Vogelweiderstraße 33, Schallmoos. Rated 8.6 Excellent (3,206 reviews) on Booking.com; location score 8.2. 2 × Superior Double Room for 4 adults. Early Booker Deal: $1,000.78 − $150.12 = **$850.66 total** (taxes and fees included; €735.93). Check-in from 3:00 PM; checkout by 11:00 AM — compatible with the ~10:07 AM train departure (leave hotel ~9:30 AM, check out early or store bags).
 
 **Villa Alpenrausch notes:** 2 bedrooms (king + king), 1 bath, sleeps 6, private sauna, full kitchen, outdoor dining, self check-in. Rated 4.86★ (14 reviews), Guest Favorite, Superhost. Airbnb listing shows 2-night pricing ($997 non-refundable / $1,088 refundable) — **verify 3-night availability (Jul 14–17)**. Refundable rate has free cancellation before **June 14** — deadline in 8 days.
 
