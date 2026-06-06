@@ -103,6 +103,12 @@
   p { margin: 8px 0; font-size: 0.95em; }
   ul { padding-left: 20px; }
   li { padding: 2px 0; font-size: 0.93em; }
+
+  .photo-grid { display: flex; flex-wrap: wrap; gap: 10px; margin: 10px 0 24px; }
+  .photo-item { flex: 1 1 180px; max-width: 220px; }
+  .photo-item img { width: 100%; height: 150px; object-fit: cover; border-radius: 6px; display: block; }
+  .photo-caption { font-size: 0.78em; color: #666; font-family: sans-serif; margin-top: 5px; text-align: center; font-style: italic; }
+  .photo-placeholder { width: 100%; height: 150px; background: #e8e4dc; border-radius: 6px; display: flex; align-items: center; justify-content: center; font-size: 0.8em; color: #aaa; font-family: sans-serif; font-style: italic; text-align: center; padding: 10px; }
 </style>
 </head>
 <body>
@@ -461,6 +467,73 @@
         <li>Full cost and budget tracking</li>
       </ul>
     </div>
+  </section>
+
+  <!-- PHOTO GALLERY -->
+  <section>
+    <h2>Photo Gallery</h2>
+
+    <h3>Day 1 — Arrive Munich</h3>
+    <div class="photo-grid">
+      <div class="photo-item"><img src="brochure_images/day2_glockenspiel.jpg" alt="Glockenspiel at Marienplatz"><div class="photo-caption">Glockenspiel, Marienplatz</div></div>
+      <div class="photo-item"><img src="brochure_images/day2_asamkirche.jpg" alt="Asamkirche"><div class="photo-caption">Asamkirche</div></div>
+      <div class="photo-item"><img src="brochure_images/day3_beer_garden.jpg" alt="Beer garden"><div class="photo-caption">Viktualienmarkt beer garden</div></div>
+    </div>
+
+    <h3>Day 2 — Munich: Mike's Bike Tour</h3>
+    <div class="photo-grid">
+      <div class="photo-item"><img src="brochure_images/day3_englischer_garten.jpg" alt="English Garden"><div class="photo-caption">English Garden</div></div>
+      <div class="photo-item"><img src="brochure_images/day2_eisbach_surfers.jpg" alt="Eisbach surfers"><div class="photo-caption">Eisbach river surfers</div></div>
+      <div class="photo-item"><img src="brochure_images/day5_olympiapark.jpg" alt="Olympiapark"><div class="photo-caption">Olympiapark</div></div>
+    </div>
+
+    <h3>Day 3 — Munich → Königssee</h3>
+    <div class="photo-grid">
+      <div class="photo-item"><img src="brochure_images/day6_train.jpg" alt="Scenic alpine train"><div class="photo-caption">Train through the Alps</div></div>
+      <div class="photo-item"><img src="brochure_images/day6_berchtesgaden.jpg" alt="Berchtesgaden"><div class="photo-caption">Berchtesgaden</div></div>
+    </div>
+
+    <h3>Day 4 — Eagle's Nest + Salt Mine</h3>
+    <div class="photo-grid">
+      <div class="photo-item"><img src="brochure_images/day8_eagles_nest.jpg" alt="Eagle's Nest summit"><div class="photo-caption">Eagle's Nest summit (1,834m)</div></div>
+      <div class="photo-item"><img src="brochure_images/day8_salt_mine.jpg" alt="Berchtesgaden salt mine"><div class="photo-caption">Berchtesgaden salt mine</div></div>
+      <div class="photo-item"><img src="brochure_images/day6_ramsau_church.jpg" alt="Ramsau church"><div class="photo-caption">Ramsau church</div></div>
+    </div>
+
+    <h3>Day 5 — Königssee</h3>
+    <div class="photo-grid">
+      <div class="photo-item"><img src="brochure_images/day7_koenigssee.jpg" alt="Königssee lake"><div class="photo-caption">Königssee lake</div></div>
+      <div class="photo-item"><img src="brochure_images/day7_st_bartholoma.jpg" alt="St. Bartholomä chapel"><div class="photo-caption">St. Bartholomä chapel</div></div>
+      <div class="photo-item"><img src="brochure_images/day7_boat.jpg" alt="Electric boat on Königssee"><div class="photo-caption">Electric boat to Salet</div></div>
+    </div>
+
+    <h3>Day 6 — → Salzburg</h3>
+    <div class="photo-grid">
+      <div class="photo-item"><img src="brochure_images/day8_salzburg.jpg" alt="Salzburg Old Town"><div class="photo-caption">Salzburg Altstadt</div></div>
+      <div class="photo-item"><img src="brochure_images/day9_getreidegasse.jpg" alt="Getreidegasse"><div class="photo-caption">Getreidegasse</div></div>
+    </div>
+
+    <h3>Day 7 — Salzburg</h3>
+    <div class="photo-grid">
+      <div class="photo-item"><img src="brochure_images/day9_hohensalzburg.jpg" alt="Fortress Hohensalzburg"><div class="photo-caption">Fortress Hohensalzburg</div></div>
+      <div class="photo-item"><img src="brochure_images/day9_mirabell.jpg" alt="Mirabell Gardens"><div class="photo-caption">Mirabell Gardens</div></div>
+      <div class="photo-item"><img src="brochure_images/day5_residenz.jpg" alt="Residenzplatz"><div class="photo-caption">Residenzplatz</div></div>
+    </div>
+
+    <h3>Day 8 — → Vienna</h3>
+    <div class="photo-grid">
+      <div class="photo-item"><img src="brochure_images/day10_train.jpg" alt="ÖBB Railjet to Vienna"><div class="photo-caption">ÖBB Railjet to Vienna</div></div>
+      <div class="photo-item"><div class="photo-placeholder">St. Stephen's Cathedral<br>— photo to add</div></div>
+      <div class="photo-item"><div class="photo-placeholder">Ringstrasse<br>— photo to add</div></div>
+    </div>
+
+    <h3>Day 9 — Vienna</h3>
+    <div class="photo-grid">
+      <div class="photo-item"><div class="photo-placeholder">Naschmarkt<br>— photo to add</div></div>
+      <div class="photo-item"><div class="photo-placeholder">Schönbrunn Palace<br>— photo to add</div></div>
+      <div class="photo-item"><div class="photo-placeholder">Schönbrunn maze<br>— photo to add</div></div>
+    </div>
+
   </section>
 
 </div>
