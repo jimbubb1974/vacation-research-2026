@@ -1,7 +1,7 @@
 # Bavaria + Salzburg + Vienna — Summer 2026
 ## July 11–21, 2026
 **Travelers:** Family of 4 (2 adults, teen age 17, teen age 15)
-**Structure:** Munich (2 nights) → Schönau am Königssee (2 nights) → Salzburg (1 night) → Vienna (2 nights)
+**Structure:** Munich (2 nights) → Schönau am Königssee (3 nights) → Salzburg (2 nights) → Vienna (2 nights)
 
 ---
 
@@ -29,7 +29,7 @@
 |---|---|---|---|
 | Munich | 2 | Sun Jul 12 | Tue Jul 14 midday |
 | Schönau am Königssee | 3 | Tue Jul 14 evening | Fri Jul 17 morning |
-| Salzburg | 1 | Fri Jul 17 | Sun Jul 19 morning |
+| Salzburg | 2 | Fri Jul 17 | Sun Jul 19 morning |
 | Vienna | 2 | Sun Jul 19 afternoon | Tue Jul 21 |
 
 ---
@@ -194,7 +194,7 @@
 |---|---|---|---|---|---|
 | Munich | TBD | — | Jul 12–14 (2 nights) | — | — |
 | Schönau am Königssee | Villa Alpenrausch | Under consideration | Jul 14–17 (3 nights) | ~$1,500 est. (3 nights) | [Airbnb](https://www.airbnb.com/rooms/1575373648492118883) |
-| Salzburg | TBD | — | Jul 17–19 (1 night) | — | — |
+| Salzburg | TBD | — | Jul 17–19 (2 nights) | — | — |
 | Vienna | TBD | — | Jul 19–21 (2 nights) | — | — |
 
 **Villa Alpenrausch notes:** 2 bedrooms (king + king), 1 bath, sleeps 6, private sauna, full kitchen, outdoor dining, self check-in. Rated 4.86★ (14 reviews), Guest Favorite, Superhost. Airbnb listing shows 2-night pricing ($997 non-refundable / $1,088 refundable) — **verify 3-night availability (Jul 14–17)**. Refundable rate has free cancellation before **June 14** — deadline in 8 days.
