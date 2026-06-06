@@ -1,0 +1,157 @@
+# Bavaria + Salzburg + Vienna — Summer 2026
+## July 11–21, 2026
+**Travelers:** Family of 4 (2 adults, teen age 17, teen age 15)
+**Structure:** Munich (2 nights) → Schönau am Königssee (2 nights) → Salzburg (1 night) → Vienna (2 nights)
+
+---
+
+## Day-by-Day
+
+| Day | Date | Location | Overnight | Plan |
+|---|---|---|---|---|
+| 0 | Sat Jul 11 | DC → Munich | In flight | Depart IAD; transatlantic overnight flight |
+| 1 | Sun Jul 12 | Arrive Munich | Munich | Arrive MUC; S-Bahn to city; check in; wander — Marienplatz, Viktualienmarkt, Frauenkirche; light dinner |
+| 2 | Mon Jul 13 | Munich | Munich | Mike's Bike Tour (11:30–3:30); evening dinner at Hopferhouse |
+| 3 | Tue Jul 14 | Munich → Königssee area | Schönau am Königssee | Nymphenburg Palace (morning); 14:44 RE5 from München Hbf Pl.9 → Freilassing 16:34; 16:45 S4 Pl.1 → Berchtesgaden Hbf 17:38; Bus 841 to Schönau am Königssee; check in |
+| 4 | Wed Jul 15 | Berchtesgaden area | Schönau am Königssee | Jennerbahn cable car + hike + Eagle's Nest — **⚠ busy day, may need to split** |
+| 5 | Thu Jul 16 | Königssee + salt mines | Schönau am Königssee | Morning: Königssee electric boat to St. Bartholomä; cliff-echo flugelhorn. Afternoon: Berchtesgaden salt mine (~1.5 hrs) |
+| 6 | Fri Jul 17 | → Salzburg | Salzburg | Taxi to Salzburg (~30 min, ~€80); check in; explore Old Town |
+| 7 | Sat Jul 18 | Salzburg | Salzburg | Fortress Hohensalzburg; Getreidegasse walk; Mirabell Gardens; St. Peter Stiftskeller dinner (book ahead) |
+| 8 | Sun Jul 19 | → Vienna | Vienna | Train departs ~10:07 → arrives ~12:32; afternoon in Vienna; check in |
+| 9 | Mon Jul 20 | Vienna | Vienna | Vienna — TBD |
+| 10 | Tue Jul 21 | Fly home | — | Depart VIE; fly home |
+
+---
+
+## Base Summary
+
+| Base | Nights | Arrival | Departure |
+|---|---|---|---|
+| Munich | 2 | Sun Jul 12 | Tue Jul 14 midday |
+| Schönau am Königssee | 3 | Tue Jul 14 evening | Fri Jul 17 morning |
+| Salzburg | 1 | Fri Jul 17 | Sun Jul 19 morning |
+| Vienna | 2 | Sun Jul 19 afternoon | Tue Jul 21 |
+
+---
+
+## Day 4 Note — Needs Revision
+
+Jennerbahn (above Königssee) and Eagle's Nest (above Berchtesgaden town, ~30 min apart by road) are on opposite sides of the valley. Both are half-day commitments. Options:
+- **Option A:** Jennerbahn + hike on Day 4; Eagle's Nest on Day 5 (swap Königssee boat to Day 6)
+- **Option B:** Eagle's Nest on Day 4 (closer to Berchtesgaden side); Jennerbahn on Day 5
+- **Option C:** Keep as-is but accept it's a very full day with minimal hiking
+
+---
+
+## Open Questions
+
+- [ ] Day 4 split — see note above
+- [ ] Vienna Day 9 — what to do? (museums, Schönbrunn, Naschmarkt, etc.)
+- [x] Return flight: confirmed departing VIE on 7/21
+- [x] Train on Day 3 — confirmed: 14:44 München Hbf Pl.9 → RE5 → Freilassing 16:34 → S4 → Berchtesgaden Hbf 17:38 (verified on bahn.de)
+- [x] Salt mines logistics — moved to Day 5 afternoon (after Königssee boat); taxi on Day 6 keeps travel day clean
+
+---
+
+## Booking Priorities
+
+1. **Eagle's Nest Kehlstein bus** — seasonal, limited capacity; book at kehlsteinhaus.de
+2. **Mike's Bike Tours Munich** — popular in July; mikesbiketours.com
+3. **St. Peter Stiftskeller Salzburg** — dinner reservation; book several weeks ahead
+4. **IAD → MUC outbound / VIE → IAD return** — open-jaw itinerary; search accordingly
+5. **All accommodation** — July is peak season everywhere on this route
+
+---
+
+## Transportation
+
+### Leg 1 — Munich Hbf → Berchtesgaden → Schönau am Königssee (Day 3, Jul 14)
+
+**Train: Munich Hbf → Freilassing → Berchtesgaden Hbf**
+- **14:44** depart München Hbf **Platform 9**, RE5 (79025) toward Salzburg Hbf
+- **16:34** arrive Freilassing **Platform 2** — 11-minute change
+- **16:45** depart Freilassing **Platform 1**, S4 toward Berchtesgaden Hbf
+- **17:38** arrive Berchtesgaden Hbf
+- **Bayern-Ticket covers this entire leg** (~€53/family; valid weekdays from 9am) — individual tickets are ~€34/person (~€136 family); Bayern-Ticket saves ~€80
+- Bayern-Ticket also covers Bus 841 onward to Schönau am Königssee
+
+**Local bus: Berchtesgaden Hbf → Schönau am Königssee**
+- Bus 841: Berchtesgaden ↔ Königssee dock ↔ Schönau area; ~20–30 min; covered by Bayern-Ticket
+
+---
+
+### Leg 2 — Local transport in the Berchtesgaden/Königssee area (Days 4–5, Jul 15–16)
+
+| Route | Bus | Notes |
+|---|---|---|
+| Schönau → Königssee dock | 841 | Short ride; runs frequently |
+| Schönau/Berchtesgaden → Jennerbahn base | 841 | Same line |
+| Berchtesgaden → Obersalzberg (Eagle's Nest bus) | 838 | Bus 838 to Obersalzberg Documentation Center; Kehlstein bus from there (separate ticket) |
+| All local buses | — | Bayern-Ticket covers regional buses in Bavaria |
+
+---
+
+### Leg 3 — Schönau am Königssee → Salzburg (Day 6, Jul 17)
+
+**Option A — Taxi (recommended for travel day with luggage)**
+- Door to door, ~28–30 min, ~€80 flat rate
+- Clean transfer with full bags for 4 people; no bus stops or luggage juggling
+- Contact: Taxizentrale Berchtesgaden
+
+**Option B — Bus 840 "Watzmann Express" (fine for day trips, not ideal on travel day)**
+- Picks up at Königssee/Jennerbahn stop near the accommodation
+- Route: Jennerbahn → Königssee → Unterstein → Berchtesgaden ZOB → Marktschellenberg → Salzburg Justizgebäude
+- Duration: ~50 min; runs hourly, daily, May 24–Oct 24; ~€10/person
+- Awkward with 3 nights of luggage for 4 people — regional bus, tight aisle space
+
+**Salt mines:** Move to Day 5 (Jul 16) — do the Königssee boat in the morning, then Berchtesgaden salt mine (~1.5 hrs) in the afternoon. Mine is right in town, no luggage issue, and frees up Day 6 as a clean taxi transfer to Salzburg.
+
+---
+
+### Leg 4 — Salzburg → Vienna (Day 8, Jul 19)
+
+**ÖBB Railjet / RJX**
+- Departs Salzburg Hbf ~10:07 → arrives Vienna Hbf ~12:29–12:32
+- Duration: ~2h22m; trains every 30 min throughout the day
+- Cost: varies; book seat reservations in advance (~$30/person) — popular route in summer
+- Book at [oebb.at](https://www.oebb.at) or [Trainline](https://www.thetrainline.com)
+
+---
+
+### Ticketing Decisions by Day
+
+| Day | Date | Ticket | Cost | Notes |
+|---|---|---|---|---|
+| 1 | Jul 12 | MVV group day ticket | ~€15 | Covers all Munich S-Bahn, U-Bahn, tram, bus (inner zones); buy at airport |
+| 2 | Jul 13 | MVV group day ticket | ~€15 | Same as above for Mike's Bikes area and city transit |
+| 3 | Jul 14 | **Bayern-Ticket** | ~€53 | Covers RE5 + S4 + Bus 841 to Schönau; individual tickets ~€136 (€34/person × 4); saves ~€80 |
+| 4–5 | Jul 15–16 | Individual bus tickets | ~€5–10/day | Local buses only (841, 838); not worth a full Bayern-Ticket for short hops |
+| 6 | Jul 17 | None (taxi) | — | Taxi to Salzburg; no rail ticket needed |
+| 8 | Jul 19 | ÖBB Railjet tickets | ~$30/person | Salzburg → Vienna; book in advance at oebb.at |
+
+**Bayern-Ticket notes:**
+- Valid on all regional trains and buses in Bavaria; weekdays from 9am
+- Does not cover Bus 840 to Salzburg or any ÖBB trains
+- Buy at Munich Hbf ticket machines or [bahn.de](https://www.bahn.de) on the day of travel
+
+---
+
+## Accommodation
+
+| Base | Option | Status | Dates | Cost | Link |
+|---|---|---|---|---|---|
+| Munich | TBD | — | Jul 12–14 (2 nights) | — | — |
+| Schönau am Königssee | Villa Alpenrausch | Under consideration | Jul 14–17 (3 nights) | ~$1,500 est. (3 nights) | [Airbnb](https://www.airbnb.com/rooms/1575373648492118883) |
+| Salzburg | TBD | — | Jul 17–19 (1 night) | — | — |
+| Vienna | TBD | — | Jul 19–21 (2 nights) | — | — |
+
+**Villa Alpenrausch notes:** 2 bedrooms (king + king), 1 bath, sleeps 6, private sauna, full kitchen, outdoor dining, self check-in. Rated 4.86★ (14 reviews), Guest Favorite, Superhost. Airbnb listing shows 2-night pricing ($997 non-refundable / $1,088 refundable) — **verify 3-night availability (Jul 14–17)**. Refundable rate has free cancellation before **June 14** — deadline in 8 days.
+
+---
+
+## To Add (in progress)
+
+- Flights (airline, times, booking status)
+- Hour-by-hour daily schedules
+- Transportation details (train numbers, bus routes, tickets)
+- Costs and budget tracking

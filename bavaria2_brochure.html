@@ -1,0 +1,533 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bavaria + Salzburg Cities & Castles Brochure</title>
+  <style>
+    @page { size: letter; margin: 0; }
+    * { box-sizing: border-box; }
+    html, body {
+      margin: 0;
+      background: #fff;
+      color: #1e211d;
+      font-family: "Aptos", "Segoe UI", Arial, sans-serif;
+      line-height: 1.35;
+    }
+    body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    .page {
+      position: relative;
+      width: 8.5in;
+      height: 11in;
+      margin: 0 auto 24px;
+      padding: 0.45in;
+      overflow: hidden;
+      background: #fff;
+      break-after: page;
+      page-break-after: always;
+    }
+    .page:last-child { break-after: auto; page-break-after: auto; }
+    .cover {
+      display: grid;
+      grid-template-rows: 2.15in 3.3in 1fr;
+      gap: 0.2in;
+      background: #fff;
+    }
+    .kicker {
+      color: #8a3e2d;
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 1.4px;
+      text-transform: uppercase;
+    }
+    h1, h2, h3, p { margin: 0; }
+    h1 {
+      margin-top: 0.12in;
+      max-width: 7.2in;
+      font-size: 52px;
+      line-height: 0.96;
+      font-weight: 850;
+      color: #15342f;
+    }
+    .subhead {
+      margin-top: 0.16in;
+      max-width: 7.05in;
+      color: #4b4d47;
+      font-size: 16px;
+      line-height: 1.35;
+    }
+    .map-wrap {
+      position: relative;
+      border: 1px solid #d5cfbf;
+      background: #eee8dc;
+      height: 3.3in;
+      overflow: hidden;
+    }
+    .osm-tiles {
+      position: absolute;
+      left: 0;
+      top: 50%;
+      width: 100%;
+      aspect-ratio: 5 / 3;
+      transform: translateY(-50%);
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+    }
+    .osm-tiles img, .photo img, .wide-photo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+    .osm-tiles img { object-fit: fill; }
+    .route-line {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+    }
+    .map-label {
+      position: absolute;
+      padding: 5px 7px;
+      border-radius: 5px;
+      background: rgba(255, 255, 255, 0.92);
+      color: #18352f;
+      font-size: 10px;
+      font-weight: 800;
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
+      white-space: nowrap;
+      z-index: 4;
+    }
+    .map-legend {
+      position: absolute;
+      left: 10px;
+      bottom: 10px;
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      padding: 6px 8px;
+      border-radius: 5px;
+      background: rgba(255, 255, 255, 0.92);
+      color: #18352f;
+      font-size: 9px;
+      font-weight: 800;
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
+      z-index: 5;
+    }
+    .legend-item {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      white-space: nowrap;
+    }
+    .legend-dot {
+      width: 9px;
+      height: 9px;
+      border-radius: 50%;
+      border: 1px solid #fffaf0;
+      background: #c86d3c;
+    }
+    .legend-dot.daytrip {
+      background: #2f6f62;
+    }
+    .map-dot {
+      position: absolute;
+      width: 13px;
+      height: 13px;
+      border: 2px solid #fffaf0;
+      border-radius: 50%;
+      background: #c86d3c;
+      box-shadow: 0 1px 5px rgba(0, 0, 0, 0.28);
+      transform: translate(-50%, -50%);
+      z-index: 3;
+    }
+    .daytrip-dot {
+      background: #2f6f62;
+    }
+    .munich-dot { left: 44.63%; top: 19.74%; }
+    .neuschwanstein-dot { left: 32.89%; top: 48.04%; }
+    .berchtesgaden-dot { left: 64.91%; top: 44.41%; }
+    .salzburg-dot { left: 65.67%; top: 35.78%; }
+    .hallstatt-dot { left: 74.12%; top: 47.82%; }
+    .munich { left: 45.9%; top: 13.5%; }
+    .neuschwanstein { left: 34.1%; top: 41.8%; }
+    .berchtesgaden { left: 66.1%; top: 50.0%; }
+    .salzburg { left: 66.9%; top: 29.5%; }
+    .hallstatt { left: 75.3%; top: 41.5%; }
+    .cover-grid {
+      display: grid;
+      grid-template-columns: 1.05fr 1fr;
+      gap: 0.25in;
+      align-items: start;
+    }
+    .why-box {
+      padding: 0.18in;
+      border-left: 5px solid #c86d3c;
+      background: #fff;
+    }
+    .why-box h2 {
+      color: #15342f;
+      font-size: 22px;
+      margin-bottom: 0.1in;
+    }
+    .why-box p, .short-copy p {
+      color: #41443f;
+      font-size: 13.5px;
+    }
+    .quick-list {
+      display: grid;
+      gap: 8px;
+      margin-top: 0.14in;
+    }
+    .quick-list div {
+      padding: 9px 10px;
+      background: #f0efe8;
+      border-left: 3px solid #2f6f62;
+      color: #2d342f;
+      font-size: 12.5px;
+      font-weight: 650;
+    }
+    .page-header {
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      border-bottom: 2px solid #d9d2c2;
+      padding-bottom: 0.12in;
+      margin-bottom: 0.22in;
+    }
+    .page-header h2 {
+      color: #15342f;
+      font-size: 34px;
+      line-height: 1;
+    }
+    .page-number {
+      color: #8a3e2d;
+      font-size: 12px;
+      font-weight: 800;
+      text-transform: uppercase;
+    }
+    .two-col {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.24in;
+    }
+    .wide-photo {
+      height: 2.65in;
+      margin-bottom: 0.18in;
+      border: 1px solid #d5cfbf;
+      background: #eee8dc;
+      overflow: hidden;
+    }
+    .photo-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.13in;
+      margin-bottom: 0.18in;
+    }
+    .photo {
+      height: 2.3in;
+      border: 1px solid #d5cfbf;
+      background: #eee8dc;
+      overflow: hidden;
+    }
+    .copy h3 {
+      color: #8a3e2d;
+      font-size: 17px;
+      margin: 0 0 0.07in;
+    }
+    .copy p {
+      color: #373b36;
+      font-size: 13.2px;
+      margin-bottom: 0.11in;
+    }
+    .mini-itinerary {
+      display: grid;
+      gap: 7px;
+      margin-top: 0.1in;
+    }
+    .day {
+      display: grid;
+      grid-template-columns: 0.55in 1fr;
+      gap: 10px;
+      align-items: start;
+      padding: 8px 9px;
+      background: #f0efe8;
+      border-left: 3px solid #2f6f62;
+    }
+    .day b {
+      color: #15342f;
+      font-size: 11px;
+      text-transform: uppercase;
+    }
+    .day span {
+      color: #383b36;
+      font-size: 12.3px;
+    }
+    .callout {
+      margin-top: 0.18in;
+      padding: 0.16in;
+      background: #15342f;
+      color: #fffaf0;
+    }
+    .callout h3 {
+      color: #fffaf0;
+      font-size: 17px;
+      margin-bottom: 0.07in;
+    }
+    .callout p {
+      color: #f1ecdf;
+      font-size: 12.7px;
+    }
+    .caption, .credits {
+      color: #6a685f;
+      font-size: 8.5px;
+      line-height: 1.25;
+    }
+    .caption {
+      margin-top: -0.12in;
+      margin-bottom: 0.12in;
+    }
+    .credits {
+      position: absolute;
+      left: 0.45in;
+      right: 0.45in;
+      bottom: 0.23in;
+      border-top: 1px solid #ded8c9;
+      padding-top: 0.06in;
+    }
+    .final-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.22in;
+      margin-top: 0.12in;
+    }
+    .highlight-card {
+      min-height: 1.1in;
+      padding: 0.14in;
+      background: #f0efe8;
+      border-top: 4px solid #c86d3c;
+    }
+    .highlight-card h3 {
+      color: #15342f;
+      font-size: 15px;
+      margin-bottom: 0.05in;
+    }
+    .highlight-card p {
+      color: #41443f;
+      font-size: 12.2px;
+    }
+    @media print {
+      html, body { background: #fff; }
+      .page { margin: 0; box-shadow: none; }
+    }
+  </style>
+</head>
+<body>
+  <section class="page cover">
+    <div>
+      <div class="kicker">July 11-21, 2026 | Cities & Castles</div>
+      <h1>Bavaria + Salzburg</h1>
+      <p class="subhead">A rail-based route through Munich, Neuschwanstein, Berchtesgaden, Salzburg, and Hallstatt: castles, lakes, old towns, history, and a polished Alpine finale.</p>
+    </div>
+
+    <div class="map-wrap">
+      <div class="osm-tiles" aria-label="Map route overview from Munich to Neuschwanstein, Berchtesgaden, Salzburg, and Hallstatt">
+        <img src="https://a.basemaps.cartocdn.com/rastertiles/voyager/8/134/88.png" alt="">
+        <img src="https://a.basemaps.cartocdn.com/rastertiles/voyager/8/135/88.png" alt="">
+        <img src="https://a.basemaps.cartocdn.com/rastertiles/voyager/8/136/88.png" alt="">
+        <img src="https://a.basemaps.cartocdn.com/rastertiles/voyager/8/137/88.png" alt="">
+        <img src="https://a.basemaps.cartocdn.com/rastertiles/voyager/8/138/88.png" alt="">
+        <img src="https://a.basemaps.cartocdn.com/rastertiles/voyager/8/134/89.png" alt="">
+        <img src="https://a.basemaps.cartocdn.com/rastertiles/voyager/8/135/89.png" alt="">
+        <img src="https://a.basemaps.cartocdn.com/rastertiles/voyager/8/136/89.png" alt="">
+        <img src="https://a.basemaps.cartocdn.com/rastertiles/voyager/8/137/89.png" alt="">
+        <img src="https://a.basemaps.cartocdn.com/rastertiles/voyager/8/138/89.png" alt="">
+        <img src="https://a.basemaps.cartocdn.com/rastertiles/voyager/8/134/90.png" alt="">
+        <img src="https://a.basemaps.cartocdn.com/rastertiles/voyager/8/135/90.png" alt="">
+        <img src="https://a.basemaps.cartocdn.com/rastertiles/voyager/8/136/90.png" alt="">
+        <img src="https://a.basemaps.cartocdn.com/rastertiles/voyager/8/137/90.png" alt="">
+        <img src="https://a.basemaps.cartocdn.com/rastertiles/voyager/8/138/90.png" alt="">
+      </div>
+      <svg class="route-line" viewBox="0 0 900 520" preserveAspectRatio="none" aria-hidden="true">
+        <path d="M402 103 C470 150, 542 198, 584 231 C588 214, 590 198, 591 186" fill="none" stroke="#c86d3c" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/>
+        <path d="M402 103 C470 150, 542 198, 584 231 C588 214, 590 198, 591 186" fill="none" stroke="#fffaf0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.95"/>
+        <path d="M402 103 C344 150, 306 210, 296 250 C338 195, 376 136, 402 103 M591 186 C620 204, 652 225, 667 249 C640 235, 612 222, 591 186" fill="none" stroke="#2f6f62" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/>
+        <path d="M402 103 C344 150, 306 210, 296 250 C338 195, 376 136, 402 103 M591 186 C620 204, 652 225, 667 249 C640 235, 612 222, 591 186" fill="none" stroke="#fffaf0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.95"/>
+      </svg>
+      <div class="map-dot munich-dot"></div>
+      <div class="map-dot daytrip-dot neuschwanstein-dot"></div>
+      <div class="map-dot berchtesgaden-dot"></div>
+      <div class="map-dot salzburg-dot"></div>
+      <div class="map-dot daytrip-dot hallstatt-dot"></div>
+      <div class="map-label munich">1 Munich</div>
+      <div class="map-label neuschwanstein">2 Neuschwanstein</div>
+      <div class="map-label berchtesgaden">3 Berchtesgaden</div>
+      <div class="map-label salzburg">4 Salzburg</div>
+      <div class="map-label hallstatt">Hallstatt</div>
+      <div class="map-legend">
+        <span class="legend-item"><span class="legend-dot"></span>Overnight base</span>
+        <span class="legend-item"><span class="legend-dot daytrip"></span>Day trip</span>
+      </div>
+    </div>
+
+    <div class="cover-grid">
+      <div class="why-box">
+        <h2>Why this one works</h2>
+        <p>This is the landmark-rich version of Bavaria: Munich gets enough time to breathe, Neuschwanstein becomes a true full-day centerpiece, and Salzburg has room for both the city and Hallstatt.</p>
+      </div>
+      <div class="short-copy">
+        <p>The route stays rail-based and practical: four Munich nights, two Berchtesgaden nights, three Salzburg nights. It feels full without depending on hard hikes or a rental car.</p>
+        <div class="quick-list">
+          <div>9 hotel nights on the ground</div>
+          <div>Munich 4 + Berchtesgaden 2 + Salzburg 3</div>
+          <div>Neuschwanstein, Königssee, Eagle's Nest, Hallstatt</div>
+          <div>More sightseeing, less hiking</div>
+        </div>
+      </div>
+    </div>
+    <div class="credits">Map tiles: CARTO Voyager, using OpenStreetMap contributor data. Route overlay is illustrative, based on the planned rail and bus sequence.</div>
+  </section>
+
+  <section class="page">
+    <div class="page-header">
+      <div>
+        <div class="kicker">Days 2-5</div>
+        <h2>Munich + Neuschwanstein</h2>
+      </div>
+      <div class="page-number">Page 2</div>
+    </div>
+
+    <div class="photo-grid">
+      <div class="photo"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Nymphenburg%20Palace%2C%20Munich%20in%20Germany.jpg?width=900" alt="Nymphenburg Palace in Munich"></div>
+      <div class="photo"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Neuschwanstein%20Castle%2007.jpg?width=900" alt="Neuschwanstein Castle from Marienbruecke"></div>
+    </div>
+    <div class="caption">Photos: Nymphenburg Palace and Neuschwanstein Castle, via Wikimedia Commons.</div>
+
+    <div class="two-col">
+      <div class="copy">
+        <h3>Munich gets enough time</h3>
+        <p>The first days are built to settle in without wasting the city: Marienplatz, Viktualienmarkt, Eisbach surfers, Deutsches Museum, BMW Welt, beer gardens, and a slower palace day at Nymphenburg.</p>
+        <p>Four nights means Munich is not just an arrival point. It becomes a proper base with enough room for museums, markets, gardens, and a no-rush first European rhythm.</p>
+        <div class="mini-itinerary">
+          <div class="day"><b>Jul 12</b><span>Arrive Munich, Marienplatz, Viktualienmarkt, Englischer Garten, beer garden dinner.</span></div>
+          <div class="day"><b>Jul 13</b><span>Deutsches Museum, BMW Welt and BMW Museum, Hofbräuhaus or neighborhood beer garden.</span></div>
+          <div class="day"><b>Jul 15</b><span>Nymphenburg Palace, Olympic Park, Schwabing or Maximilianstrasse.</span></div>
+        </div>
+      </div>
+      <div class="copy">
+        <h3>The castle day</h3>
+        <p>Neuschwanstein is the obvious visual anchor: regional train to Füssen, bus up toward the castles, timed interior tour, Marienbrücke bridge view, and enough Alpine backdrop to make the long day feel worth it.</p>
+        <p>It does require early ticket discipline. July timed entries sell out, so the interior tour is one of the first things to book once the trip direction is set.</p>
+        <div class="mini-itinerary">
+          <div class="day"><b>Jul 14</b><span>Train to Füssen, Neuschwanstein timed tour, Marienbrücke view, optional Hohenschwangau, return to Munich.</span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="callout">
+      <h3>The vibe</h3>
+      <p>This opening act is polished and recognizable: city energy, big museums, palace gardens, beer gardens, and the most famous castle day in Bavaria.</p>
+    </div>
+  </section>
+
+  <section class="page">
+    <div class="page-header">
+      <div>
+        <div class="kicker">Days 6-8</div>
+        <h2>Berchtesgaden</h2>
+      </div>
+      <div class="page-number">Page 3</div>
+    </div>
+
+    <div class="wide-photo">
+      <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Obersee%2C%20Bayern%2C%20Germany.jpg?width=1300" alt="Obersee near Koenigssee in Berchtesgaden National Park">
+    </div>
+    <div class="caption">Photo: Obersee, Bavaria, Germany, via Wikimedia Commons.</div>
+
+    <div class="two-col">
+      <div class="copy">
+        <h3>Lake and mountain drama</h3>
+        <p>Berchtesgaden keeps the Alpine scenery in the trip without turning the whole itinerary into a hiking plan. The Königssee boat is the clean centerpiece: electric boats, echo off the cliffs, St. Bartholomä, and clear mountain water.</p>
+        <p>The town itself gives the route a quieter pause between Munich and Salzburg: old streets, local dinners, and a good night before the history day.</p>
+        <div class="mini-itinerary">
+          <div class="day"><b>Jul 16</b><span>Train from Munich to Berchtesgaden, old town walk, Royal Palace square, local Gasthof dinner.</span></div>
+          <div class="day"><b>Jul 17</b><span>First Königssee boat to St. Bartholomä, return by boat, afternoon rest or town walk.</span></div>
+        </div>
+      </div>
+      <div class="copy">
+        <h3>History plus the salt mine</h3>
+        <p>The next day carries the serious history: Documentation Center Obersalzberg, Eagle's Nest if weather allows, then the Berchtesgaden salt mine before crossing into Salzburg by Bus 840.</p>
+        <p>The salt mine adds variety without another mountain day: underground history, tunnels, slides, and a practical rainproof activity if the ridge weather is not cooperating.</p>
+        <div class="mini-itinerary">
+          <div class="day"><b>Jul 18</b><span>Documentation Center, Eagle's Nest, Berchtesgaden salt mine, Watzmann Express bus to Salzburg.</span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="callout">
+      <h3>Why this stretch works</h3>
+      <p>It gives the trip visual Alps, meaningful history, and a memorable underground activity in a compact two-night stop.</p>
+    </div>
+  </section>
+
+  <section class="page">
+    <div class="page-header">
+      <div>
+        <div class="kicker">Days 8-11</div>
+        <h2>Salzburg + Hallstatt</h2>
+      </div>
+      <div class="page-number">Page 4</div>
+    </div>
+
+    <div class="wide-photo">
+      <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Hallstatt%20at%20Lake%20Hallstatt%20-%201.jpg?width=1300" alt="Hallstatt village on Lake Hallstatt">
+    </div>
+    <div class="caption">Photo: Hallstatt at Lake Hallstatt, via Wikimedia Commons.</div>
+
+    <div class="two-col">
+      <div class="copy">
+        <h3>A three-night finale</h3>
+        <p>Salzburg is compact enough to enjoy without grinding everyone down: fortress funicular, Mirabell Gardens, Getreidegasse, Mozart's Birthplace, cafe time, and St. Peter Stiftskeller if the reservation lines up.</p>
+        <p>The third night changes the Salzburg stay. It creates room for Hallstatt as a true day trip instead of forcing Salzburg to be only a brief finale.</p>
+        <div class="mini-itinerary">
+          <div class="day"><b>Jul 18</b><span>Arrive Salzburg from Berchtesgaden, check in, light dinner and Old Town evening.</span></div>
+          <div class="day"><b>Jul 19</b><span>Hohensalzburg Fortress, Mirabell Gardens, Mozart's Birthplace, Getreidegasse, St. Peter dinner.</span></div>
+        </div>
+      </div>
+      <div>
+        <div class="final-grid">
+          <div class="highlight-card">
+            <h3>Hallstatt day</h3>
+            <p>Lake village, mountain backdrop, boat crossing, salt history, Beinhaus, and a return to Salzburg by evening.</p>
+          </div>
+          <div class="highlight-card">
+            <h3>Big landmarks</h3>
+            <p>Neuschwanstein, Nymphenburg, Königssee, Eagle's Nest, Salzburg, and Hallstatt in one clean rail route.</p>
+          </div>
+          <div class="highlight-card">
+            <h3>Low-hike design</h3>
+            <p>The route keeps scenery and activity without depending on summit weather or long mountain hikes.</p>
+          </div>
+          <div class="highlight-card">
+            <h3>Simple exit</h3>
+            <p>Early Railjet from Salzburg to Munich, S-Bahn to the airport, then fly home.</p>
+          </div>
+        </div>
+        <div class="callout">
+          <h3>The pitch</h3>
+          <p>This is the Bavaria trip built around places everyone recognizes and remembers: castles, lakes, old towns, mountain views, and a Hallstatt finale.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="mini-itinerary" style="margin-top:0.12in;">
+      <div class="day"><b>Jul 20</b><span>Hallstatt day trip from Salzburg, lake village walk, salt mine museum, Beinhaus, lakeside lunch.</span></div>
+      <div class="day"><b>Jul 21</b><span>Early Railjet Salzburg to Munich, S-Bahn to MUC, fly home.</span></div>
+    </div>
+
+    <div class="credits">Research basis: vacation_research_combined.md. Photo sources: Wikimedia Commons file pages for Nymphenburg Palace, Neuschwanstein Castle, Obersee, and Hallstatt. Map data: CARTO Voyager / OpenStreetMap contributors.</div>
+  </section>
+</body>
+</html>

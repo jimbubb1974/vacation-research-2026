@@ -1,2 +1,4 @@
 *.BACKUP.md
 .playwright-mcp/
+~$*
+archive/_tmp_train_imgs.json

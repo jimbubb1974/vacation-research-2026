@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bavaria + Salzburg + Vienna — Summer 2026</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Georgia', serif; background: #f7f5f0; color: #2c2c2c; line-height: 1.6; }
+
+  .hero {
+    background: linear-gradient(135deg, #1a3a5c 0%, #2e6da4 60%, #4a9eca 100%);
+    color: white;
+    padding: 48px 40px 40px;
+    text-align: center;
+  }
+  .hero h1 { font-size: 2.2em; letter-spacing: 0.02em; margin-bottom: 8px; }
+  .hero .subtitle { font-size: 1.1em; opacity: 0.85; margin-bottom: 6px; }
+  .hero .meta { font-size: 0.95em; opacity: 0.7; font-style: italic; }
+
+  .container { max-width: 900px; margin: 0 auto; padding: 32px 24px; }
+
+  section { margin-bottom: 40px; }
+  h2 {
+    font-size: 1.25em;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #1a3a5c;
+    border-bottom: 2px solid #2e6da4;
+    padding-bottom: 6px;
+    margin-bottom: 16px;
+  }
+  h3 { font-size: 1.05em; color: #2e6da4; margin: 18px 0 8px; }
+
+  table { width: 100%; border-collapse: collapse; font-size: 0.92em; }
+  th { background: #1a3a5c; color: white; text-align: left; padding: 9px 12px; font-family: sans-serif; font-size: 0.85em; letter-spacing: 0.05em; text-transform: uppercase; }
+  td { padding: 9px 12px; border-bottom: 1px solid #ddd; vertical-align: top; }
+  tr:nth-child(even) td { background: #f0f4f8; }
+  tr:hover td { background: #e8f0f8; }
+
+  .day-num { font-weight: bold; color: #1a3a5c; white-space: nowrap; }
+  .day-date { color: #555; white-space: nowrap; font-family: sans-serif; font-size: 0.9em; }
+  .location { font-weight: bold; }
+  .overnight { color: #2e6da4; font-style: italic; font-size: 0.9em; }
+
+  .flight-row td { background: #e8f4fd !important; }
+  .warning-row td { background: #fff8e6 !important; }
+
+  .note-box {
+    background: #fff8e6;
+    border-left: 4px solid #f0a500;
+    padding: 14px 16px;
+    border-radius: 0 6px 6px 0;
+    margin: 12px 0;
+    font-size: 0.93em;
+  }
+  .note-box strong { color: #b07800; }
+
+  .open-questions { list-style: none; }
+  .open-questions li { padding: 6px 0; font-size: 0.95em; border-bottom: 1px solid #e8e4dc; }
+  .open-questions li:last-child { border-bottom: none; }
+  .open-questions .done { color: #888; text-decoration: line-through; }
+  .open-questions .open { color: #c0392b; }
+  .check { margin-right: 8px; }
+  .check.done-check { color: #27ae60; }
+  .check.open-check { color: #c0392b; }
+
+  .priorities ol { padding-left: 20px; }
+  .priorities li { padding: 5px 0; font-size: 0.95em; }
+  .priorities li strong { color: #1a3a5c; }
+
+  .transport-leg {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 16px 18px;
+    margin-bottom: 14px;
+  }
+  .transport-leg .leg-title { font-family: sans-serif; font-size: 0.8em; text-transform: uppercase; letter-spacing: 0.08em; color: #888; margin-bottom: 8px; }
+  .train-times { font-family: monospace; font-size: 1em; }
+  .train-times .time { font-weight: bold; color: #1a3a5c; min-width: 52px; display: inline-block; }
+  .train-times .loc { }
+  .train-times .train-id { background: #2e6da4; color: white; border-radius: 3px; padding: 1px 6px; font-size: 0.85em; margin-left: 8px; }
+  .train-times .platform { background: #555; color: white; border-radius: 3px; padding: 1px 6px; font-size: 0.8em; margin-left: 4px; }
+  .train-line { padding: 4px 0; }
+  .change-line { color: #888; font-size: 0.88em; padding: 3px 0 3px 52px; font-style: italic; }
+
+  .ticket-note { font-size: 0.88em; color: #555; margin-top: 10px; font-family: sans-serif; }
+  .ticket-note strong { color: #1a3a5c; }
+
+  .accom-table td:nth-child(3) .status-tbd { color: #999; font-style: italic; }
+  .status-considering { color: #e67e22; font-weight: bold; font-family: sans-serif; font-size: 0.85em; }
+  .accom-notes { background: #f0f7ff; border-left: 4px solid #2e6da4; padding: 12px 16px; border-radius: 0 6px 6px 0; margin-top: 12px; font-size: 0.9em; }
+  .accom-notes .deadline { color: #c0392b; font-weight: bold; }
+
+  .to-add { background: #f5f5f5; border-radius: 6px; padding: 14px 18px; }
+  .to-add ul { padding-left: 20px; }
+  .to-add li { padding: 3px 0; color: #888; font-size: 0.92em; font-style: italic; }
+
+  .footer { text-align: center; color: #aaa; font-size: 0.82em; font-family: sans-serif; padding: 24px; border-top: 1px solid #ddd; margin-top: 8px; }
+
+  a { color: #2e6da4; }
+  p { margin: 8px 0; font-size: 0.95em; }
+  ul { padding-left: 20px; }
+  li { padding: 2px 0; font-size: 0.93em; }
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <h1>Bavaria · Salzburg · Vienna</h1>
+  <div class="subtitle">Summer 2026 Family Trip &nbsp;·&nbsp; July 11–21</div>
+  <div class="meta">Family of 4 &nbsp;·&nbsp; Munich → Königssee → Salzburg → Vienna</div>
+</div>
+
+<div class="container">
+
+  <!-- DAY BY DAY -->
+  <section>
+    <h2>Day-by-Day</h2>
+    <table>
+      <thead>
+        <tr><th>Day</th><th>Date</th><th>Location</th><th>Overnight</th><th>Plan</th></tr>
+      </thead>
+      <tbody>
+        <tr class="flight-row">
+          <td class="day-num">0</td>
+          <td class="day-date">Sat Jul 11</td>
+          <td class="location">DC → Munich</td>
+          <td class="overnight">In flight</td>
+          <td>Depart IAD; transatlantic overnight flight</td>
+        </tr>
+        <tr>
+          <td class="day-num">1</td>
+          <td class="day-date">Sun Jul 12</td>
+          <td class="location">Arrive Munich</td>
+          <td class="overnight">Munich</td>
+          <td>Arrive MUC; S-Bahn to city; check in; wander — Marienplatz, Viktualienmarkt, Frauenkirche; light dinner</td>
+        </tr>
+        <tr>
+          <td class="day-num">2</td>
+          <td class="day-date">Mon Jul 13</td>
+          <td class="location">Munich</td>
+          <td class="overnight">Munich</td>
+          <td>Mike's Bike Tour (11:30–3:30); evening dinner at Hopferhouse</td>
+        </tr>
+        <tr>
+          <td class="day-num">3</td>
+          <td class="day-date">Tue Jul 14</td>
+          <td class="location">Munich → Königssee</td>
+          <td class="overnight">Schönau am Königssee</td>
+          <td>Nymphenburg Palace (morning); 14:44 RE5 München Hbf Pl.9 → Freilassing 16:34; 16:45 S4 Pl.1 → Berchtesgaden Hbf 17:38; Bus 841 to Schönau; check in</td>
+        </tr>
+        <tr class="warning-row">
+          <td class="day-num">4</td>
+          <td class="day-date">Wed Jul 15</td>
+          <td class="location">Berchtesgaden area</td>
+          <td class="overnight">Schönau am Königssee</td>
+          <td>Jennerbahn cable car + hike + Eagle's Nest &nbsp;<strong style="color:#b07800">⚠ busy day — see note below</strong></td>
+        </tr>
+        <tr>
+          <td class="day-num">5</td>
+          <td class="day-date">Thu Jul 16</td>
+          <td class="location">Königssee + salt mines</td>
+          <td class="overnight">Schönau am Königssee</td>
+          <td>Morning: Königssee electric boat to St. Bartholomä; cliff-echo flugelhorn. Afternoon: Berchtesgaden salt mine (~1.5 hrs)</td>
+        </tr>
+        <tr>
+          <td class="day-num">6</td>
+          <td class="day-date">Fri Jul 17</td>
+          <td class="location">→ Salzburg</td>
+          <td class="overnight">Salzburg</td>
+          <td>Taxi to Salzburg (~30 min, ~€80); check in; explore Old Town</td>
+        </tr>
+        <tr>
+          <td class="day-num">7</td>
+          <td class="day-date">Sat Jul 18</td>
+          <td class="location">Salzburg</td>
+          <td class="overnight">Salzburg</td>
+          <td>Fortress Hohensalzburg; Getreidegasse walk; Mirabell Gardens; St. Peter Stiftskeller dinner <em>(book ahead)</em></td>
+        </tr>
+        <tr>
+          <td class="day-num">8</td>
+          <td class="day-date">Sun Jul 19</td>
+          <td class="location">→ Vienna</td>
+          <td class="overnight">Vienna</td>
+          <td>ÖBB Railjet departs ~10:07 → arrives Vienna Hbf ~12:32; afternoon in Vienna; check in</td>
+        </tr>
+        <tr>
+          <td class="day-num">9</td>
+          <td class="day-date">Mon Jul 20</td>
+          <td class="location">Vienna</td>
+          <td class="overnight">Vienna</td>
+          <td><em>TBD — museums, Schönbrunn, Naschmarkt, etc.</em></td>
+        </tr>
+        <tr class="flight-row">
+          <td class="day-num">10</td>
+          <td class="day-date">Tue Jul 21</td>
+          <td class="location">Fly home</td>
+          <td class="overnight">—</td>
+          <td>Depart VIE; fly home to DC</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- BASE SUMMARY -->
+  <section>
+    <h2>Base Summary</h2>
+    <table>
+      <thead>
+        <tr><th>Base</th><th>Nights</th><th>Arrival</th><th>Departure</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Munich</td><td>2</td><td>Sun Jul 12</td><td>Tue Jul 14 midday</td></tr>
+        <tr><td>Schönau am Königssee</td><td>3</td><td>Tue Jul 14 evening</td><td>Fri Jul 17 morning</td></tr>
+        <tr><td>Salzburg</td><td>1</td><td>Fri Jul 17</td><td>Sun Jul 19 morning</td></tr>
+        <tr><td>Vienna</td><td>2</td><td>Sun Jul 19 afternoon</td><td>Tue Jul 21</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- DAY 4 NOTE -->
+  <section>
+    <h2>Day 4 Note — Needs Decision</h2>
+    <div class="note-box">
+      <strong>Jennerbahn</strong> (above Königssee) and <strong>Eagle's Nest</strong> (above Berchtesgaden town) are on opposite sides of the valley — ~30 min apart by road. Both are half-day commitments. Three options:
+      <ul style="margin-top:8px">
+        <li><strong>Option A:</strong> Jennerbahn + hike on Day 4; Eagle's Nest on Day 5 (move Königssee boat to Day 6)</li>
+        <li><strong>Option B:</strong> Eagle's Nest on Day 4; Jennerbahn + hike on Day 5</li>
+        <li><strong>Option C:</strong> Keep as-is — both in one day, minimal hiking, very full</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- OPEN QUESTIONS -->
+  <section>
+    <h2>Open Questions</h2>
+    <ul class="open-questions">
+      <li>
+        <span class="check open-check">☐</span>
+        <span class="open">Day 4 split — see note above; needs a decision</span>
+      </li>
+      <li>
+        <span class="check open-check">☐</span>
+        <span class="open">Vienna Day 9 — what to do? (Schönbrunn, Kunsthistorisches Museum, Naschmarkt, etc.)</span>
+      </li>
+      <li>
+        <span class="check done-check">☑</span>
+        <span class="done">Return flight confirmed departing VIE on 7/21</span>
+      </li>
+      <li>
+        <span class="check done-check">☑</span>
+        <span class="done">Train Day 3 confirmed: 14:44 München Hbf → RE5 → Freilassing 16:34 → S4 → Berchtesgaden Hbf 17:38</span>
+      </li>
+      <li>
+        <span class="check done-check">☑</span>
+        <span class="done">Salt mines moved to Day 5 afternoon; taxi on Day 6 keeps travel day clean</span>
+      </li>
+    </ul>
+  </section>
+
+  <!-- BOOKING PRIORITIES -->
+  <section class="priorities">
+    <h2>Booking Priorities</h2>
+    <ol>
+      <li><strong>Eagle's Nest Kehlstein bus</strong> — seasonal, limited capacity; <a href="https://www.kehlsteinhaus.de">kehlsteinhaus.de</a></li>
+      <li><strong>Mike's Bike Tours Munich</strong> — popular in July; <a href="https://www.mikesbiketours.com">mikesbiketours.com</a></li>
+      <li><strong>St. Peter Stiftskeller Salzburg</strong> — dinner reservation; book several weeks ahead</li>
+      <li><strong>Flights</strong> — IAD → MUC outbound / VIE → IAD return (open-jaw)</li>
+      <li><strong>All accommodation</strong> — July is peak season everywhere on this route</li>
+    </ol>
+  </section>
+
+  <!-- TRANSPORTATION -->
+  <section>
+    <h2>Transportation</h2>
+
+    <div class="transport-leg">
+      <div class="leg-title">Leg 1 · Day 3 (Jul 14) · Munich → Berchtesgaden → Schönau am Königssee</div>
+      <div class="train-times">
+        <div class="train-line"><span class="time">14:44</span> München Hbf <span class="platform">Platform 9</span> <span class="train-id">RE5 79025</span> toward Salzburg Hbf</div>
+        <div class="change-line">↓ 1h 50min</div>
+        <div class="train-line"><span class="time">16:34</span> Freilassing <span class="platform">Platform 2</span> — arrive &amp; change</div>
+        <div class="change-line">↕ 11 min transfer</div>
+        <div class="train-line"><span class="time">16:45</span> Freilassing <span class="platform">Platform 1</span> <span class="train-id">S4</span> toward Berchtesgaden Hbf</div>
+        <div class="change-line">↓ 53 min</div>
+        <div class="train-line"><span class="time">17:38</span> Berchtesgaden Hbf — then Bus 841 to Schönau (~20 min)</div>
+      </div>
+      <div class="ticket-note">🎫 <strong>Bayern-Ticket (~€53 family)</strong> covers this entire leg including Bus 841. Individual tickets would be ~€136. Saves ~€80.</div>
+    </div>
+
+    <div class="transport-leg">
+      <div class="leg-title">Leg 2 · Days 4–5 (Jul 15–16) · Local Berchtesgaden area</div>
+      <table>
+        <thead><tr><th>Route</th><th>Bus</th><th>Notes</th></tr></thead>
+        <tbody>
+          <tr><td>Schönau → Königssee dock</td><td>841</td><td>Short ride; runs frequently</td></tr>
+          <tr><td>Schönau → Jennerbahn base</td><td>841</td><td>Same line</td></tr>
+          <tr><td>Berchtesgaden → Obersalzberg (Eagle's Nest)</td><td>838</td><td>To Documentation Center; Kehlstein bus from there (separate ticket)</td></tr>
+        </tbody>
+      </table>
+      <div class="ticket-note">🎫 Individual bus tickets (~€5–10/day total). Not worth a full Bayern-Ticket for short local hops.</div>
+    </div>
+
+    <div class="transport-leg">
+      <div class="leg-title">Leg 3 · Day 6 (Jul 17) · Schönau am Königssee → Salzburg</div>
+      <p><strong>Taxi (recommended)</strong> — door to door, ~30 min, ~€80. Clean transfer with full bags for 4 people. Contact: Taxizentrale Berchtesgaden.</p>
+      <p style="margin-top:8px; color:#888; font-size:0.9em">Bus 840 "Watzmann Express" is an option (~50 min, ~€10/person) but awkward with 3 nights of luggage for 4 people.</p>
+    </div>
+
+    <div class="transport-leg">
+      <div class="leg-title">Leg 4 · Day 8 (Jul 19) · Salzburg → Vienna</div>
+      <div class="train-times">
+        <div class="train-line"><span class="time">~10:07</span> Salzburg Hbf <span class="train-id">ÖBB Railjet / RJX</span></div>
+        <div class="change-line">↓ ~2h 22min</div>
+        <div class="train-line"><span class="time">~12:32</span> Vienna Hbf</div>
+      </div>
+      <div class="ticket-note">🎫 Book seat reservations in advance (~$30/person) at <a href="https://www.oebb.at">oebb.at</a>. Trains run every 30 min.</div>
+    </div>
+
+    <h3>Ticketing Summary by Day</h3>
+    <table>
+      <thead><tr><th>Day</th><th>Date</th><th>Ticket</th><th>Cost</th><th>Notes</th></tr></thead>
+      <tbody>
+        <tr><td>1</td><td>Jul 12</td><td>MVV group day ticket</td><td>~€15</td><td>All Munich transit; buy at airport</td></tr>
+        <tr><td>2</td><td>Jul 13</td><td>MVV group day ticket</td><td>~€15</td><td>Same for city transit</td></tr>
+        <tr><td>3</td><td>Jul 14</td><td><strong>Bayern-Ticket</strong></td><td><strong>~€53</strong></td><td>Covers RE5 + S4 + Bus 841; saves ~€80 vs individual</td></tr>
+        <tr><td>4–5</td><td>Jul 15–16</td><td>Individual bus tickets</td><td>~€5–10/day</td><td>Local buses (841, 838) only</td></tr>
+        <tr><td>6</td><td>Jul 17</td><td>Taxi</td><td>~€80</td><td>No rail ticket needed</td></tr>
+        <tr><td>8</td><td>Jul 19</td><td>ÖBB Railjet</td><td>~$30/person</td><td>Book ahead at oebb.at</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- ACCOMMODATION -->
+  <section>
+    <h2>Accommodation</h2>
+    <table class="accom-table">
+      <thead><tr><th>Base</th><th>Option</th><th>Status</th><th>Dates</th><th>Est. Cost</th></tr></thead>
+      <tbody>
+        <tr><td>Munich</td><td>TBD</td><td><span style="color:#999;font-style:italic">—</span></td><td>Jul 12–14 (2 nights)</td><td>—</td></tr>
+        <tr><td>Schönau am Königssee</td><td><a href="https://www.airbnb.com/rooms/1575373648492118883">Villa Alpenrausch</a></td><td><span class="status-considering">Under consideration</span></td><td>Jul 14–17 (3 nights)</td><td>~$1,500 est.</td></tr>
+        <tr><td>Salzburg</td><td>TBD</td><td><span style="color:#999;font-style:italic">—</span></td><td>Jul 17–19 (1 night)</td><td>—</td></tr>
+        <tr><td>Vienna</td><td>TBD</td><td><span style="color:#999;font-style:italic">—</span></td><td>Jul 19–21 (2 nights)</td><td>—</td></tr>
+      </tbody>
+    </table>
+    <div class="accom-notes">
+      <strong>Villa Alpenrausch</strong> — 2 bedrooms (king + king), 1 bath, sleeps 6. Private sauna, full kitchen, alfresco dining, self check-in. Rated 4.86★ (14 reviews), Guest Favorite, Superhost.<br><br>
+      Listing shows 2-night pricing ($997 non-refundable / $1,088 refundable) — <strong>verify 3-night availability (Jul 14–17) before booking</strong>.<br>
+      <span class="deadline">⚠ Refundable rate: free cancellation before June 14 — 8 days away.</span>
+    </div>
+  </section>
+
+  <!-- TO ADD -->
+  <section>
+    <h2>Still to Plan</h2>
+    <div class="to-add">
+      <ul>
+        <li>Flights — IAD → MUC outbound / VIE → IAD return; airline, times, booking status</li>
+        <li>Hour-by-hour daily schedules</li>
+        <li>Munich accommodation</li>
+        <li>Salzburg accommodation</li>
+        <li>Vienna accommodation + Day 9 activities</li>
+        <li>Full cost and budget tracking</li>
+      </ul>
+    </div>
+  </section>
+
+</div>
+
+<div class="footer">Bavaria + Salzburg + Vienna · Summer 2026 · Working draft — last updated June 2026</div>
+
+</body>
+</html>
