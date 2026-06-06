@@ -37,37 +37,72 @@
 ## Daily Detail
 
 ### Day 0 — Sat Jul 11 · Travel
-Depart IAD 5:30 PM on UA 108 (nonstop Boeing 787-8). Overnight transatlantic flight; arrive Munich 7:45 AM Sunday.
+- **5:30 PM** — Depart IAD on UA 108 (nonstop, Boeing 787-8)
+- Overnight transatlantic flight; arrive Munich 7:45 AM (+1)
 
 ### Day 1 — Sun Jul 12 · Arrive Munich
-Land MUC 7:45 AM and take the S-Bahn S1 or S8 to city center (~45 min). Check in and drop bags (early check-in may not be available). Head straight to Marienplatz — the main square with the Glockenspiel on the Neues Rathaus (chimes at 11 AM and noon). Walk through the Viktualienmarkt open-air food market for lunch, then over to the Frauenkirche cathedral. Light dinner nearby and early night to recover from the overnight flight.
+- **7:45 AM** — Land MUC; S-Bahn S1/S8 to city center (~45 min)
+- **Morning** — Check in, drop bags (early check-in may not be available)
+- **~11 AM** — Marienplatz: Neues Rathaus Glockenspiel (chimes at 11 AM and noon)
+- **Lunch** — Viktualienmarkt open-air food market
+- **Afternoon** — Frauenkirche cathedral; wander the Altstadt
+- **Evening** — Light dinner; early night to recover from the overnight flight
 
 ### Day 2 — Mon Jul 13 · Munich
-Morning is free — sleep in or wander. Mike's Bike Tours departs 11:30 AM and runs until ~3:30 PM, covering the English Garden, Olympiapark, and city highlights with a local guide. Arrive at the meeting point a few minutes early. Evening dinner at Hopferhouse for traditional Bavarian food.
+- **Morning** — Free; sleep in or wander
+- **11:30 AM** — Mike's Bike Tours departs (~4 hrs: English Garden, Olympiapark, city highlights with local guide)
+- **~3:30 PM** — Tour returns
+- **Evening** — Dinner at Hopferhouse (traditional Bavarian)
 
 ### Day 3 — Tue Jul 14 · Munich → Königssee
-Morning at Nymphenburg Palace (~9:30–11:30 AM) — baroque royal residence with formal gardens worth a walk-through. Return to central Munich for lunch, then catch the **14:44 RE5 from München Hbf Platform 9** (Bayern-Ticket covers everything). Change at Freilassing (Platform 2 → Platform 1, 11-min transfer) to the S4, arriving Berchtesgaden Hbf at 17:38. Bus 841 to Schönau am Königssee (~20 min); check in and settle in for the next 3 nights.
+- **~9:30 AM** — Nymphenburg Palace: baroque royal residence + formal gardens (~2 hrs)
+- **Midday** — Return to central Munich; lunch
+- **14:44** — RE5 from München Hbf Platform 9 (Bayern-Ticket covers everything)
+- **16:34** — Arrive Freilassing Platform 2; change to Platform 1 (11-min transfer)
+- **16:45** — S4 departs Freilassing
+- **17:38** — Arrive Berchtesgaden Hbf; Bus 841 to Schönau (~20 min); check in
 
 ### Day 4 — Wed Jul 15 · Eagle's Nest + Salt Mine
-Morning: Bus 838 from Berchtesgaden to the Obersalzberg Documentation Center, then the seasonal Kehlstein bus up to the Eagle's Nest summit at 1,834m. Allow 3–4 hours total for the ride, summit exploration, and return — the panoramic Alpine views are the highlight of the whole trip. Afternoon: Berchtesgaden salt mine tour right in town (~1.5 hrs) — mine carts, an underground salt lake, and a wooden slide make it a genuine hit with teens.
+- **Morning** — Bus 838 from Berchtesgaden to Obersalzberg Documentation Center
+- **~9 AM onward** — Kehlstein bus to Eagle's Nest summit (1,834m); explore and take in the panoramic Alpine views — allow 3–4 hrs total including return
+- **Afternoon** — Berchtesgaden salt mine in town (~1.5 hrs): mine carts, underground salt lake, wooden slide
 
 ### Day 5 — Thu Jul 16 · Königssee
-Board the electric boat at Königssee dock (~9–10 AM) for the 50-min ride south to Salet; the boat pauses at the famous red-roofed St. Bartholomä chapel for photos. From Salet, walk 20 minutes to the turquoise Obersee, then continue another 30 minutes to Rotbachfall — Germany's highest waterfall at ~470m, tumbling straight off a cliff into the valley. Return hike and boat back; afternoon free in Schönau.
+- **~9–10 AM** — Electric boat from Königssee dock to Salet (~50 min); passes the red-roofed St. Bartholomä chapel
+- **Mid-morning** — Walk from Salet to Obersee (~20 min, turquoise glacier lake)
+- **Late morning** — Continue to Rotbachfall (~30 min further): Germany's highest waterfall at ~470m
+- **Midday** — Return hike + boat back
+- **Afternoon** — Free in Schönau
 
 ### Day 6 — Fri Jul 17 · → Salzburg
-Morning checkout; taxi door-to-door to Salzburg (~30 min, ~€80 flat rate via Taxizentrale Berchtesgaden — book the evening before). Check in and get oriented. Afternoon in Salzburg's Altstadt (UNESCO World Heritage): Getreidegasse with its wrought-iron guild signs and Mozart's birthplace at No. 9, the Dom Cathedral, and Residenzplatz. Easy evening to settle in after the travel day.
+- **Morning** — Checkout; taxi to Salzburg (~30 min, ~€80 flat; book the evening before via Taxizentrale Berchtesgaden)
+- **Midday** — Arrive Salzburg; check in
+- **Afternoon** — Altstadt (UNESCO World Heritage): Getreidegasse (Mozart's birthplace at No. 9, wrought-iron guild signs), Dom Cathedral, Residenzplatz
+- **Evening** — Easy dinner; settle in
 
-### Day 7 — Sat Jul 18 · Salzburg full day
-Morning: funicular up to Fortress Hohensalzburg — the medieval castle dominates the skyline and has sweeping views over the city and Alps (allow ~2 hrs). Midday: walk Getreidegasse again at a slower pace, grab lunch. Afternoon: Mirabell Gardens (formal baroque gardens and a Sound of Music filming location) and a stroll along the Salzach river. Evening: dinner at St. Peter Stiftskeller — one of Europe's oldest restaurants in a 9th-century monastery; book ahead.
+### Day 7 — Sat Jul 18 · Salzburg
+- **Morning** — Funicular to Fortress Hohensalzburg: medieval castle with sweeping views over city and Alps (~2 hrs)
+- **Midday** — Getreidegasse walk; lunch
+- **Afternoon** — Mirabell Gardens (baroque formal gardens, Sound of Music filming location); stroll along the Salzach
+- **Evening** — Dinner at St. Peter Stiftskeller (one of Europe's oldest restaurants, 9th-century monastery; book ahead)
 
 ### Day 8 — Sun Jul 19 · → Vienna
-ÖBB Railjet departs Salzburg Hbf ~10:07, arriving Vienna Hbf ~12:32 (2h 22m, scenic ride through the Austrian countryside). Check in and freshen up. Afternoon Old Town walk: Stephansdom (St. Stephen's Cathedral) — go inside and climb the 343-step south tower for sweeping city views. Continue along the Graben pedestrian street past the ornate Pestsäule plague column, to the Hofburg Palace exterior and a loop of the Ringstrasse boulevard. Dinner in the 1st district.
+- **~10:07 AM** — ÖBB Railjet departs Salzburg Hbf
+- **~12:32 PM** — Arrive Vienna Hbf; check in, freshen up
+- **Afternoon** — Old Town walk: Stephansdom — go inside and climb the 343-step south tower for city views; Graben pedestrian street and Pestsäule plague column; Hofburg Palace exterior; Ringstrasse loop
+- **Evening** — Dinner in the 1st district
 
-### Day 9 — Mon Jul 20 · Vienna full day
-Early start at the Naschmarkt (8–10 AM) — Vienna's 1.5 km open-air market is best in the morning; grab breakfast at a café stall and browse the produce and deli vendors before the crowds arrive. Take the U4 to Schönbrunn (~10:30 AM) for the Grand Tour of the palace (~45 min, ~16 state rooms), then the formal gardens. The hedge maze is worth 30–45 minutes and a genuine highlight for the teens; climb to the Gloriette at the top of the gardens for a panoramic view over Vienna. If energy allows, the Tiergarten on the palace grounds (world's oldest zoo) is an easy add for 1.5–2 hrs. Back to the 1st district for dinner; evening stroll along the Ringstrasse lit up at night.
+### Day 9 — Mon Jul 20 · Vienna
+- **8–10 AM** — Naschmarkt (1.5 km open-air market): breakfast at a café stall; browse produce and deli vendors before the crowds arrive
+- **~10:30 AM** — U4 to Schönbrunn; Grand Tour of the palace (~45 min, ~16 state rooms)
+- **~Noon** — Formal gardens + hedge maze (30–45 min; a highlight for the teens)
+- **Afternoon** — Gloriette climb for panoramic views over Vienna; optional Tiergarten (world's oldest zoo, 1.5–2 hrs if teens want it)
+- **Evening** — Back to 1st district; dinner; Ringstrasse stroll lit up at night
 
 ### Day 10 — Tue Jul 21 · Fly home
-Early checkout: leave hotel by 6:45 AM. CAT (City Airport Train) from Wien Mitte to VIE in ~16 min, allowing plenty of time before the 9:35 AM departure. OS 135 to Zürich, then UA 53 home to IAD; arrive Washington Dulles 3:30 PM.
+- **6:45 AM** — Leave hotel; CAT (City Airport Train) from Wien Mitte to VIE (~16 min)
+- **9:35 AM** — Depart VIE: OS 135 to Zürich (55-min layover), then UA 53 to IAD
+- **3:30 PM** — Arrive Washington Dulles
 
 ---
 
