@@ -17,8 +17,8 @@
 | 5 | Thu Jul 16 | Königssee full day | Schönau am Königssee | Electric boat to Salet (south end, ~50 min); hike to Obersee; continue to Rotbachfall (Germany's highest waterfall, ~470m); return hike; boat back |
 | 6 | Fri Jul 17 | → Salzburg | Salzburg | Taxi to Salzburg (~30 min, ~€80); check in; explore Old Town |
 | 7 | Sat Jul 18 | Salzburg | Salzburg | Fortress Hohensalzburg; Getreidegasse walk; Mirabell Gardens; St. Peter Stiftskeller dinner (book ahead) |
-| 8 | Sun Jul 19 | → Vienna | Vienna | Train departs ~10:07 → arrives ~12:32; afternoon in Vienna; check in |
-| 9 | Mon Jul 20 | Vienna | Vienna | Vienna — TBD |
+| 8 | Sun Jul 19 | → Vienna | Vienna | Train departs ~10:07 → arrives ~12:32; check in; Old Town walk — St. Stephen's Cathedral (climb south tower), Graben, Hofburg exterior, Ringstrasse; dinner in 1st district |
+| 9 | Mon Jul 20 | Vienna | Vienna | Naschmarkt (8–10am, breakfast + browse); Schönbrunn Palace — Grand Tour (~45 min) + gardens + maze + Gloriette; dinner 1st district; evening Ringstrasse |
 | 10 | Tue Jul 21 | Fly home | — | Depart VIE; fly home |
 
 ---
@@ -33,10 +33,6 @@
 | Vienna | 2 | Sun Jul 19 afternoon | Tue Jul 21 |
 
 ---
-
-## Open Questions
-
-- [ ] Vienna Day 9 — what to do? (museums, Schönbrunn, Naschmarkt, etc.)
 
 ---
 
