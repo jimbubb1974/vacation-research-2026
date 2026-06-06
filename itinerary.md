@@ -177,5 +177,4 @@ Status: Not booked
 
 ## To Add (in progress)
 
-- Hour-by-hour daily schedules
 - Costs and budget tracking
