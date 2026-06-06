@@ -195,7 +195,9 @@
 | Munich | TBD | — | Jul 12–14 (2 nights) | — | — |
 | Schönau am Königssee | Villa Alpenrausch | Under consideration | Jul 14–17 (3 nights) | ~$1,500 est. (3 nights) | [Airbnb](https://www.airbnb.com/rooms/1575373648492118883) |
 | Salzburg | Numa Salzburg Vogelweider | Under consideration | Jul 17–19 (2 nights) | $850.66 (taxes incl.) | Booking.com |
-| Vienna | TBD | — | Jul 19–21 (2 nights) | — | — |
+| Vienna | Hotel Marc Aurel Vienna City Center | Under consideration | Jul 19–21 (2 nights) | $609 (taxes incl.) | [Expedia](https://www.expedia.com/Vienna-Hotels-Hotel-Marc-Aurel-Vienna-City-Center.h891949.Hotel-Information?chkin=2026-07-19&chkout=2026-07-21&rm1=a4) |
+
+**Hotel Marc Aurel Vienna City Center notes:** 3-star, rated 9.0 Wonderful (484 reviews, Expedia). Quadruple Room: sleeps 4, 215 sq ft, 1 Double Bed + 2 Twin Beds, Free WiFi, breakfast buffet included. **$609 total** (taxes and fees included, Summer Sale — was $812; $265/night). Only 2 rooms left. Non-refundable at base price; fully refundable before Jul 17 for +$15. One room for all 4 — simpler and cheaper than two separate rooms.
 
 **Numa Salzburg Vogelweider notes:** Vogelweiderstraße 33, Schallmoos. Rated 8.6 Excellent (3,206 reviews) on Booking.com; location score 8.2. 2 × Superior Double Room for 4 adults. Early Booker Deal: $1,000.78 − $150.12 = **$850.66 total** (taxes and fees included; €735.93). Check-in from 3:00 PM; checkout by 11:00 AM — compatible with the ~10:07 AM train departure (leave hotel ~9:30 AM, check out early or store bags).
 
