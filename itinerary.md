@@ -13,8 +13,8 @@
 | 1 | Sun Jul 12 | Arrive Munich | Munich | Arrive MUC; S-Bahn to city; check in; wander — Marienplatz, Viktualienmarkt, Frauenkirche; light dinner |
 | 2 | Mon Jul 13 | Munich | Munich | Mike's Bike Tour (11:30–3:30); evening dinner at Hopferhouse |
 | 3 | Tue Jul 14 | Munich → Königssee area | Schönau am Königssee | Nymphenburg Palace (morning); 14:44 RE5 from München Hbf Pl.9 → Freilassing 16:34; 16:45 S4 Pl.1 → Berchtesgaden Hbf 17:38; Bus 841 to Schönau am Königssee; check in |
-| 4 | Wed Jul 15 | Berchtesgaden area | Schönau am Königssee | Jennerbahn cable car + hike + Eagle's Nest — **⚠ busy day, may need to split** |
-| 5 | Thu Jul 16 | Königssee + salt mines | Schönau am Königssee | Morning: Königssee electric boat to St. Bartholomä; cliff-echo flugelhorn. Afternoon: Berchtesgaden salt mine (~1.5 hrs) |
+| 4 | Wed Jul 15 | Berchtesgaden area | Schönau am Königssee | Eagle's Nest — Bus 838 to Obersalzberg; Kehlstein bus + elevator to summit; Berchtesgaden salt mine (afternoon) |
+| 5 | Thu Jul 16 | Königssee full day | Schönau am Königssee | Electric boat to Salet (south end, ~50 min); hike to Obersee; continue to Rotbachfall (Germany's highest waterfall, ~470m); return hike; boat back |
 | 6 | Fri Jul 17 | → Salzburg | Salzburg | Taxi to Salzburg (~30 min, ~€80); check in; explore Old Town |
 | 7 | Sat Jul 18 | Salzburg | Salzburg | Fortress Hohensalzburg; Getreidegasse walk; Mirabell Gardens; St. Peter Stiftskeller dinner (book ahead) |
 | 8 | Sun Jul 19 | → Vienna | Vienna | Train departs ~10:07 → arrives ~12:32; afternoon in Vienna; check in |
@@ -34,22 +34,9 @@
 
 ---
 
-## Day 4 Note — Needs Revision
-
-Jennerbahn (above Königssee) and Eagle's Nest (above Berchtesgaden town, ~30 min apart by road) are on opposite sides of the valley. Both are half-day commitments. Options:
-- **Option A:** Jennerbahn + hike on Day 4; Eagle's Nest on Day 5 (swap Königssee boat to Day 6)
-- **Option B:** Eagle's Nest on Day 4 (closer to Berchtesgaden side); Jennerbahn on Day 5
-- **Option C:** Keep as-is but accept it's a very full day with minimal hiking
-
----
-
 ## Open Questions
 
-- [ ] Day 4 split — see note above
 - [ ] Vienna Day 9 — what to do? (museums, Schönbrunn, Naschmarkt, etc.)
-- [x] Return flight: confirmed departing VIE on 7/21
-- [x] Train on Day 3 — confirmed: 14:44 München Hbf Pl.9 → RE5 → Freilassing 16:34 → S4 → Berchtesgaden Hbf 17:38 (verified on bahn.de)
-- [x] Salt mines logistics — moved to Day 5 afternoon (after Königssee boat); taxi on Day 6 keeps travel day clean
 
 ---
 
@@ -84,10 +71,9 @@ Jennerbahn (above Königssee) and Eagle's Nest (above Berchtesgaden town, ~30 mi
 
 | Route | Bus | Notes |
 |---|---|---|
-| Schönau → Königssee dock | 841 | Short ride; runs frequently |
-| Schönau/Berchtesgaden → Jennerbahn base | 841 | Same line |
-| Berchtesgaden → Obersalzberg (Eagle's Nest bus) | 838 | Bus 838 to Obersalzberg Documentation Center; Kehlstein bus from there (separate ticket) |
-| All local buses | — | Bayern-Ticket covers regional buses in Bavaria |
+| Schönau → Königssee dock | 841 | Short ride for Day 5 boat departure |
+| Berchtesgaden → Obersalzberg (Eagle's Nest) | 838 | To Documentation Center; Kehlstein bus from there (separate ticket, ~€18/person) |
+| All local buses | — | Individual tickets; not worth Bayern-Ticket for short hops |
 
 ---
 
