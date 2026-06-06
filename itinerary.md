@@ -135,9 +135,51 @@
 
 ---
 
+## Flights
+
+**Open-jaw:** IAD → MUC outbound (Jul 11) + VIE → IAD return (Jul 21)
+**Book at:** united.com — both legs in one reservation; return is a United codeshare on Austrian
+
+### Outbound — IAD → MUC (Day 0, Jul 11)
+
+| | |
+|---|---|
+| Flight | **UA 108** — Nonstop |
+| Departs | IAD 5:30 PM |
+| Arrives | MUC 7:45 AM (+1, Jul 12) |
+| Duration | 8h 15m |
+| Aircraft | Boeing 787-8 Dreamliner (United operated) |
+| Status | Not booked |
+
+### Return — VIE → IAD (Day 10, Jul 21)
+
+1-stop via Zürich — 11h 55m total
+
+| Leg | Flight | Route | Times | Duration | Aircraft |
+|---|---|---|---|---|---|
+| 1 | OS 135 (Austrian) | VIE → ZRH | 9:35 AM → 11:00 AM | 1h 25m | Airbus A320 |
+| — | *Layover ZRH* | — | — | **55 min** ⚠️ | — |
+| 2 | UA 53 (United) | ZRH → IAD | 11:55 AM → 3:30 PM | 9h 35m | Boeing 767-300 |
+
+Status: Not booked
+
+**Pricing (Standard Economy):**
+
+| | Per person | × 4 |
+|---|---|---|
+| Fare | $1,208.00 | $4,832.00 |
+| Taxes & fees | $147.63 | $590.52 |
+| **Total** | **$1,355.63** | **$5,422.52** |
+
+**Notes:**
+- No nonstop VIE→IAD available Jul 21 at a reasonable price; nonstop Austrian codeshare runs Jul 22
+- 55-min ZRH connection is tight but Zurich is efficient; United will re-protect if missed
+- Standard Economy: 1 checked bag included, MileagePlus miles earned, seat selection allowed
+- Status: **Ready to book**
+
+---
+
 ## To Add (in progress)
 
-- Flights (airline, times, booking status)
 - Hour-by-hour daily schedules
-- Transportation details (train numbers, bus routes, tickets)
 - Costs and budget tracking
