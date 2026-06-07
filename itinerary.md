@@ -197,6 +197,7 @@
 | Munich | Holiday Inn Munich - Westpark by IHG | Under consideration | Jul 12–14 (2 nights) | $339/night · $677 total (taxes incl., 2 rooms) | [Booking.com](https://www.booking.com/hotel/de/holiday-inn-munich-westpark.html) |
 | Schönau am Königssee | Villa Alpenrausch | Under consideration | Jul 14–17 (3 nights) | ~$500/night · ~$1,500 total est. | [Airbnb](https://www.airbnb.com/rooms/1575373648492118883) |
 | Schönau am Königssee | Hotel Schiffmeister | Under consideration | Jul 14–17 (3 nights) | ~$499/night · $1,498 total (+ fees) | [Booking.com](https://www.booking.com/hotel/de/schiffmeister.html) |
+| Schönau am Königssee | Haus Alpenveilchen - Appartement 3 | Under consideration | Jul 14–17 (3 nights) | $322/night · $966 total (taxes incl.) | [Booking.com](https://www.booking.com/hotel/de/haus-alpenveilchen-appartement-3.html) |
 | Salzburg | Numa Salzburg Vogelweider | Under consideration | Jul 17–19 (2 nights) | $425/night · $851 total (taxes incl.) | Booking.com |
 | Salzburg | Hotel Vogelweiderhof | Under consideration | Jul 17–19 (2 nights) | $369/night · $737 total (taxes incl.) | [Booking.com](https://www.booking.com/hotel/at/und-restaurant-vogelweiderhof.html) |
 | Vienna | Hotel Marc Aurel Vienna City Center | Under consideration | Jul 19–21 (2 nights) | $265/night · $609 total (taxes incl.) | [Expedia](https://www.expedia.com/Vienna-Hotels-Hotel-Marc-Aurel-Vienna-City-Center.h891949.Hotel-Information?chkin=2026-07-19&chkout=2026-07-21&rm1=a4) |
@@ -212,6 +213,8 @@
 **Hotel Vogelweiderhof notes:** Vogelweiderstraße 93b, Schallmoos (same street as Numa, ~500m away). Rated 8.0 Very Good (4,884 reviews) on Booking.com. 1 × Family Room with Bunk Bed for 4 adults. **$737.06 total** (2 nights, taxes and fees included; €637.65; $369/night). Check-in 3:00–8:00 PM; checkout 7:00–11:00 AM — compatible with ~10:07 AM train departure. Amenities: Free WiFi, parking.
 
 **Numa Salzburg Vogelweider notes:** Vogelweiderstraße 33, Schallmoos. Rated 8.6 Excellent (3,206 reviews) on Booking.com; location score 8.2. 2 × Superior Double Room for 4 adults. Early Booker Deal: $1,000.78 − $150.12 = **$850.66 total** (taxes and fees included; €735.93). Check-in from 3:00 PM; checkout by 11:00 AM — compatible with the ~10:07 AM train departure (leave hotel ~9:30 AM, check out early or store bags).
+
+**Haus Alpenveilchen - Appartement 3 notes:** Oberschönauerstraße 17, Schönau am Königssee. Rated 9.0 Wonderful (20 reviews) on Booking.com; location score 9.9 Excellent. 1 × Superior One-Bedroom Apartment with Balcony for 4 adults — note: one bedroom for 4 people, check sleeping configuration. Genius Discount applied: $1,068.95 − $102.60 = **$966.36 total** (3 nights, taxes and fees included; €836.02; $322/night). Genius membership required for discount. Check-in 4:00–8:00 PM; checkout by 10:00 AM. Amenities: Free WiFi, parking.
 
 **Hotel Schiffmeister notes:** 34 Seestrasse, Schönau am Königssee — right on the lake. Location score 9.7 Excellent. Rated 7.3 Good (577 reviews) on Booking.com. 2 × Double Room with Lake View for 4 adults. **$1,498.05 base price** (3 nights; €1,296) — note "additional charges may apply," so confirm final total before booking. Check-in 2:00–7:00 PM; checkout 9:00–11:00 AM. Amenities: Free WiFi, parking.
 
