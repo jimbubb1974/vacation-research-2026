@@ -37,10 +37,13 @@ COSTS = [
     ("Accommodation", "Vienna — Hotel Marc Aurel, 2 nights (Jul 19–21)",       609.00, False),
 
     # TRANSPORT
-    ("Transport", "Airport → city: MVV group day ticket",                       16.00, True),
-    ("Transport", "Bayern-Ticket: Munich → Berchtesgaden (Jul 14, group)",      33.00, True),
-    ("Transport", "ÖBB Railjet: Salzburg → Vienna (Jul 18, 4 people)",         110.00, True),
-    ("Transport", "Vienna public transit",                                       22.00, True),
+    ("Transport", "Airport → city: MVV group day ticket (Jul 12)",              16.00, True),
+    ("Transport", "Bayern-Ticket: Munich → Berchtesgaden (Jul 14, group)",      58.00, True),
+    ("Transport", "Local buses Berchtesgaden area (Jul 15–16, ~€8/day)",        18.00, True),
+    ("Transport", "Schönau → Salzburg: taxi to Freilassing + ÖBB (Jul 17)",    100.00, True),
+    ("Transport", "ÖBB Railjet: Salzburg → Vienna (Jul 19, 4 people)",         120.00, True),
+    ("Transport", "Vienna public transit (Jul 19–21)",                           22.00, True),
+    ("Transport", "CAT Wien Mitte → VIE airport (Jul 21, 4 people)",            52.00, True),
 
     # ACTIVITIES
     ("Activities", "Mike's Bike Tours Munich (4 people)",                       160.00, True),

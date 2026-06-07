@@ -274,11 +274,14 @@ Status: Not booked
 | | Vienna — Hotel Marc Aurel, 2 nights (Jul 19–21) | $609 |
 | | *Subtotal* | *$3,637* |
 | **Transport** | | |
-| | Airport → city: MVV group day ticket \* | $16 |
-| | Bayern-Ticket: Munich → Berchtesgaden (Jul 14, group) \* | $33 |
-| | ÖBB Railjet: Salzburg → Vienna (Jul 18, 4 people) \* | $110 |
-| | Vienna public transit \* | $22 |
-| | *Subtotal* | *$181* |
+| | Airport → city: MVV group day ticket (Jul 12) \* | $16 |
+| | Bayern-Ticket: Munich → Berchtesgaden (Jul 14, group) \* | $58 |
+| | Local buses Berchtesgaden area (Jul 15–16, ~€8/day) \* | $18 |
+| | Schönau → Salzburg: taxi to Freilassing + ÖBB (Jul 17) \* | $100 |
+| | ÖBB Railjet: Salzburg → Vienna (Jul 19, 4 people) \* | $120 |
+| | Vienna public transit (Jul 19–21) \* | $22 |
+| | CAT Wien Mitte → VIE airport (Jul 21, 4 people) \* | $52 |
+| | *Subtotal* | *$386* |
 | **Activities** | | |
 | | Mike's Bike Tours Munich (4 people) \* | $160 |
 | | Nymphenburg Palace admission (4 people) \* | $44 |
@@ -293,7 +296,7 @@ Status: Not booked
 | | Miscellaneous / buffer \* | $500 |
 | | *Subtotal* | *$2,000* |
 | | | |
-| **TOTAL** | | **$12,031** |
+| **TOTAL** | | **$12,236** |
 <!-- COSTS_END -->
 
 ---
