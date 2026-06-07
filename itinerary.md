@@ -192,10 +192,12 @@
 
 | Base | Option | Status | Dates | Cost | Link |
 |---|---|---|---|---|---|
-| Munich | TBD | — | Jul 12–14 (2 nights) | — | — |
+| Munich | KING's Hotel First | Under consideration | Jul 12–14 (2 nights) | ~$270/night · ~$1,081 total est. (2 rooms) | [Booking.com](https://www.booking.com/hotel/de/kingsfistclassmuenchen.html) |
 | Schönau am Königssee | Villa Alpenrausch | Under consideration | Jul 14–17 (3 nights) | ~$500/night · ~$1,500 total est. | [Airbnb](https://www.airbnb.com/rooms/1575373648492118883) |
 | Salzburg | Numa Salzburg Vogelweider | Under consideration | Jul 17–19 (2 nights) | $425/night · $851 total (taxes incl.) | Booking.com |
 | Vienna | Hotel Marc Aurel Vienna City Center | Under consideration | Jul 19–21 (2 nights) | $265/night · $609 total (taxes incl.) | [Expedia](https://www.expedia.com/Vienna-Hotels-Hotel-Marc-Aurel-Vienna-City-Center.h891949.Hotel-Information?chkin=2026-07-19&chkout=2026-07-21&rm1=a4) |
+
+**KING's Hotel First notes:** Dachauer Str. 13, Maxvorstadt. Rated 8.6 Excellent (3,600 reviews) on Booking.com; location score 8.9. Booking shown is 1 × Double Room for 2 adults, $540.71 total (2 nights, taxes and fees included; €467.78) — Getaway Deal applied. **Need 2 rooms for family of 4: ~$1,081 total estimated.** Amenities: Free WiFi, parking, restaurant.
 
 **Hotel Marc Aurel Vienna City Center notes:** 3-star, rated 9.0 Wonderful (484 reviews, Expedia). Quadruple Room: sleeps 4, 215 sq ft, 1 Double Bed + 2 Twin Beds, Free WiFi, breakfast buffet included. **$609 total** (taxes and fees included, Summer Sale — was $812; $265/night). Only 2 rooms left. Non-refundable at base price; fully refundable before Jul 17 for +$15. One room for all 4 — simpler and cheaper than two separate rooms.
 
