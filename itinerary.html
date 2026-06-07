@@ -109,7 +109,14 @@
   .photo-item img { width: 100%; height: 150px; object-fit: cover; border-radius: 6px; display: block; }
   .photo-caption { font-size: 0.78em; color: #666; font-family: sans-serif; margin-top: 5px; text-align: center; font-style: italic; }
   .photo-placeholder { width: 100%; height: 150px; background: #e8e4dc; border-radius: 6px; display: flex; align-items: center; justify-content: center; font-size: 0.8em; color: #aaa; font-family: sans-serif; font-style: italic; text-align: center; padding: 10px; }
-</style>
+    .cost-table { width: 100%; border-collapse: collapse; font-size: 0.93em; margin-top: 10px; }
+    .cost-table th { background: #2c5f8a; color: #fff; padding: 7px 10px; text-align: left; }
+    .cost-table td { padding: 5px 10px; border-bottom: 1px solid #e8e4dc; vertical-align: top; }
+    .cost-cat-header td { background: #d5e8f5; font-weight: bold; padding: 6px 10px; }
+    .cost-est td:nth-child(2) { font-style: italic; color: #555; }
+    .cost-amt { text-align: right !important; font-variant-numeric: tabular-nums; white-space: nowrap; }
+    .cost-total-row td { background: #2c5f8a; color: #fff; font-weight: bold; padding: 8px 10px; border: none; }
+  </style>
 </head>
 <body>
 
@@ -479,6 +486,42 @@
       </ul>
     </div>
   </section>
+
+<!-- COSTS_START -->
+  <section>
+    <h2>Cost Estimate</h2>
+    <p style="font-size:0.88em;color:#666;margin-bottom:10px">All amounts USD. <em>Italic rows (*) are estimates — confirm before trip.</em> Total verified by <code>build_costs.py</code> · source: <code>trip_costs.xlsx</code>.</p>
+    <table class="cost-table">
+      <thead><tr><th colspan="2">Item</th><th>Amount</th></tr></thead>
+      <tbody>
+        <tr class="cost-cat-header"><td colspan="2">Flights</td><td></td></tr>
+        <tr><td style="width:2em"></td><td>UA 108 IAD→MUC Jul 11 + OS135/UA53 VIE→IAD Jul 21 (4 people, Standard Economy)</td><td class="cost-amt">$5,423</td></tr>
+        <tr class="cost-cat-header"><td colspan="2">Accommodation</td><td></td></tr>
+        <tr><td style="width:2em"></td><td>Munich — Holiday Inn Westpark, 2 nights (Jul 12–14)</td><td class="cost-amt">$677</td></tr>
+        <tr class="cost-est"><td style="width:2em"></td><td>Königssee — Villa Alpenrausch, 3 nights (Jul 14–17) *</td><td class="cost-amt">$1,500</td></tr>
+        <tr><td style="width:2em"></td><td>Salzburg — Numa Vogelweider, 2 nights (Jul 17–19)</td><td class="cost-amt">$851</td></tr>
+        <tr><td style="width:2em"></td><td>Vienna — Hotel Marc Aurel, 2 nights (Jul 19–21)</td><td class="cost-amt">$609</td></tr>
+        <tr class="cost-cat-header"><td colspan="2">Transport</td><td></td></tr>
+        <tr class="cost-est"><td style="width:2em"></td><td>Airport → city: MVV group day ticket *</td><td class="cost-amt">$16</td></tr>
+        <tr class="cost-est"><td style="width:2em"></td><td>Bayern-Ticket: Munich → Berchtesgaden (Jul 14, group) *</td><td class="cost-amt">$33</td></tr>
+        <tr class="cost-est"><td style="width:2em"></td><td>ÖBB Railjet: Salzburg → Vienna (Jul 18, 4 people) *</td><td class="cost-amt">$110</td></tr>
+        <tr class="cost-est"><td style="width:2em"></td><td>Vienna public transit *</td><td class="cost-amt">$22</td></tr>
+        <tr class="cost-cat-header"><td colspan="2">Activities</td><td></td></tr>
+        <tr class="cost-est"><td style="width:2em"></td><td>Mike's Bike Tours Munich (4 people) *</td><td class="cost-amt">$160</td></tr>
+        <tr class="cost-est"><td style="width:2em"></td><td>Nymphenburg Palace admission (4 people) *</td><td class="cost-amt">$44</td></tr>
+        <tr class="cost-est"><td style="width:2em"></td><td>Eagle's Nest Kehlstein bus (4 people) *</td><td class="cost-amt">$80</td></tr>
+        <tr class="cost-est"><td style="width:2em"></td><td>Königssee electric boat (4 people) *</td><td class="cost-amt">$88</td></tr>
+        <tr class="cost-est"><td style="width:2em"></td><td>Hohensalzburg fortress admission (4 people) *</td><td class="cost-amt">$66</td></tr>
+        <tr class="cost-est"><td style="width:2em"></td><td>St. Peter Stiftskeller dinner (4 people) *</td><td class="cost-amt">$220</td></tr>
+        <tr class="cost-est"><td style="width:2em"></td><td>Schönbrunn Palace + maze (4 people) *</td><td class="cost-amt">$132</td></tr>
+        <tr class="cost-cat-header"><td colspan="2">Meals & Incidentals</td><td></td></tr>
+        <tr class="cost-est"><td style="width:2em"></td><td>Meals (~$150/day × 10 days) *</td><td class="cost-amt">$1,500</td></tr>
+        <tr class="cost-est"><td style="width:2em"></td><td>Miscellaneous / buffer *</td><td class="cost-amt">$500</td></tr>
+        <tr class="cost-total-row"><td colspan="2">TOTAL</td><td class="cost-amt">$12,031</td></tr>
+      </tbody>
+    </table>
+  </section>
+<!-- COSTS_END -->
 
   <!-- PHOTO GALLERY -->
   <section>
