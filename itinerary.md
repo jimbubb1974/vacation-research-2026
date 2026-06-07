@@ -193,9 +193,12 @@
 | Base | Option | Status | Dates | Cost | Link |
 |---|---|---|---|---|---|
 | Munich | Leonardo Hotel Munich Arabellapark | Under consideration | Jul 12–14 (2 nights) | $319/night · $638 total (taxes incl.) | Booking.com |
+| Munich | Eurostars Grand Central | Under consideration | Jul 12–14 (2 nights) | $380/night · $761 total (taxes incl., 2 rooms) | Booking.com |
 | Schönau am Königssee | Villa Alpenrausch | Under consideration | Jul 14–17 (3 nights) | ~$500/night · ~$1,500 total est. | [Airbnb](https://www.airbnb.com/rooms/1575373648492118883) |
 | Salzburg | Numa Salzburg Vogelweider | Under consideration | Jul 17–19 (2 nights) | $425/night · $851 total (taxes incl.) | Booking.com |
 | Vienna | Hotel Marc Aurel Vienna City Center | Under consideration | Jul 19–21 (2 nights) | $265/night · $609 total (taxes incl.) | [Expedia](https://www.expedia.com/Vienna-Hotels-Hotel-Marc-Aurel-Vienna-City-Center.h891949.Hotel-Information?chkin=2026-07-19&chkout=2026-07-21&rm1=a4) |
+
+**Eurostars Grand Central notes:** Arnulfstr. 35, Maxvorstadt. Rated 8.7 Excellent (4,956 reviews) on Booking.com; location score 8.9. 2 × Double or Twin Room for 4 adults. Getaway Deal: $950.73 − $190.15 = **$760.58 total** (2 nights, taxes and fees included; €658; $380/night both rooms). Amenities: Free WiFi, parking, swimming pool.
 
 **Leonardo Hotel Munich Arabellapark notes:** Effnerstr. 99, Bogenhausen. Rated 8.3 Very Good (5,894 reviews) on Booking.com; location score 8.1. 1 × Deluxe Quadruple Room for 4 adults. **$638.06 total** (2 nights, taxes and fees included; €552; $319/night). One room fits the whole family. Amenities: Free WiFi, parking, restaurant.
 
