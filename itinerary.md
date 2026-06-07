@@ -264,16 +264,14 @@ Status: Not booked
 
 | Category | Item | Amount |
 |---|---|---|
-| **Flights** | | |
+| **Flights** | | **$5,423** |
 | | UA 108 IAD→MUC Jul 11 + OS135/UA53 VIE→IAD Jul 21 (4 people, Standard Economy) | $5,423 |
-| | *Subtotal* | *$5,423* |
-| **Accommodation** | | |
+| **Accommodation** | | **$3,637** |
 | | Munich — Holiday Inn Westpark, 2 nights (Jul 12–14) | $677 |
 | | Königssee — Villa Alpenrausch, 3 nights (Jul 14–17) \* | $1,500 |
 | | Salzburg — Numa Vogelweider, 2 nights (Jul 17–19) | $851 |
 | | Vienna — Hotel Marc Aurel, 2 nights (Jul 19–21) | $609 |
-| | *Subtotal* | *$3,637* |
-| **Transport** | | |
+| **Transport** | | **$386** |
 | | Airport → city: MVV group day ticket (Jul 12) \* | $16 |
 | | Bayern-Ticket: Munich → Berchtesgaden (Jul 14, group) \* | $58 |
 | | Local buses Berchtesgaden area (Jul 15–16, ~€8/day) \* | $18 |
@@ -281,8 +279,7 @@ Status: Not booked
 | | ÖBB Railjet: Salzburg → Vienna (Jul 19, 4 people) \* | $120 |
 | | Vienna public transit (Jul 19–21) \* | $22 |
 | | CAT Wien Mitte → VIE airport (Jul 21, 4 people) \* | $52 |
-| | *Subtotal* | *$386* |
-| **Activities** | | |
+| **Activities** | | **$790** |
 | | Mike's Bike Tours Munich (4 people) \* | $160 |
 | | Nymphenburg Palace admission (4 people) \* | $44 |
 | | Eagle's Nest Kehlstein bus (4 people) \* | $80 |
@@ -290,11 +287,9 @@ Status: Not booked
 | | Hohensalzburg fortress admission (4 people) \* | $66 |
 | | St. Peter Stiftskeller dinner (4 people) \* | $220 |
 | | Schönbrunn Palace + maze (4 people) \* | $132 |
-| | *Subtotal* | *$790* |
-| **Meals & Incidentals** | | |
+| **Meals & Incidentals** | | **$2,000** |
 | | Meals (~$150/day × 10 days) \* | $1,500 |
 | | Miscellaneous / buffer \* | $500 |
-| | *Subtotal* | *$2,000* |
 | | | |
 | **TOTAL** | | **$12,236** |
 <!-- COSTS_END -->

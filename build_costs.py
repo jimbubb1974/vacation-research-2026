@@ -116,13 +116,11 @@ def build_spreadsheet() -> None:
         cell.alignment = center
 
     row = 1
-    subtotal_fill = fill("EAF3FB")
-    subtotal_font = Font(bold=True, size=10)
-
     subtotal_rows: list[int] = []
     for cat, items, cat_sub in grouped_costs():
-        # Category header
+        # Category header row — subtotal formula goes here in col C
         row += 1
+        cat_header_row = row
         ws.cell(row, 1, cat).font = c_font
         for col in range(1, 4):
             ws.cell(row, col).fill = c_fill
@@ -138,16 +136,12 @@ def build_spreadsheet() -> None:
             amt_cell.number_format = money_fmt
         data_end = row
 
-        # Subtotal row
-        row += 1
-        ws.cell(row, 2, "Subtotal").font = subtotal_font
-        for col in range(1, 4):
-            ws.cell(row, col).fill = subtotal_fill
-        sub_cell = ws.cell(row, 3)
+        # Subtotal on the category header row
+        sub_cell = ws.cell(cat_header_row, 3)
         sub_cell.value = f"=SUM(C{data_start}:C{data_end})"
         sub_cell.number_format = money_fmt
-        sub_cell.font = subtotal_font
-        subtotal_rows.append(row)
+        sub_cell.font = c_font
+        subtotal_rows.append(cat_header_row)
 
     # Blank row then TOTAL (sums only subtotal cells — no double-counting)
     row += 2
@@ -187,11 +181,10 @@ def build_md_section() -> str:
         "|---|---|---|",
     ]
     for cat, items, cat_sub in grouped_costs():
-        lines.append(f"| **{cat}** | | |")
+        lines.append(f"| **{cat}** | | **{usd(cat_sub)}** |")
         for _, item, amt, est in items:
             label = item + (" \\*" if est else "")
             lines.append(f"| | {label} | {usd(amt)} |")
-        lines.append(f"| | *Subtotal* | *{usd(cat_sub)}* |")
 
     lines += [
         "| | | |",
@@ -223,8 +216,7 @@ COST_CSS = """\
     .cost-cat-header td { background: #d5e8f5; font-weight: bold; padding: 6px 10px; }
     .cost-est td:nth-child(2) { font-style: italic; color: #555; }
     .cost-amt { text-align: right !important; font-variant-numeric: tabular-nums; white-space: nowrap; }
-    .cost-subtotal-row td { background: #eaf3fb; font-weight: bold; padding: 5px 10px; border-top: 1px solid #2c5f8a; }
-    .cost-total-row td { background: #2c5f8a; color: #fff; font-weight: bold; padding: 8px 10px; border: none; }"""
+.cost-total-row td { background: #2c5f8a; color: #fff; font-weight: bold; padding: 8px 10px; border: none; }"""
 
 def build_html_section() -> str:
     total = get_grand_total()
@@ -232,7 +224,8 @@ def build_html_section() -> str:
     for cat, items, cat_sub in grouped_costs():
         rows.append(
             f'        <tr class="cost-cat-header">'
-            f'<td colspan="2">{cat}</td><td></td></tr>'
+            f'<td colspan="2">{cat}</td>'
+            f'<td class="cost-amt">{usd(cat_sub)}</td></tr>'
         )
         for _, item, amt, est in items:
             cls = ' class="cost-est"' if est else ""
@@ -242,11 +235,6 @@ def build_html_section() -> str:
                 f'<td>{label}</td>'
                 f'<td class="cost-amt">{usd(amt)}</td></tr>'
             )
-        rows.append(
-            f'        <tr class="cost-subtotal-row">'
-            f'<td></td><td>Subtotal</td>'
-            f'<td class="cost-amt">{usd(cat_sub)}</td></tr>'
-        )
 
     return (
         f"{MARKER_START}\n"
