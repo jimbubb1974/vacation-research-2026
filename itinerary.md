@@ -197,7 +197,7 @@
 | Munich | Holiday Inn Munich - Westpark by IHG | Under consideration | Jul 12–14 (2 nights) | $339/night · $677 total (taxes incl., 2 rooms) | [Booking.com](https://www.booking.com/hotel/de/holiday-inn-munich-westpark.html) |
 | Schönau am Königssee | Villa Alpenrausch | Under consideration | Jul 14–17 (3 nights) | ~$500/night · ~$1,500 total est. | [Airbnb](https://www.airbnb.com/rooms/1575373648492118883) |
 | Salzburg | Numa Salzburg Vogelweider | Under consideration | Jul 17–19 (2 nights) | $425/night · $851 total (taxes incl.) | Booking.com |
-| Salzburg | Hotel Vogelweiderhof | Under consideration | Jul 17–19 (2 nights) | $369/night · $737 total (taxes incl.) | Booking.com |
+| Salzburg | Hotel Vogelweiderhof | Under consideration | Jul 17–19 (2 nights) | $369/night · $737 total (taxes incl.) | [Booking.com](https://www.booking.com/hotel/at/und-restaurant-vogelweiderhof.html) |
 | Vienna | Hotel Marc Aurel Vienna City Center | Under consideration | Jul 19–21 (2 nights) | $265/night · $609 total (taxes incl.) | [Expedia](https://www.expedia.com/Vienna-Hotels-Hotel-Marc-Aurel-Vienna-City-Center.h891949.Hotel-Information?chkin=2026-07-19&chkout=2026-07-21&rm1=a4) |
 
 **Holiday Inn Munich - Westpark by IHG notes:** Albert-Rosshaupter-Strasse 45, Sendling-Westpark. Rated 8.3 Very Good (2,424 reviews) on Booking.com; location score 8.4. 2 × Superior Twin Room for 4 adults. **$677.36 total** (2 nights, taxes and fees included; €586; $339/night both rooms). Amenities: Free WiFi, parking, pet friendly.
