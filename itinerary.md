@@ -192,7 +192,7 @@
 
 | Base | Option | Status | Dates | Cost | Link |
 |---|---|---|---|---|---|
-| Munich | Leonardo Hotel Munich Arabellapark | Under consideration | Jul 12–14 (2 nights) | $319/night · $638 total (taxes incl.) | Booking.com |
+| Munich | Leonardo Hotel Munich Arabellapark | Under consideration | Jul 12–14 (2 nights) | $319/night · $638 total (taxes incl.) | [Booking.com](https://www.booking.com/hotel/de/leonardo-munich-arabellapark.html) |
 | Munich | Eurostars Grand Central | Under consideration | Jul 12–14 (2 nights) | $380/night · $761 total (taxes incl., 2 rooms) | [Booking.com](https://www.booking.com/hotel/de/eurostars-grand-central.html) |
 | Munich | Holiday Inn Munich - Westpark by IHG | Under consideration | Jul 12–14 (2 nights) | $339/night · $677 total (taxes incl., 2 rooms) | [Booking.com](https://www.booking.com/hotel/de/holiday-inn-munich-westpark.html) |
 | Schönau am Königssee | Villa Alpenrausch | Under consideration | Jul 14–17 (3 nights) | ~$500/night · ~$1,500 total est. | [Airbnb](https://www.airbnb.com/rooms/1575373648492118883) |
