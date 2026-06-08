@@ -17,8 +17,8 @@
 | 5 | Thu Jul 16 | Königssee full day | Schönau am Königssee | Electric boat to Salet (south end, ~50 min); hike to Obersee; continue to Rotbachfall (Germany's highest waterfall, ~470m); return hike; boat back |
 | 6 | Fri Jul 17 | → Salzburg | Salzburg | Taxi to Salzburg (~30 min, ~€80); check in; explore Old Town |
 | 7 | Sat Jul 18 | Salzburg | Salzburg | Fortress Hohensalzburg; Getreidegasse walk; Mirabell Gardens; St. Peter Stiftskeller dinner (book ahead) |
-| 8 | Sun Jul 19 | → Vienna | Vienna | Train departs ~10:07 → arrives ~12:32; check in; Old Town walk — St. Stephen's Cathedral (climb south tower), Graben, Hofburg exterior, Ringstrasse; dinner in 1st district |
-| 9 | Mon Jul 20 | Vienna | Vienna | Naschmarkt (8–10am, breakfast + browse); Schönbrunn Palace — Grand Tour (~45 min) + gardens + maze + Gloriette; dinner 1st district; evening Ringstrasse |
+| 8 | Sun Jul 19 | → Vienna | Vienna | Train departs ~10:07 → arrives ~12:32; check in; light lunch; short Old Town orientation walk — Stephansdom (inside, skip tower), Graben, Pestsäule, Hofburg area; KHM (4–5:45 PM); dinner near MuseumsQuartier/Spittelberg |
+| 9 | Mon Jul 20 | Vienna | Vienna | Naschmarkt breakfast (8:30–9:45 AM); Schönbrunn Palace Grand Tour (10:30 AM, book ahead) + gardens + maze + Gloriette climb; rest; evening dinner + Ringstrasse/Old Town stroll |
 | 10 | Tue Jul 21 | Fly home | — | Depart VIE; fly home |
 
 ---
@@ -87,17 +87,25 @@
 - **Evening** — Dinner at St. Peter Stiftskeller (one of Europe's oldest restaurants, 9th-century monastery; book ahead)
 
 ### Day 8 — Sun Jul 19 · → Vienna
-- **~10:07 AM** — ÖBB Railjet departs Salzburg Hbf
-- **~12:32 PM** — Arrive Vienna Hbf; check in, freshen up
-- **Afternoon** — Old Town walk: Stephansdom — go inside and climb the 343-step south tower for city views; Graben pedestrian street and Pestsäule plague column; Hofburg Palace exterior; Ringstrasse loop
-- **Evening** — Dinner in the 1st district
+- **10:07 AM** — ÖBB Railjet departs Salzburg Hbf
+- **12:32 PM** — Arrive Vienna Hbf; transit/taxi to hotel; drop bags, freshen up
+- **1:45–2:30 PM** — Light lunch or coffee reset; arrival days run slower than planned
+- **2:45–3:45 PM** — Short Old Town orientation walk (relaxed first look, not a full tour): Stephansdom — go inside briefly, skip the south tower climb; Graben pedestrian street; Pestsäule plague column; walk toward Hofburg area
+- **4:00–5:45 PM** — Kunsthistorisches Museum (KHM) — open daily until 6 PM; focus on grand staircase, Egyptian antiquities, Kunstkammer, a pass through the Old Masters (especially Bruegel)
+- **6:00–7:30 PM** — Dinner near MuseumsQuartier / Spittelberg (skip a long walk back to the 1st district)
+- **After dinner** — Optional easy stroll: Hofburg exterior, a stretch of the Ringstrasse, or call it early
 
 ### Day 9 — Mon Jul 20 · Vienna
-- **8–10 AM** — Naschmarkt (1.5 km open-air market): breakfast at a café stall; browse produce and deli vendors before the crowds arrive
-- **~10:30 AM** — U4 to Schönbrunn; Grand Tour of the palace (~45 min, ~16 state rooms)
-- **~Noon** — Formal gardens + hedge maze (30–45 min; a highlight for the teens)
-- **Afternoon** — Gloriette climb for panoramic views over Vienna; optional Tiergarten (world's oldest zoo, 1.5–2 hrs if teens want it)
-- **Evening** — Back to 1st district; dinner; Ringstrasse stroll lit up at night
+- **8:30–9:45 AM** — Naschmarkt: breakfast at a café stall; browse produce and deli vendors (open Mon–Sat; Monday works fine)
+- **9:45–10:30 AM** — U4 toward Schönbrunn; build in margin
+- **10:30 AM–12:00 PM** — Schönbrunn Palace Grand Tour (~16 state rooms); book timed entry in advance — palace open 8:30 AM–6 PM in July
+- **12:00–1:00 PM** — Formal gardens; casual lunch or snack on site
+- **1:00–2:00 PM** — Hedge maze / Labyrinth (teen-friendly; open until 6:30 PM in July–Aug)
+- **2:00–3:00 PM** — Gloriette climb — panoramic views over the palace and Vienna (replaces the Stephansdom tower climb nicely)
+- **3:00–4:00 PM** — Café / downtime / return to hotel; protect this hour — Schönbrunn in July is hot and crowded
+- **Late afternoon** — Rest at hotel
+- **Evening** — Dinner + lit-up evening stroll: Opera House exterior, Albertina terrace, Hofburg / Michaelerplatz, optional Ringstrasse section
+- *Optional add-on:* Tiergarten Schönbrunn (world's oldest zoo) only if the teens specifically want it — otherwise it turns Schönbrunn into nearly the whole day
 
 ### Day 10 — Tue Jul 21 · Fly home
 - **6:45 AM** — Leave hotel; CAT (City Airport Train) from Wien Mitte to VIE (~16 min)
@@ -111,8 +119,10 @@
 1. **Eagle's Nest Kehlstein bus** — seasonal, limited capacity; book at kehlsteinhaus.de
 2. **Mike's Bike Tours Munich** — popular in July; mikesbiketours.com
 3. **St. Peter Stiftskeller Salzburg** — dinner reservation; book several weeks ahead
-4. **IAD → MUC outbound / VIE → IAD return** — open-jaw itinerary; search accordingly
-5. **All accommodation** — July is peak season everywhere on this route
+4. **Schönbrunn Palace** — book timed entry in advance for Jul 20; busy in July
+5. **KHM (Kunsthistorisches Museum)** — no advance booking needed but confirm hours; currently open daily 10 AM–6 PM
+6. **IAD → MUC outbound / VIE → IAD return** — open-jaw itinerary; search accordingly
+7. **All accommodation** — July is peak season everywhere on this route
 
 ---
 
