@@ -27,14 +27,14 @@ BASE = Path(__file__).parent
 COSTS = [
     # FLIGHTS
     ("Flights",
-     "UA 108 IAD→MUC Jul 11 + OS135/UA53 VIE→IAD Jul 21 (4 people, Standard Economy)",
+     "UA 108 IAD→MUC Jul 11 + OS 41 VIE→IAD Jul 22 nonstop (4 people) — Conf. IKR3ZV",
      5422.52, False),
 
     # ACCOMMODATION
     ("Accommodation", "Munich — Holiday Inn Westpark, 2 nights (Jul 12–14)",   677.36, False),
-    ("Accommodation", "Königssee — Villa Alpenrausch, 3 nights (Jul 14–17)", 1500.00, True),
+    ("Accommodation", "Königssee — Villa Alpenrausch, 3 nights (Jul 14–17) BOOKED", 1435.99, False),
     ("Accommodation", "Salzburg — Numa Vogelweider, 2 nights (Jul 17–19)",     850.66, False),
-    ("Accommodation", "Vienna — Hotel Marc Aurel, 2 nights (Jul 19–21)",       609.00, False),
+    ("Accommodation", "Vienna — hotel TBD, 3 nights (Jul 19–22)",              900.00, True),
 
     # TRANSPORT
     ("Transport", "Airport → city: MVV group day ticket (Jul 12)",              16.00, True),
@@ -42,20 +42,22 @@ COSTS = [
     ("Transport", "Local buses Berchtesgaden area (Jul 15–16, ~€8/day)",        18.00, True),
     ("Transport", "Schönau → Salzburg: taxi to Freilassing + ÖBB (Jul 17)",    100.00, True),
     ("Transport", "ÖBB Railjet: Salzburg → Vienna (Jul 19, 4 people)",         120.00, True),
-    ("Transport", "Vienna public transit (Jul 19–21)",                           22.00, True),
-    ("Transport", "CAT Wien Mitte → VIE airport (Jul 21, 4 people)",            52.00, True),
+    ("Transport", "Vienna public transit (Jul 19–22)",                           28.00, True),
+    ("Transport", "CAT Wien Mitte → VIE airport (Jul 22, 4 people)",            52.00, True),
 
     # ACTIVITIES
-    ("Activities", "Mike's Bike Tours Munich (4 people)",                       160.00, True),
-    ("Activities", "Nymphenburg Palace admission (4 people)",                    44.00, True),
+    ("Activities", "Mike's Bike Tours Munich (4 people) — €180.67 paid, Booking #354406124", 197.00, False),
+    ("Activities", "Nymphenburg Palace combination ticket — €58 paid, Order #42616", 63.00, False),
     ("Activities", "Eagle's Nest Kehlstein bus (4 people)",                      80.00, True),
     ("Activities", "Königssee electric boat (4 people)",                         88.00, True),
     ("Activities", "Hohensalzburg fortress admission (4 people)",                66.00, True),
     ("Activities", "St. Peter Stiftskeller dinner (4 people)",                  220.00, True),
     ("Activities", "Schönbrunn Palace + maze (4 people)",                       132.00, True),
+    ("Activities", "Upper Belvedere admission (4 people)",                       84.00, True),
+    ("Activities", "Riesenrad / Prater (4 people)",                              64.00, True),
 
     # MEALS & INCIDENTALS
-    ("Meals & Incidentals", "Meals (~$150/day × 10 days)",      1500.00, True),
+    ("Meals & Incidentals", "Meals (~$150/day × 11 days)",      1650.00, True),
     ("Meals & Incidentals", "Miscellaneous / buffer",             500.00, True),
 ]
 

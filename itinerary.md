@@ -1,7 +1,7 @@
 # Bavaria + Salzburg + Vienna — Summer 2026
-## July 11–21, 2026
+## July 11–22, 2026
 **Travelers:** Family of 4 (2 adults, teen age 17, teen age 15)
-**Structure:** Munich (2 nights) → Schönau am Königssee (3 nights) → Salzburg (2 nights) → Vienna (2 nights)
+**Structure:** Munich (2 nights) → Schönau am Königssee (3 nights) → Salzburg (2 nights) → Vienna (3 nights)
 
 ---
 
@@ -12,14 +12,15 @@
 | 0 | Sat Jul 11 | DC → Munich | In flight | Depart IAD; transatlantic overnight flight |
 | 1 | Sun Jul 12 | Arrive Munich | Munich | Arrive MUC; S-Bahn to city; check in; wander — Marienplatz, Viktualienmarkt, Frauenkirche; light dinner |
 | 2 | Mon Jul 13 | Munich | Munich | Mike's Bike Tour (11:30–3:30); evening dinner at Hopferhouse |
-| 3 | Tue Jul 14 | Munich → Königssee area | Schönau am Königssee | Nymphenburg Palace (morning); 14:44 RE5 from München Hbf Pl.9 → Freilassing 16:34; 16:45 S4 Pl.1 → Berchtesgaden Hbf 17:38; Bus 841 to Schönau am Königssee; check in |
+| 3 | Tue Jul 14 | Munich → Königssee area | Schönau am Königssee | Nymphenburg Palace 9 AM–1:15 PM (palace + Marstallmuseum + Amalienburg); lunch at Palmenhaus on-site; Bus 51 → Hbf; 14:44 RE5 Pl.9 → Freilassing 16:34; 16:45 S4 Pl.1 → Berchtesgaden Hbf 17:38; Bus 841 to Schönau; check in |
 | 4 | Wed Jul 15 | Berchtesgaden area | Schönau am Königssee | Eagle's Nest — Bus 838 to Obersalzberg; Kehlstein bus + elevator to summit; Berchtesgaden salt mine (afternoon) |
 | 5 | Thu Jul 16 | Königssee full day | Schönau am Königssee | Electric boat to Salet (south end, ~50 min); hike to Obersee; continue to Rotbachfall (Germany's highest waterfall, ~470m); return hike; boat back |
 | 6 | Fri Jul 17 | → Salzburg | Salzburg | Taxi to Salzburg (~30 min, ~€80); check in; explore Old Town |
 | 7 | Sat Jul 18 | Salzburg | Salzburg | Fortress Hohensalzburg; Getreidegasse walk; Mirabell Gardens; St. Peter Stiftskeller dinner (book ahead) |
 | 8 | Sun Jul 19 | → Vienna | Vienna | Train departs ~10:07 → arrives ~12:32; check in; light lunch; short Old Town orientation walk — Stephansdom (inside, skip tower), Graben, Pestsäule, Hofburg area; KHM (4–5:45 PM); dinner near MuseumsQuartier/Spittelberg |
 | 9 | Mon Jul 20 | Vienna | Vienna | Naschmarkt breakfast (8:30–9:45 AM); Schönbrunn Palace Grand Tour (10:30 AM, book ahead) + gardens + maze + Gloriette climb; rest; evening dinner + Ringstrasse/Old Town stroll |
-| 10 | Tue Jul 21 | Fly home | — | Depart VIE; fly home |
+| 10 | Tue Jul 21 | Vienna | Vienna | Upper Belvedere — Klimt's The Kiss + Secessionist collection; afternoon Prater + Riesenrad; final dinner in 1st district |
+| 11 | Wed Jul 22 | Fly home | — | Early checkout; CAT Wien Mitte → VIE; OS 41 departs 10:50 AM; arrive IAD 2:35 PM |
 
 ---
 
@@ -30,7 +31,7 @@
 | Munich | 2 | Sun Jul 12 | Tue Jul 14 midday |
 | Schönau am Königssee | 3 | Tue Jul 14 evening | Fri Jul 17 morning |
 | Salzburg | 2 | Fri Jul 17 | Sun Jul 19 morning |
-| Vienna | 2 | Sun Jul 19 afternoon | Tue Jul 21 |
+| Vienna | 3 | Sun Jul 19 afternoon | Wed Jul 22 morning |
 
 ---
 
@@ -50,13 +51,21 @@
 
 ### Day 2 — Mon Jul 13 · Munich
 - **Morning** — Free; sleep in or wander
-- **11:30 AM** — Mike's Bike Tours departs (~4 hrs: English Garden, Olympiapark, city highlights with local guide)
+- **11:15 AM** — Head to meeting point: **Marienplatz 15 — entrance to the Toy Museum (Altes Rathaus)**, eastern end of the square. This is the smaller, older tower — not the Neues Rathaus with the Glockenspiel. A McDonald's will be visible nearby. If 0–10 min late: look for the group by the Statue of Juliet near the tower. If 15+ min late: go directly to the Mike's Bike Tours shop (Hochbrückenstrasse 10, corner of Brauhausstrasse).
+- **11:30 AM** — Classic Bike Tour departs — **BOOKED** (Booking #354406124); ~4 hrs through English Garden, Olympiapark, city highlights with local English-speaking guide. Helmets provided free.
 - **~3:30 PM** — Tour returns
 - **Evening** — Dinner at Hopferhouse (traditional Bavarian)
 
+*Note: teens need valid Student ID to have qualified for the student rate — bring them.*
+
 ### Day 3 — Tue Jul 14 · Munich → Königssee
-- **~9:30 AM** — Nymphenburg Palace: baroque royal residence + formal gardens (~2 hrs)
-- **Midday** — Return to central Munich; lunch
+- **9:00–10:00 AM** — Nymphenburg Palace state rooms (opens 9 AM in summer; baroque royal residence, ~1 hr)
+- **10:00–10:35 AM** — Marstallmuseum: royal carriages + Nymphenburg Porcelain collection
+- **10:35–11:30 AM** — Walk to Amalienburg (~15 min through the park); visit the rococo hunting lodge — the silver Hall of Mirrors inside is the highlight of the estate (~25 min)
+- **11:30 AM–12:30 PM** — Remaining park castles if energy allows (Badenburg, Pagodenburg; Magdalenenklause is the least essential) or a slow walk back along the canal
+- **12:30–13:15 PM** — Lunch at Palmenhaus café (in the Orangery, on-site — no transit needed)
+- **~13:15** — Bus 51 from Nymphenburg directly to München Hbf (~25 min); no need to return to central Munich first
+- **~13:40** — Arrive München Hbf; collect luggage if stored; find Platform 9
 - **14:44** — RE5 from München Hbf Platform 9 (Bayern-Ticket covers everything)
 - **16:34** — Arrive Freilassing Platform 2; change to Platform 1 (11-min transfer)
 - **16:45** — S4 departs Freilassing
@@ -107,21 +116,30 @@
 - **Evening** — Dinner + lit-up evening stroll: Opera House exterior, Albertina terrace, Hofburg / Michaelerplatz, optional Ringstrasse section
 - *Optional add-on:* Tiergarten Schönbrunn (world's oldest zoo) only if the teens specifically want it — otherwise it turns Schönbrunn into nearly the whole day
 
-### Day 10 — Tue Jul 21 · Fly home
-- **6:45 AM** — Leave hotel; CAT (City Airport Train) from Wien Mitte to VIE (~16 min)
-- **9:35 AM** — Depart VIE: OS 135 to Zürich (55-min layover), then UA 53 to IAD
-- **3:30 PM** — Arrive Washington Dulles
+### Day 10 — Tue Jul 21 · Vienna
+- **9:00–11:30 AM** — Upper Belvedere Palace: pre-book timed entry (opens 9 AM); Klimt's "The Kiss" and the full Secessionist/Art Nouveau collection; formal gardens worth a slow walk
+- **12:00–1:00 PM** — Lunch near Belvedere (Café Residenz in the gardens or walk toward the 3rd district)
+- **1:30–2:30 PM** — Transit to Prater (tram 71 from Belvedere toward Ringstrasse, then U2 to Praterstern)
+- **~2:30–5:30 PM** — Riesenrad: Vienna's 1897 giant Ferris wheel (panoramic views; classic photo); explore Wurstelprater amusement park around it
+- **Evening** — Final dinner in the 1st district; last Ringstrasse stroll; pack for early departure
+
+### Day 11 — Wed Jul 22 · Fly home
+- **~8:00 AM** — Checkout; leave for Wien Mitte
+- **~8:30 AM** — CAT (City Airport Train) from Wien Mitte → VIE (~16 min)
+- **10:50 AM** — Depart VIE: OS 41 (Austrian Airlines nonstop, Boeing 767-300)
+- **2:35 PM EDT** — Arrive Washington Dulles (IAD)
 
 ---
 
 ## Booking Priorities
 
 1. **Eagle's Nest Kehlstein bus** — seasonal, limited capacity; book at kehlsteinhaus.de
-2. **Mike's Bike Tours Munich** — popular in July; mikesbiketours.com
+2. ~~Mike's Bike Tours Munich~~ — **BOOKED** (Booking #354406124, Jul 13 11:30 AM)
 3. **St. Peter Stiftskeller Salzburg** — dinner reservation; book several weeks ahead
 4. **Schönbrunn Palace** — book timed entry in advance for Jul 20; busy in July
-5. **KHM (Kunsthistorisches Museum)** — no advance booking needed but confirm hours; currently open daily 10 AM–6 PM
-6. **IAD → MUC outbound / VIE → IAD return** — open-jaw itinerary; search accordingly
+5. ~~Nymphenburg Palace~~ — **BOOKED** (Order #42616, Jul 14 9:00 AM entry)
+6. **KHM (Kunsthistorisches Museum)** — no advance booking needed but confirm hours; currently open daily 10 AM–6 PM
+6. ~~IAD → MUC outbound / VIE → IAD return~~ — **BOOKED** (UA 108 outbound + OS 41 return; Confirmation IKR3ZV)
 7. **All accommodation** — July is peak season everywhere on this route
 
 ---
@@ -205,12 +223,10 @@
 | Munich | Leonardo Hotel Munich Arabellapark | Under consideration | Jul 12–14 (2 nights) | $319/night · $638 total (taxes incl.) | [Booking.com](https://www.booking.com/hotel/de/leonardo-munich-arabellapark.html) |
 | Munich | Eurostars Grand Central | Under consideration | Jul 12–14 (2 nights) | $380/night · $761 total (taxes incl., 2 rooms) | [Booking.com](https://www.booking.com/hotel/de/eurostars-grand-central.html) |
 | Munich | Holiday Inn Munich - Westpark by IHG | Under consideration | Jul 12–14 (2 nights) | $339/night · $677 total (taxes incl., 2 rooms) | [Booking.com](https://www.booking.com/hotel/de/holiday-inn-munich-westpark.html) |
-| Schönau am Königssee | Villa Alpenrausch | Under consideration | Jul 14–17 (3 nights) | ~$500/night · ~$1,500 total est. | [Airbnb](https://www.airbnb.com/rooms/1575373648492118883) |
-| Schönau am Königssee | Hotel Schiffmeister | Under consideration | Jul 14–17 (3 nights) | ~$499/night · $1,498 total (+ fees) | [Booking.com](https://www.booking.com/hotel/de/schiffmeister.html) |
-| Schönau am Königssee | Haus Alpenveilchen - Appartement 3 | Under consideration | Jul 14–17 (3 nights) | $322/night · $966 total (taxes incl.) | [Booking.com](https://www.booking.com/hotel/de/haus-alpenveilchen-appartement-3.html) |
+| Schönau am Königssee | Villa Alpenrausch | **Booked** | Jul 14–17 (3 nights) | $1,435.99 | [Airbnb](https://www.airbnb.com/rooms/1575373648492118883) |
 | Salzburg | Numa Salzburg Vogelweider | Under consideration | Jul 17–19 (2 nights) | $425/night · $851 total (taxes incl.) | Booking.com |
 | Salzburg | Hotel Vogelweiderhof | Under consideration | Jul 17–19 (2 nights) | $369/night · $737 total (taxes incl.) | [Booking.com](https://www.booking.com/hotel/at/und-restaurant-vogelweiderhof.html) |
-| Vienna | Hotel Marc Aurel Vienna City Center | Under consideration | Jul 19–21 (2 nights) | $265/night · $609 total (taxes incl.) | [Expedia](https://www.expedia.com/Vienna-Hotels-Hotel-Marc-Aurel-Vienna-City-Center.h891949.Hotel-Information?chkin=2026-07-19&chkout=2026-07-21&rm1=a4) |
+| Vienna | Hotel Marc Aurel Vienna City Center | Under consideration | Jul 19–22 (3 nights) | ~$265/night · ~$900 total est. | [Expedia](https://www.expedia.com/Vienna-Hotels-Hotel-Marc-Aurel-Vienna-City-Center.h891949.Hotel-Information?chkin=2026-07-19&chkout=2026-07-22&rm1=a4) |
 
 **Holiday Inn Munich - Westpark by IHG notes:** Albert-Rosshaupter-Strasse 45, Sendling-Westpark. Rated 8.3 Very Good (2,424 reviews) on Booking.com; location score 8.4. 2 × Superior Twin Room for 4 adults. **$677.36 total** (2 nights, taxes and fees included; €586; $339/night both rooms). Amenities: Free WiFi, parking, pet friendly.
 
@@ -218,24 +234,20 @@
 
 **Leonardo Hotel Munich Arabellapark notes:** Effnerstr. 99, Bogenhausen. Rated 8.3 Very Good (5,894 reviews) on Booking.com; location score 8.1. 1 × Deluxe Quadruple Room for 4 adults. **$638.06 total** (2 nights, taxes and fees included; €552; $319/night). One room fits the whole family. Amenities: Free WiFi, parking, restaurant.
 
-**Hotel Marc Aurel Vienna City Center notes:** 3-star, rated 9.0 Wonderful (484 reviews, Expedia). Quadruple Room: sleeps 4, 215 sq ft, 1 Double Bed + 2 Twin Beds, Free WiFi, breakfast buffet included. **$609 total** (taxes and fees included, Summer Sale — was $812; $265/night). Only 2 rooms left. Non-refundable at base price; fully refundable before Jul 17 for +$15. One room for all 4 — simpler and cheaper than two separate rooms.
+**Hotel Marc Aurel Vienna City Center notes:** 3-star, rated 9.0 Wonderful (484 reviews, Expedia). Quadruple Room: sleeps 4, 215 sq ft, 1 Double Bed + 2 Twin Beds, Free WiFi, breakfast buffet included. Previously researched at $609 (2 nights, Summer Sale). **Now need Jul 19–22 (3 nights)** — re-check availability and pricing at new dates; original 2-night pricing no longer applies. One room for all 4 — simpler and cheaper than two separate rooms.
 
 **Hotel Vogelweiderhof notes:** Vogelweiderstraße 93b, Schallmoos (same street as Numa, ~500m away). Rated 8.0 Very Good (4,884 reviews) on Booking.com. 1 × Family Room with Bunk Bed for 4 adults. **$737.06 total** (2 nights, taxes and fees included; €637.65; $369/night). Check-in 3:00–8:00 PM; checkout 7:00–11:00 AM — compatible with ~10:07 AM train departure. Amenities: Free WiFi, parking.
 
 **Numa Salzburg Vogelweider notes:** Vogelweiderstraße 33, Schallmoos. Rated 8.6 Excellent (3,206 reviews) on Booking.com; location score 8.2. 2 × Superior Double Room for 4 adults. Early Booker Deal: $1,000.78 − $150.12 = **$850.66 total** (taxes and fees included; €735.93). Check-in from 3:00 PM; checkout by 11:00 AM — compatible with the ~10:07 AM train departure (leave hotel ~9:30 AM, check out early or store bags).
 
-**Haus Alpenveilchen - Appartement 3 notes:** Oberschönauerstraße 17, Schönau am Königssee. Rated 9.0 Wonderful (20 reviews) on Booking.com; location score 9.9 Excellent. 1 × Superior One-Bedroom Apartment with Balcony for 4 adults — note: one bedroom for 4 people, check sleeping configuration. Genius Discount applied: $1,068.95 − $102.60 = **$966.36 total** (3 nights, taxes and fees included; €836.02; $322/night). Genius membership required for discount. Check-in 4:00–8:00 PM; checkout by 10:00 AM. Amenities: Free WiFi, parking.
-
-**Hotel Schiffmeister notes:** 34 Seestrasse, Schönau am Königssee — right on the lake. Location score 9.7 Excellent. Rated 7.3 Good (577 reviews) on Booking.com. 2 × Double Room with Lake View for 4 adults. **$1,498.05 base price** (3 nights; €1,296) — note "additional charges may apply," so confirm final total before booking. Check-in 2:00–7:00 PM; checkout 9:00–11:00 AM. Amenities: Free WiFi, parking.
-
-**Villa Alpenrausch notes:** 2 bedrooms (king + king), 1 bath, sleeps 6, private sauna, full kitchen, outdoor dining, self check-in. Rated 4.86★ (14 reviews), Guest Favorite, Superhost. Airbnb listing shows 2-night pricing ($997 non-refundable / $1,088 refundable) — **verify 3-night availability (Jul 14–17)**. Refundable rate has free cancellation before **June 14** — deadline in 8 days.
+**Villa Alpenrausch notes:** 2 bedrooms (king + king), 1 bath, sleeps 6, private sauna, full kitchen, outdoor dining, self check-in. Rated 4.86★ (14 reviews), Guest Favorite, Superhost. **BOOKED** — Waldhauserstraße 29, 83471 Schönau am Königssee. Check-in 4:00 PM Jul 14; check-out 11:00 AM Jul 17. Host: Airbnb - Philipp; phone +49 176 21421010. **$1,435.99 total paid.** Non-refundable (cancellation window has passed).
 
 ---
 
 ## Flights
 
-**Open-jaw:** IAD → MUC outbound (Jul 11) + VIE → IAD return (Jul 21)
-**Book at:** united.com — both legs in one reservation; return is a United codeshare on Austrian
+**Open-jaw:** IAD → MUC outbound (Jul 11) + VIE → IAD return (Jul 22)
+**BOOKED** — Confirmation **IKR3ZV** (United.com); both legs on one reservation
 
 ### Outbound — IAD → MUC (Day 0, Jul 11)
 
@@ -246,33 +258,21 @@
 | Arrives | MUC 7:45 AM (+1, Jul 12) |
 | Duration | 8h 15m |
 | Aircraft | Boeing 787-8 Dreamliner (United operated) |
-| Status | Not booked |
+| Status | **BOOKED** — Confirmation IKR3ZV |
 
-### Return — VIE → IAD (Day 10, Jul 21)
+### Return — VIE → IAD (Day 11, Jul 22)
 
-1-stop via Zürich — 11h 55m total
+Nonstop — 9h 45m
 
-| Leg | Flight | Route | Times | Duration | Aircraft |
-|---|---|---|---|---|---|
-| 1 | OS 135 (Austrian) | VIE → ZRH | 9:35 AM → 11:00 AM | 1h 25m | Airbus A320 |
-| — | *Layover ZRH* | — | — | **55 min** ⚠️ | — |
-| 2 | UA 53 (United) | ZRH → IAD | 11:55 AM → 3:30 PM | 9h 35m | Boeing 767-300 |
-
-Status: Not booked
-
-**Pricing (Standard Economy):**
-
-| | Per person | × 4 |
-|---|---|---|
-| Fare | $1,208.00 | $4,832.00 |
-| Taxes & fees | $147.63 | $590.52 |
-| **Total** | **$1,355.63** | **$5,422.52** |
-
-**Notes:**
-- No nonstop VIE→IAD available Jul 21 at a reasonable price; nonstop Austrian codeshare runs Jul 22
-- 55-min ZRH connection is tight but Zurich is efficient; United will re-protect if missed
-- Standard Economy: 1 checked bag included, MileagePlus miles earned, seat selection allowed
-- Status: **Ready to book**
+| | |
+|---|---|
+| Flight | **OS 41** (Austrian Airlines / United codeshare) — Nonstop |
+| Departs | VIE 10:50 AM |
+| Arrives | IAD 2:35 PM EDT |
+| Duration | 9h 45m |
+| Aircraft | Boeing 767-300 (winglets) |
+| Fare class | Economy (L) |
+| Status | **BOOKED** — Confirmation IKR3ZV |
 
 ---
 
@@ -284,33 +284,35 @@ Status: Not booked
 | Category | Item | Amount |
 |---|---|---|
 | **Flights** | | **$5,423** |
-| | UA 108 IAD→MUC Jul 11 + OS135/UA53 VIE→IAD Jul 21 (4 people, Standard Economy) | $5,423 |
-| **Accommodation** | | **$3,637** |
+| | UA 108 IAD→MUC Jul 11 + OS 41 VIE→IAD Jul 22 nonstop (4 people) — Conf. IKR3ZV | $5,423 |
+| **Accommodation** | | **$3,864** |
 | | Munich — Holiday Inn Westpark, 2 nights (Jul 12–14) | $677 |
-| | Königssee — Villa Alpenrausch, 3 nights (Jul 14–17) \* | $1,500 |
+| | Königssee — Villa Alpenrausch, 3 nights (Jul 14–17) BOOKED | $1,436 |
 | | Salzburg — Numa Vogelweider, 2 nights (Jul 17–19) | $851 |
-| | Vienna — Hotel Marc Aurel, 2 nights (Jul 19–21) | $609 |
-| **Transport** | | **$386** |
+| | Vienna — hotel TBD, 3 nights (Jul 19–22) \* | $900 |
+| **Transport** | | **$392** |
 | | Airport → city: MVV group day ticket (Jul 12) \* | $16 |
 | | Bayern-Ticket: Munich → Berchtesgaden (Jul 14, group) \* | $58 |
 | | Local buses Berchtesgaden area (Jul 15–16, ~€8/day) \* | $18 |
 | | Schönau → Salzburg: taxi to Freilassing + ÖBB (Jul 17) \* | $100 |
 | | ÖBB Railjet: Salzburg → Vienna (Jul 19, 4 people) \* | $120 |
-| | Vienna public transit (Jul 19–21) \* | $22 |
-| | CAT Wien Mitte → VIE airport (Jul 21, 4 people) \* | $52 |
-| **Activities** | | **$790** |
-| | Mike's Bike Tours Munich (4 people) \* | $160 |
-| | Nymphenburg Palace admission (4 people) \* | $44 |
+| | Vienna public transit (Jul 19–22) \* | $28 |
+| | CAT Wien Mitte → VIE airport (Jul 22, 4 people) \* | $52 |
+| **Activities** | | **$994** |
+| | Mike's Bike Tours Munich (4 people) — €180.67 paid, Booking #354406124 | $197 |
+| | Nymphenburg Palace combination ticket — €58 paid, Order #42616 | $63 |
 | | Eagle's Nest Kehlstein bus (4 people) \* | $80 |
 | | Königssee electric boat (4 people) \* | $88 |
 | | Hohensalzburg fortress admission (4 people) \* | $66 |
 | | St. Peter Stiftskeller dinner (4 people) \* | $220 |
 | | Schönbrunn Palace + maze (4 people) \* | $132 |
-| **Meals & Incidentals** | | **$2,000** |
-| | Meals (~$150/day × 10 days) \* | $1,500 |
+| | Upper Belvedere admission (4 people) \* | $84 |
+| | Riesenrad / Prater (4 people) \* | $64 |
+| **Meals & Incidentals** | | **$2,150** |
+| | Meals (~$150/day × 11 days) \* | $1,650 |
 | | Miscellaneous / buffer \* | $500 |
 | | | |
-| **TOTAL** | | **$12,236** |
+| **TOTAL** | | **$12,823** |
 <!-- COSTS_END -->
 
 ---
