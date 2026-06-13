@@ -23,14 +23,14 @@ Personal vacation planning project for a family of 4 (2 adults + 2 teens, ages 1
 
 - `bookings.md` — **single source of truth for all confirmed reservations**: confirmation numbers, ticket numbers, contact info, cancellation policies, meeting logistics, and a "still to book" checklist. Add entries here as reservations are made; keep planning notes and options-under-consideration in `itinerary.md`.
 
-## Planning Research Files (to be created)
+## Planning Research Files (to be created if not present)
 
 As trip details are researched and booked, maintain these focused MD files:
 
-- `flights.md` — Open-jaw: IAD → MUC outbound (Jul 11), VIE → IAD return (Jul 22); airlines, booking status
-- `accommodation.md` — Airbnb/hotel options per city (Munich, Berchtesgaden, Salzburg) with links and status
+- `flights.md` — Open-jaw: IAD → MUC outbound (Jul 11), VIE → IAD return (Jul 22); airlines, booking status. **Flights are confirmed** (conf. IKR3ZV); this file may not exist yet.
+- `accommodation.md` — Airbnb/hotel options per city with links and status. **Munich is confirmed** (PRIME City Apt, Adamstraße 4, conf. HM4ZPJHYB9). **Königssee is confirmed** (Villa Alpenrausch). **Salzburg is confirmed** (Mozart House, Gstättengasse 25, conf. HM4NSFM9J3). **Vienna is confirmed** (City Center Klimt's Balcony Suite, Operngasse, conf. HMT8SQRKMA).
 - `trains.md` — Bayern-Ticket logistics, day-trip connections, Railjet booking
-- `activities.md` — All bookable items (Eagle's Nest, Mike's Bike Tours, St. Peter Stiftskeller, etc.) with links, prices, booking priority/status
+- `activities.md` — All bookable items (Eagle's Nest, Mike's Bike Tours, St. Peter Stiftskeller, etc.) with links, prices, booking priority/status. Mike's Bike Tours and Nymphenburg Palace are confirmed in `bookings.md`.
 
 ## Scripts
 
@@ -50,8 +50,18 @@ Generates `vacation_research_2026.xlsx` with multi-tab cost comparisons across d
 
 Brochures are self-contained HTML files with inline CSS and `<img>` tags referencing `brochure_images/`. To export to PDF, open in a browser and print to PDF (or use Playwright). Screenshots of the rendered output are saved as `*_map_check.png` and `*_brochure.pdf` at the root.
 
+## Booking Records Structure
+
+`bookings.md` uses a consistent section layout per confirmed reservation:
+- Header: vendor name + what was booked
+- Sub-fields: booking/confirmation #, order #, date booked, travelers, date of service, contact info, cancellation policy, amount paid (with card/charge-as details)
+- **"Still to Book" table** at the bottom tracks outstanding reservations with priority and notes.
+
+When a new booking is confirmed, add a full entry at the top of the relevant section (Flights / Accommodation / Activities) and remove or update the corresponding row in the "Still to Book" table. Also update the matching cost item in `build_costs.py` (set `is_estimate=False` and update the amount), then re-run `python build_costs.py`.
+
 ## Conventions
 
 - `*.BACKUP.md` files are gitignored; `*.BACKUP2.md` files are not — treat the non-ignored backups as reference snapshots, not the authoritative version.
 - Loose JPEG files at the root (prefixed `preview_`, `check_`, or named by location) are working screenshots used during brochure development, not source assets.
 - `_tmp_train_imgs.json` is a large scratch file from image search sessions — ignore it.
+- `itinerary.html` mirrors `itinerary.md` in structure but is styled for browser/print. When updating trip content, keep both in sync; cost sections are auto-synced by `build_costs.py`.

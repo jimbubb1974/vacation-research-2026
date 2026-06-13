@@ -10,9 +10,9 @@
 | Day | Date | Location | Overnight | Plan |
 |---|---|---|---|---|
 | 0 | Sat Jul 11 | DC → Munich | In flight | Depart IAD; transatlantic overnight flight |
-| 1 | Sun Jul 12 | Arrive Munich | Munich | Arrive MUC; S-Bahn to city; check in; wander — Marienplatz, Viktualienmarkt, Frauenkirche; light dinner |
+| 1 | Sun Jul 12 | Arrive Munich | Munich | Arrive MUC; S1 → Hbf → U1 to Rotkreuzplatz → 10-min walk to Adamstraße 4 (Neuhausen); drop bags; wander — Marienplatz, Viktualienmarkt, Frauenkirche; light dinner |
 | 2 | Mon Jul 13 | Munich | Munich | Mike's Bike Tour (11:30–3:30); evening dinner at Hopferhouse |
-| 3 | Tue Jul 14 | Munich → Königssee area | Schönau am Königssee | Nymphenburg Palace 9 AM–1:15 PM (palace + Marstallmuseum + Amalienburg); lunch at Palmenhaus on-site; Bus 51 → Hbf; 14:44 RE5 Pl.9 → Freilassing 16:34; 16:45 S4 Pl.1 → Berchtesgaden Hbf 17:38; Bus 841 to Schönau; check in |
+| 3 | Tue Jul 14 | Munich → Königssee area | Schönau am Königssee | Walk to Nymphenburg Palace (~15 min from apartment); palace + Marstallmuseum + Amalienburg 9 AM–1:15 PM; lunch at Palmenhaus; collect bags from apartment; Bus 51 → Hbf; 14:44 RE5 Pl.9 → Freilassing 16:34; 16:45 S4 Pl.1 → Berchtesgaden Hbf 17:38; Bus 841 to Schönau; check in |
 | 4 | Wed Jul 15 | Berchtesgaden area | Schönau am Königssee | Eagle's Nest — Bus 838 to Obersalzberg; Kehlstein bus + elevator to summit; Berchtesgaden salt mine (afternoon) |
 | 5 | Thu Jul 16 | Königssee full day | Schönau am Königssee | Electric boat to Salet (south end, ~50 min); hike to Obersee; continue to Rotbachfall (Germany's highest waterfall, ~470m); return hike; boat back |
 | 6 | Fri Jul 17 | → Salzburg | Salzburg | Taxi to Salzburg (~30 min, ~€80); check in; explore Old Town |
@@ -42,8 +42,8 @@
 - Overnight transatlantic flight; arrive Munich 7:45 AM (+1)
 
 ### Day 1 — Sun Jul 12 · Arrive Munich
-- **7:45 AM** — Land MUC; S-Bahn S1/S8 to city center (~45 min)
-- **Morning** — Check in, drop bags (early check-in may not be available)
+- **7:45 AM** — Land MUC; S1 or S8 toward city (~40 min) → München Hbf; U1 west 2 stops to Rotkreuzplatz (~5 min); 10-min walk to **Adamstraße 4** (Neuhausen-Nymphenburg)
+- **Morning** — Drop bags with host Lars (official check-in is after 3 PM; coordinate bag drop on arrival)
 - **~11 AM** — Marienplatz: Neues Rathaus Glockenspiel (chimes at 11 AM and noon)
 - **Lunch** — Viktualienmarkt open-air food market
 - **Afternoon** — Frauenkirche cathedral; wander the Altstadt
@@ -59,13 +59,15 @@
 *Note: teens need valid Student ID to have qualified for the student rate — bring them.*
 
 ### Day 3 — Tue Jul 14 · Munich → Königssee
+- **~8:45 AM** — Walk to Nymphenburg Palace (~15 min on foot from Adamstraße, or 2 stops on Tram 17: Rotkreuzplatz → Romanplatz → Schloss Nymphenburg). Leave packed bags with Lars — checkout is 11 AM; ask him in advance to hold bags until ~1:30 PM.
 - **9:00–10:00 AM** — Nymphenburg Palace state rooms (opens 9 AM in summer; baroque royal residence, ~1 hr)
 - **10:00–10:35 AM** — Marstallmuseum: royal carriages + Nymphenburg Porcelain collection
 - **10:35–11:30 AM** — Walk to Amalienburg (~15 min through the park); visit the rococo hunting lodge — the silver Hall of Mirrors inside is the highlight of the estate (~25 min)
 - **11:30 AM–12:30 PM** — Remaining park castles if energy allows (Badenburg, Pagodenburg; Magdalenenklause is the least essential) or a slow walk back along the canal
 - **12:30–13:15 PM** — Lunch at Palmenhaus café (in the Orangery, on-site — no transit needed)
-- **~13:15** — Bus 51 from Nymphenburg directly to München Hbf (~25 min); no need to return to central Munich first
-- **~13:40** — Arrive München Hbf; collect luggage if stored; find Platform 9
+- **~13:15** — Walk back to Adamstraße 4 (~15 min) to collect bags from Lars
+- **~13:35** — Catch Bus 51 from Rotkreuzplatz area → München Hbf (~20 min); find Platform 9
+- **~13:55** — Arrive München Hbf; find Platform 9
 - **14:44** — RE5 from München Hbf Platform 9 (Bayern-Ticket covers everything)
 - **16:34** — Arrive Freilassing Platform 2; change to Platform 1 (11-min transfer)
 - **16:45** — S4 departs Freilassing
@@ -220,25 +222,16 @@
 
 | Base | Option | Status | Dates | Cost | Link |
 |---|---|---|---|---|---|
-| Munich | Leonardo Hotel Munich Arabellapark | Under consideration | Jul 12–14 (2 nights) | $319/night · $638 total (taxes incl.) | [Booking.com](https://www.booking.com/hotel/de/leonardo-munich-arabellapark.html) |
-| Munich | Eurostars Grand Central | Under consideration | Jul 12–14 (2 nights) | $380/night · $761 total (taxes incl., 2 rooms) | [Booking.com](https://www.booking.com/hotel/de/eurostars-grand-central.html) |
-| Munich | Holiday Inn Munich - Westpark by IHG | Under consideration | Jul 12–14 (2 nights) | $339/night · $677 total (taxes incl., 2 rooms) | [Booking.com](https://www.booking.com/hotel/de/holiday-inn-munich-westpark.html) |
+| Munich | PRIME: City Apartment für 6 (Airbnb) | **Booked** | Jul 12–14 (2 nights) | $782.08 total — Conf. HM4ZPJHYB9 | [Airbnb](https://www.airbnb.com/rooms/1575373648492118883) |
 | Schönau am Königssee | Villa Alpenrausch | **Booked** | Jul 14–17 (3 nights) | $1,435.99 | [Airbnb](https://www.airbnb.com/rooms/1575373648492118883) |
-| Salzburg | Numa Salzburg Vogelweider | Under consideration | Jul 17–19 (2 nights) | $425/night · $851 total (taxes incl.) | Booking.com |
-| Salzburg | Hotel Vogelweiderhof | Under consideration | Jul 17–19 (2 nights) | $369/night · $737 total (taxes incl.) | [Booking.com](https://www.booking.com/hotel/at/und-restaurant-vogelweiderhof.html) |
-| Vienna | Hotel Marc Aurel Vienna City Center | Under consideration | Jul 19–22 (3 nights) | ~$265/night · ~$900 total est. | [Expedia](https://www.expedia.com/Vienna-Hotels-Hotel-Marc-Aurel-Vienna-City-Center.h891949.Hotel-Information?chkin=2026-07-19&chkout=2026-07-22&rm1=a4) |
+| Salzburg | Big Flat in Historic Mozart House (Airbnb) | **Booked** | Jul 17–19 (2 nights) | $1,007.28 total — Conf. HM4NSFM9J3 | — |
+| Vienna | City Center Klimt's Balcony Suite (Airbnb) | **Booked** | Jul 19–22 (3 nights) | $1,068.21 total — Conf. HMT8SQRKMA | — |
 
-**Holiday Inn Munich - Westpark by IHG notes:** Albert-Rosshaupter-Strasse 45, Sendling-Westpark. Rated 8.3 Very Good (2,424 reviews) on Booking.com; location score 8.4. 2 × Superior Twin Room for 4 adults. **$677.36 total** (2 nights, taxes and fees included; €586; $339/night both rooms). Amenities: Free WiFi, parking, pet friendly.
+**Munich — PRIME: City Apartment für 6 | Neu & Modern notes:** Adamstraße 4, 80636 Munich (Neuhausen-Nymphenburg). Entire home hosted by Lars (+49 162 2840104). **BOOKED** — Conf. HM4ZPJHYB9. Check-in Sun Jul 12 after 3:00 PM; check-out Tue Jul 14 by 11:00 AM. **$782.08 total** (charged to Visa 0815 on Jun 29, 2026). Free cancellation before 3:00 PM Jul 7. Quiet hours 10:00 PM – 8:00 AM; max 6 guests; no pets; must climb stairs. ~15-min walk or Tram 17 to Nymphenburg Palace.
 
-**Eurostars Grand Central notes:** Arnulfstr. 35, Maxvorstadt. Rated 8.7 Excellent (4,956 reviews) on Booking.com; location score 8.9. 2 × Double or Twin Room for 4 adults. Getaway Deal: $950.73 − $190.15 = **$760.58 total** (2 nights, taxes and fees included; €658; $380/night both rooms). Amenities: Free WiFi, parking, swimming pool.
+**Vienna — City Center Klimt's Balcony Suite notes:** Operngasse, Vienna (city center, near Opera). Entire home hosted by Eva & Friends (+43 676 5249090). **BOOKED** — Conf. HMT8SQRKMA. Check-in Sun Jul 19 after 4:00 PM; checkout Wed Jul 22 by 10:00 AM. **$1,068.21 total** ($534.12 paid Jun 13; $534.09 due Jul 4; both Visa 0815). Free cancellation within 24 hrs of booking; partial refund if cancelled before 4:00 PM Jul 12. Max 6 guests; no pets; quiet hours 6:00 PM – 9:00 AM.
 
-**Leonardo Hotel Munich Arabellapark notes:** Effnerstr. 99, Bogenhausen. Rated 8.3 Very Good (5,894 reviews) on Booking.com; location score 8.1. 1 × Deluxe Quadruple Room for 4 adults. **$638.06 total** (2 nights, taxes and fees included; €552; $319/night). One room fits the whole family. Amenities: Free WiFi, parking, restaurant.
-
-**Hotel Marc Aurel Vienna City Center notes:** 3-star, rated 9.0 Wonderful (484 reviews, Expedia). Quadruple Room: sleeps 4, 215 sq ft, 1 Double Bed + 2 Twin Beds, Free WiFi, breakfast buffet included. Previously researched at $609 (2 nights, Summer Sale). **Now need Jul 19–22 (3 nights)** — re-check availability and pricing at new dates; original 2-night pricing no longer applies. One room for all 4 — simpler and cheaper than two separate rooms.
-
-**Hotel Vogelweiderhof notes:** Vogelweiderstraße 93b, Schallmoos (same street as Numa, ~500m away). Rated 8.0 Very Good (4,884 reviews) on Booking.com. 1 × Family Room with Bunk Bed for 4 adults. **$737.06 total** (2 nights, taxes and fees included; €637.65; $369/night). Check-in 3:00–8:00 PM; checkout 7:00–11:00 AM — compatible with ~10:07 AM train departure. Amenities: Free WiFi, parking.
-
-**Numa Salzburg Vogelweider notes:** Vogelweiderstraße 33, Schallmoos. Rated 8.6 Excellent (3,206 reviews) on Booking.com; location score 8.2. 2 × Superior Double Room for 4 adults. Early Booker Deal: $1,000.78 − $150.12 = **$850.66 total** (taxes and fees included; €735.93). Check-in from 3:00 PM; checkout by 11:00 AM — compatible with the ~10:07 AM train departure (leave hotel ~9:30 AM, check out early or store bags).
+**Salzburg — Big Flat in Historic Mozart House notes:** Gstättengasse 25, Altstadt, 5020 Salzburg, Austria. **BOOKED** — Conf. HM4NSFM9J3. Hosted by Medimmo GmbH (+43 664 1313022). Self check-in with lockbox. Check-in Fri Jul 17 after 1:00 PM; checkout Sun Jul 19 by 10:00 AM. **$1,007.28 total** ($570.32 paid Jun 12; $436.96 due Jul 2; both Visa 0815). Free cancellation before Jun 17; partial refund before Jul 10. Max 4 guests; no pets.
 
 **Villa Alpenrausch notes:** 2 bedrooms (king + king), 1 bath, sleeps 6, private sauna, full kitchen, outdoor dining, self check-in. Rated 4.86★ (14 reviews), Guest Favorite, Superhost. **BOOKED** — Waldhauserstraße 29, 83471 Schönau am Königssee. Check-in 4:00 PM Jul 14; check-out 11:00 AM Jul 17. Host: Airbnb - Philipp; phone +49 176 21421010. **$1,435.99 total paid.** Non-refundable (cancellation window has passed).
 
@@ -285,11 +278,11 @@ Nonstop — 9h 45m
 |---|---|---|
 | **Flights** | | **$5,423** |
 | | UA 108 IAD→MUC Jul 11 + OS 41 VIE→IAD Jul 22 nonstop (4 people) — Conf. IKR3ZV | $5,423 |
-| **Accommodation** | | **$3,864** |
-| | Munich — Holiday Inn Westpark, 2 nights (Jul 12–14) | $677 |
+| **Accommodation** | | **$4,294** |
+| | Munich — PRIME City Apt Adamstraße 4, 2 nights (Jul 12–14) — Conf. HM4ZPJHYB9 | $782 |
 | | Königssee — Villa Alpenrausch, 3 nights (Jul 14–17) BOOKED | $1,436 |
-| | Salzburg — Numa Vogelweider, 2 nights (Jul 17–19) | $851 |
-| | Vienna — hotel TBD, 3 nights (Jul 19–22) \* | $900 |
+| | Salzburg — Mozart House Gstättengasse 25, 2 nights (Jul 17–19) — Conf. HM4NSFM9J3 | $1,007 |
+| | Vienna — City Center Klimt's Balcony Suite, 3 nights (Jul 19–22) — Conf. HMT8SQRKMA | $1,068 |
 | **Transport** | | **$392** |
 | | Airport → city: MVV group day ticket (Jul 12) \* | $16 |
 | | Bayern-Ticket: Munich → Berchtesgaden (Jul 14, group) \* | $58 |
@@ -312,7 +305,7 @@ Nonstop — 9h 45m
 | | Meals (~$150/day × 11 days) \* | $1,650 |
 | | Miscellaneous / buffer \* | $500 |
 | | | |
-| **TOTAL** | | **$12,823** |
+| **TOTAL** | | **$13,252** |
 <!-- COSTS_END -->
 
 ---

@@ -31,10 +31,10 @@ COSTS = [
      5422.52, False),
 
     # ACCOMMODATION
-    ("Accommodation", "Munich — Holiday Inn Westpark, 2 nights (Jul 12–14)",   677.36, False),
+    ("Accommodation", "Munich — PRIME City Apt Adamstraße 4, 2 nights (Jul 12–14) — Conf. HM4ZPJHYB9", 782.08, False),
     ("Accommodation", "Königssee — Villa Alpenrausch, 3 nights (Jul 14–17) BOOKED", 1435.99, False),
-    ("Accommodation", "Salzburg — Numa Vogelweider, 2 nights (Jul 17–19)",     850.66, False),
-    ("Accommodation", "Vienna — hotel TBD, 3 nights (Jul 19–22)",              900.00, True),
+    ("Accommodation", "Salzburg — Mozart House Gstättengasse 25, 2 nights (Jul 17–19) — Conf. HM4NSFM9J3", 1007.28, False),
+    ("Accommodation", "Vienna — City Center Klimt's Balcony Suite, 3 nights (Jul 19–22) — Conf. HMT8SQRKMA", 1068.21, False),
 
     # TRANSPORT
     ("Transport", "Airport → city: MVV group day ticket (Jul 12)",              16.00, True),

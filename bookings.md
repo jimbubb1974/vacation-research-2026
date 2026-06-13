@@ -31,6 +31,53 @@ Booked: 2026-06-07 · 4 travelers: James Bubb, Kristi Bubb, Alexander Bubb, Kath
 
 ## Accommodation
 
+### Munich — PRIME: City Apartment für 6 | Neu & Modern (Airbnb)
+
+**Booked:** 2026-06-10
+**Confirmation:** HM4ZPJHYB9
+**Address:** Adamstraße 4, 80636 Munich, Germany (Neuhausen-Nymphenburg)
+**Check-in:** Sunday, Jul 12 — after 3:00 PM GMT+2
+**Check-out:** Tuesday, Jul 14 — by 11:00 AM GMT+2
+**Guests:** 4 adults
+**Host:** Lars · +49 162 2840104
+**Cancellation policy:** Free cancellation before 3:00 PM on Jul 7; partial refund if cancelled before check-in at 3:00 PM Jul 12
+**House rules:** Max 6 guests; no pets; quiet hours 10:00 PM – 8:00 AM; must climb stairs
+**Payment:** $782.08 total — scheduled charge to Visa 0815 on Jun 29, 2026
+
+---
+
+### Salzburg — Big Flat in Historic Mozart House, Very Central (Airbnb)
+
+**Booked:** 2026-06-12
+**Confirmation:** HM4NSFM9J3
+**Address:** Gstättengasse 25, 5020 Salzburg, Austria (Altstadt)
+**Check-in:** Friday, Jul 17 — after 1:00 PM
+**Checkout:** Sunday, Jul 19 — by 10:00 AM
+**Guests:** 4 adults
+**Host:** Medimmo GmbH · +43 664 1313022
+**Cancellation policy:** Free cancellation before 1:00 PM on Jun 17; partial refund if cancelled before 1:00 PM Jul 10
+**House rules:** Max 4 guests; no pets; self check-in with lockbox
+**Price:** $1,007.28 total ($436.96/night × 2 + $133.36 service fee)
+**Payment:** $570.32 paid Jun 12 (Visa 0815); $436.96 due Jul 2 (Visa 0815)
+
+---
+
+### Vienna — City Center Klimt's Balcony Suite (Airbnb)
+
+**Booked:** 2026-06-13
+**Confirmation:** HMT8SQRKMA
+**Address:** Operngasse, Vienna, Austria (city center, near Opera)
+**Check-in:** Sunday, Jul 19 — after 4:00 PM
+**Checkout:** Wednesday, Jul 22 — by 10:00 AM
+**Guests:** 4 adults
+**Host:** Eva & Friends · +43 676 5249090
+**Cancellation policy:** Free cancellation within 24 hours of booking; partial refund if cancelled before 4:00 PM Jul 12
+**House rules:** Max 6 guests; no pets; quiet hours 6:00 PM – 9:00 AM
+**Price:** $1,068.21 total ($356.07/night × 3 nights)
+**Payment:** $534.12 paid Jun 13 (Visa 0815); $534.09 due Jul 4 (Visa 0815)
+
+---
+
 ### Schönau am Königssee — Villa Alpenrausch (Airbnb)
 
 **Booked:** 2026-06-07
@@ -103,9 +150,6 @@ Booked: 2026-06-07 · 4 travelers: James Bubb, Kristi Bubb, Alexander Bubb, Kath
 |---|---|---|
 | Eagle's Nest Kehlstein bus | High | kehlsteinhaus.de; seasonal, limited capacity |
 | St. Peter Stiftskeller Salzburg | High | Dinner reservation; book several weeks ahead |
-| ÖBB Railjet Salzburg → Vienna | Medium | Jul 19 ~10:07 AM; book at oebb.at |
+| ÖBB Railjet Salzburg → Vienna | Medium | Jul 19 ~10:07 AM; checkout by 10 AM, ~20 min to Hbf — leave apartment ~9:30–9:40; book at oebb.at |
 | Schönbrunn Palace timed entry | High | Jul 20; busy in July — book in advance |
-| Munich accommodation | Medium | Jul 12–14 (2 nights); 3 options under consideration in itinerary.md |
-| Salzburg accommodation | Medium | Jul 17–19 (2 nights); 2 options under consideration in itinerary.md |
-| Vienna accommodation | Medium | Jul 19–22 (3 nights); re-search at new dates — original 2-night pricing no longer applies |
 | Upper Belvedere timed entry | Low | Jul 21; opens 9 AM |
