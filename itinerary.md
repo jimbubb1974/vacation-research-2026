@@ -13,7 +13,7 @@
 | 0 | Sat Jul 11 | Washington, DC → Munich | In flight | Depart IAD on UA 108; transatlantic overnight flight. |
 | 1 | Sun Jul 12 | Munich | Munich — Adamstraße 4 | Arrive MUC; S-Bahn to Marienplatz; Bounce bag storage 10 AM–7 PM; Altstadt; check in at Adamstraße 4. |
 | 2 | Mon Jul 13 | Munich | Munich — Adamstraße 4 | Free morning; Mike's Classic Bike Tour 11:30 AM–3:30 PM; Bavarian dinner. |
-| 3 | Tue Jul 14 | Munich → Schönau am Königssee | Villa Alpenrausch | Nymphenburg Palace and park; collect bags; regional trains via Freilassing; Bus 841 to Schönau. |
+| 3 | Tue Jul 14 | Munich → Schönau am Königssee | Villa Alpenrausch | Nymphenburg Palace and park; collect bags; regional trains via Freilassing; taxi to Schönau (Bus 841 backup). |
 | 4 | Wed Jul 15 | Berchtesgaden area | Villa Alpenrausch | Bus via Berchtesgaden to Obersalzberg; Eagle's Nest; afternoon salt mine. |
 | 5 | Thu Jul 16 | Königssee | Villa Alpenrausch | Bus to Königssee dock; electric boat to Salet; hike to Obersee and Rotbachfall; return by boat. |
 | 6 | Fri Jul 17 | Schönau → Salzburg | Salzburg — Gstättengasse 25 | Checkout; pre-booked taxi door to door; Salzburg Altstadt afternoon. |
@@ -87,9 +87,9 @@
 - **5:34 PM** — Arrive Freilassing; make the 11-minute connection.
   - **Where / how:** Follow station signs and departure boards for the 5:45 PM S-Bahn/regional service to Berchtesgaden Hbf.
 - **5:45 PM** — Train departs Freilassing for Berchtesgaden Hbf.
-- **6:38 PM** — Arrive Berchtesgaden Hbf, then take Bus 841 to Schönau and check in.
-  - **Where / how:** Board **Bus 841** outside Berchtesgaden Hbf toward Königssee/Schönau. Exit at the stop nearest **Villa Alpenrausch, Waldhauserstraße 29, 83471 Schönau am Königssee**. Host Philipp: +49 176 21421010. Check-in is from 4 PM.
-> **Day note:** The Bayern-Ticket covers the regional trains and Bus 841. Confirm the exact Munich platform and the final Schönau bus stop on the day.
+- **6:38 PM** — Arrive Berchtesgaden Hbf, take a taxi to Villa Alpenrausch, and check in. **Bus 841 is the backup.**
+  - **Where / how:** Default: use the taxi rank outside Berchtesgaden Hbf for **Villa Alpenrausch, Waldhauserstraße 29, 83471 Schönau am Königssee**. Backup: board **Bus 841** toward Königssee/Schönau and exit at the nearest stop. Host Philipp: +49 176 21421010. Check-in is from 4 PM.
+> **Day note:** The Bayern-Ticket covers the regional trains and backup Bus 841. Confirm the exact Munich platform and taxi availability on the day.
 
 ### Day 4 — Wed Jul 15 · Eagle's Nest + Salt Mine
 - **Morning** — Travel to the Obersalzberg departure point for Eagle's Nest.

@@ -108,7 +108,7 @@ DAYS = [
         "title": "Munich → Königssee",
         "location": "Munich → Schönau am Königssee",
         "overnight": "Villa Alpenrausch",
-        "summary": "Nymphenburg Palace and park; collect bags; regional trains via Freilassing; Bus 841 to Schönau.",
+        "summary": "Nymphenburg Palace and park; collect bags; regional trains via Freilassing; taxi to Schönau (Bus 841 backup).",
         "events": [
             event(
                 "~8:45 AM",
@@ -134,12 +134,12 @@ DAYS = [
             event("5:45 PM", "Train departs Freilassing for Berchtesgaden Hbf.", kind="transport"),
             event(
                 "6:38 PM",
-                "Arrive Berchtesgaden Hbf, then take Bus 841 to Schönau and check in.",
-                where="Board **Bus 841** outside Berchtesgaden Hbf toward Königssee/Schönau. Exit at the stop nearest **Villa Alpenrausch, Waldhauserstraße 29, 83471 Schönau am Königssee**. Host Philipp: +49 176 21421010. Check-in is from 4 PM.",
+                "Arrive Berchtesgaden Hbf, take a taxi to Villa Alpenrausch, and check in. **Bus 841 is the backup.**",
+                where="Default: use the taxi rank outside Berchtesgaden Hbf for **Villa Alpenrausch, Waldhauserstraße 29, 83471 Schönau am Königssee**. Backup: board **Bus 841** toward Königssee/Schönau and exit at the nearest stop. Host Philipp: +49 176 21421010. Check-in is from 4 PM.",
                 kind="transport",
             ),
         ],
-        "notes": ["The Bayern-Ticket covers the regional trains and Bus 841. Confirm the exact Munich platform and the final Schönau bus stop on the day."],
+        "notes": ["The Bayern-Ticket covers the regional trains and backup Bus 841. Confirm the exact Munich platform and taxi availability on the day."],
     },
     {
         "day": 4,
