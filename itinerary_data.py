@@ -183,12 +183,12 @@ DAYS = [
         "title": "Travel to Salzburg",
         "location": "Schönau → Salzburg",
         "overnight": "Salzburg — Gstättengasse 25",
-        "summary": "Checkout; taxi to Salzburg Bounce storage at 10:30 AM; Altstadt; pick up bags at 6 PM; apartment check-in.",
+        "summary": "Checkout; Taxi Angerer to Salzburg Bounce storage at 10:30 AM; Altstadt; pick up bags at 6 PM; apartment check-in.",
         "events": [
             event(
                 "~9:45 AM",
-                "Checkout and take a taxi to the Salzburg Bounce location; book the taxi the evening before through Taxizentrale Berchtesgaden.",
-                where="Pickup: **Villa Alpenrausch, Waldhauserstraße 29, Schönau am Königssee**. Destination: **Cafe cubed sugar, Griesgasse 13, 5020 Salzburg**. Allow about 30 minutes under normal conditions and confirm pickup time directly with the taxi company.",
+                "Checkout and take **Taxi Angerer** to the Salzburg Bounce location.",
+                where="Pickup: **Villa Alpenrausch, Waldhauserstraße 29, Schönau am Königssee, Bavaria 83471**. Taxi Angerer confirmed pickup for Friday, Jul 17 at 10:30 AM (GMT+2). Driver contact: Stefan Aschauer; phone +49 8652 964900; email info@taxi-angerer.de; website https://www.taxi-angerer.de/. Destination: **Cafe cubed sugar, Griesgasse 13, 5020 Salzburg**. Allow about 45 minutes under normal conditions. Four passengers with four carry-on suitcases and four backpacks.",
                 kind="transport",
             ),
             event("10:30 AM", "Drop bags at **Bounce — Cafe cubed sugar (Altstadt)** — **BOOKED** (Ref. 543WH67Q).", where="**Griesgasse 13, 5020 Salzburg**, first floor. Storage is booked for four regular and four small bags until 6:00 PM. Show the booking code from the Bounce app to staff.", kind="booking"),

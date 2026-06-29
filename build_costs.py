@@ -41,7 +41,7 @@ COSTS = [
     ("Transport", "Bayern-Ticket: Munich → Berchtesgaden (Jul 14, group) — €64.00 paid, Conf. 342448586457", 69.76, False),
     ("Transport", "Bounce luggage storage, Munich (Jul 12, 4 reg + 4 small bags) — €40.80 paid, Ref S69FQ16J", 44.47, False),
     ("Transport", "Berchtesgaden local RVO buses — included with host-provided Guest Card (line 849 excluded)", 0.00, False),
-    ("Transport", "Schönau → Salzburg: direct taxi (Jul 17)",                 100.00, True),
+    ("Transport", "Schönau → Salzburg: Taxi Angerer (Jul 17) — €75.00 paid",  81.75, False),
     ("Transport", "Bounce luggage storage, Salzburg (Jul 17, 4 reg + 4 small bags) — €48.80 paid, Ref 543WH67Q", 53.19, False),
     ("Transport", "WESTbahn: Salzburg → Vienna (Jul 19, 4 people) — Conf. NAYRKY", 262.84, False),
     ("Transport", "Bounce luggage storage, Vienna (Jul 19, 4 reg + 4 small bags) — €30.27 paid, Ref 1X9XMXPG", 32.99, False),

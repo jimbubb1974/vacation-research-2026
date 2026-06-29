@@ -16,7 +16,7 @@
 | 3 | Tue Jul 14 | Munich → Schönau am Königssee | Villa Alpenrausch | Nymphenburg Palace and park; collect bags; regional trains via Freilassing; taxi to Schönau (Bus 841 backup). |
 | 4 | Wed Jul 15 | Berchtesgaden area | Villa Alpenrausch | Bus via Berchtesgaden to Obersalzberg; Eagle's Nest; afternoon salt mine. |
 | 5 | Thu Jul 16 | Königssee | Villa Alpenrausch | Bus to Königssee dock; electric boat to Salet; hike to Obersee and Rotbachfall; return by boat. |
-| 6 | Fri Jul 17 | Schönau → Salzburg | Salzburg — Gstättengasse 25 | Checkout; taxi to Salzburg Bounce storage at 10:30 AM; Altstadt; pick up bags at 6 PM; apartment check-in. |
+| 6 | Fri Jul 17 | Schönau → Salzburg | Salzburg — Gstättengasse 25 | Checkout; Taxi Angerer to Salzburg Bounce storage at 10:30 AM; Altstadt; pick up bags at 6 PM; apartment check-in. |
 | 7 | Sat Jul 18 | Salzburg | Salzburg — Gstättengasse 25 | Fortress Hohensalzburg; Getreidegasse; Mirabell Gardens; St. Peter dinner. |
 | 8 | Sun Jul 19 | Salzburg → Vienna | Vienna — Operngasse | WESTbahn 9:52 AM; Vienna Bounce storage; Old Town and KHM; apartment check-in. |
 | 9 | Mon Jul 20 | Vienna | Vienna — Operngasse | Naschmarkt breakfast; U4 to Schönbrunn; palace, gardens, maze, and Gloriette; evening Old Town stroll. |
@@ -113,8 +113,8 @@
 > **Day note:** Carry water and weather layers. Boat times and trail conditions must be checked on the day.
 
 ### Day 6 — Fri Jul 17 · Travel to Salzburg
-- **~9:45 AM** — Checkout and take a taxi to the Salzburg Bounce location; book the taxi the evening before through Taxizentrale Berchtesgaden.
-  - **Where / how:** Pickup: **Villa Alpenrausch, Waldhauserstraße 29, Schönau am Königssee**. Destination: **Cafe cubed sugar, Griesgasse 13, 5020 Salzburg**. Allow about 30 minutes under normal conditions and confirm pickup time directly with the taxi company.
+- **~9:45 AM** — Checkout and take **Taxi Angerer** to the Salzburg Bounce location.
+  - **Where / how:** Pickup: **Villa Alpenrausch, Waldhauserstraße 29, Schönau am Königssee, Bavaria 83471**. Taxi Angerer confirmed pickup for Friday, Jul 17 at 10:30 AM (GMT+2). Driver contact: Stefan Aschauer; phone +49 8652 964900; email info@taxi-angerer.de; website https://www.taxi-angerer.de/. Destination: **Cafe cubed sugar, Griesgasse 13, 5020 Salzburg**. Allow about 45 minutes under normal conditions. Four passengers with four carry-on suitcases and four backpacks.
 - **10:30 AM** — Drop bags at **Bounce — Cafe cubed sugar (Altstadt)** — **BOOKED** (Ref. 543WH67Q).
   - **Where / how:** **Griesgasse 13, 5020 Salzburg**, first floor. Storage is booked for four regular and four small bags until 6:00 PM. Show the booking code from the Bounce app to staff.
 - **Late morning** — Have lunch and begin exploring the Altstadt at an easy pace.
@@ -243,10 +243,13 @@ The Villa Alpenrausch host provides the **Berchtesgaden Guest Card**. Carry it o
 
 ### Leg 3 — Schönau am Königssee → Salzburg (Day 6, Jul 17)
 
-**Option A — Taxi (recommended for travel day with luggage)**
-- Door to door, ~28–30 min, ~€80 flat rate
-- Clean transfer with full bags for 4 people; no bus stops or luggage juggling
-- Contact: Taxizentrale Berchtesgaden
+**Option A — Taxi Angerer**
+- Pickup: Friday, Jul 17 at 10:30 AM (GMT+2)
+- Pickup address: Villa Alpenrausch, Waldhauserstraße 29, Schönau am Königssee, Bavaria 83471
+- Drop-off: Cafe cubed sugar, Griesgasse 13, 5020 Salzburg
+- 4 passengers with 4 carry-on suitcases and 4 backpacks
+- Total cost: €75.00
+- Contact: Stefan Aschauer · +49 8652 964900 · info@taxi-angerer.de
 
 **Option B — Bus 840 "Watzmann Express" (fine for day trips, not ideal on travel day)**
 - Picks up at Königssee/Jennerbahn stop near the accommodation
@@ -361,12 +364,12 @@ Nonstop — 9h 45m
 | | Königssee — Villa Alpenrausch, 3 nights (Jul 14–17) BOOKED | $1,436 |
 | | Salzburg — Mozart House Gstättengasse 25, 2 nights (Jul 17–19) — Conf. HM4NSFM9J3 | $1,007 |
 | | Vienna — City Center Klimt's Balcony Suite, 3 nights (Jul 19–22) — Conf. HMT8SQRKMA | $1,068 |
-| **Transport** | | **$659** |
+| **Transport** | | **$641** |
 | | Airport → city: MVV group day ticket (Jul 12) \* | $16 |
 | | Bayern-Ticket: Munich → Berchtesgaden (Jul 14, group) — €64.00 paid, Conf. 342448586457 | $70 |
 | | Bounce luggage storage, Munich (Jul 12, 4 reg + 4 small bags) — €40.80 paid, Ref S69FQ16J | $44 |
 | | Berchtesgaden local RVO buses — included with host-provided Guest Card (line 849 excluded) | $0 |
-| | Schönau → Salzburg: direct taxi (Jul 17) \* | $100 |
+| | Schönau → Salzburg: Taxi Angerer (Jul 17) — €75.00 paid | $82 |
 | | Bounce luggage storage, Salzburg (Jul 17, 4 reg + 4 small bags) — €48.80 paid, Ref 543WH67Q | $53 |
 | | WESTbahn: Salzburg → Vienna (Jul 19, 4 people) — Conf. NAYRKY | $263 |
 | | Bounce luggage storage, Vienna (Jul 19, 4 reg + 4 small bags) — €30.27 paid, Ref 1X9XMXPG | $33 |
@@ -386,7 +389,7 @@ Nonstop — 9h 45m
 | | Meals (~$150/day × 11 days) \* | $1,650 |
 | | Miscellaneous / buffer \* | $500 |
 | | | |
-| **TOTAL** | | **$13,519** |
+| **TOTAL** | | **$13,501** |
 <!-- COSTS_END -->
 
 ---

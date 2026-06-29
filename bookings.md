@@ -98,6 +98,17 @@ Booked: 2026-06-07 · 4 travelers: James Bubb, Kristi Bubb, Alexander Bubb, Kath
 
 ## Transportation
 
+### Schönau am Königssee → Salzburg — Taxi Angerer
+
+**Booked:** Friday, Jul 17, 2026
+**Pickup:** 10:30 AM GMT+2
+**Pickup address:** Waldhauserstraße 29, Schönau am Königssee, Bavaria 83471
+**Drop-off:** Cafe cubed sugar (Altstadt), Griesgasse 13, Salzburg 5020
+**Passengers:** 4 passengers with 4 carry-on suitcases and 4 backpacks
+**Total cost:** €75.00
+**Contact:** Stefan Aschauer · +49 8652 964900 · info@taxi-angerer.de
+**Website:** https://www.taxi-angerer.de/
+
 ### Munich Hbf → Freilassing → Berchtesgaden Hbf (Bayern-Ticket)
 
 **Booked:** 2026-06-17 · **Confirmation:** 342448586457 · **Ticketcode:** GMYV89JG
