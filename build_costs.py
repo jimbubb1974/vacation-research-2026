@@ -38,10 +38,12 @@ COSTS = [
 
     # TRANSPORT
     ("Transport", "Airport → city: MVV group day ticket (Jul 12)",              16.00, True),
-    ("Transport", "Bayern-Ticket: Munich → Berchtesgaden (Jul 14, group)",      58.00, True),
+    ("Transport", "Bayern-Ticket: Munich → Berchtesgaden (Jul 14, group) — €64.00 paid, Conf. 342448586457", 69.76, False),
+    ("Transport", "Bounce luggage storage, Munich (Jul 12, 4 reg + 4 small bags) — €40.80 paid, Ref S69FQ16J", 44.47, False),
     ("Transport", "Local buses Berchtesgaden area (Jul 15–16, ~€8/day)",        18.00, True),
     ("Transport", "Schönau → Salzburg: taxi to Freilassing + ÖBB (Jul 17)",    100.00, True),
-    ("Transport", "ÖBB Railjet: Salzburg → Vienna (Jul 19, 4 people)",         120.00, True),
+    ("Transport", "WESTbahn: Salzburg → Vienna (Jul 19, 4 people) — Conf. NAYRKY", 262.84, False),
+    ("Transport", "Bounce luggage storage, Vienna (Jul 19, 4 reg + 4 small bags) — €30.27 paid, Ref 1X9XMXPG", 32.99, False),
     ("Transport", "Vienna public transit (Jul 19–22)",                           28.00, True),
     ("Transport", "CAT Wien Mitte → VIE airport (Jul 22, 4 people)",            52.00, True),
 

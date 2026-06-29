@@ -10,14 +10,14 @@
 | Day | Date | Location | Overnight | Plan |
 |---|---|---|---|---|
 | 0 | Sat Jul 11 | DC → Munich | In flight | Depart IAD; transatlantic overnight flight |
-| 1 | Sun Jul 12 | Arrive Munich | Munich | Arrive MUC; S1 → Hbf → U1 to Rotkreuzplatz → 10-min walk to Adamstraße 4 (Neuhausen); drop bags; wander — Marienplatz, Viktualienmarkt, Frauenkirche; light dinner |
+| 1 | Sun Jul 12 | Arrive Munich | Munich | Arrive MUC; S-Bahn to Marienplatz; drop bags at Bounce (KADO Nails, Rindermarkt 6) 10 AM; wander — Marienplatz, Viktualienmarkt, Frauenkirche; pick up bags 7 PM; U1 to Rotkreuzplatz → Adamstraße 4 (Neuhausen); check in; light dinner |
 | 2 | Mon Jul 13 | Munich | Munich | Mike's Bike Tour (11:30–3:30); evening dinner at Hopferhouse |
-| 3 | Tue Jul 14 | Munich → Königssee area | Schönau am Königssee | Walk to Nymphenburg Palace (~15 min from apartment); palace + Marstallmuseum + Amalienburg 9 AM–1:15 PM; lunch at Palmenhaus; collect bags from apartment; Bus 51 → Hbf; 14:44 RE5 Pl.9 → Freilassing 16:34; 16:45 S4 Pl.1 → Berchtesgaden Hbf 17:38; Bus 841 to Schönau; check in |
+| 3 | Tue Jul 14 | Munich → Königssee area | Schönau am Königssee | Walk to Nymphenburg Palace (~15 min from apartment); palace + Marstallmuseum + Amalienburg 9 AM–1:30 PM; lunch at Palmenhaus; collect bags from apartment; Bus 51 → Hbf; 15:47 RE Gl.5–10 → Freilassing 17:34; 17:45 S → Berchtesgaden Hbf 18:38; Bus 841 to Schönau; check in |
 | 4 | Wed Jul 15 | Berchtesgaden area | Schönau am Königssee | Eagle's Nest — Bus 838 to Obersalzberg; Kehlstein bus + elevator to summit; Berchtesgaden salt mine (afternoon) |
 | 5 | Thu Jul 16 | Königssee full day | Schönau am Königssee | Electric boat to Salet (south end, ~50 min); hike to Obersee; continue to Rotbachfall (Germany's highest waterfall, ~470m); return hike; boat back |
 | 6 | Fri Jul 17 | → Salzburg | Salzburg | Taxi to Salzburg (~30 min, ~€80); check in; explore Old Town |
 | 7 | Sat Jul 18 | Salzburg | Salzburg | Fortress Hohensalzburg; Getreidegasse walk; Mirabell Gardens; St. Peter Stiftskeller dinner (book ahead) |
-| 8 | Sun Jul 19 | → Vienna | Vienna | Train departs ~10:07 → arrives ~12:32; check in; light lunch; short Old Town orientation walk — Stephansdom (inside, skip tower), Graben, Pestsäule, Hofburg area; KHM (4–5:45 PM); dinner near MuseumsQuartier/Spittelberg |
+| 8 | Sun Jul 19 | → Vienna | Vienna | WESTbahn departs Salzburg 9:52 AM → arrives Vienna Hbf 12:22 PM; drop bags at Bounce near Naschmarkt 12:30 PM; lunch; short Old Town orientation walk — Stephansdom (inside, skip tower), Graben, Pestsäule, Hofburg area; KHM (3:00–4:30 PM); pick up bags 5:30 PM; check in; dinner |
 | 9 | Mon Jul 20 | Vienna | Vienna | Naschmarkt breakfast (8:30–9:45 AM); Schönbrunn Palace Grand Tour (10:30 AM, book ahead) + gardens + maze + Gloriette climb; rest; evening dinner + Ringstrasse/Old Town stroll |
 | 10 | Tue Jul 21 | Vienna | Vienna | Upper Belvedere — Klimt's The Kiss + Secessionist collection; afternoon Prater + Riesenrad; final dinner in 1st district |
 | 11 | Wed Jul 22 | Fly home | — | Early checkout; CAT Wien Mitte → VIE; OS 41 departs 10:50 AM; arrive IAD 2:35 PM |
@@ -42,12 +42,13 @@
 - Overnight transatlantic flight; arrive Munich 7:45 AM (+1)
 
 ### Day 1 — Sun Jul 12 · Arrive Munich
-- **7:45 AM** — Land MUC; S1 or S8 toward city (~40 min) → München Hbf; U1 west 2 stops to Rotkreuzplatz (~5 min); 10-min walk to **Adamstraße 4** (Neuhausen-Nymphenburg)
-- **Morning** — Drop bags with host Lars (official check-in is after 3 PM; coordinate bag drop on arrival)
+- **7:45 AM** — Land MUC; S1 or S8 toward city (~40 min) → München Hbf; continue to Marienplatz (1 stop S-Bahn/U-Bahn, or ~10-min walk)
+- **10:00 AM** — Drop bags at **Bounce — KADO NAILS Nagel & Kosmetik Studio**, Rindermarkt 6 (shop in the courtyard, by the stairs), just off Marienplatz — **BOOKED** (Ref S69FQ16J)
 - **~11 AM** — Marienplatz: Neues Rathaus Glockenspiel (chimes at 11 AM and noon)
 - **Lunch** — Viktualienmarkt open-air food market
 - **Afternoon** — Frauenkirche cathedral; wander the Altstadt
-- **Evening** — Light dinner; early night to recover from the overnight flight
+- **7:00 PM** — Pick up bags at Bounce (Rindermarkt 6)
+- **Evening** — U1 from Hbf to Rotkreuzplatz (~5 min) → 10-min walk to **Adamstraße 4** (Neuhausen-Nymphenburg); check in with host Lars; light dinner; early night to recover from the overnight flight
 
 ### Day 2 — Mon Jul 13 · Munich
 - **Morning** — Free; sleep in or wander
@@ -66,12 +67,13 @@
 - **11:30 AM–12:30 PM** — Remaining park castles if energy allows (Badenburg, Pagodenburg; Magdalenenklause is the least essential) or a slow walk back along the canal
 - **12:30–13:15 PM** — Lunch at Palmenhaus café (in the Orangery, on-site — no transit needed)
 - **~13:15** — Walk back to Adamstraße 4 (~15 min) to collect bags from Lars
-- **~13:35** — Catch Bus 51 from Rotkreuzplatz area → München Hbf (~20 min); find Platform 9
-- **~13:55** — Arrive München Hbf; find Platform 9
-- **14:44** — RE5 from München Hbf Platform 9 (Bayern-Ticket covers everything)
-- **16:34** — Arrive Freilassing Platform 2; change to Platform 1 (11-min transfer)
-- **16:45** — S4 departs Freilassing
-- **17:38** — Arrive Berchtesgaden Hbf; Bus 841 to Schönau (~20 min); check in
+- **Early-mid afternoon** — Free buffer before the train (booked train departs later than originally planned — see below); relax, extend lunch, or revisit a park castle
+- **~14:30** — Catch Bus 51 from Rotkreuzplatz area → München Hbf (~20 min)
+- **~14:50** — Arrive München Hbf; find platform (Gl. 5–10 per ticket — confirm at station)
+- **15:47** — Train departs München Hbf — **BOOKED** (Bayern-Ticket, Conf. 342448586457, Ticketcode GMYV89JG)
+- **17:34** — Arrive Freilassing; change for onward train (11-min transfer)
+- **17:45** — Train departs Freilassing
+- **18:38** — Arrive Berchtesgaden Hbf; Bus 841 to Schönau (~20 min); check in
 
 ### Day 4 — Wed Jul 15 · Eagle's Nest + Salt Mine
 - **Morning** — Bus 838 from Berchtesgaden to Obersalzberg Documentation Center
@@ -98,12 +100,17 @@
 - **Evening** — Dinner at St. Peter Stiftskeller (one of Europe's oldest restaurants, 9th-century monastery; book ahead)
 
 ### Day 8 — Sun Jul 19 · → Vienna
-- **10:07 AM** — ÖBB Railjet departs Salzburg Hbf
-- **12:32 PM** — Arrive Vienna Hbf; transit/taxi to hotel; drop bags, freshen up
-- **1:45–2:30 PM** — Light lunch or coffee reset; arrival days run slower than planned
-- **2:45–3:45 PM** — Short Old Town orientation walk (relaxed first look, not a full tour): Stephansdom — go inside briefly, skip the south tower climb; Graben pedestrian street; Pestsäule plague column; walk toward Hofburg area
-- **4:00–5:45 PM** — Kunsthistorisches Museum (KHM) — open daily until 6 PM; focus on grand staircase, Egyptian antiquities, Kunstkammer, a pass through the Old Masters (especially Bruegel)
-- **6:00–7:30 PM** — Dinner near MuseumsQuartier / Spittelberg (skip a long walk back to the 1st district)
+- **~9:25 AM** — Checkout from Salzburg apartment (formal checkout deadline 10 AM); walk/taxi to Salzburg Hbf (~15–20 min)
+- **9:52 AM** — WESTbahn departs Salzburg Hbf — **BOOKED** (Conf. NAYRKY)
+- **12:22 PM** — Arrive Vienna Hbf; transit toward Naschmarkt (~10–15 min)
+- **12:30 PM** — Drop bags at **Bounce — Restaurant Beograd Wien**, Schikanedergasse 7, near Naschmarkt — **BOOKED** (Ref 1X9XMXPG); apartment check-in isn't until 4 PM, so bags stay here for the afternoon
+- **12:30–1:30 PM** — Lunch near Naschmarkt
+- **1:45–2:45 PM** — Short Old Town orientation walk (relaxed first look, not a full tour): Stephansdom — go inside briefly, skip the south tower climb; Graben pedestrian street; Pestsäule plague column; walk toward Hofburg area
+- **3:00–4:30 PM** — Kunsthistorisches Museum (KHM) — open daily until 6 PM; focus on grand staircase, Egyptian antiquities, Kunstkammer, a pass through the Old Masters (especially Bruegel)
+- **4:45–5:15 PM** — Walk back to Naschmarkt area (~15–20 min)
+- **5:30 PM** — Pick up bags at Bounce
+- **~5:45–6:00 PM** — Walk to Operngasse apartment (close to Naschmarkt); check in (after 4 PM)
+- **6:30–7:30 PM** — Dinner near Naschmarkt / 1st district
 - **After dinner** — Optional easy stroll: Hofburg exterior, a stretch of the Ringstrasse, or call it early
 
 ### Day 9 — Mon Jul 20 · Vienna
@@ -150,13 +157,12 @@
 
 ### Leg 1 — Munich Hbf → Berchtesgaden → Schönau am Königssee (Day 3, Jul 14)
 
-**Train: Munich Hbf → Freilassing → Berchtesgaden Hbf**
-- **14:44** depart München Hbf **Platform 9**, RE5 (79025) toward Salzburg Hbf
-- **16:34** arrive Freilassing **Platform 2** — 11-minute change
-- **16:45** depart Freilassing **Platform 1**, S4 toward Berchtesgaden Hbf
-- **17:38** arrive Berchtesgaden Hbf
-- **Bayern-Ticket covers this entire leg** (~€53/family; valid weekdays from 9am) — individual tickets are ~€34/person (~€136 family); Bayern-Ticket saves ~€80
-- Bayern-Ticket also covers Bus 841 onward to Schönau am Königssee
+**Train: Munich Hbf → Freilassing → Berchtesgaden Hbf — BOOKED** (Bayern-Ticket, Conf. 342448586457, Ticketcode GMYV89JG, €64.00 paid)
+- **15:47** depart München Hbf **Gl. 5–10** (confirm exact platform at the station), RE toward Salzburg Hbf
+- **17:34** arrive Freilassing — 11-minute change
+- **17:45** depart Freilassing, S toward Berchtesgaden Hbf
+- **18:38** arrive Berchtesgaden Hbf
+- Bayern-Ticket covers this entire leg, plus Bus 841 onward to Schönau am Königssee
 
 **Local bus: Berchtesgaden Hbf → Schönau am Königssee**
 - Bus 841: Berchtesgaden ↔ Königssee dock ↔ Schönau area; ~20–30 min; covered by Bayern-Ticket
@@ -192,11 +198,20 @@
 
 ### Leg 4 — Salzburg → Vienna (Day 8, Jul 19)
 
-**ÖBB Railjet / RJX**
-- Departs Salzburg Hbf ~10:07 → arrives Vienna Hbf ~12:29–12:32
-- Duration: ~2h22m; trains every 30 min throughout the day
-- Cost: varies; book seat reservations in advance (~$30/person) — popular route in summer
-- Book at [oebb.at](https://www.oebb.at) or [Trainline](https://www.thetrainline.com)
+**WESTbahn — BOOKED** (Conf. NAYRKY, $262.84 total for 4)
+- Departs Salzburg Hbf **9:52 AM** → arrives Vienna Hbf **12:22 PM**
+- Booked 2026-06-17
+
+⚠️ **Note:** Three ÖBB tickets (confirmations 2374 3850 8814 2952 / 2887 7317 1507 8533 / 2762 9670 8755 7712) were accidentally booked for a 9:07 PM departure on the same date/route — these are **not** part of the plan; refund in progress.
+
+---
+
+### Luggage Storage (Bounce)
+
+| City | Date | Drop off | Pick up | Location | Ref | Cost |
+|---|---|---|---|---|---|---|
+| Munich | Jul 12 | 10:00 AM | 7:00 PM | KADO Nails, Rindermarkt 6 (off Marienplatz) | S69FQ16J | €40.80 |
+| Vienna | Jul 19 | 12:30 PM | 5:30 PM | Restaurant Beograd Wien, Schikanedergasse 7 (near Naschmarkt) | 1X9XMXPG | €30.27 |
 
 ---
 
@@ -206,10 +221,10 @@
 |---|---|---|---|---|
 | 1 | Jul 12 | MVV group day ticket | ~€15 | Covers all Munich S-Bahn, U-Bahn, tram, bus (inner zones); buy at airport |
 | 2 | Jul 13 | MVV group day ticket | ~€15 | Same as above for Mike's Bikes area and city transit |
-| 3 | Jul 14 | **Bayern-Ticket** | ~€53 | Covers RE5 + S4 + Bus 841 to Schönau; individual tickets ~€136 (€34/person × 4); saves ~€80 |
+| 3 | Jul 14 | **Bayern-Ticket** — BOOKED | €64.00 | Conf. 342448586457; covers Munich Hbf → Freilassing → Berchtesgaden + Bus 841 to Schönau |
 | 4–5 | Jul 15–16 | Individual bus tickets | ~€5–10/day | Local buses only (841, 838); not worth a full Bayern-Ticket for short hops |
 | 6 | Jul 17 | None (taxi) | — | Taxi to Salzburg; no rail ticket needed |
-| 8 | Jul 19 | ÖBB Railjet tickets | ~$30/person | Salzburg → Vienna; book in advance at oebb.at |
+| 8 | Jul 19 | **WESTbahn** — BOOKED | $262.84 | Conf. NAYRKY; Salzburg → Vienna, 9:52 AM–12:22 PM |
 
 **Bayern-Ticket notes:**
 - Valid on all regional trains and buses in Bavaria; weekdays from 9am
@@ -283,12 +298,14 @@ Nonstop — 9h 45m
 | | Königssee — Villa Alpenrausch, 3 nights (Jul 14–17) BOOKED | $1,436 |
 | | Salzburg — Mozart House Gstättengasse 25, 2 nights (Jul 17–19) — Conf. HM4NSFM9J3 | $1,007 |
 | | Vienna — City Center Klimt's Balcony Suite, 3 nights (Jul 19–22) — Conf. HMT8SQRKMA | $1,068 |
-| **Transport** | | **$392** |
+| **Transport** | | **$624** |
 | | Airport → city: MVV group day ticket (Jul 12) \* | $16 |
-| | Bayern-Ticket: Munich → Berchtesgaden (Jul 14, group) \* | $58 |
+| | Bayern-Ticket: Munich → Berchtesgaden (Jul 14, group) — €64.00 paid, Conf. 342448586457 | $70 |
+| | Bounce luggage storage, Munich (Jul 12, 4 reg + 4 small bags) — €40.80 paid, Ref S69FQ16J | $44 |
 | | Local buses Berchtesgaden area (Jul 15–16, ~€8/day) \* | $18 |
 | | Schönau → Salzburg: taxi to Freilassing + ÖBB (Jul 17) \* | $100 |
-| | ÖBB Railjet: Salzburg → Vienna (Jul 19, 4 people) \* | $120 |
+| | WESTbahn: Salzburg → Vienna (Jul 19, 4 people) — Conf. NAYRKY | $263 |
+| | Bounce luggage storage, Vienna (Jul 19, 4 reg + 4 small bags) — €30.27 paid, Ref 1X9XMXPG | $33 |
 | | Vienna public transit (Jul 19–22) \* | $28 |
 | | CAT Wien Mitte → VIE airport (Jul 22, 4 people) \* | $52 |
 | **Activities** | | **$994** |
@@ -305,7 +322,7 @@ Nonstop — 9h 45m
 | | Meals (~$150/day × 11 days) \* | $1,650 |
 | | Miscellaneous / buffer \* | $500 |
 | | | |
-| **TOTAL** | | **$13,252** |
+| **TOTAL** | | **$13,484** |
 <!-- COSTS_END -->
 
 ---

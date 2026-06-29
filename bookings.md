@@ -95,6 +95,54 @@ Booked: 2026-06-07 · 4 travelers: James Bubb, Kristi Bubb, Alexander Bubb, Kath
 
 ---
 
+## Transportation
+
+### Munich Hbf → Freilassing → Berchtesgaden Hbf (Bayern-Ticket)
+
+**Booked:** 2026-06-17 · **Confirmation:** 342448586457 · **Ticketcode:** GMYV89JG
+**Booked under:** Kristi Bubb · **Total paid:** €64.00
+**Date:** Tuesday, Jul 14, 2026
+
+| Leg | Train | Departs | Arrives |
+|---|---|---|---|
+| München Hbf Gl. 5–10 → Freilassing | RE (Train 5) | 3:47 PM | 5:34 PM |
+| Freilassing → Berchtesgaden Hbf | S (Train 4) | 5:45 PM | 6:38 PM |
+
+Platform shown as a range (Gl. 5–10) on the ticket — confirm exact platform at the station departure boards.
+
+---
+
+### Salzburg Hbf → Vienna Hbf (WESTbahn)
+
+**Booked:** 2026-06-17 · **Confirmation:** NAYRKY · **Total paid:** $262.84
+**Date:** Sunday, Jul 19, 2026 · **Travelers:** James, Kristi, Alex, Kathryn Bubb
+**Departs:** Salzburg Hbf 9:52 AM → **Arrives:** Vienna Hbf 12:22 PM
+
+**Note — duplicate booking pending refund:** Three separate ÖBB confirmations (2374 3850 8814 2952, 2887 7317 1507 8533, 2762 9670 8755 7712) were accidentally booked for an unwanted 9:07 PM departure on the same route/date, same 4 travelers. These are **not** part of the travel plan — Jim is pursuing a refund with ÖBB.
+
+---
+
+## Luggage Storage (Bounce)
+
+### Munich — KADO NAILS Nagel & Kosmetik Studio (Rindermarkt 6)
+
+**Booked:** 2026-06-16 · **Booking reference:** S69FQ16J
+**Date:** Sunday, Jul 12, 2026 · Drop off 10:00 AM → Pick up 7:00 PM
+**Address:** Rindermarkt 6, Im Innenhof (courtyard, by the stairs), 80331 Munich — just off Marienplatz
+**Contact:** +49 162 8804646 (Tel & WhatsApp) — Ralf Mlinaric
+**Bags:** 4 regular + 4 small · **Total paid:** €40.80
+
+---
+
+### Vienna — Restaurant Beograd Wien (near Naschmarkt)
+
+**Booked:** 2026-06-16 · **Booking reference:** 1X9XMXPG
+**Date:** Sunday, Jul 19, 2026 · Drop off 12:30 PM → Pick up 5:30 PM
+**Address:** Schikanedergasse 7, 1040 Vienna — near Naschmarkt
+**Bags:** 4 regular + 4 small · **Total paid:** €30.27 (after €5.13 credit)
+
+---
+
 ## Activities
 
 ### Munich — Mike's Bike Tours (Classic Bike Tour)
@@ -150,6 +198,6 @@ Booked: 2026-06-07 · 4 travelers: James Bubb, Kristi Bubb, Alexander Bubb, Kath
 |---|---|---|
 | Eagle's Nest Kehlstein bus | High | kehlsteinhaus.de; seasonal, limited capacity |
 | St. Peter Stiftskeller Salzburg | High | Dinner reservation; book several weeks ahead |
-| ÖBB Railjet Salzburg → Vienna | Medium | Jul 19 ~10:07 AM; checkout by 10 AM, ~20 min to Hbf — leave apartment ~9:30–9:40; book at oebb.at |
 | Schönbrunn Palace timed entry | High | Jul 20; busy in July — book in advance |
 | Upper Belvedere timed entry | Low | Jul 21; opens 9 AM |
+| Refund: duplicate ÖBB Salzburg→Vienna tickets | High | 3 confirmations for unwanted 9:07 PM Jul 19 departure — pursuing refund with ÖBB |
