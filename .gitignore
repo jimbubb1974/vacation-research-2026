@@ -2,3 +2,5 @@
 .playwright-mcp/
 ~$*
 archive/_tmp_train_imgs.json
+__pycache__/
+*.pyc

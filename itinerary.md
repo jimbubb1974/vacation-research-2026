@@ -5,23 +5,24 @@
 
 ---
 
+<!-- ITINERARY_OVERVIEW_START -->
 ## Day-by-Day
 
 | Day | Date | Location | Overnight | Plan |
 |---|---|---|---|---|
-| 0 | Sat Jul 11 | DC → Munich | In flight | Depart IAD; transatlantic overnight flight |
-| 1 | Sun Jul 12 | Arrive Munich | Munich | Arrive MUC; S-Bahn to Marienplatz; drop bags at Bounce (KADO Nails, Rindermarkt 6) 10 AM; wander — Marienplatz, Viktualienmarkt, Frauenkirche; pick up bags 7 PM; U1 to Rotkreuzplatz → Adamstraße 4 (Neuhausen); check in; light dinner |
-| 2 | Mon Jul 13 | Munich | Munich | Mike's Bike Tour (11:30–3:30); evening dinner at Hopferhouse |
-| 3 | Tue Jul 14 | Munich → Königssee area | Schönau am Königssee | Walk to Nymphenburg Palace (~15 min from apartment); palace + Marstallmuseum + Amalienburg 9 AM–1:30 PM; lunch at Palmenhaus; collect bags from apartment; Bus 51 → Hbf; 15:47 RE Gl.5–10 → Freilassing 17:34; 17:45 S → Berchtesgaden Hbf 18:38; Bus 841 to Schönau; check in |
-| 4 | Wed Jul 15 | Berchtesgaden area | Schönau am Königssee | Eagle's Nest — Bus 838 to Obersalzberg; Kehlstein bus + elevator to summit; Berchtesgaden salt mine (afternoon) |
-| 5 | Thu Jul 16 | Königssee full day | Schönau am Königssee | Electric boat to Salet (south end, ~50 min); hike to Obersee; continue to Rotbachfall (Germany's highest waterfall, ~470m); return hike; boat back |
-| 6 | Fri Jul 17 | → Salzburg | Salzburg | Taxi to Salzburg (~30 min, ~€80); check in; explore Old Town |
-| 7 | Sat Jul 18 | Salzburg | Salzburg | Fortress Hohensalzburg; Getreidegasse walk; Mirabell Gardens; St. Peter Stiftskeller dinner (book ahead) |
-| 8 | Sun Jul 19 | → Vienna | Vienna | WESTbahn departs Salzburg 9:52 AM → arrives Vienna Hbf 12:22 PM; drop bags at Bounce near Naschmarkt 12:30 PM; lunch; short Old Town orientation walk — Stephansdom (inside, skip tower), Graben, Pestsäule, Hofburg area; KHM (3:00–4:30 PM); pick up bags 5:30 PM; check in; dinner |
-| 9 | Mon Jul 20 | Vienna | Vienna | Naschmarkt breakfast (8:30–9:45 AM); Schönbrunn Palace Grand Tour (10:30 AM, book ahead) + gardens + maze + Gloriette climb; rest; evening dinner + Ringstrasse/Old Town stroll |
-| 10 | Tue Jul 21 | Vienna | Vienna | Upper Belvedere — Klimt's The Kiss + Secessionist collection; afternoon Prater + Riesenrad; final dinner in 1st district |
-| 11 | Wed Jul 22 | Fly home | — | Early checkout; CAT Wien Mitte → VIE; OS 41 departs 10:50 AM; arrive IAD 2:35 PM |
-
+| 0 | Sat Jul 11 | Washington, DC → Munich | In flight | Depart IAD on UA 108; transatlantic overnight flight. |
+| 1 | Sun Jul 12 | Munich | Munich — Adamstraße 4 | Arrive MUC; S-Bahn to Marienplatz; Bounce bag storage 10 AM–7 PM; Altstadt; check in at Adamstraße 4. |
+| 2 | Mon Jul 13 | Munich | Munich — Adamstraße 4 | Free morning; Mike's Classic Bike Tour 11:30 AM–3:30 PM; Bavarian dinner. |
+| 3 | Tue Jul 14 | Munich → Schönau am Königssee | Villa Alpenrausch | Nymphenburg Palace and park; collect bags; regional trains via Freilassing; Bus 841 to Schönau. |
+| 4 | Wed Jul 15 | Berchtesgaden area | Villa Alpenrausch | Bus via Berchtesgaden to Obersalzberg; Eagle's Nest; afternoon salt mine. |
+| 5 | Thu Jul 16 | Königssee | Villa Alpenrausch | Bus to Königssee dock; electric boat to Salet; hike to Obersee and Rotbachfall; return by boat. |
+| 6 | Fri Jul 17 | Schönau → Salzburg | Salzburg — Gstättengasse 25 | Checkout; pre-booked taxi door to door; Salzburg Altstadt afternoon. |
+| 7 | Sat Jul 18 | Salzburg | Salzburg — Gstättengasse 25 | Fortress Hohensalzburg; Getreidegasse; Mirabell Gardens; St. Peter dinner. |
+| 8 | Sun Jul 19 | Salzburg → Vienna | Vienna — Operngasse | WESTbahn 9:52 AM; Vienna Bounce storage; Old Town and KHM; apartment check-in. |
+| 9 | Mon Jul 20 | Vienna | Vienna — Operngasse | Naschmarkt breakfast; U4 to Schönbrunn; palace, gardens, maze, and Gloriette; evening Old Town stroll. |
+| 10 | Tue Jul 21 | Vienna | Vienna — Operngasse | Upper Belvedere; lunch; transit to Prater and Riesenrad; final dinner. |
+| 11 | Wed Jul 22 | Vienna → Washington, DC | Home | Checkout; U4 to Wien Mitte; CAT to VIE; OS 41 nonstop to IAD. |
+<!-- ITINERARY_OVERVIEW_END -->
 ---
 
 ## Base Summary
@@ -35,109 +36,161 @@
 
 ---
 
+<!-- ITINERARY_DAILY_DETAIL_START -->
 ## Daily Detail
 
-### Day 0 — Sat Jul 11 · Travel
-- **5:30 PM** — Depart IAD on UA 108 (nonstop, Boeing 787-8)
-- Overnight transatlantic flight; arrive Munich 7:45 AM (+1)
+### Day 0 — Sat Jul 11 · Travel to Munich
+- **5:30 PM** — Depart IAD on **UA 108** (United, nonstop, Boeing 787-8) — **BOOKED** (Conf. IKR3ZV).
+  - **Where / how:** Washington Dulles International Airport. Check the United app or airport boards for the departure terminal and gate on the day.
+- **Overnight** — Transatlantic flight; scheduled arrival in Munich is 7:45 AM the next morning.
+> **Day note:** Keep passports and the United confirmation accessible during the overnight flight.
 
 ### Day 1 — Sun Jul 12 · Arrive Munich
-- **7:45 AM** — Land MUC; S1 or S8 toward city (~40 min) → München Hbf; continue to Marienplatz (1 stop S-Bahn/U-Bahn, or ~10-min walk)
-- **10:00 AM** — Drop bags at **Bounce — KADO NAILS Nagel & Kosmetik Studio**, Rindermarkt 6 (shop in the courtyard, by the stairs), just off Marienplatz — **BOOKED** (Ref S69FQ16J)
-- **~11 AM** — Marienplatz: Neues Rathaus Glockenspiel (chimes at 11 AM and noon)
-- **Lunch** — Viktualienmarkt open-air food market
-- **Afternoon** — Frauenkirche cathedral; wander the Altstadt
-- **7:00 PM** — Pick up bags at Bounce (Rindermarkt 6)
-- **Evening** — U1 from Hbf to Rotkreuzplatz (~5 min) → 10-min walk to **Adamstraße 4** (Neuhausen-Nymphenburg); check in with host Lars; light dinner; early night to recover from the overnight flight
+- **7:45 AM** — Land at Munich Airport, clear immigration, collect bags, and take the S-Bahn into the city.
+  - **Where / how:** Follow the green S-Bahn signs to Flughafen München station. Take **S1 or S8 toward central Munich** and exit at Marienplatz; allow roughly 40–50 minutes plus airport formalities.
+- **10:00 AM** — Drop bags at **Bounce — KADO NAILS Nagel & Kosmetik Studio** — **BOOKED** (Ref. S69FQ16J).
+  - **Where / how:** Rindermarkt 6, Im Innenhof (courtyard, by the stairs), 80331 Munich, just off Marienplatz. Contact: +49 162 8804646 (Ralf Mlinaric).
+- **~11:00 AM** — See the Neues Rathaus Glockenspiel at Marienplatz; it chimes at 11 AM and noon.
+- **Lunch** — **TBD.** Viktualienmarkt's regular market stalls are closed on Sundays.
+- **Afternoon** — Visit Frauenkirche and wander the Altstadt at an easy arrival-day pace.
+- **7:00 PM** — Pick up bags from Bounce.
+  - **Where / how:** Return to KADO NAILS at Rindermarkt 6 before the 7 PM pickup time.
+- **Evening** — Travel to the apartment, check in with Lars, have a light dinner, and turn in early.
+  - **Where / how:** From Marienplatz take an S-Bahn one stop to München Hbf. Follow signs for **U1 toward Olympia-Einkaufszentrum**, exit at Rotkreuzplatz, then walk about 10 minutes to **Adamstraße 4, 80636 Munich**. Check-in is after 3 PM; host Lars: +49 162 2840104.
+> **Day note:** Buy an MVV group day ticket at the airport before boarding; confirm the best S1/S8 departure on the station display.
 
 ### Day 2 — Mon Jul 13 · Munich
-- **Morning** — Free; sleep in or wander
-- **11:15 AM** — Head to meeting point: **Marienplatz 15 — entrance to the Toy Museum (Altes Rathaus)**, eastern end of the square. This is the smaller, older tower — not the Neues Rathaus with the Glockenspiel. A McDonald's will be visible nearby. If 0–10 min late: look for the group by the Statue of Juliet near the tower. If 15+ min late: go directly to the Mike's Bike Tours shop (Hochbrückenstrasse 10, corner of Brauhausstrasse).
-- **11:30 AM** — Classic Bike Tour departs — **BOOKED** (Booking #354406124); ~4 hrs through English Garden, Olympiapark, city highlights with local English-speaking guide. Helmets provided free.
-- **~3:30 PM** — Tour returns
-- **Evening** — Dinner at Hopferhouse (traditional Bavarian)
-
-*Note: teens need valid Student ID to have qualified for the student rate — bring them.*
+- **Morning** — Free time: sleep in, have breakfast, or wander nearby.
+- **11:15 AM** — Arrive at the **Mike's Bike Tours meeting point**.
+  - **Where / how:** **Marienplatz 15**, entrance to the Toy Museum (Spielzeugmuseum) in the Altes Rathaus at the eastern end of the square. This is the smaller old tower, not the Neues Rathaus with the Glockenspiel. A McDonald's should be visible nearby.
+- **11:30 AM** — Classic Bike Tour departs — **BOOKED** (Booking #354406124); about four hours through the English Garden, Olympiapark, and city highlights. Helmets are provided.
+  - **Where / how:** If 0–10 minutes late, look near the Statue of Juliet by the tower. If 15+ minutes late, go directly to the shop at **Hochbrückenstrasse 10**, corner of Brauhausstrasse.
+- **~3:30 PM** — Bike tour returns to central Munich.
+- **Evening** — Dinner at Hopferhouse for traditional Bavarian food.
+> **Day note:** Both teens must bring valid student ID because the student rate was used for their tickets.
 
 ### Day 3 — Tue Jul 14 · Munich → Königssee
-- **~8:45 AM** — Walk to Nymphenburg Palace (~15 min on foot from Adamstraße, or 2 stops on Tram 17: Rotkreuzplatz → Romanplatz → Schloss Nymphenburg). Leave packed bags with Lars — checkout is 11 AM; ask him in advance to hold bags until ~1:30 PM.
-- **9:00–10:00 AM** — Nymphenburg Palace state rooms (opens 9 AM in summer; baroque royal residence, ~1 hr)
-- **10:00–10:35 AM** — Marstallmuseum: royal carriages + Nymphenburg Porcelain collection
-- **10:35–11:30 AM** — Walk to Amalienburg (~15 min through the park); visit the rococo hunting lodge — the silver Hall of Mirrors inside is the highlight of the estate (~25 min)
-- **11:30 AM–12:30 PM** — Remaining park castles if energy allows (Badenburg, Pagodenburg; Magdalenenklause is the least essential) or a slow walk back along the canal
-- **12:30–13:15 PM** — Lunch at Palmenhaus café (in the Orangery, on-site — no transit needed)
-- **~13:15** — Walk back to Adamstraße 4 (~15 min) to collect bags from Lars
-- **Early-mid afternoon** — Free buffer before the train (booked train departs later than originally planned — see below); relax, extend lunch, or revisit a park castle
-- **~14:30** — Catch Bus 51 from Rotkreuzplatz area → München Hbf (~20 min)
-- **~14:50** — Arrive München Hbf; find platform (Gl. 5–10 per ticket — confirm at station)
-- **15:47** — Train departs München Hbf — **BOOKED** (Bayern-Ticket, Conf. 342448586457, Ticketcode GMYV89JG)
-- **17:34** — Arrive Freilassing; change for onward train (11-min transfer)
-- **17:45** — Train departs Freilassing
-- **18:38** — Arrive Berchtesgaden Hbf; Bus 841 to Schönau (~20 min); check in
+- **~8:45 AM** — Leave packed bags with Lars after checkout and go to Nymphenburg Palace.
+  - **Where / how:** Walk about 15 minutes from Adamstraße 4, or take **Tram 17** from Rotkreuzplatz via Romanplatz to Schloss Nymphenburg. Checkout is by 11 AM; arrange in advance for Lars to hold bags until about 1:30 PM.
+- **9:00–10:00 AM** — Nymphenburg Palace state rooms — **BOOKED** (Order #42616; entry from 9 AM).
+  - **Where / how:** Schloss Nymphenburg, 80638 München. Use the main palace entrance and keep all four combination tickets accessible.
+- **10:00–10:35 AM** — Marstallmuseum: royal carriages and the Nymphenburg Porcelain collection.
+- **10:35–11:30 AM** — Walk through the park to Amalienburg and visit the rococo hunting lodge; prioritize the silver Hall of Mirrors.
+- **11:30 AM–12:30 PM** — See remaining park castles if energy allows, or take a slow walk back along the canal.
+- **12:30–1:15 PM** — Lunch at Palmenhaus café in the Orangery.
+- **~1:15 PM** — Walk back to Adamstraße 4 and collect bags from Lars.
+- **Early afternoon** — Use the schedule buffer to extend lunch or relax before the train.
+- **~2:30 PM** — Take Bus 51 toward München Hbf.
+  - **Where / how:** Board Bus 51 in the Rotkreuzplatz area and allow about 20 minutes. At München Hbf, follow departure boards for the booked regional train; the ticket lists tracks **Gl. 5–10**, so confirm the exact platform at the station.
+- **3:47 PM** — Regional train departs München Hbf — **BOOKED** (Bayern-Ticket, Conf. 342448586457; Ticketcode GMYV89JG).
+  - **Where / how:** München Hbf, exact track within Gl. 5–10 to be confirmed on the departure board. Take the regional train toward Salzburg/Freilassing.
+- **5:34 PM** — Arrive Freilassing; make the 11-minute connection.
+  - **Where / how:** Follow station signs and departure boards for the 5:45 PM S-Bahn/regional service to Berchtesgaden Hbf.
+- **5:45 PM** — Train departs Freilassing for Berchtesgaden Hbf.
+- **6:38 PM** — Arrive Berchtesgaden Hbf, then take Bus 841 to Schönau and check in.
+  - **Where / how:** Board **Bus 841** outside Berchtesgaden Hbf toward Königssee/Schönau. Exit at the stop nearest **Villa Alpenrausch, Waldhauserstraße 29, 83471 Schönau am Königssee**. Host Philipp: +49 176 21421010. Check-in is from 4 PM.
+> **Day note:** The Bayern-Ticket covers the regional trains and Bus 841. Confirm the exact Munich platform and the final Schönau bus stop on the day.
 
 ### Day 4 — Wed Jul 15 · Eagle's Nest + Salt Mine
-- **Morning** — Bus 838 from Berchtesgaden to Obersalzberg Documentation Center
-- **~9 AM onward** — Kehlstein bus to Eagle's Nest summit (1,834m); explore and take in the panoramic Alpine views — allow 3–4 hrs total including return
-- **Afternoon** — Berchtesgaden salt mine in town (~1.5 hrs): mine carts, underground salt lake, wooden slide
+- **Morning** — Travel to the Obersalzberg departure point for Eagle's Nest.
+  - **Where / how:** Take **Bus 841** from the Schönau/Königssee area to Berchtesgaden Hbf/ZOB, then **Bus 838** to the Obersalzberg Documentation Center. The separate Kehlstein bus departs from Obersalzberg; confirm times and tickets in advance.
+- **~9:00 AM onward** — Take the Kehlstein bus and elevator to the Eagle's Nest summit (1,834 m); allow 3–4 hours including the return.
+  - **Where / how:** Board the dedicated Kehlstein buses at the Obersalzberg departure area; regular cars and local buses do not continue to the summit road.
+- **Afternoon** — Visit the Berchtesgaden salt mine (about 1½ hours): mine train, underground salt lake, and wooden slide.
+  - **Where / how:** Return from Obersalzberg toward Berchtesgaden. Confirm the salt-mine entrance route and booked/selected admission time before leaving in the morning.
+> **Day note:** Eagle's Nest and salt-mine tickets are still planning items; update this day after booking.
 
-### Day 5 — Thu Jul 16 · Königssee
-- **~9–10 AM** — Electric boat from Königssee dock to Salet (~50 min); passes the red-roofed St. Bartholomä chapel
-- **Mid-morning** — Walk from Salet to Obersee (~20 min, turquoise glacier lake)
-- **Late morning** — Continue to Rotbachfall (~30 min further): Germany's highest waterfall at ~470m
-- **Midday** — Return hike + boat back
-- **Afternoon** — Free in Schönau
+### Day 5 — Thu Jul 16 · Königssee + Obersee
+- **~9:00 AM** — Travel to the Königssee boat landing.
+  - **Where / how:** Take **Bus 841** from the Schönau area toward Königssee/Jennerbahn and follow signs to the lakeside boat ticket office and landing. Check the return sailing board before departing.
+- **~9:00–10:00 AM** — Take an electric boat to **Salet** at the south end of Königssee; the ride is about 50 minutes and passes St. Bartholomä.
+  - **Where / how:** Use the Königssee lakeside boat landing. Board the sailing specifically continuing to **Salet**, not one terminating at St. Bartholomä.
+- **Mid-morning** — Walk from Salet landing to Obersee (about 20 minutes).
+- **Late morning** — Continue toward Röthbachfall, about 30 minutes farther, conditions permitting.
+- **Midday** — Return to Salet landing and take the electric boat back to Königssee.
+  - **Where / how:** Allow a generous margin for the final return sailing; verify that day's last departure from Salet on arrival.
+- **Afternoon** — Free time in Schönau; keep the pace flexible after the hike.
+> **Day note:** Carry water and weather layers. Boat times and trail conditions must be checked on the day.
 
-### Day 6 — Fri Jul 17 · → Salzburg
-- **Morning** — Checkout; taxi to Salzburg (~30 min, ~€80 flat; book the evening before via Taxizentrale Berchtesgaden)
-- **Midday** — Arrive Salzburg; check in
-- **Afternoon** — Altstadt (UNESCO World Heritage): Getreidegasse (Mozart's birthplace at No. 9, wrought-iron guild signs), Dom Cathedral, Residenzplatz
-- **Evening** — Easy dinner; settle in
+### Day 6 — Fri Jul 17 · Travel to Salzburg
+- **Morning** — Checkout and take a taxi to Salzburg; book the taxi the evening before through Taxizentrale Berchtesgaden.
+  - **Where / how:** Pickup: **Villa Alpenrausch, Waldhauserstraße 29, Schönau am Königssee**. Destination: **Gstättengasse 25, 5020 Salzburg**. Allow about 30 minutes under normal conditions; confirm pickup time directly with the taxi company.
+- **After 1:00 PM** — Check in to the Salzburg apartment using the lockbox instructions — **BOOKED** (Conf. HM4NSFM9J3).
+  - **Where / how:** Big Flat in Historic Mozart House, **Gstättengasse 25, Altstadt, 5020 Salzburg**. Host Medimmo GmbH: +43 664 1313022.
+- **Afternoon** — Explore the Altstadt: Getreidegasse, Mozart's birthplace exterior at No. 9, Salzburg Cathedral, and Residenzplatz.
+- **Evening** — Easy dinner and settle in.
+> **Day note:** Formal checkout from Villa Alpenrausch is by 11 AM. Keep the Salzburg lockbox instructions available offline.
 
 ### Day 7 — Sat Jul 18 · Salzburg
-- **Morning** — Funicular to Fortress Hohensalzburg: medieval castle with sweeping views over city and Alps (~2 hrs)
-- **Midday** — Getreidegasse walk; lunch
-- **Afternoon** — Mirabell Gardens (baroque formal gardens, Sound of Music filming location); stroll along the Salzach
-- **Evening** — Dinner at St. Peter Stiftskeller (one of Europe's oldest restaurants, 9th-century monastery; book ahead)
+- **Morning** — Ride the funicular to Fortress Hohensalzburg and explore the castle and viewpoints; allow about two hours.
+  - **Where / how:** Walk through the Altstadt to the **FestungsBahn valley station near Kapitelplatz**. Buy/scan tickets there and board the funicular uphill to the fortress.
+- **Midday** — Walk Getreidegasse and stop for lunch.
+- **Afternoon** — Visit Mirabell Gardens, then stroll along the Salzach.
+  - **Where / how:** Cross to the north side of the river for Mirabellplatz/Mirabell Gardens; return on foot via a central pedestrian bridge.
+- **Evening** — Dinner at St. Peter Stiftskeller; reservation still to be booked.
+  - **Where / how:** St. Peter's Abbey complex in the Altstadt. Add the confirmed reservation time and exact arrival instructions after booking.
+> **Day note:** Fortress and dinner details remain flexible until reservations are finalized.
 
-### Day 8 — Sun Jul 19 · → Vienna
-- **~9:25 AM** — Checkout from Salzburg apartment (formal checkout deadline 10 AM); walk/taxi to Salzburg Hbf (~15–20 min)
-- **9:52 AM** — WESTbahn departs Salzburg Hbf — **BOOKED** (Conf. NAYRKY)
-- **12:22 PM** — Arrive Vienna Hbf; transit toward Naschmarkt (~10–15 min)
-- **12:30 PM** — Drop bags at **Bounce — Restaurant Beograd Wien**, Schikanedergasse 7, near Naschmarkt — **BOOKED** (Ref 1X9XMXPG); apartment check-in isn't until 4 PM, so bags stay here for the afternoon
-- **12:30–1:30 PM** — Lunch near Naschmarkt
-- **1:45–2:45 PM** — Short Old Town orientation walk (relaxed first look, not a full tour): Stephansdom — go inside briefly, skip the south tower climb; Graben pedestrian street; Pestsäule plague column; walk toward Hofburg area
-- **3:00–4:30 PM** — Kunsthistorisches Museum (KHM) — open daily until 6 PM; focus on grand staircase, Egyptian antiquities, Kunstkammer, a pass through the Old Masters (especially Bruegel)
-- **4:45–5:15 PM** — Walk back to Naschmarkt area (~15–20 min)
-- **5:30 PM** — Pick up bags at Bounce
-- **~5:45–6:00 PM** — Walk to Operngasse apartment (close to Naschmarkt); check in (after 4 PM)
-- **6:30–7:30 PM** — Dinner near Naschmarkt / 1st district
-- **After dinner** — Optional easy stroll: Hofburg exterior, a stretch of the Ringstrasse, or call it early
+### Day 8 — Sun Jul 19 · Travel to Vienna
+- **~9:20 AM** — Checkout and travel to Salzburg Hbf.
+  - **Where / how:** Leave **Gstättengasse 25** by the 10 AM checkout deadline. Walk or take a taxi to **Salzburg Hauptbahnhof**; allow 15–20 minutes and arrive with time to check the platform.
+- **9:52 AM** — WESTbahn departs Salzburg Hbf — **BOOKED** (Conf. NAYRKY).
+  - **Where / how:** At Salzburg Hbf, use the departure board to confirm the WESTbahn platform for Vienna. Do not use the unwanted 9:07 PM ÖBB reservations.
+- **12:22 PM** — Arrive at Vienna Hbf and continue toward the Bounce location.
+  - **Where / how:** From **Südtiroler Platz–Hauptbahnhof**, take **U1 toward Leopoldau** to Karlsplatz, then walk toward Schikanedergasse. Verify service changes on the day and allow extra time with luggage.
+- **~12:45 PM** — Drop bags at **Bounce — Restaurant Beograd Wien** — **BOOKED** (Ref. 1X9XMXPG).
+  - **Where / how:** **Schikanedergasse 7, 1040 Vienna**, near Naschmarkt. The booking window begins at 12:30 PM; pickup is 5:30 PM.
+- **12:45–1:30 PM** — Lunch near Naschmarkt.
+- **1:45–2:45 PM** — Easy Old Town orientation: Stephansdom interior, Graben, Pestsäule, and the Hofburg area.
+- **3:00–4:30 PM** — Kunsthistorisches Museum: grand staircase, Egyptian collection, Kunstkammer, and selected Old Masters.
+  - **Where / how:** Maria-Theresien-Platz. Enter from the main square-facing entrance; confirm same-day hours before leaving lunch.
+- **4:45–5:15 PM** — Walk back toward the Bounce location.
+- **5:30 PM** — Pick up bags from Bounce.
+  - **Where / how:** Restaurant Beograd Wien, Schikanedergasse 7.
+- **~5:45 PM** — Walk to the Operngasse apartment and check in — **BOOKED** (Conf. HMT8SQRKMA).
+  - **Where / how:** Operngasse, city center near the Opera; use the exact Airbnb arrival instructions for the building entrance. Host Eva & Friends: +43 676 5249090. Check-in is after 4 PM.
+- **6:30–7:30 PM** — Dinner near Naschmarkt or in the 1st district.
+- **After dinner** — Optional short stroll around the Hofburg exterior or Ringstrasse, or call it early.
+> **Day note:** This is the densest travel day. The Vienna apartment street number is only in the private Airbnb arrival instructions.
 
-### Day 9 — Mon Jul 20 · Vienna
-- **8:30–9:45 AM** — Naschmarkt: breakfast at a café stall; browse produce and deli vendors (open Mon–Sat; Monday works fine)
-- **9:45–10:30 AM** — U4 toward Schönbrunn; build in margin
-- **10:30 AM–12:00 PM** — Schönbrunn Palace Grand Tour (~16 state rooms); book timed entry in advance — palace open 8:30 AM–6 PM in July
-- **12:00–1:00 PM** — Formal gardens; casual lunch or snack on site
-- **1:00–2:00 PM** — Hedge maze / Labyrinth (teen-friendly; open until 6:30 PM in July–Aug)
-- **2:00–3:00 PM** — Gloriette climb — panoramic views over the palace and Vienna (replaces the Stephansdom tower climb nicely)
-- **3:00–4:00 PM** — Café / downtime / return to hotel; protect this hour — Schönbrunn in July is hot and crowded
-- **Late afternoon** — Rest at hotel
-- **Evening** — Dinner + lit-up evening stroll: Opera House exterior, Albertina terrace, Hofburg / Michaelerplatz, optional Ringstrasse section
-- *Optional add-on:* Tiergarten Schönbrunn (world's oldest zoo) only if the teens specifically want it — otherwise it turns Schönbrunn into nearly the whole day
+### Day 9 — Mon Jul 20 · Schönbrunn + Vienna Evening
+- **8:30–9:45 AM** — Breakfast at a Naschmarkt café stall and browse the market.
+  - **Where / how:** Walk from the Operngasse apartment to Naschmarkt; regular stalls are open Monday–Saturday.
+- **9:45–10:30 AM** — Take the U4 to Schönbrunn with a schedule buffer.
+  - **Where / how:** Enter **Karlsplatz U-Bahn station** and take **U4 toward Hütteldorf**. Exit at **Schönbrunn** and follow signs toward the palace entrance.
+- **10:30 AM–12:00 PM** — Schönbrunn Palace Grand Tour; timed admission still to be booked.
+  - **Where / how:** Use the visitor entrance shown on the final ticket and arrive before the assigned entry time.
+- **12:00–1:00 PM** — Formal gardens and a casual lunch or snack on site.
+- **1:00–2:00 PM** — Hedge Maze and Labyrinth.
+- **2:00–3:00 PM** — Walk up to the Gloriette for panoramic views.
+- **3:00–4:00 PM** — Café break and return to the apartment; protect this downtime in summer heat.
+  - **Where / how:** Return via **U4 Schönbrunn toward Heiligenstadt**, exiting at Karlsplatz.
+- **Late afternoon** — Rest at the apartment.
+- **Evening** — Dinner and a lit-up walk past the Opera House, Albertina terrace, Hofburg/Michaelerplatz, and an optional Ringstrasse section.
+> **Day note:** Optional: add Tiergarten Schönbrunn only if everyone wants a much longer palace day.
 
-### Day 10 — Tue Jul 21 · Vienna
-- **9:00–11:30 AM** — Upper Belvedere Palace: pre-book timed entry (opens 9 AM); Klimt's "The Kiss" and the full Secessionist/Art Nouveau collection; formal gardens worth a slow walk
-- **12:00–1:00 PM** — Lunch near Belvedere (Café Residenz in the gardens or walk toward the 3rd district)
-- **1:30–2:30 PM** — Transit to Prater (tram 71 from Belvedere toward Ringstrasse, then U2 to Praterstern)
-- **~2:30–5:30 PM** — Riesenrad: Vienna's 1897 giant Ferris wheel (panoramic views; classic photo); explore Wurstelprater amusement park around it
-- **Evening** — Final dinner in the 1st district; last Ringstrasse stroll; pack for early departure
+### Day 10 — Tue Jul 21 · Belvedere + Prater
+- **9:00–11:30 AM** — Upper Belvedere Palace: Klimt's *The Kiss*, Secessionist collection, and formal gardens; timed entry still to be booked.
+  - **Where / how:** Use the **Upper Belvedere** entrance shown on the final ticket, not Lower Belvedere. Confirm the best tram/walking route from Operngasse after the admission time is booked.
+- **12:00–1:00 PM** — Lunch near Belvedere or toward the 3rd district.
+- **1:30–2:30 PM** — Travel to Prater.
+  - **Where / how:** Current plan: **Tram 71** from the Belvedere area toward the Ringstrasse, then **U2 to Praterstern**. Recheck the exact transfer and service pattern shortly before the trip.
+- **~2:30–5:30 PM** — Ride the 1897 Riesenrad and explore the surrounding Wurstelprater amusement park.
+  - **Where / how:** From Praterstern follow signs toward **Wiener Riesenrad / Wurstelprater**.
+- **Evening** — Final dinner in the 1st district, last Ringstrasse stroll, and pack for departure.
+> **Day note:** Finalize the Belvedere arrival route when the timed ticket is booked.
 
-### Day 11 — Wed Jul 22 · Fly home
-- **~8:00 AM** — Checkout; leave for Wien Mitte
-- **~8:30 AM** — CAT (City Airport Train) from Wien Mitte → VIE (~16 min)
-- **10:50 AM** — Depart VIE: OS 41 (Austrian Airlines nonstop, Boeing 767-300)
-- **2:35 PM EDT** — Arrive Washington Dulles (IAD)
+### Day 11 — Wed Jul 22 · Fly Home
+- **~8:00 AM** — Checkout and leave for Wien Mitte; formal checkout deadline is 10 AM.
+  - **Where / how:** From Karlsplatz take **U4 toward Heiligenstadt** to **Landstraße/Wien Mitte**, or use a taxi if luggage makes the transfer impractical.
+- **~8:30 AM** — Take the CAT (City Airport Train) to Vienna Airport; ride time is about 16 minutes.
+  - **Where / how:** At **Wien Mitte**, follow CAT signs to the dedicated airport-train platform. Confirm the departure on the station display before boarding.
+- **10:50 AM** — Depart VIE on **OS 41** (Austrian Airlines nonstop, Boeing 767-300) — **BOOKED** (Conf. IKR3ZV).
+  - **Where / how:** Vienna International Airport. Check the Austrian/United app and airport boards for the terminal and gate; proceed directly to bag drop/security after the CAT.
+- **2:35 PM EDT** — Scheduled arrival at Washington Dulles (IAD).
+> **Day note:** Keep passports and flight confirmation accessible. Recheck CAT and flight status the evening before departure.
 
+<!-- ITINERARY_DAILY_DETAIL_END -->
 ---
 
 ## Booking Priorities
