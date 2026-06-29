@@ -164,7 +164,7 @@ def daily_handout() -> str:
         for item in day["events"]:
             where = ""
             if item.get("where"):
-                where = f'<div class="where"><span>Where / how</span>{inline_html(item["where"])}</div>'
+                where = f'<div class="where">{inline_html(item["where"])}</div>'
             events.append(
                 f'<article class="event {html.escape(item["kind"])}">'
                 f'<div class="plan">{inline_html(item["text"])}{where}</div>'
@@ -211,7 +211,6 @@ def daily_handout() -> str:
   .plan {{ font-family:Georgia, serif; font-size:9.35pt; line-height:1.34; }}
   .time {{ color:var(--navy); font-size:9.3pt; font-weight:800; line-height:1.25; text-align:right; white-space:normal; }}
   .where {{ margin-top:.055in; padding:.055in .075in; background:var(--pale); border-left:3px solid var(--blue); color:#41515e; font-family:Arial, sans-serif; font-size:7.9pt; line-height:1.3; }}
-  .where span {{ display:block; margin-bottom:1px; color:var(--blue); font-size:6.8pt; font-weight:800; letter-spacing:.08em; text-transform:uppercase; }}
   .booking .time {{ color:var(--gold); }}
   .transport .time {{ color:var(--blue); }}
   .day-notes, .map-notes {{ margin-top:.12in; padding:.08in .11in; border:1px solid var(--rule); break-inside:avoid; page-break-inside:avoid; }}

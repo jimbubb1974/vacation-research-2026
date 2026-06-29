@@ -16,7 +16,7 @@
 | 3 | Tue Jul 14 | Munich → Schönau am Königssee | Villa Alpenrausch | Nymphenburg Palace and park; collect bags; regional trains via Freilassing; taxi to Schönau (Bus 841 backup). |
 | 4 | Wed Jul 15 | Berchtesgaden area | Villa Alpenrausch | Bus via Berchtesgaden to Obersalzberg; Eagle's Nest; afternoon salt mine. |
 | 5 | Thu Jul 16 | Königssee | Villa Alpenrausch | Bus to Königssee dock; electric boat to Salet; hike to Obersee and Rotbachfall; return by boat. |
-| 6 | Fri Jul 17 | Schönau → Salzburg | Salzburg — Gstättengasse 25 | Checkout; pre-booked taxi door to door; Salzburg Altstadt afternoon. |
+| 6 | Fri Jul 17 | Schönau → Salzburg | Salzburg — Gstättengasse 25 | Checkout; taxi to Salzburg Bounce storage at 10:30 AM; Altstadt; pick up bags at 6 PM; apartment check-in. |
 | 7 | Sat Jul 18 | Salzburg | Salzburg — Gstättengasse 25 | Fortress Hohensalzburg; Getreidegasse; Mirabell Gardens; St. Peter dinner. |
 | 8 | Sun Jul 19 | Salzburg → Vienna | Vienna — Operngasse | WESTbahn 9:52 AM; Vienna Bounce storage; Old Town and KHM; apartment check-in. |
 | 9 | Mon Jul 20 | Vienna | Vienna — Operngasse | Naschmarkt breakfast; U4 to Schönbrunn; palace, gardens, maze, and Gloriette; evening Old Town stroll. |
@@ -92,13 +92,13 @@
 > **Day note:** The Bayern-Ticket covers the regional trains and backup Bus 841. Confirm the exact Munich platform and taxi availability on the day.
 
 ### Day 4 — Wed Jul 15 · Eagle's Nest + Salt Mine
-- **Morning** — Travel to the Obersalzberg departure point for Eagle's Nest.
-  - **Where / how:** Take **Bus 841** from the Schönau/Königssee area to Berchtesgaden Hbf/ZOB, then **Bus 838** to the Obersalzberg Documentation Center. The separate Kehlstein bus departs from Obersalzberg; confirm times and tickets in advance.
-- **~9:00 AM onward** — Take the Kehlstein bus and elevator to the Eagle's Nest summit (1,834 m); allow 3–4 hours including the return.
-  - **Where / how:** Board the dedicated Kehlstein buses at the Obersalzberg departure area; regular cars and local buses do not continue to the summit road.
+- **Morning** — Use the host-provided Berchtesgaden Guest Card to travel to the Obersalzberg departure point for Eagle's Nest.
+  - **Where / how:** From Villa Alpenrausch, walk about 2–5 minutes to **Fischmichllehen** on Waldhauserstraße (near the Am Köppelberg junction). Take RVO **843B toward ZOB/Berchtesgaden Hbf**. At the ZOB, transfer to RVO **838 toward Dokumentation Obersalzberg / Kehlstein Busabfahrt**. Show the Guest Card on both local buses and check the 2026 timetable/app for the best connection.
+- **Morning departure TBD** — Take the **Kehlsteinhaus Bus (RVO line 849)** and elevator to the Eagle's Nest summit (1,834 m); allow 3–4 hours including the return.
+  - **Where / how:** Board line **849** at **Dokumentation Obersalzberg / Kehlstein Busabfahrt**. This mountain bus requires a separate paid ticket and is **not covered by the Guest Card**. We plan to buy same-day tickets at the departure point; arrive early and be prepared to wait for a later bus if the next departure is full. After the upper bus stop, walk through the tunnel to the elevator.
 - **Afternoon** — Visit the Berchtesgaden salt mine (about 1½ hours): mine train, underground salt lake, and wooden slide.
   - **Where / how:** Return from Obersalzberg toward Berchtesgaden. Confirm the salt-mine entrance route and booked/selected admission time before leaving in the morning.
-> **Day note:** Eagle's Nest and salt-mine tickets are still planning items; update this day after booking.
+> **Day note:** Decision reminder: we intentionally chose not to prebook Kehlstein line 849 because we value the flexibility to decide based on weather and energy. We are optimistic that an early Wednesday walk-up will have space, but accept that we may need to wait or skip Eagle's Nest if buses are full. Ask the Airbnb host for the physical or digital Berchtesgaden Guest Card; it covers local lines 843B and 838, but not line 849. The salt mine also appears to have plenty of availability, so we do not plan to book it in advance; recheck shortly before the trip.
 
 ### Day 5 — Thu Jul 16 · Königssee + Obersee
 - **~9:00 AM** — Travel to the Königssee boat landing.
@@ -113,13 +113,18 @@
 > **Day note:** Carry water and weather layers. Boat times and trail conditions must be checked on the day.
 
 ### Day 6 — Fri Jul 17 · Travel to Salzburg
-- **Morning** — Checkout and take a taxi to Salzburg; book the taxi the evening before through Taxizentrale Berchtesgaden.
-  - **Where / how:** Pickup: **Villa Alpenrausch, Waldhauserstraße 29, Schönau am Königssee**. Destination: **Gstättengasse 25, 5020 Salzburg**. Allow about 30 minutes under normal conditions; confirm pickup time directly with the taxi company.
-- **After 1:00 PM** — Check in to the Salzburg apartment using the lockbox instructions — **BOOKED** (Conf. HM4NSFM9J3).
-  - **Where / how:** Big Flat in Historic Mozart House, **Gstättengasse 25, Altstadt, 5020 Salzburg**. Host Medimmo GmbH: +43 664 1313022.
+- **~9:45 AM** — Checkout and take a taxi to the Salzburg Bounce location; book the taxi the evening before through Taxizentrale Berchtesgaden.
+  - **Where / how:** Pickup: **Villa Alpenrausch, Waldhauserstraße 29, Schönau am Königssee**. Destination: **Cafe cubed sugar, Griesgasse 13, 5020 Salzburg**. Allow about 30 minutes under normal conditions and confirm pickup time directly with the taxi company.
+- **10:30 AM** — Drop bags at **Bounce — Cafe cubed sugar (Altstadt)** — **BOOKED** (Ref. 543WH67Q).
+  - **Where / how:** **Griesgasse 13, 5020 Salzburg**, first floor. Storage is booked for four regular and four small bags until 6:00 PM. Show the booking code from the Bounce app to staff.
+- **Late morning** — Have lunch and begin exploring the Altstadt at an easy pace.
 - **Afternoon** — Explore the Altstadt: Getreidegasse, Mozart's birthplace exterior at No. 9, Salzburg Cathedral, and Residenzplatz.
+- **6:00 PM** — Pick up bags from Bounce.
+  - **Where / how:** Return to **Cafe cubed sugar, Griesgasse 13**, first floor, by the booked pickup time.
+- **~6:15 PM** — Walk to the Salzburg apartment and check in using the lockbox instructions — **BOOKED** (Conf. HM4NSFM9J3).
+  - **Where / how:** Big Flat in Historic Mozart House, **Gstättengasse 25, Altstadt, 5020 Salzburg**. Host Medimmo GmbH: +43 664 1313022. Formal check-in begins after 1:00 PM.
 - **Evening** — Easy dinner and settle in.
-> **Day note:** Formal checkout from Villa Alpenrausch is by 11 AM. Keep the Salzburg lockbox instructions available offline.
+> **Day note:** Formal checkout from Villa Alpenrausch is by 11 AM. Keep both the Bounce code and Salzburg lockbox instructions available offline.
 
 ### Day 7 — Sat Jul 18 · Salzburg
 - **Morning** — Ride the funicular to Fortress Hohensalzburg and explore the castle and viewpoints; allow about two hours.
@@ -214,11 +219,12 @@
 - **15:47** depart München Hbf **Gl. 5–10** (confirm exact platform at the station), RE toward Salzburg Hbf
 - **17:34** arrive Freilassing — 11-minute change
 - **17:45** depart Freilassing, S toward Berchtesgaden Hbf
-- **18:38** arrive Berchtesgaden Hbf
-- Bayern-Ticket covers this entire leg, plus Bus 841 onward to Schönau am Königssee
+- **18:38** arrive Berchtesgaden Hbf; taxi to Villa Alpenrausch by default (Bus 841 backup)
+- Bayern-Ticket covers the regional trains and backup Bus 841
 
-**Local bus: Berchtesgaden Hbf → Schönau am Königssee**
-- Bus 841: Berchtesgaden ↔ Königssee dock ↔ Schönau area; ~20–30 min; covered by Bayern-Ticket
+**Station transfer: Berchtesgaden Hbf → Villa Alpenrausch**
+- Default: taxi from the rank outside the station to Waldhauserstraße 29
+- Backup: Bus 841 toward Königssee/Schönau; covered by Bayern-Ticket
 
 ---
 
@@ -226,9 +232,12 @@
 
 | Route | Bus | Notes |
 |---|---|---|
-| Schönau → Königssee dock | 841 | Short ride for Day 5 boat departure |
-| Berchtesgaden → Obersalzberg (Eagle's Nest) | 838 | To Documentation Center; Kehlstein bus from there (separate ticket, ~€18/person) |
-| All local buses | — | Individual tickets; not worth Bayern-Ticket for short hops |
+| Villa Alpenrausch → Berchtesgaden Hbf/ZOB | 843B | Walk to Fischmichllehen stop; Guest Card covers fare |
+| Berchtesgaden Hbf/ZOB → Obersalzberg | 838 | Exit at Dokumentation / Kehlstein Busabfahrt; Guest Card covers fare |
+| Obersalzberg → Kehlstein | 849 | Kehlsteinhaus Bus; separate paid reservation, not covered by Guest Card |
+| Schönau → Königssee dock | 841 | Guest Card covers fare; short ride for Day 5 boat departure |
+
+The Villa Alpenrausch host provides the **Berchtesgaden Guest Card**. Carry it on local buses. Check the current RVO timetable before leaving; arrive at the line 849 departure point at least 30 minutes before the reserved time.
 
 ---
 
@@ -264,6 +273,7 @@
 | City | Date | Drop off | Pick up | Location | Ref | Cost |
 |---|---|---|---|---|---|---|
 | Munich | Jul 12 | 10:00 AM | 7:00 PM | KADO Nails, Rindermarkt 6 (off Marienplatz) | S69FQ16J | €40.80 |
+| Salzburg | Jul 17 | 10:30 AM | 6:00 PM | Cafe cubed sugar, Griesgasse 13, 1st floor | 543WH67Q | €48.80 |
 | Vienna | Jul 19 | 12:30 PM | 5:30 PM | Restaurant Beograd Wien, Schikanedergasse 7 (near Naschmarkt) | 1X9XMXPG | €30.27 |
 
 ---
@@ -351,12 +361,13 @@ Nonstop — 9h 45m
 | | Königssee — Villa Alpenrausch, 3 nights (Jul 14–17) BOOKED | $1,436 |
 | | Salzburg — Mozart House Gstättengasse 25, 2 nights (Jul 17–19) — Conf. HM4NSFM9J3 | $1,007 |
 | | Vienna — City Center Klimt's Balcony Suite, 3 nights (Jul 19–22) — Conf. HMT8SQRKMA | $1,068 |
-| **Transport** | | **$624** |
+| **Transport** | | **$659** |
 | | Airport → city: MVV group day ticket (Jul 12) \* | $16 |
 | | Bayern-Ticket: Munich → Berchtesgaden (Jul 14, group) — €64.00 paid, Conf. 342448586457 | $70 |
 | | Bounce luggage storage, Munich (Jul 12, 4 reg + 4 small bags) — €40.80 paid, Ref S69FQ16J | $44 |
-| | Local buses Berchtesgaden area (Jul 15–16, ~€8/day) \* | $18 |
-| | Schönau → Salzburg: taxi to Freilassing + ÖBB (Jul 17) \* | $100 |
+| | Berchtesgaden local RVO buses — included with host-provided Guest Card (line 849 excluded) | $0 |
+| | Schönau → Salzburg: direct taxi (Jul 17) \* | $100 |
+| | Bounce luggage storage, Salzburg (Jul 17, 4 reg + 4 small bags) — €48.80 paid, Ref 543WH67Q | $53 |
 | | WESTbahn: Salzburg → Vienna (Jul 19, 4 people) — Conf. NAYRKY | $263 |
 | | Bounce luggage storage, Vienna (Jul 19, 4 reg + 4 small bags) — €30.27 paid, Ref 1X9XMXPG | $33 |
 | | Vienna public transit (Jul 19–22) \* | $28 |
@@ -375,7 +386,7 @@ Nonstop — 9h 45m
 | | Meals (~$150/day × 11 days) \* | $1,650 |
 | | Miscellaneous / buffer \* | $500 |
 | | | |
-| **TOTAL** | | **$13,484** |
+| **TOTAL** | | **$13,519** |
 <!-- COSTS_END -->
 
 ---

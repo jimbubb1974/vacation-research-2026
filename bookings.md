@@ -90,6 +90,7 @@ Booked: 2026-06-07 · 4 travelers: James Bubb, Kristi Bubb, Alexander Bubb, Kath
 **Airbnb listing:** https://www.airbnb.com/rooms/1575373648492118883
 **Cancellation policy:** Non-refundable (24-hour free cancellation window has passed)
 **Amenities:** 2 bedrooms (king + king), 1 bath, sleeps 6, private sauna, full kitchen, outdoor dining, WLAN, self check-in
+**Guest transit benefit:** Host provides the Berchtesgaden Guest Card for free local RVO buses. It covers local lines such as 843B and 838, but not the paid Kehlstein line 849.
 **House rules:** Quiet hours 10:00 PM – 7:00 AM; max 6 guests; no pets
 **Price:** $1,435.99 total paid
 
@@ -131,6 +132,16 @@ Platform shown as a range (Gl. 5–10) on the ticket — confirm exact platform 
 **Address:** Rindermarkt 6, Im Innenhof (courtyard, by the stairs), 80331 Munich — just off Marienplatz
 **Contact:** +49 162 8804646 (Tel & WhatsApp) — Ralf Mlinaric
 **Bags:** 4 regular + 4 small · **Total paid:** €40.80
+
+---
+
+### Salzburg — Cafe cubed sugar (Altstadt)
+
+**Booked:** 2026-06-26 · **Booking reference:** 543WH67Q
+**Date:** Friday, Jul 17, 2026 · Drop off 10:30 AM → Pick up 6:00 PM
+**Address:** Griesgasse 13, 5020 Salzburg — first floor
+**Bags:** 4 regular + 4 small · **Total paid:** €48.80
+**Arrival:** Open the booking code in the Bounce app and show it to store staff
 
 ---
 
