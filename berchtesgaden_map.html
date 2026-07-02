@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Berchtesgaden &amp; Königssee Area — Days 4–5</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { height: 100%; font-family: 'Georgia', serif; background: #f7f5f0; color: #2c2c2c; display: flex; flex-direction: column; }
+
+.hero {
+  background: linear-gradient(135deg, #1a3a5c 0%, #2e6da4 60%, #4a9eca 100%);
+  color: white;
+  padding: 24px 40px 20px;
+  text-align: center;
+  flex-shrink: 0;
+}
+.hero h1 { font-size: 1.8em; letter-spacing: 0.02em; margin-bottom: 6px; }
+.hero .subtitle { font-size: 1em; opacity: 0.85; margin-bottom: 4px; }
+.hero .meta { font-size: 0.88em; opacity: 0.7; font-style: italic; }
+
+#map { flex: 1; min-height: 500px; }
+
+.footer {
+  text-align: center; color: #aaa; font-size: 0.8em;
+  font-family: sans-serif; padding: 10px 20px;
+  border-top: 1px solid #ddd; flex-shrink: 0;
+}
+
+/* Permanent marker labels (Leaflet tooltip override) */
+.leaflet-tooltip.map-label {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  font-family: sans-serif;
+  font-size: 0.92em;
+  font-weight: 800;
+  color: #111;
+  white-space: nowrap;
+  text-shadow:
+     1px  1px 2px #fff,
+    -1px  1px 2px #fff,
+     1px -1px 2px #fff,
+    -1px -1px 2px #fff,
+     0    0   4px #fff;
+}
+.leaflet-tooltip.map-label::before,
+.leaflet-tooltip.map-label::after { display: none !important; }
+
+/* Route number labels */
+.leaflet-tooltip.route-label {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  font-family: sans-serif;
+  font-size: 0.7em;
+  font-weight: 700;
+  white-space: nowrap;
+  text-shadow:
+     1px  1px 2px #fff,
+    -1px  1px 2px #fff,
+     1px -1px 2px #fff,
+    -1px -1px 2px #fff;
+}
+.leaflet-tooltip.route-label::before,
+.leaflet-tooltip.route-label::after { display: none !important; }
+
+/* Legend */
+.map-legend {
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 12px 14px;
+  font-family: sans-serif;
+  font-size: 0.8em;
+  color: #2c2c2c;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+  line-height: 1;
+}
+.map-legend h4 {
+  font-size: 0.72em;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: #1a3a5c;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+  margin-bottom: 8px;
+}
+.leg-section {
+  font-size: 0.68em;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #999;
+  margin: 9px 0 4px;
+}
+.leg-row { display: flex; align-items: center; gap: 8px; margin: 4px 0; line-height: 1.3; }
+.leg-dot { width: 11px; height: 11px; border-radius: 50%; border: 2px solid white; outline: 1px solid #bbb; flex-shrink: 0; }
+</style>
+</head>
+<body>
+
+<div id="map"></div>
+
+<div class="footer">Bus routes from OpenStreetMap data. Boat and hike paths are approximate. Verify RVO timetables and Königssee sailing schedules before departure. Map © OpenStreetMap contributors · © CARTO.</div>
+
+<script>
+// ── Map init ──────────────────────────────────────────────────────────────────
+const map = L.map('map', { zoomControl: true });
+
+L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
+  maxZoom: 19,
+  subdomains: 'abcd',
+  attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors © <a href="https://carto.com/attributions">CARTO</a>'
+}).addTo(map);
+
+// Color palette (matches itinerary.html)
+const C = {
+  navy:  '#1a3a5c',
+  blue:  '#2e6da4',
+  amber: '#d4870c',
+  green: '#27ae60',
+  gray:  '#666',
+  lgray: '#aaa',
+};
+
+// ── Helpers ───────────────────────────────────────────────────────────────────
+
+// Colored circle pin with a permanent label
+function pin(lat, lng, color, label, dir, size = 12) {
+  const half = size / 2;
+  const icon = L.divIcon({
+    html: `<div style="width:${size}px;height:${size}px;background:${color};border:2.5px solid white;border-radius:50%;box-shadow:0 1px 4px rgba(0,0,0,0.5)"></div>`,
+    iconSize: [size, size], iconAnchor: [half, half], className: ''
+  });
+  const m = L.marker([lat, lng], { icon, interactive: false });
+  if (label) {
+    m.bindTooltip(label, {
+      permanent: true,
+      direction: dir || 'right',
+      className: 'map-label',
+      offset: dir === 'left' ? [-10, 0] : [10, 0]
+    });
+  }
+  return m;
+}
+
+// Standalone text label at a lat/lng (for route numbers)
+function rLabel(lat, lng, text, color) {
+  return L.tooltip({ permanent: true, direction: 'center', className: 'route-label', interactive: false })
+    .setContent(`<span style="color:${color}">${text}</span>`)
+    .setLatLng([lat, lng]);
+}
+
+// ── Locations ─────────────────────────────────────────────────────────────────
+
+// Home base
+pin(47.6007, 12.9789, '#d0242a', 'Villa Alpenrausch', 'right', 18).addTo(map);
+
+// Transit nodes
+pin(47.6308, 13.0020, C.gray, 'Berchtesgaden Hbf / ZOB', 'right').addTo(map);
+pin(47.5976, 12.9872, C.gray, 'Fischmichllehen (Bus 843B)', 'left').addTo(map);
+
+// Day 4 — Eagle's Nest + Salt Mine
+pin(47.6325, 13.0496, C.amber, 'Obersalzberg / Dokumentation<br><span style="font-weight:400;font-size:0.9em;opacity:0.8">(Bus 849 departure)</span>', 'right').addTo(map);
+pin(47.6111, 13.0419, C.amber, "Eagle's Nest (Kehlsteinhaus) 1,834 m", 'right').addTo(map);
+pin(47.6355, 12.9940, C.amber, 'Salt Mine (Bergwerk)', 'left').addTo(map);
+
+// Day 5 — Königssee + hike
+pin(47.5938, 12.9848, C.green, 'Königssee Boat Dock', 'left').addTo(map);
+pin(47.5924, 12.9816, C.green, 'Jennerbahn Cable Car', 'left').addTo(map);
+pin(47.5631, 12.9730, C.green, 'St. Bartholomä', 'left').addTo(map);
+pin(47.5377, 12.9673, C.green, 'Salet', 'right').addTo(map);
+pin(47.5250, 12.9695, C.green, 'Obersee', 'right').addTo(map);
+pin(47.5195, 12.9680, C.green, 'Röthbachfall', 'right').addTo(map);
+
+// ── Bus routes via Overpass API ───────────────────────────────────────────────
+// Fetches ALL bus routes in the bounding box from OSM.
+// Itinerary routes get distinct colours; everything else renders in light gray.
+// Bus 849 falls back to a manual approximation if OSM has no relation for it.
+
+// Routes used in the itinerary → distinct styling
+const ITINERARY_ROUTES = {
+  '840':  { color: '#777',  weight: 2.5, dashArray: '4 6',  opacity: 0.85 },
+  '841':  { color: C.green, weight: 2.5, dashArray: '7 5',  opacity: 0.85 },
+  '838':  { color: C.gray,  weight: 2.5, dashArray: '7 5',  opacity: 0.85 },
+  '843B': { color: C.gray,  weight: 2.5, dashArray: '7 5',  opacity: 0.85 },
+  '849':  { color: C.amber, weight: 3,   dashArray: '7 5',  opacity: 0.85 },
+};
+
+// All other routes in the area → neutral background style
+const OTHER_ROUTE_STYLE = { color: '#888', weight: 2,   dashArray: '5 5', opacity: 0.8 };
+
+// Fixed label positions for itinerary routes (approximate midpoints in default view)
+const ROUTE_LABELS = {
+  '840':  [47.6065, 12.9917],
+  '841':  [47.5957, 12.9856],
+  '838':  [47.6315, 13.0260],
+  '843B': [47.6095, 12.9938],
+  '849':  [47.6185, 13.0454],
+};
+
+// Loading status shown top-right while Overpass responds
+const loadingCtrl = L.control({ position: 'topright' });
+loadingCtrl.onAdd = () => {
+  const d = L.DomUtil.create('div');
+  d.id = 'route-status';
+  d.style.cssText = 'background:white;border:1px solid #ccc;border-radius:4px;padding:6px 10px;font-family:sans-serif;font-size:0.76em;color:#555;box-shadow:0 1px 4px rgba(0,0,0,0.12)';
+  d.textContent = 'Loading bus routes…';
+  return d;
+};
+loadingCtrl.addTo(map);
+
+function drawFallback849() {
+  // Manual approximation of the private Kehlsteinstrasse mountain road
+  L.polyline([
+    [47.6325, 13.0496],
+    [47.6272, 13.0479],
+    [47.6212, 13.0457],
+    [47.6160, 13.0438],
+    [47.6111, 13.0419],
+  ], ITINERARY_ROUTES['849']).addTo(map);
+}
+
+// Cache key — bump the version suffix if the query changes to invalidate old data
+const CACHE_KEY = 'berchtesgaden_bus_routes_v1';
+
+async function fetchFromOverpass() {
+  // Bbox covers Berchtesgaden, Ramsau, Königssee, and the Obersalzberg area.
+  // Bus 840 extends to Salzburg but will be clipped at the bbox edge — acceptable.
+  const query = `[out:json][timeout:60][bbox:47.50,12.88,47.70,13.12];
+relation["route"="bus"];
+out body;
+way(r);
+out geom;`;
+  const body = 'data=' + encodeURIComponent(query);
+  const endpoints = [
+    'https://overpass-api.de/api/interpreter',
+    'https://overpass.kumi.systems/api/interpreter',
+  ];
+  for (const url of endpoints) {
+    try {
+      const res = await fetch(url, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body,
+      });
+      if (!res.ok) throw new Error(`HTTP ${res.status} from ${url}`);
+      const data = await res.json();
+      if (data.remark) console.warn('Overpass remark:', data.remark);
+      return data;
+    } catch (e) {
+      console.warn(`Overpass endpoint failed (${url}):`, e.message);
+    }
+  }
+  throw new Error('All Overpass endpoints failed');
+}
+
+async function loadBusRoutes() {
+  let data;
+  let fromCache = false;
+  let cachedAt = null;
+
+  const cached = localStorage.getItem(CACHE_KEY);
+  if (cached) {
+    try {
+      const parsed = JSON.parse(cached);
+      data = parsed.data;
+      cachedAt = new Date(parsed.savedAt);
+      fromCache = true;
+    } catch { /* corrupt cache — fall through to fetch */ }
+  }
+
+  if (!data) {
+    data = await fetchFromOverpass();
+    try {
+      localStorage.setItem(CACHE_KEY, JSON.stringify({ savedAt: new Date().toISOString(), data }));
+    } catch (e) {
+      console.warn('Could not save routes to localStorage:', e);
+    }
+  }
+
+  // Build way-id → [route refs] index from relation member lists
+  const wayToRefs = {};
+  data.elements.forEach(el => {
+    if (el.type === 'relation' && el.tags?.ref) {
+      const ref = el.tags.ref;
+      (el.members || []).forEach(m => {
+        if (m.type === 'way') {
+          (wayToRefs[m.ref] ??= []).includes(ref) || wayToRefs[m.ref].push(ref);
+        }
+      });
+    }
+  });
+
+  // Draw other routes first (below), then itinerary routes on top
+  const otherWays = [];
+  const itineraryWays = {};   // ref → list of coordinate arrays
+
+  data.elements.forEach(el => {
+    if (el.type !== 'way' || !el.geometry?.length >= 2) return;
+    const coords = el.geometry.map(p => [p.lat, p.lon]);
+    const refs = wayToRefs[el.id] || [];
+    const itineraryRefs = refs.filter(r => ITINERARY_ROUTES[r]);
+
+    if (itineraryRefs.length) {
+      itineraryRefs.forEach(ref => {
+        (itineraryWays[ref] ??= []).push(coords);
+      });
+    } else {
+      otherWays.push(coords);
+    }
+  });
+
+  // Other routes — light gray, drawn first so they sit underneath
+  otherWays.forEach(coords => L.polyline(coords, OTHER_ROUTE_STYLE).addTo(map));
+
+  // Itinerary routes — distinct colours on top
+  const foundRefs = new Set(Object.keys(itineraryWays));
+  Object.entries(itineraryWays).forEach(([ref, coordsList]) => {
+    coordsList.forEach(coords => L.polyline(coords, ITINERARY_ROUTES[ref]).addTo(map));
+  });
+
+  // Fall back to manual geometry for 849 if OSM has no relation for it
+  if (!foundRefs.has('849')) drawFallback849();
+
+  // Labels for itinerary routes only
+  Object.entries(ROUTE_LABELS).forEach(([ref, pos]) => {
+    const style = ITINERARY_ROUTES[ref];
+    if (style) rLabel(...pos, ref === '849' ? '849 ★' : ref, style.color).addTo(map);
+  });
+
+  const status = document.getElementById('route-status');
+  if (status) {
+    const missing = Object.keys(ITINERARY_ROUTES).filter(r => !foundRefs.has(r));
+    const total = data.elements.filter(e => e.type === 'relation').length;
+    const note = missing.length ? ` (${missing.join(', ')} approximated)` : '';
+    const cacheNote = fromCache
+      ? ` · cached ${cachedAt.toLocaleDateString()} <a href="#" id="refresh-routes" style="color:#2e6da4">refresh</a>`
+      : ' · saved to cache';
+    status.innerHTML = `${total} bus routes${note}${cacheNote}`;
+    document.getElementById('refresh-routes')?.addEventListener('click', e => {
+      e.preventDefault();
+      localStorage.removeItem(CACHE_KEY);
+      location.reload();
+    });
+  }
+}
+
+loadBusRoutes().catch(err => {
+  console.error('Overpass fetch failed:', err);
+  drawFallback849();
+  const status = document.getElementById('route-status');
+  if (status) { status.textContent = `Bus routes unavailable — ${err.message}`; status.style.color = '#c00'; }
+});
+
+// ── Hike: Salet → Obersee → Röthbachfall ─────────────────────────────────────
+L.polyline([
+  [47.5377, 12.9673],
+  [47.5320, 12.9681],
+  [47.5250, 12.9695],
+  [47.5220, 12.9688],
+  [47.5195, 12.9680],
+], { color: C.green, weight: 2.5, opacity: 0.85, dashArray: '4 4' }).addTo(map);
+
+// ── Possible hike: Wimbachklamm gorge → Wimbachschloss ───────────────────────
+// Trailhead: Wimbachbrücke parking, Ramsau bei Berchtesgaden
+// 4.3 km one-way, 311 m elevation gain, easy. Out-and-back.
+const PURPLE = '#7d3c98';
+pin(47.6023, 12.9242, PURPLE, 'Wimbachklamm Trailhead', 'right').addTo(map);
+pin(47.5970, 12.9215, PURPLE, 'Wimbachklamm Gorge', 'right').addTo(map);
+pin(47.5580, 12.9160, PURPLE, 'Wimbachschloss (937 m)', 'right').addTo(map);
+L.polyline([
+  [47.6023, 12.9242],
+  [47.5970, 12.9215],
+  [47.5900, 12.9195],
+  [47.5780, 12.9180],
+  [47.5580, 12.9160],
+], { color: PURPLE, weight: 2.5, opacity: 0.85, dashArray: '4 4' }).addTo(map);
+
+// ── Fit map to content ────────────────────────────────────────────────────────
+map.fitBounds([
+  [47.513, 12.890],  // west extended to include Wimbachtal / Ramsau
+  [47.640, 13.057],  // east: Obersalzberg / Eagle's Nest
+], { padding: [30, 40] });
+
+// ── Legend ────────────────────────────────────────────────────────────────────
+const legend = L.control({ position: 'bottomleft' });
+legend.onAdd = () => {
+  const d = L.DomUtil.create('div', 'map-legend');
+  d.innerHTML = `
+    <h4>Legend</h4>
+    <div class="leg-section">Locations</div>
+    <div class="leg-row"><div class="leg-dot" style="background:#d0242a;width:16px;height:16px"></div> Villa Alpenrausch (home base)</div>
+    <div class="leg-row"><div class="leg-dot" style="background:${C.gray}"></div> Transit / bus stop</div>
+    <div class="leg-row"><div class="leg-dot" style="background:${C.amber}"></div> Day 4 — Eagle's Nest + Mine</div>
+    <div class="leg-row"><div class="leg-dot" style="background:${C.green}"></div> Day 5 — Königssee + Hike</div>
+    <div class="leg-row"><div class="leg-dot" style="background:#7d3c98"></div> Possible — Wimbachklamm</div>
+    <div class="leg-section">Routes</div>
+    <div class="leg-row">
+      <svg width="26" height="8"><line x1="0" y1="4" x2="26" y2="4" stroke="${C.gray}" stroke-width="2.5" stroke-dasharray="7 5"/></svg>
+      Bus 843B, 838 (Guest Card)
+    </div>
+    <div class="leg-row">
+      <svg width="26" height="8"><line x1="0" y1="4" x2="26" y2="4" stroke="${C.amber}" stroke-width="3" stroke-dasharray="7 5"/></svg>
+      Bus 849 ★ Kehlstein (paid)
+    </div>
+    <div class="leg-row">
+      <svg width="26" height="8"><line x1="0" y1="4" x2="26" y2="4" stroke="${C.green}" stroke-width="2.5" stroke-dasharray="7 5"/></svg>
+      Bus 841 (Guest Card)
+    </div>
+    <div class="leg-row">
+      <svg width="26" height="8"><line x1="0" y1="4" x2="26" y2="4" stroke="#777" stroke-width="2.5" stroke-dasharray="4 6"/></svg>
+      Bus 840 Watzmann Express
+    </div>
+    <div class="leg-row">
+      <svg width="26" height="8"><line x1="0" y1="4" x2="26" y2="4" stroke="${C.green}" stroke-width="2.5" stroke-dasharray="4 4"/></svg>
+      Hike trail
+    </div>
+    <div class="leg-row">
+      <svg width="26" height="8"><line x1="0" y1="4" x2="26" y2="4" stroke="#7d3c98" stroke-width="2.5" stroke-dasharray="4 4"/></svg>
+      Wimbachklamm hike (possible)
+    </div>
+    <div class="leg-row">
+      <svg width="26" height="8"><line x1="0" y1="4" x2="26" y2="4" stroke="#888" stroke-width="2" stroke-dasharray="5 5"/></svg>
+      Other area bus routes
+    </div>
+  `;
+  return d;
+};
+legend.addTo(map);
+</script>
+</body>
+</html>
