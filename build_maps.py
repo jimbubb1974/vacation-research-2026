@@ -134,14 +134,6 @@ def render_map(map_id: str, *, offline: bool = False) -> Path:
         image = ImageEnhance.Color(image).enhance(tile_adjust["color"])
     scale_x, scale_y = output_width / viewport_width, output_height / viewport_height
     draw = ImageDraw.Draw(image)
-    route = spec.get("route")
-    if route:
-        route_pixels = [
-            ((x - left) * scale_x, (y - top) * scale_y)
-            for x, y in (world_pixel(lat, lon, zoom) for lat, lon in route)
-        ]
-        draw.line(route_pixels, fill="white", width=max(7, int(5 * scale_x)), joint="curve")
-        draw.line(route_pixels, fill="#2f6f9f", width=max(3, int(2.5 * scale_x)), joint="curve")
     for place, (point_x, point_y) in zip(spec["places"], points):
         draw_pin(draw, (point_x - left) * scale_x, (point_y - top) * scale_y, place["number"], scale_x)
 

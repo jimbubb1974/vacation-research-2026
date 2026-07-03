@@ -224,6 +224,7 @@ DAYS = [
             event("Evening", "Dinner at St. Peter Stiftskeller; reservation still to be booked.", where="St. Peter's Abbey complex in the Altstadt. Add the confirmed reservation time and exact arrival instructions after booking.", kind="meal"),
         ],
         "notes": ["Fortress and dinner details remain flexible until reservations are finalized."],
+        "map": "day7_salzburg",
     },
     {
         "day": 8,
