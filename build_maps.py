@@ -7,7 +7,7 @@ import math
 import urllib.request
 from pathlib import Path
 
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image, ImageDraw, ImageEnhance, ImageFont
 
 from map_data import MAPS
 
@@ -16,6 +16,24 @@ BASE = Path(__file__).resolve().parent
 CACHE = BASE / "map_cache" / "osm"
 TILE_SIZE = 256
 USER_AGENT = "vacation-research-2026/1.0 (personal itinerary map builder)"
+TILE_SOURCES = {
+    "osm": {
+        "url": "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+        "attribution": "© OpenStreetMap contributors",
+    },
+    "carto_positron": {
+        "url": "https://a.basemaps.cartocdn.com/rastertiles/light_all/{z}/{x}/{y}.png",
+        "attribution": "© OpenStreetMap contributors · © CARTO",
+    },
+    "carto_voyager": {
+        "url": "https://a.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png",
+        "attribution": "© OpenStreetMap contributors · © CARTO",
+    },
+    "esri_world_street": {
+        "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}",
+        "attribution": "Sources: Esri, HERE, Garmin, USGS, OSM contributors",
+    },
+}
 
 
 def world_pixel(lat: float, lon: float, zoom: int) -> tuple[float, float]:
@@ -26,17 +44,18 @@ def world_pixel(lat: float, lon: float, zoom: int) -> tuple[float, float]:
     return x, y
 
 
-def tile_path(zoom: int, x: int, y: int) -> Path:
-    return CACHE / str(zoom) / str(x) / f"{y}.png"
+def tile_path(source: str, zoom: int, x: int, y: int) -> Path:
+    source_cache = CACHE if source == "osm" else CACHE.parent / source
+    return source_cache / str(zoom) / str(x) / f"{y}.png"
 
 
-def get_tile(zoom: int, x: int, y: int, *, offline: bool) -> Image.Image:
-    path = tile_path(zoom, x, y)
+def get_tile(source: str, zoom: int, x: int, y: int, *, offline: bool) -> Image.Image:
+    path = tile_path(source, zoom, x, y)
     if not path.exists():
         if offline:
             raise FileNotFoundError(f"Missing cached tile in offline mode: {path}")
         path.parent.mkdir(parents=True, exist_ok=True)
-        url = f"https://tile.openstreetmap.org/{zoom}/{x}/{y}.png"
+        url = TILE_SOURCES[source]["url"].format(z=zoom, x=x, y=y)
         request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
         with urllib.request.urlopen(request, timeout=20) as response:
             path.write_bytes(response.read())
@@ -76,6 +95,7 @@ def draw_pin(draw: ImageDraw.ImageDraw, x: float, y: float, number: int, scale: 
 
 def render_map(map_id: str, *, offline: bool = False) -> Path:
     spec = MAPS[map_id]
+    tile_source = spec.get("tile_source", "osm")
     zoom = spec["zoom"]
     viewport_width, viewport_height = spec["viewport"]
     output_width, output_height = spec["output_size"]
@@ -98,13 +118,20 @@ def render_map(map_id: str, *, offline: bool = False) -> Path:
     )
     for tile_y in range(min_tile_y, max_tile_y + 1):
         for tile_x in range(min_tile_x, max_tile_x + 1):
-            tile = get_tile(zoom, tile_x, tile_y, offline=offline)
+            tile = get_tile(tile_source, zoom, tile_x, tile_y, offline=offline)
             mosaic.paste(tile, ((tile_x - min_tile_x) * TILE_SIZE, (tile_y - min_tile_y) * TILE_SIZE))
 
     crop_left = int(round(left - min_tile_x * TILE_SIZE))
     crop_top = int(round(top - min_tile_y * TILE_SIZE))
     image = mosaic.crop((crop_left, crop_top, crop_left + viewport_width, crop_top + viewport_height))
     image = image.resize((output_width, output_height), Image.Resampling.LANCZOS)
+    tile_adjust = spec.get("tile_adjust", {})
+    if "brightness" in tile_adjust:
+        image = ImageEnhance.Brightness(image).enhance(tile_adjust["brightness"])
+    if "contrast" in tile_adjust:
+        image = ImageEnhance.Contrast(image).enhance(tile_adjust["contrast"])
+    if "color" in tile_adjust:
+        image = ImageEnhance.Color(image).enhance(tile_adjust["color"])
     scale_x, scale_y = output_width / viewport_width, output_height / viewport_height
     draw = ImageDraw.Draw(image)
     route = spec.get("route")
@@ -118,7 +145,7 @@ def render_map(map_id: str, *, offline: bool = False) -> Path:
     for place, (point_x, point_y) in zip(spec["places"], points):
         draw_pin(draw, (point_x - left) * scale_x, (point_y - top) * scale_y, place["number"], scale_x)
 
-    attribution = "© OpenStreetMap contributors"
+    attribution = TILE_SOURCES[tile_source]["attribution"]
     attribution_font = font(13)
     box = draw.textbbox((0, 0), attribution, font=attribution_font)
     padding = 4

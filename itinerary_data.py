@@ -166,6 +166,7 @@ DAYS = [
             event("Afternoon", "Visit the Berchtesgaden salt mine (about 1½ hours): mine train, underground salt lake, and wooden slide.", where="Return from Obersalzberg toward Berchtesgaden. Confirm the salt-mine entrance route and booked/selected admission time before leaving in the morning.", kind="activity"),
         ],
         "notes": ["Decision reminder: we intentionally chose not to prebook Kehlstein line 849 because we value the flexibility to decide based on weather and energy. We are optimistic that an early Wednesday walk-up will have space, but accept that we may need to wait or skip Eagle's Nest if buses are full. Ask the Airbnb host for the physical or digital Berchtesgaden Guest Card; it covers local lines 843B and 838, but not line 849. The salt mine also appears to have plenty of availability, so we do not plan to book it in advance; recheck shortly before the trip."],
+        "map": "day4_berchtesgaden",
     },
     {
         "day": 5,
@@ -183,6 +184,7 @@ DAYS = [
             event("Afternoon", "Free time in Schönau; keep the pace flexible after the hike.", kind="flex"),
         ],
         "notes": ["Carry water and weather layers. Boat times and trail conditions must be checked on the day."],
+        "map": "day5_koenigssee",
     },
     {
         "day": 6,
@@ -206,6 +208,7 @@ DAYS = [
             event("Evening", "Easy dinner and settle in.", kind="meal"),
         ],
         "notes": ["Formal checkout from Villa Alpenrausch is by 11 AM. Keep both the Bounce code and Salzburg lockbox instructions available offline."],
+        "map": "day6_salzburg",
     },
     {
         "day": 7,

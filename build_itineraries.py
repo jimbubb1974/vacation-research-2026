@@ -122,10 +122,12 @@ def daily_map(day: dict) -> str:
         )
         rendered.append(
             '<aside class="location-map">'
-            f'<h2>{html.escape(map_data["title"])}</h2>'
             '<div class="map-layout">'
             f'<img class="map-image" src="{html.escape(map_data["output"])}" alt="{html.escape(map_data["alt"], quote=True)}">'
+            '<div class="map-key">'
+            f'<h2>{html.escape(map_data["title"])}</h2>'
             f'<ol class="map-legend">{legend}</ol>'
+            '</div>'
             '</div>'
             '</aside>'
         )
@@ -254,9 +256,10 @@ def daily_handout() -> str:
   .map-notes {{ min-height:.48in; }}
   .writing-lines {{ height:.19in; background:repeating-linear-gradient(to bottom, transparent 0, transparent .085in, #d7e0e6 .09in); }}
   .location-map {{ margin-top:.12in; padding:.08in .11in; border:1px solid var(--rule); break-inside:avoid; page-break-inside:avoid; }}
-  .location-map h2 {{ margin:0 0 .055in; color:var(--navy); font-size:7.2pt; letter-spacing:.09em; text-transform:uppercase; }}
+  .location-map h2 {{ margin:0 0 .06in; color:var(--navy); font-size:7.2pt; line-height:1.15; letter-spacing:.09em; text-transform:uppercase; }}
   .map-layout {{ display:grid; grid-template-columns:minmax(0, 1.55fr) minmax(1.75in, 1fr); gap:.12in; align-items:center; }}
   .map-image {{ display:block; width:100%; height:1.72in; object-fit:cover; border:1px solid #aab8c1; background:#e8e4dc; }}
+  .map-key {{ min-width:0; }}
   .map-legend {{ margin:0; padding:0; list-style:none; }}
   .map-legend li {{ display:grid; grid-template-columns:.22in 1fr; align-items:center; margin:.045in 0; font-size:7.8pt; line-height:1.15; }}
   .map-legend span {{ grid-row:1 / 3; display:grid; place-items:center; width:.19in; height:.19in; border-radius:50%; background:var(--navy); color:#fff; font-size:7pt; font-weight:700; }}
