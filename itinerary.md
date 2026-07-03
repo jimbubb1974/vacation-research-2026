@@ -66,7 +66,8 @@
 - **11:30 AM** — Classic Bike Tour departs — **BOOKED** (Booking #354406124); about four hours through the English Garden, Olympiapark, and city highlights. Helmets are provided.
   - **Where / how:** If 0–10 minutes late, look near the Statue of Juliet by the tower. If 15+ minutes late, go directly to the shop at **Hochbrückenstrasse 10**, corner of Brauhausstrasse.
 - **~3:30 PM** — Bike tour returns to central Munich.
-- **Evening** — Dinner at Hopferhouse for traditional Bavarian food.
+- **Evening** — Dinner at Hofbräuhaus München for traditional Bavarian food.
+  - **Where / how:** **Platzl 9, 80331 Munich**, about a 4-minute walk east of Mike's meeting point at Marienplatz 15.
 > **Day note:** Both teens must bring valid student ID because the student rate was used for their tickets.
 
 ### Day 3 — Tue Jul 14 · Munich → Königssee

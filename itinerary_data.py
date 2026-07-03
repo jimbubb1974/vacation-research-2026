@@ -98,9 +98,15 @@ DAYS = [
                 kind="booking",
             ),
             event("~3:30 PM", "Bike tour returns to central Munich.", kind="activity"),
-            event("Evening", "Dinner at Hopferhouse for traditional Bavarian food.", kind="meal"),
+            event(
+                "Evening",
+                "Dinner at Hofbräuhaus München for traditional Bavarian food.",
+                where="**Platzl 9, 80331 Munich**, about a 4-minute walk east of Mike's meeting point at Marienplatz 15.",
+                kind="meal",
+            ),
         ],
         "notes": ["Both teens must bring valid student ID because the student rate was used for their tickets."],
+        "map": "day2_munich",
     },
     {
         "day": 3,
@@ -140,6 +146,7 @@ DAYS = [
             ),
         ],
         "notes": ["The Bayern-Ticket covers the regional trains and backup Bus 841. Confirm the exact Munich platform and taxi availability on the day."],
+        "map": ["day3_munich_before_train", "day3_munich_to_schonau"],
     },
     {
         "day": 4,
