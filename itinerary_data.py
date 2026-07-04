@@ -287,6 +287,7 @@ DAYS = [
             event("Evening", "Final dinner in the 1st district, last Ringstrasse stroll, and pack for departure.", kind="meal"),
         ],
         "notes": ["Finalize the Belvedere arrival route when the timed ticket is booked."],
+        "map": "day10_vienna",
     },
     {
         "day": 11,
@@ -302,5 +303,6 @@ DAYS = [
             event("2:35 PM EDT", "Scheduled arrival at Washington Dulles (IAD).", kind="transport"),
         ],
         "notes": ["Keep passports and flight confirmation accessible. Recheck CAT and flight status the evening before departure."],
+        "map": "day11_vienna_airport",
     },
 ]
