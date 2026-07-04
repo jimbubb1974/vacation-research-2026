@@ -1,6 +1,63 @@
 """Canonical definitions for generated itinerary maps."""
 
 MAPS = {
+    "day1_airport_to_munich": {
+        "title": "Day 1 transfer · Munich Airport to city center",
+        "output": "map_images/day1_airport_to_munich.png",
+        "alt": "OpenStreetMap showing the Day 1 S-Bahn transfer from Munich Airport to Marienplatz",
+        "zoom": 10,
+        "viewport": (760, 342),
+        "output_size": (1200, 540),
+        "center_offset": (0, 0),
+        "places": [
+            {
+                "number": 1,
+                "name": "Munich Airport",
+                "address": "S1 or S8 from terminal station",
+                "lat": 48.3537694,
+                "lon": 11.7861263,
+            },
+            {
+                "number": 2,
+                "name": "Marienplatz",
+                "address": "City-center arrival",
+                "lat": 48.1371436,
+                "lon": 11.5753989,
+            },
+        ],
+    },
+    "day1_munich": {
+        "title": "Day 1 locations · Munich",
+        "output": "map_images/day1_munich.png",
+        "alt": "OpenStreetMap showing the Day 1 Munich stops in the Altstadt, at Rotkreuzplatz, and at the Airbnb",
+        "zoom": 13,
+        "viewport": (600, 270),
+        "output_size": (1200, 540),
+        "center_offset": (0, 0),
+        "places": [
+            {
+                "number": 1,
+                "name": "Altstadt / Bounce",
+                "address": "Rindermarkt · Marienplatz · Frauenkirche",
+                "lat": 48.1359411,
+                "lon": 11.5744792,
+            },
+            {
+                "number": 2,
+                "name": "Rotkreuzplatz",
+                "address": "U1 arrival / walk to Airbnb",
+                "lat": 48.1540479,
+                "lon": 11.5330186,
+            },
+            {
+                "number": 3,
+                "name": "Airbnb",
+                "address": "Adamstraße 4",
+                "lat": 48.1486807,
+                "lon": 11.5481772,
+            },
+        ],
+    },
     "day2_munich": {
         "title": "Day 2 locations · central Munich",
         "output": "map_images/day2_munich.png",

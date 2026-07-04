@@ -75,6 +75,7 @@ DAYS = [
             ),
         ],
         "notes": ["Buy an MVV group day ticket at the airport before boarding; confirm the best S1/S8 departure on the station display."],
+        "map": ["day1_airport_to_munich", "day1_munich"],
     },
     {
         "day": 2,
