@@ -248,6 +248,7 @@ DAYS = [
             event("After dinner", "Optional short stroll around the Hofburg exterior or Ringstrasse, or call it early.", kind="flex"),
         ],
         "notes": ["This is the densest travel day. The Vienna apartment street number is only in the private Airbnb arrival instructions."],
+        "map": ["day8_salzburg_to_vienna", "day8_vienna"],
     },
     {
         "day": 9,
@@ -268,6 +269,7 @@ DAYS = [
             event("Evening", "Dinner and a lit-up walk past the Opera House, Albertina terrace, Hofburg/Michaelerplatz, and an optional Ringstrasse section.", kind="activity"),
         ],
         "notes": ["Optional: add Tiergarten Schönbrunn only if everyone wants a much longer palace day."],
+        "map": ["day9_vienna_to_schoenbrunn", "day9_schoenbrunn"],
     },
     {
         "day": 10,

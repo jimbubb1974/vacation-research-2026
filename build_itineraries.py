@@ -121,7 +121,7 @@ def daily_map(day: dict) -> str:
             for place in places
         )
         rendered.append(
-            '<aside class="location-map">'
+            f'<aside class="location-map{" compact" if map_data.get("compact") else ""}">'
             '<div class="map-layout">'
             f'<img class="map-image" src="{html.escape(map_data["output"])}" alt="{html.escape(map_data["alt"], quote=True)}">'
             '<div class="map-key">'
@@ -247,8 +247,6 @@ def daily_handout() -> str:
   .plan {{ font-family:Georgia, serif; font-size:9.35pt; line-height:1.34; }}
   .time {{ color:var(--navy); font-size:9.3pt; font-weight:800; line-height:1.25; text-align:right; white-space:normal; }}
   .where {{ margin-top:.055in; padding:.055in .075in; background:var(--pale); border-left:3px solid var(--blue); color:#41515e; font-family:Arial, sans-serif; font-size:7.9pt; line-height:1.3; }}
-  .booking .time {{ color:var(--gold); }}
-  .transport .time {{ color:var(--blue); }}
   .day-notes, .map-notes {{ margin-top:.12in; padding:.08in .11in; border:1px solid var(--rule); break-inside:avoid; page-break-inside:avoid; }}
   .day-notes {{ background:#fffaf0; border-left:4px solid var(--gold); }}
   .day-notes h2, .map-notes h2 {{ margin:0 0 .035in; color:var(--navy); font-size:7.2pt; letter-spacing:.09em; text-transform:uppercase; }}
@@ -265,6 +263,11 @@ def daily_handout() -> str:
   .map-legend span {{ grid-row:1 / 3; display:grid; place-items:center; width:.19in; height:.19in; border-radius:50%; background:var(--navy); color:#fff; font-size:7pt; font-weight:700; }}
   .map-legend strong {{ color:var(--navy); }}
   .map-legend small {{ color:var(--muted); font-size:6.8pt; }}
+  .location-map.compact .map-image {{ height:1.35in; }}
+  .location-map.compact h2 {{ margin-bottom:.035in; font-size:6.8pt; }}
+  .location-map.compact .map-legend li {{ margin:.02in 0; font-size:7.2pt; }}
+  .location-map.compact .map-legend small {{ font-size:6.3pt; }}
+  .day-sheet.long .event {{ padding:.075in 0; }}
   footer {{ margin-top:.1in; color:#85919a; font-size:6.8pt; letter-spacing:.04em; text-align:center; break-inside:avoid; }}
   @page {{ size:Letter portrait; margin:0; }}
   @media print {{
