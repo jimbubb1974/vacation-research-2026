@@ -63,7 +63,7 @@
 - **Morning** — Free time: sleep in, have breakfast, or wander nearby.
 - **11:15 AM** — Arrive at the **Mike's Bike Tours meeting point**.
   - **Where / how:** **Marienplatz 15**, entrance to the Toy Museum (Spielzeugmuseum) in the Altes Rathaus at the eastern end of the square. This is the smaller old tower, not the Neues Rathaus with the Glockenspiel. A McDonald's should be visible nearby.
-- **11:30 AM** — Classic Bike Tour departs — **BOOKED** (Booking #354406124); about four hours through the English Garden, Olympiapark, and city highlights. Helmets are provided.
+- **11:30 AM** — Classic Bike Tour departs — **BOOKED** (Booking #354406124). Sites: Max-Joseph-Platz, Munich Residenz, Odeonsplatz, Hofgarten, Bavarian State Chancellery, Isar River bike path, English Garden, Chinese Tower beer garden. Helmets are provided.
   - **Where / how:** If 0–10 minutes late, look near the Statue of Juliet by the tower. If 15+ minutes late, go directly to the shop at **Hochbrückenstrasse 10**, corner of Brauhausstrasse.
 - **~3:30 PM** — Bike tour returns to central Munich.
 - **6:00–8:00 PM** — Dinner at **Hofbräuhaus München** — **BOOKED** for four guests.
@@ -144,14 +144,14 @@
 > **Day note:** Formal checkout from Villa Alpenrausch is by 11 AM. Keep both the Bounce code and Salzburg lockbox instructions available offline. Use the separate self-guided route in **day6_salzburg_walking_tour.md** for the Altstadt walk.
 
 ### Day 7 — Sat Jul 18 · Salzburg
-- **Morning** — Ride the funicular to Fortress Hohensalzburg and explore the castle and viewpoints; allow about two hours.
-  - **Where / how:** Walk through the Altstadt to the **FestungsBahn valley station near Kapitelplatz**. Buy/scan tickets there and board the funicular uphill to the fortress.
+- **~8:45–11:00 AM** — Ride the funicular to Fortress Hohensalzburg and explore the castle, museums, and viewpoints.
+  - **Where / how:** Walk through the Altstadt to the **FestungsBahn valley station near Kapitelplatz**. Fortress admission is **not tied to an entry time**, so we should be able to buy tickets on the spot and take the next funicular. Aim to reach the fortress courtyard before **9:30 AM** for the free 30-minute **Hohensalzburg Quick Tour** in German and English. It starts at **Point A**, requires no registration or separate fee, and is available with a valid admission ticket.
 - **Midday** — Walk Getreidegasse and stop for lunch.
 - **Afternoon** — Visit Mirabell Gardens, then stroll along the Salzach.
   - **Where / how:** Cross to the north side of the river for Mirabellplatz/Mirabell Gardens; return on foot via a central pedestrian bridge.
 - **Evening** — Dinner at St. Peter Stiftskeller; reservation still to be booked.
   - **Where / how:** St. Peter's Abbey complex in the Altstadt. Add the confirmed reservation time and exact arrival instructions after booking.
-> **Day note:** Fortress and dinner details remain flexible until reservations are finalized.
+> **Day note:** Fortress tickets are date-based rather than timed; buying on arrival preserves flexibility. The free 9:30 AM Quick Tour is the early-arrival target, but confirm the event listing shortly before the visit. Dinner details remain flexible until the reservation is finalized.
 
 ### Day 8 — Sun Jul 19 · Travel to Vienna
 - **~9:20 AM** — Checkout and travel to Salzburg Hbf.

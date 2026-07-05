@@ -94,7 +94,7 @@ DAYS = [
             ),
             event(
                 "11:30 AM",
-                "Classic Bike Tour departs — **BOOKED** (Booking #354406124); about four hours through the English Garden, Olympiapark, and city highlights. Helmets are provided.",
+                "Classic Bike Tour departs — **BOOKED** (Booking #354406124). Sites: Max-Joseph-Platz, Munich Residenz, Odeonsplatz, Hofgarten, Bavarian State Chancellery, Isar River bike path, English Garden, Chinese Tower beer garden. Helmets are provided.",
                 where="If 0–10 minutes late, look near the Statue of Juliet by the tower. If 15+ minutes late, go directly to the shop at **Hochbrückenstrasse 10**, corner of Brauhausstrasse.",
                 kind="booking",
             ),
@@ -225,12 +225,12 @@ DAYS = [
         "overnight": "Salzburg — Gstättengasse 25",
         "summary": "Fortress Hohensalzburg; Getreidegasse; Mirabell Gardens; St. Peter dinner.",
         "events": [
-            event("Morning", "Ride the funicular to Fortress Hohensalzburg and explore the castle and viewpoints; allow about two hours.", where="Walk through the Altstadt to the **FestungsBahn valley station near Kapitelplatz**. Buy/scan tickets there and board the funicular uphill to the fortress.", kind="transport"),
+            event("~8:45–11:00 AM", "Ride the funicular to Fortress Hohensalzburg and explore the castle, museums, and viewpoints.", where="Walk through the Altstadt to the **FestungsBahn valley station near Kapitelplatz**. Fortress admission is **not tied to an entry time**, so we should be able to buy tickets on the spot and take the next funicular. Aim to reach the fortress courtyard before **9:30 AM** for the free 30-minute **Hohensalzburg Quick Tour** in German and English. It starts at **Point A**, requires no registration or separate fee, and is available with a valid admission ticket.", kind="activity"),
             event("Midday", "Walk Getreidegasse and stop for lunch.", kind="meal"),
             event("Afternoon", "Visit Mirabell Gardens, then stroll along the Salzach.", where="Cross to the north side of the river for Mirabellplatz/Mirabell Gardens; return on foot via a central pedestrian bridge.", kind="activity"),
             event("Evening", "Dinner at St. Peter Stiftskeller; reservation still to be booked.", where="St. Peter's Abbey complex in the Altstadt. Add the confirmed reservation time and exact arrival instructions after booking.", kind="meal"),
         ],
-        "notes": ["Fortress and dinner details remain flexible until reservations are finalized."],
+        "notes": ["Fortress tickets are date-based rather than timed; buying on arrival preserves flexibility. The free 9:30 AM Quick Tour is the early-arrival target, but confirm the event listing shortly before the visit. Dinner details remain flexible until the reservation is finalized."],
         "map": "day7_salzburg",
     },
     {
