@@ -266,7 +266,7 @@ MAPS = {
         "alt": "OpenStreetMap showing the Day 5 route from Bäckerei Zechmeister and Rathaus Unterstein by bus to the Königssee boat landing, then by boat to Salet and on foot to Obersee and Röthbachfall",
         "tile_source": "esri_world_street",
         "zoom": 11,
-        "viewport": (600, 270),
+        "viewport": (760, 340),
         "output_size": (1200, 540),
         "center_offset": (0, -15),
         "places": [

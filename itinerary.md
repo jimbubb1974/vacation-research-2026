@@ -141,7 +141,7 @@
 - **~6:15 PM** — Walk to the Salzburg apartment and check in using the lockbox instructions — **BOOKED** (Conf. HM4NSFM9J3).
   - **Where / how:** Big Flat in Historic Mozart House, **Gstättengasse 25, Altstadt, 5020 Salzburg**. Host Medimmo GmbH: +43 664 1313022. Formal check-in begins after 1:00 PM.
 - **Evening** — Easy dinner and settle in.
-> **Day note:** Formal checkout from Villa Alpenrausch is by 11 AM. Keep both the Bounce code and Salzburg lockbox instructions available offline.
+> **Day note:** Formal checkout from Villa Alpenrausch is by 11 AM. Keep both the Bounce code and Salzburg lockbox instructions available offline. Use the separate self-guided route in **day6_salzburg_walking_tour.md** for the Altstadt walk.
 
 ### Day 7 — Sat Jul 18 · Salzburg
 - **Morning** — Ride the funicular to Fortress Hohensalzburg and explore the castle and viewpoints; allow about two hours.

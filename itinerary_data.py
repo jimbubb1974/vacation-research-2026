@@ -214,7 +214,7 @@ DAYS = [
             event("~6:15 PM", "Walk to the Salzburg apartment and check in using the lockbox instructions — **BOOKED** (Conf. HM4NSFM9J3).", where="Big Flat in Historic Mozart House, **Gstättengasse 25, Altstadt, 5020 Salzburg**. Host Medimmo GmbH: +43 664 1313022. Formal check-in begins after 1:00 PM.", kind="transport"),
             event("Evening", "Easy dinner and settle in.", kind="meal"),
         ],
-        "notes": ["Formal checkout from Villa Alpenrausch is by 11 AM. Keep both the Bounce code and Salzburg lockbox instructions available offline."],
+        "notes": ["Formal checkout from Villa Alpenrausch is by 11 AM. Keep both the Bounce code and Salzburg lockbox instructions available offline. Use the separate self-guided route in **day6_salzburg_walking_tour.md** for the Altstadt walk."],
         "map": "day6_salzburg",
     },
     {
