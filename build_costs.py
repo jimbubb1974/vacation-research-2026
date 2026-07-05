@@ -41,6 +41,7 @@ COSTS = [
     ("Transport", "Bayern-Ticket: Munich → Berchtesgaden (Jul 14, group) — €64.00 paid, Conf. 342448586457", 69.76, False),
     ("Transport", "Bounce luggage storage, Munich (Jul 12, 4 reg + 4 small bags) — €40.80 paid, Ref S69FQ16J", 44.47, False),
     ("Transport", "Berchtesgaden local RVO buses — included with host-provided Guest Card (line 849 excluded)", 0.00, False),
+    ("Transport", "Day 4 taxis: Zechmeister → Wimbachbrücke → Berchtesgaden salt mine", 70.00, True),
     ("Transport", "Schönau → Salzburg: Taxi Angerer (Jul 17) — €75.00 paid",  81.75, False),
     ("Transport", "Bounce luggage storage, Salzburg (Jul 17, 4 reg + 4 small bags) — €48.80 paid, Ref 543WH67Q", 53.19, False),
     ("Transport", "WESTbahn: Salzburg → Vienna (Jul 19, 4 people) — Conf. NAYRKY", 262.84, False),
@@ -51,7 +52,8 @@ COSTS = [
     # ACTIVITIES
     ("Activities", "Mike's Bike Tours Munich (4 people) — €180.67 paid, Booking #354406124", 197.00, False),
     ("Activities", "Nymphenburg Palace combination ticket — €58 paid, Order #42616", 63.00, False),
-    ("Activities", "Eagle's Nest Kehlstein bus (4 people)",                      80.00, True),
+    ("Activities", "Optional Eagle's Nest game-time audible: Kehlstein bus (4 people)", 80.00, True),
+    ("Activities", "Wimbachklamm gorge admission (4 people)",                       18.00, True),
     ("Activities", "Königssee electric boat (4 people)",                         88.00, True),
     ("Activities", "Hohensalzburg fortress admission (4 people)",                66.00, True),
     ("Activities", "St. Peter Stiftskeller dinner (4 people)",                  220.00, True),

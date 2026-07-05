@@ -233,7 +233,8 @@ Platform shown as a range (Gl. 5–10) on the ticket — confirm exact platform 
 
 | Item | Priority | Notes |
 |---|---|---|
-| Eagle's Nest Kehlstein bus | High | kehlsteinhaus.de; seasonal, limited capacity |
+| Eagle's Nest Kehlstein bus | Optional | Game-time audible only; do not prebook unless Day 4 plans change |
+| Berchtesgaden salt mine | High | Book an approximately 1:00 PM admission for Jul 15 after the Wimbachklamm hike |
 | St. Peter Stiftskeller Salzburg | High | Dinner reservation; book several weeks ahead |
 | Schönbrunn Palace timed entry | High | Jul 20; busy in July — book in advance |
 | Upper Belvedere timed entry | Low | Jul 21; opens 9 AM |

@@ -14,8 +14,8 @@
 | 1 | Sun Jul 12 | Munich | Munich — Adamstraße 4 | Arrive MUC; S-Bahn to Marienplatz; Bounce bag storage 10 AM–7 PM; Altstadt; check in at Adamstraße 4. |
 | 2 | Mon Jul 13 | Munich | Munich — Adamstraße 4 | Free morning; Mike's Classic Bike Tour 11:30 AM–3:30 PM; Hofbräuhaus dinner at 6 PM. |
 | 3 | Tue Jul 14 | Munich → Schönau am Königssee | Villa Alpenrausch | Nymphenburg Palace and park; collect bags; regional trains via Freilassing; taxi to Schönau (Bus 841 backup). |
-| 4 | Wed Jul 15 | Berchtesgaden area | Villa Alpenrausch | Bus via Berchtesgaden to Obersalzberg; Eagle's Nest; afternoon salt mine. |
-| 5 | Thu Jul 16 | Königssee | Villa Alpenrausch | Bus to Königssee dock; electric boat to Salet; hike to Obersee and Rotbachfall; return by boat. |
+| 4 | Wed Jul 15 | Berchtesgaden area | Villa Alpenrausch | Breakfast and trail lunch pickup; taxi to Wimbachklamm hike; afternoon salt mine; Berchtesgaden dinner. |
+| 5 | Thu Jul 16 | Königssee | Villa Alpenrausch | Zechmeister breakfast and trail lunch; Bus 843B to Königssee; target 8:45 AM boat; Obersee and Röthbachfall; early return. |
 | 6 | Fri Jul 17 | Schönau → Salzburg | Salzburg — Gstättengasse 25 | Checkout; Taxi Angerer at 10:30 AM to Salzburg Bounce storage around 11:15 AM; Altstadt; pick up bags at 6 PM; apartment check-in. |
 | 7 | Sat Jul 18 | Salzburg | Salzburg — Gstättengasse 25 | Fortress Hohensalzburg; Getreidegasse; Mirabell Gardens; St. Peter dinner. |
 | 8 | Sun Jul 19 | Salzburg → Vienna | Vienna — Operngasse | WESTbahn 9:52 AM; Vienna Bounce storage; Old Town and KHM; apartment check-in. |
@@ -94,26 +94,40 @@
   - **Where / how:** Default: use the taxi rank outside Berchtesgaden Hbf for **Villa Alpenrausch, Waldhauserstraße 29, 83471 Schönau am Königssee**. Backup: board **Bus 841** toward Königssee/Schönau and exit at the nearest stop. Host Philipp: +49 176 21421010. Check-in is from 4 PM.
 > **Day note:** The Bayern-Ticket covers the regional trains and backup Bus 841. Confirm the exact Munich platform and taxi availability on the day.
 
-### Day 4 — Wed Jul 15 · Eagle's Nest + Salt Mine
-- **Morning** — Use the host-provided Berchtesgaden Guest Card to travel to the Obersalzberg departure point for Eagle's Nest.
-  - **Where / how:** From Villa Alpenrausch, walk about 2–5 minutes to **Fischmichllehen** on Waldhauserstraße (near the Am Köppelberg junction). Take RVO **843B toward ZOB/Berchtesgaden Hbf**. At the ZOB, transfer to RVO **838 toward Dokumentation Obersalzberg / Kehlstein Busabfahrt**. Show the Guest Card on both local buses and check the 2026 timetable/app for the best connection.
-- **Morning departure TBD** — Take the **Kehlsteinhaus Bus (RVO line 849)** and elevator to the Eagle's Nest summit (1,834 m); allow 3–4 hours including the return.
-  - **Where / how:** Board line **849** at **Dokumentation Obersalzberg / Kehlstein Busabfahrt**. This mountain bus requires a separate paid ticket and is **not covered by the Guest Card**. We plan to buy same-day tickets at the departure point; arrive early and be prepared to wait for a later bus if the next departure is full. After the upper bus stop, walk through the tunnel to the elevator.
-- **Afternoon** — Visit the Berchtesgaden salt mine (about 1½ hours): mine train, underground salt lake, and wooden slide.
-  - **Where / how:** Return from Obersalzberg toward Berchtesgaden. Confirm the salt-mine entrance route and booked/selected admission time before leaving in the morning.
-> **Day note:** Decision reminder: we intentionally chose not to prebook Kehlstein line 849 because we value the flexibility to decide based on weather and energy. We are optimistic that an early Wednesday walk-up will have space, but accept that we may need to wait or skip Eagle's Nest if buses are full. Ask the Airbnb host for the physical or digital Berchtesgaden Guest Card; it covers local lines 843B and 838, but not line 849. The salt mine also appears to have plenty of availability, so we do not plan to book it in advance; recheck shortly before the trip.
+### Day 4 — Wed Jul 15 · Wimbachklamm + Salt Mine
+- **7:00–8:00 AM** — Breakfast at **Café Konditorei Confiserie Kaffeesatz**.
+  - **Where / how:** **Artenreitring 5, 83471 Schönau am Königssee**, only a few minutes on foot from Villa Alpenrausch. The café advertises breakfast, pastries, and coffee and is scheduled to open at 7:00 AM on Wednesday; recheck hours shortly before the trip.
+- **8:00–8:20 AM** — Walk to **Bäckerei Zechmeister (Filiale Unterstein)** and buy sandwiches or other lunch supplies for the hike.
+  - **Where / how:** **Untersteiner Straße 29, 83471 Schönau am Königssee**, about a 10-minute walk from Café Kaffeesatz. The bakery is beside the **Rathaus Unterstein** bus stop and is scheduled to be open from 6:30 AM on Wednesday.
+- **~8:20–8:40 AM** — Take a **taxi to the Wimbachbrücke trailhead** — primary plan.
+  - **Where / how:** Ask the taxi to collect the group at Bäckerei Zechmeister, Untersteiner Straße 29, and drop off at **Wanderparkplatz / Bushaltestelle Wimbachbrücke, Ramsau**. Allow roughly 15–20 minutes and arrange the pickup in advance. **Bus backup:** seasonal RVO **846** serves Rathaus Unterstein and Wimbachbrücke; check the final July 2026 timetable because service is limited and roughly hourly.
+- **~8:40 AM–12:15 PM** — Hike through **Wimbachklamm to Wimbachschloss and back** (AllTrails: 5.4 miles, 1,141 feet of gain, moderate, about 3–3½ hours).
+  - **Where / how:** Start at **Wimbachbrücke**. Buy gorge admission before entering and carry the bakery lunch. The gorge walkway is one-way uphill; return from Wimbachschloss using the parallel forest road rather than trying to re-enter the gorge. Download the AllTrails map for offline use: https://www.alltrails.com/trail/germany/bavaria/wanderung-durch-die-wimbachklamm
+- **~12:15–12:40 PM** — Take a taxi from Wimbachbrücke to **Salzbergwerk Berchtesgaden**.
+  - **Where / how:** Destination: **Bergwerkstraße 83, 83471 Berchtesgaden**. Arrange the return pickup when booking the morning taxi, or call from the trailhead after the hike.
+- **~1:00–3:00 PM** — Visit the Berchtesgaden salt mine: mine train, underground salt lake, and wooden slides.
+  - **Where / how:** Allow 1½–2 hours including check-in and changing into visitor clothing. Reserve a suitable afternoon admission time in advance. From the mine, RVO **840** reaches Berchtesgaden Hbf/ZOB in about five minutes.
+- **Late afternoon–evening** — Wander central Berchtesgaden and have dinner near the Marktplatz.
+  - **Where / how:** Take Bus 840 from the **Salzbergwerk** stop to Berchtesgaden Hbf/ZOB, then walk uphill into the historic center and Marktplatz. Return to Villa Alpenrausch by taxi or the appropriate evening local bus after checking the live timetable.
+> **Day note:** Primary plan: Wimbachklamm hike and salt mine. Eagle's Nest remains marked on the map only as a game-time audible if weather, energy, and same-day line 849 availability make a change worthwhile; it is not part of the scheduled Day 4 plan. Carry water, sun protection, weather layers, and offline trail navigation. Confirm Wimbachklamm conditions, taxi arrangements, café/bakery hours, and the salt-mine admission before the trip.
 
 ### Day 5 — Thu Jul 16 · Königssee + Obersee
-- **~9:00 AM** — Travel to the Königssee boat landing.
-  - **Where / how:** Take **Bus 841** from the Schönau area toward Königssee/Jennerbahn and follow signs to the lakeside boat ticket office and landing. Check the return sailing board before departing.
-- **~9:00–10:00 AM** — Take an electric boat to **Salet** at the south end of Königssee; the ride is about 50 minutes and passes St. Bartholomä.
-  - **Where / how:** Use the Königssee lakeside boat landing. Board the sailing specifically continuing to **Salet**, not one terminating at St. Bartholomä.
-- **Mid-morning** — Walk from Salet landing to Obersee (about 20 minutes).
-- **Late morning** — Continue toward Röthbachfall, about 30 minutes farther, conditions permitting.
-- **Midday** — Return to Salet landing and take the electric boat back to Königssee.
-  - **Where / how:** Allow a generous margin for the final return sailing; verify that day's last departure from Salet on arrival.
-- **Afternoon** — Free time in Schönau; keep the pace flexible after the hike.
-> **Day note:** Carry water and weather layers. Boat times and trail conditions must be checked on the day.
+- **~6:35–7:35 AM** — Walk to **Bäckerei Zechmeister (Filiale Unterstein)** for breakfast and buy sandwiches or other lunch supplies.
+  - **Where / how:** **Untersteiner Straße 29, 83471 Schönau am Königssee**, about a 10-minute walk from Villa Alpenrausch. The bakery is scheduled to open at 6:30 AM on Thursday and is beside the **Rathaus Unterstein** bus stop.
+- **Target ~7:52 AM** — Take **RVO Bus 843B from Rathaus Unterstein to Königssee**.
+  - **Where / how:** Board beside the bakery and exit at **Königssee** near the Seelände. The prior summer timetable shows a roughly four-minute ride, but confirm the final July 2026 departure in the DB Navigator/RVO timetable. This early bus leaves enough walking and boarding time for the target boat.
+- **Target 8:45 AM** — Take an electric boat to **Salet** at the south end of Königssee.
+  - **Where / how:** Arrive at the Seelände early with tickets ready and board a sailing continuing to **Salet**, not one terminating at St. Bartholomä. The official main-season timetable begins at 8:00 AM and then runs approximately every 30 minutes, so verify that an **8:45 AM** sailing is actually offered that day. The trip to Salet takes about one hour.
+- **~9:45–10:05 AM** — Walk from Salet landing to Obersee (about 20 minutes).
+- **Late morning–early afternoon** — Continue along Obersee toward Fischunkelalm and Röthbachfall, eat the bakery lunch, and turn around with a large time buffer.
+  - **Where / how:** Trail conditions and the group's pace determine the turnaround point. Keep enough margin to be back at Salet by about **2:00 PM**.
+- **Target by 2:00 PM** — Return to Salet landing and board the first available boat back toward Königssee Seelände.
+  - **Where / how:** The operator recommends beginning the return by **2:30 PM** on busy summer days. Our plan is to be at Salet by about 2:00 PM and take the first available boat—well ahead of the final departure.
+- **Hard cutoff 5:40 PM** — The final scheduled boat leaves **Salet at 5:40 PM**; do not let the day's timing get remotely close to this cutoff.
+  - **Where / how:** Missing the last boat can require water-rescue assistance. Treat 5:40 PM as an emergency-only boundary, not a usable return option.
+- **Mid-afternoon** — Return by bus to the Unterstein area and walk back to Villa Alpenrausch.
+  - **Where / how:** Use the current local-bus timetable from Königssee toward Rathaus Unterstein, then walk about 10 minutes from the bakery/Rathaus area to the apartment.
+> **Day note:** Carry water, lunch, and weather layers. Buy boat tickets online if available and check trail conditions and live sailings before leaving. The boat operator currently reports that St. Bartholomä service has been suspended since July 1, 2026; confirm that Salet service has resumed before relying on this plan. If service remains suspended, use a land-based backup day.
 
 ### Day 6 — Fri Jul 17 · Travel to Salzburg
 - **10:30–11:15 AM** — Checkout and take **Taxi Angerer** to the Salzburg Bounce location.
@@ -203,14 +217,15 @@
 
 ## Booking Priorities
 
-1. **Eagle's Nest Kehlstein bus** — seasonal, limited capacity; book at kehlsteinhaus.de
+1. **Berchtesgaden salt mine** — book an approximately 1:00 PM admission for Jul 15 after the Wimbachklamm hike
 2. ~~Mike's Bike Tours Munich~~ — **BOOKED** (Booking #354406124, Jul 13 11:30 AM)
 3. **St. Peter Stiftskeller Salzburg** — dinner reservation; book several weeks ahead
 4. **Schönbrunn Palace** — book timed entry in advance for Jul 20; busy in July
 5. ~~Nymphenburg Palace~~ — **BOOKED** (Order #42616, Jul 14 9:00 AM entry)
 6. **KHM (Kunsthistorisches Museum)** — no advance booking needed but confirm hours; currently open daily 10 AM–6 PM
-6. ~~IAD → MUC outbound / VIE → IAD return~~ — **BOOKED** (UA 108 outbound + OS 41 return; Confirmation IKR3ZV)
-7. **All accommodation** — July is peak season everywhere on this route
+7. ~~IAD → MUC outbound / VIE → IAD return~~ — **BOOKED** (UA 108 outbound + OS 41 return; Confirmation IKR3ZV)
+8. **Eagle's Nest Kehlstein bus** — optional game-time audible only; do not prebook unless Day 4 plans change
+9. **All accommodation** — July is peak season everywhere on this route
 
 ---
 
@@ -236,11 +251,12 @@
 | Route | Bus | Notes |
 |---|---|---|
 | Villa Alpenrausch → Berchtesgaden Hbf/ZOB | 843B | Walk to Fischmichllehen stop; Guest Card covers fare |
-| Berchtesgaden Hbf/ZOB → Obersalzberg | 838 | Exit at Dokumentation / Kehlstein Busabfahrt; Guest Card covers fare |
-| Obersalzberg → Kehlstein | 849 | Kehlsteinhaus Bus; separate paid reservation, not covered by Guest Card |
-| Schönau → Königssee dock | 841 | Guest Card covers fare; short ride for Day 5 boat departure |
+| Rathaus Unterstein → Wimbachbrücke | 846 | Backup for Day 4 taxi; seasonal and roughly hourly, so confirm the July 2026 timetable |
+| Salzbergwerk → Berchtesgaden Hbf/ZOB | 840 | About 5 minutes after the salt-mine visit |
+| Rathaus Unterstein → Königssee dock | 843B | Day 5 breakfast departure; confirm the July 2026 timetable and target the early bus for the 8:45 AM boat |
+| Obersalzberg → Kehlstein | 849 | Optional game-time audible only; separately paid and not covered by Guest Card |
 
-The Villa Alpenrausch host provides the **Berchtesgaden Guest Card**. Carry it on local buses. Check the current RVO timetable before leaving; arrive at the line 849 departure point at least 30 minutes before the reserved time.
+The Villa Alpenrausch host provides the **Berchtesgaden Guest Card**. Carry it on local buses and verify which Day 4 fares it covers. Taxi is the primary Wimbachbrücke plan; Bus 846 is the timetable-dependent backup.
 
 ---
 
@@ -367,21 +383,23 @@ Nonstop — 9h 45m
 | | Königssee — Villa Alpenrausch, 3 nights (Jul 14–17) BOOKED | $1,436 |
 | | Salzburg — Mozart House Gstättengasse 25, 2 nights (Jul 17–19) — Conf. HM4NSFM9J3 | $1,007 |
 | | Vienna — City Center Klimt's Balcony Suite, 3 nights (Jul 19–22) — Conf. HMT8SQRKMA | $1,068 |
-| **Transport** | | **$641** |
+| **Transport** | | **$711** |
 | | Airport → city: MVV group day ticket (Jul 12) \* | $16 |
 | | Bayern-Ticket: Munich → Berchtesgaden (Jul 14, group) — €64.00 paid, Conf. 342448586457 | $70 |
 | | Bounce luggage storage, Munich (Jul 12, 4 reg + 4 small bags) — €40.80 paid, Ref S69FQ16J | $44 |
 | | Berchtesgaden local RVO buses — included with host-provided Guest Card (line 849 excluded) | $0 |
+| | Day 4 taxis: Zechmeister → Wimbachbrücke → Berchtesgaden salt mine \* | $70 |
 | | Schönau → Salzburg: Taxi Angerer (Jul 17) — €75.00 paid | $82 |
 | | Bounce luggage storage, Salzburg (Jul 17, 4 reg + 4 small bags) — €48.80 paid, Ref 543WH67Q | $53 |
 | | WESTbahn: Salzburg → Vienna (Jul 19, 4 people) — Conf. NAYRKY | $263 |
 | | Bounce luggage storage, Vienna (Jul 19, 4 reg + 4 small bags) — €30.27 paid, Ref 1X9XMXPG | $33 |
 | | Vienna public transit (Jul 19–22) \* | $28 |
 | | CAT Wien Mitte → VIE airport (Jul 22, 4 people) \* | $52 |
-| **Activities** | | **$994** |
+| **Activities** | | **$1,012** |
 | | Mike's Bike Tours Munich (4 people) — €180.67 paid, Booking #354406124 | $197 |
 | | Nymphenburg Palace combination ticket — €58 paid, Order #42616 | $63 |
-| | Eagle's Nest Kehlstein bus (4 people) \* | $80 |
+| | Optional Eagle's Nest game-time audible: Kehlstein bus (4 people) \* | $80 |
+| | Wimbachklamm gorge admission (4 people) \* | $18 |
 | | Königssee electric boat (4 people) \* | $88 |
 | | Hohensalzburg fortress admission (4 people) \* | $66 |
 | | St. Peter Stiftskeller dinner (4 people) \* | $220 |
@@ -392,7 +410,7 @@ Nonstop — 9h 45m
 | | Meals (~$150/day × 11 days) \* | $1,650 |
 | | Miscellaneous / buffer \* | $500 |
 | | | |
-| **TOTAL** | | **$13,501** |
+| **TOTAL** | | **$13,589** |
 <!-- COSTS_END -->
 
 ---
