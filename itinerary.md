@@ -12,11 +12,11 @@
 |---|---|---|---|---|
 | 0 | Sat Jul 11 | Washington, DC → Munich | In flight | Depart IAD on UA 108; transatlantic overnight flight. |
 | 1 | Sun Jul 12 | Munich | Munich — Adamstraße 4 | Arrive MUC; S-Bahn to Marienplatz; Bounce bag storage 10 AM–7 PM; Altstadt; check in at Adamstraße 4. |
-| 2 | Mon Jul 13 | Munich | Munich — Adamstraße 4 | Free morning; Mike's Classic Bike Tour 11:30 AM–3:30 PM; Bavarian dinner. |
+| 2 | Mon Jul 13 | Munich | Munich — Adamstraße 4 | Free morning; Mike's Classic Bike Tour 11:30 AM–3:30 PM; Hofbräuhaus dinner at 6 PM. |
 | 3 | Tue Jul 14 | Munich → Schönau am Königssee | Villa Alpenrausch | Nymphenburg Palace and park; collect bags; regional trains via Freilassing; taxi to Schönau (Bus 841 backup). |
 | 4 | Wed Jul 15 | Berchtesgaden area | Villa Alpenrausch | Bus via Berchtesgaden to Obersalzberg; Eagle's Nest; afternoon salt mine. |
 | 5 | Thu Jul 16 | Königssee | Villa Alpenrausch | Bus to Königssee dock; electric boat to Salet; hike to Obersee and Rotbachfall; return by boat. |
-| 6 | Fri Jul 17 | Schönau → Salzburg | Salzburg — Gstättengasse 25 | Checkout; Taxi Angerer to Salzburg Bounce storage at 10:30 AM; Altstadt; pick up bags at 6 PM; apartment check-in. |
+| 6 | Fri Jul 17 | Schönau → Salzburg | Salzburg — Gstättengasse 25 | Checkout; Taxi Angerer at 10:30 AM to Salzburg Bounce storage around 11:15 AM; Altstadt; pick up bags at 6 PM; apartment check-in. |
 | 7 | Sat Jul 18 | Salzburg | Salzburg — Gstättengasse 25 | Fortress Hohensalzburg; Getreidegasse; Mirabell Gardens; St. Peter dinner. |
 | 8 | Sun Jul 19 | Salzburg → Vienna | Vienna — Operngasse | WESTbahn 9:52 AM; Vienna Bounce storage; Old Town and KHM; apartment check-in. |
 | 9 | Mon Jul 20 | Vienna | Vienna — Operngasse | Naschmarkt breakfast; U4 to Schönbrunn; palace, gardens, maze, and Gloriette; evening Old Town stroll. |
@@ -66,21 +66,23 @@
 - **11:30 AM** — Classic Bike Tour departs — **BOOKED** (Booking #354406124); about four hours through the English Garden, Olympiapark, and city highlights. Helmets are provided.
   - **Where / how:** If 0–10 minutes late, look near the Statue of Juliet by the tower. If 15+ minutes late, go directly to the shop at **Hochbrückenstrasse 10**, corner of Brauhausstrasse.
 - **~3:30 PM** — Bike tour returns to central Munich.
-- **Evening** — Dinner at Hofbräuhaus München for traditional Bavarian food.
-  - **Where / how:** **Platzl 9, 80331 Munich**, about a 4-minute walk east of Mike's meeting point at Marienplatz 15.
+- **6:00–8:00 PM** — Dinner at **Hofbräuhaus München** — **BOOKED** for four guests.
+  - **Where / how:** **Platzl 9, 80331 Munich**, about a 4-minute walk east of Mike's meeting point at Marienplatz 15. The table is in the **Bräustüberl on the first floor** and will be held for only about 10 minutes after 6:00 PM. If delayed, call +49 89 290136100.
 > **Day note:** Both teens must bring valid student ID because the student rate was used for their tickets.
+> **Day note:** Hofbräuhaus reservations cannot be seated on the ground floor or outside; arrive before 6:00 PM for the first-floor Bräustüberl table.
 
 ### Day 3 — Tue Jul 14 · Munich → Königssee
-- **~8:45 AM** — Leave packed bags with Lars after checkout and go to Nymphenburg Palace.
-  - **Where / how:** Walk about 15 minutes from Adamstraße 4, or take **Tram 17** from Rotkreuzplatz via Romanplatz to Schloss Nymphenburg. Checkout is by 11 AM; arrange in advance for Lars to hold bags until about 1:30 PM.
+- **~8:10 AM** — Leave packed bags with Lars after checkout and go to Nymphenburg Palace.
+  - **Where / how:** The walk from **Adamstraße 4** to the palace entrance is about **4 km; allow 45–50 minutes**. Transit alternative: walk 15–20 minutes to **Rotkreuzplatz**, take **Tram 12 to Romanplatz**, then transfer to **Tram 17 toward Amalienburgstraße** and exit at **Schloss Nymphenburg**; allow 30–40 minutes including walking and the transfer. Checkout is by 11 AM; arrange in advance for Lars to hold bags until about 2:00 PM.
 - **9:00–10:00 AM** — Nymphenburg Palace state rooms — **BOOKED** (Order #42616; entry from 9 AM).
   - **Where / how:** Schloss Nymphenburg, 80638 München. Use the main palace entrance and keep all four combination tickets accessible.
 - **10:00–10:35 AM** — Marstallmuseum: royal carriages and the Nymphenburg Porcelain collection.
 - **10:35–11:30 AM** — Walk through the park to Amalienburg and visit the rococo hunting lodge; prioritize the silver Hall of Mirrors.
 - **11:30 AM–12:30 PM** — See remaining park castles if energy allows, or take a slow walk back along the canal.
 - **12:30–1:15 PM** — Lunch at Palmenhaus café in the Orangery.
-- **~1:15 PM** — Walk back to Adamstraße 4 and collect bags from Lars.
-- **Early afternoon** — Use the schedule buffer to extend lunch or relax before the train.
+- **1:15–2:05 PM** — Return to Adamstraße 4 and collect bags from Lars.
+  - **Where / how:** Allow 45–50 minutes to walk back. Alternatively, take **Tram 17 from Schloss Nymphenburg to Romanplatz**, transfer to **Tram 12 toward Schwabing Nord**, exit at **Rotkreuzplatz**, and walk 15–20 minutes to the apartment.
+- **~2:05–2:30 PM** — Use the schedule buffer to collect bags and prepare for the trip to München Hbf.
 - **~2:30 PM** — Take Bus 51 toward München Hbf.
   - **Where / how:** Board Bus 51 in the Rotkreuzplatz area and allow about 20 minutes. At München Hbf, follow departure boards for the booked regional train; the ticket lists tracks **Gl. 5–10**, so confirm the exact platform at the station.
 - **3:47 PM** — Regional train departs München Hbf — **BOOKED** (Bayern-Ticket, Conf. 342448586457; Ticketcode GMYV89JG).
@@ -114,10 +116,10 @@
 > **Day note:** Carry water and weather layers. Boat times and trail conditions must be checked on the day.
 
 ### Day 6 — Fri Jul 17 · Travel to Salzburg
-- **~9:45 AM** — Checkout and take **Taxi Angerer** to the Salzburg Bounce location.
-  - **Where / how:** Pickup: **Villa Alpenrausch, Waldhauserstraße 29, Schönau am Königssee, Bavaria 83471**. Taxi Angerer confirmed pickup for Friday, Jul 17 at 10:30 AM (GMT+2). Driver contact: Stefan Aschauer; phone +49 8652 964900; email info@taxi-angerer.de; website https://www.taxi-angerer.de/. Destination: **Cafe cubed sugar, Griesgasse 13, 5020 Salzburg**. Allow about 45 minutes under normal conditions. Four passengers with four carry-on suitcases and four backpacks.
-- **10:30 AM** — Drop bags at **Bounce — Cafe cubed sugar (Altstadt)** — **BOOKED** (Ref. 543WH67Q).
-  - **Where / how:** **Griesgasse 13, 5020 Salzburg**, first floor. Storage is booked for four regular and four small bags until 6:00 PM. Show the booking code from the Bounce app to staff.
+- **10:30–11:15 AM** — Checkout and take **Taxi Angerer** to the Salzburg Bounce location.
+  - **Where / how:** Pickup: **Villa Alpenrausch, Waldhauserstraße 29, Schönau am Königssee, Bavaria 83471**. Taxi Angerer confirmed pickup for Friday, Jul 17 at 10:30 AM (GMT+2), with scheduled arrival at 11:15 AM. Driver contact: Stefan Aschauer; phone +49 8652 964900; email info@taxi-angerer.de; website https://www.taxi-angerer.de/. Destination: **Cafe cubed sugar, Griesgasse 13, 5020 Salzburg**. Four passengers with four carry-on suitcases and four backpacks. Total cost: **€75.00**.
+- **~11:15 AM** — Drop bags at **Bounce — Cafe cubed sugar (Altstadt)** — **BOOKED** (Ref. 543WH67Q).
+  - **Where / how:** **Griesgasse 13, 5020 Salzburg**, first floor. The storage booking window begins at 10:30 AM and covers four regular and four small bags until 6:00 PM. Show the booking code from the Bounce app to staff.
 - **Late morning** — Have lunch and begin exploring the Altstadt at an easy pace.
 - **Afternoon** — Explore the Altstadt: Getreidegasse, Mozart's birthplace exterior at No. 9, Salzburg Cathedral, and Residenzplatz.
 - **6:00 PM** — Pick up bags from Bounce.
@@ -304,12 +306,12 @@ The Villa Alpenrausch host provides the **Berchtesgaden Guest Card**. Carry it o
 
 | Base | Option | Status | Dates | Cost | Link |
 |---|---|---|---|---|---|
-| Munich | PRIME: City Apartment für 6 (Airbnb) | **Booked** | Jul 12–14 (2 nights) | $782.08 total — Conf. HM4ZPJHYB9 | [Airbnb](https://www.airbnb.com/rooms/1575373648492118883) |
+| Munich | PRIME: City Apartment für 6 (Airbnb) | **Booked** | Jul 12–14 (2 nights) | $782.08 total — Conf. HM4ZPJHYB9 | [Airbnb](https://www.airbnb.com/rooms/976003178992066534) |
 | Schönau am Königssee | Villa Alpenrausch | **Booked** | Jul 14–17 (3 nights) | $1,435.99 | [Airbnb](https://www.airbnb.com/rooms/1575373648492118883) |
 | Salzburg | Big Flat in Historic Mozart House (Airbnb) | **Booked** | Jul 17–19 (2 nights) | $1,007.28 total — Conf. HM4NSFM9J3 | — |
 | Vienna | City Center Klimt's Balcony Suite (Airbnb) | **Booked** | Jul 19–22 (3 nights) | $1,068.21 total — Conf. HMT8SQRKMA | — |
 
-**Munich — PRIME: City Apartment für 6 | Neu & Modern notes:** Adamstraße 4, 80636 Munich (Neuhausen-Nymphenburg). Entire home hosted by Lars (+49 162 2840104). **BOOKED** — Conf. HM4ZPJHYB9. Check-in Sun Jul 12 after 3:00 PM; check-out Tue Jul 14 by 11:00 AM. **$782.08 total** (charged to Visa 0815 on Jun 29, 2026). Free cancellation before 3:00 PM Jul 7. Quiet hours 10:00 PM – 8:00 AM; max 6 guests; no pets; must climb stairs. ~15-min walk or Tram 17 to Nymphenburg Palace.
+**Munich — PRIME: City Apartment für 6 | Neu & Modern notes:** Adamstraße 4, 80636 Munich (Neuhausen-Nymphenburg). Entire home hosted by Lars (+49 162 2840104). **BOOKED** — Conf. HM4ZPJHYB9. Check-in Sun Jul 12 after 3:00 PM; check-out Tue Jul 14 by 11:00 AM. **$782.08 total** (charged to Visa 0815 on Jun 29, 2026). Free cancellation before 3:00 PM Jul 7. Quiet hours 10:00 PM – 8:00 AM; max 6 guests; no pets; must climb stairs. Nymphenburg Palace is about a 4 km / 45–50 minute walk; the transit alternative is Tram 12 from Rotkreuzplatz to Romanplatz, then Tram 17 to Schloss Nymphenburg.
 
 **Vienna — City Center Klimt's Balcony Suite notes:** Operngasse, Vienna (city center, near Opera). Entire home hosted by Eva & Friends (+43 676 5249090). **BOOKED** — Conf. HMT8SQRKMA. Check-in Sun Jul 19 after 4:00 PM; checkout Wed Jul 22 by 10:00 AM. **$1,068.21 total** ($534.12 paid Jun 13; $534.09 due Jul 4; both Visa 0815). Free cancellation within 24 hrs of booking; partial refund if cancelled before 4:00 PM Jul 12. Max 6 guests; no pets; quiet hours 6:00 PM – 9:00 AM.
 

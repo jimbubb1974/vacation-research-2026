@@ -102,6 +102,7 @@ Booked: 2026-06-07 · 4 travelers: James Bubb, Kristi Bubb, Alexander Bubb, Kath
 
 **Booked:** Friday, Jul 17, 2026
 **Pickup:** 10:30 AM GMT+2
+**Scheduled arrival:** 11:15 AM GMT+2
 **Pickup address:** Waldhauserstraße 29, Schönau am Königssee, Bavaria 83471
 **Drop-off:** Cafe cubed sugar (Altstadt), Griesgasse 13, Salzburg 5020
 **Passengers:** 4 passengers with 4 carry-on suitcases and 4 backpacks
@@ -211,6 +212,20 @@ Platform shown as a range (Gl. 5–10) on the ticket — confirm exact platform 
 
 **Covers:** Nymphenburg Palace state rooms + Marstallmuseum (with Museum of Nymphenburg Porcelain) + all park castles (Amalienburg, Badenburg, Pagodenburg, Magdalenenklause)
 **Note:** Tickets cannot be returned or exchanged.
+
+---
+
+## Dining
+
+### Munich — Hofbräuhaus München
+
+**Reserved:** 2026-06-28
+**Date:** Monday, Jul 13, 2026 · 6:00 PM–8:00 PM
+**Guests:** 4
+**Address:** Platzl 9, 80331 München
+**Table:** Bräustüberl, first floor (ground-floor and outdoor seating are not available for reservations)
+**Arrival:** The table is held for approximately 10 minutes after 6:00 PM; contact the restaurant if delayed
+**Contact:** +49 89 290136100 · willkommen@hofbraeuhaus.de
 
 ---
 

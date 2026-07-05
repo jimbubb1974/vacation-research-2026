@@ -83,7 +83,7 @@ DAYS = [
         "title": "Munich",
         "location": "Munich",
         "overnight": "Munich — Adamstraße 4",
-        "summary": "Free morning; Mike's Classic Bike Tour 11:30 AM–3:30 PM; Bavarian dinner.",
+        "summary": "Free morning; Mike's Classic Bike Tour 11:30 AM–3:30 PM; Hofbräuhaus dinner at 6 PM.",
         "events": [
             event("Morning", "Free time: sleep in, have breakfast, or wander nearby.", kind="flex"),
             event(
@@ -100,13 +100,13 @@ DAYS = [
             ),
             event("~3:30 PM", "Bike tour returns to central Munich.", kind="activity"),
             event(
-                "Evening",
-                "Dinner at Hofbräuhaus München for traditional Bavarian food.",
-                where="**Platzl 9, 80331 Munich**, about a 4-minute walk east of Mike's meeting point at Marienplatz 15.",
-                kind="meal",
+                "6:00–8:00 PM",
+                "Dinner at **Hofbräuhaus München** — **BOOKED** for four guests.",
+                where="**Platzl 9, 80331 Munich**, about a 4-minute walk east of Mike's meeting point at Marienplatz 15. The table is in the **Bräustüberl on the first floor** and will be held for only about 10 minutes after 6:00 PM. If delayed, call +49 89 290136100.",
+                kind="booking",
             ),
         ],
-        "notes": ["Both teens must bring valid student ID because the student rate was used for their tickets."],
+        "notes": ["Both teens must bring valid student ID because the student rate was used for their tickets.", "Hofbräuhaus reservations cannot be seated on the ground floor or outside; arrive before 6:00 PM for the first-floor Bräustüberl table."],
         "map": "day2_munich",
     },
     {
@@ -118,9 +118,9 @@ DAYS = [
         "summary": "Nymphenburg Palace and park; collect bags; regional trains via Freilassing; taxi to Schönau (Bus 841 backup).",
         "events": [
             event(
-                "~8:45 AM",
+                "~8:10 AM",
                 "Leave packed bags with Lars after checkout and go to Nymphenburg Palace.",
-                where="Walk about 15 minutes from Adamstraße 4, or take **Tram 17** from Rotkreuzplatz via Romanplatz to Schloss Nymphenburg. Checkout is by 11 AM; arrange in advance for Lars to hold bags until about 1:30 PM.",
+                where="The walk from **Adamstraße 4** to the palace entrance is about **4 km; allow 45–50 minutes**. Transit alternative: walk 15–20 minutes to **Rotkreuzplatz**, take **Tram 12 to Romanplatz**, then transfer to **Tram 17 toward Amalienburgstraße** and exit at **Schloss Nymphenburg**; allow 30–40 minutes including walking and the transfer. Checkout is by 11 AM; arrange in advance for Lars to hold bags until about 2:00 PM.",
                 kind="transport",
             ),
             event("9:00–10:00 AM", "Nymphenburg Palace state rooms — **BOOKED** (Order #42616; entry from 9 AM).", where="Schloss Nymphenburg, 80638 München. Use the main palace entrance and keep all four combination tickets accessible.", kind="booking"),
@@ -128,8 +128,8 @@ DAYS = [
             event("10:35–11:30 AM", "Walk through the park to Amalienburg and visit the rococo hunting lodge; prioritize the silver Hall of Mirrors.", kind="activity"),
             event("11:30 AM–12:30 PM", "See remaining park castles if energy allows, or take a slow walk back along the canal.", kind="flex"),
             event("12:30–1:15 PM", "Lunch at Palmenhaus café in the Orangery.", kind="meal"),
-            event("~1:15 PM", "Walk back to Adamstraße 4 and collect bags from Lars.", kind="transport"),
-            event("Early afternoon", "Use the schedule buffer to extend lunch or relax before the train.", kind="flex"),
+            event("1:15–2:05 PM", "Return to Adamstraße 4 and collect bags from Lars.", where="Allow 45–50 minutes to walk back. Alternatively, take **Tram 17 from Schloss Nymphenburg to Romanplatz**, transfer to **Tram 12 toward Schwabing Nord**, exit at **Rotkreuzplatz**, and walk 15–20 minutes to the apartment.", kind="transport"),
+            event("~2:05–2:30 PM", "Use the schedule buffer to collect bags and prepare for the trip to München Hbf.", kind="flex"),
             event(
                 "~2:30 PM",
                 "Take Bus 51 toward München Hbf.",
@@ -193,15 +193,15 @@ DAYS = [
         "title": "Travel to Salzburg",
         "location": "Schönau → Salzburg",
         "overnight": "Salzburg — Gstättengasse 25",
-        "summary": "Checkout; Taxi Angerer to Salzburg Bounce storage at 10:30 AM; Altstadt; pick up bags at 6 PM; apartment check-in.",
+        "summary": "Checkout; Taxi Angerer at 10:30 AM to Salzburg Bounce storage around 11:15 AM; Altstadt; pick up bags at 6 PM; apartment check-in.",
         "events": [
             event(
-                "~9:45 AM",
+                "10:30–11:15 AM",
                 "Checkout and take **Taxi Angerer** to the Salzburg Bounce location.",
-                where="Pickup: **Villa Alpenrausch, Waldhauserstraße 29, Schönau am Königssee, Bavaria 83471**. Taxi Angerer confirmed pickup for Friday, Jul 17 at 10:30 AM (GMT+2). Driver contact: Stefan Aschauer; phone +49 8652 964900; email info@taxi-angerer.de; website https://www.taxi-angerer.de/. Destination: **Cafe cubed sugar, Griesgasse 13, 5020 Salzburg**. Allow about 45 minutes under normal conditions. Four passengers with four carry-on suitcases and four backpacks.",
+                where="Pickup: **Villa Alpenrausch, Waldhauserstraße 29, Schönau am Königssee, Bavaria 83471**. Taxi Angerer confirmed pickup for Friday, Jul 17 at 10:30 AM (GMT+2), with scheduled arrival at 11:15 AM. Driver contact: Stefan Aschauer; phone +49 8652 964900; email info@taxi-angerer.de; website https://www.taxi-angerer.de/. Destination: **Cafe cubed sugar, Griesgasse 13, 5020 Salzburg**. Four passengers with four carry-on suitcases and four backpacks. Total cost: **€75.00**.",
                 kind="transport",
             ),
-            event("10:30 AM", "Drop bags at **Bounce — Cafe cubed sugar (Altstadt)** — **BOOKED** (Ref. 543WH67Q).", where="**Griesgasse 13, 5020 Salzburg**, first floor. Storage is booked for four regular and four small bags until 6:00 PM. Show the booking code from the Bounce app to staff.", kind="booking"),
+            event("~11:15 AM", "Drop bags at **Bounce — Cafe cubed sugar (Altstadt)** — **BOOKED** (Ref. 543WH67Q).", where="**Griesgasse 13, 5020 Salzburg**, first floor. The storage booking window begins at 10:30 AM and covers four regular and four small bags until 6:00 PM. Show the booking code from the Bounce app to staff.", kind="booking"),
             event("Late morning", "Have lunch and begin exploring the Altstadt at an easy pace.", kind="meal"),
             event("Afternoon", "Explore the Altstadt: Getreidegasse, Mozart's birthplace exterior at No. 9, Salzburg Cathedral, and Residenzplatz.", kind="activity"),
             event("6:00 PM", "Pick up bags from Bounce.", where="Return to **Cafe cubed sugar, Griesgasse 13**, first floor, by the booked pickup time.", kind="booking"),
