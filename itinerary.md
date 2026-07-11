@@ -13,7 +13,7 @@
 | 0 | Sat Jul 11 | Washington, DC → Munich | In flight | Depart IAD on UA 108; transatlantic overnight flight. |
 | 1 | Sun Jul 12 | Munich | Munich — Adamstraße 4 | Arrive MUC; S-Bahn to Marienplatz; Bounce bag storage 10 AM–7 PM; Altstadt; check in at Adamstraße 4. |
 | 2 | Mon Jul 13 | Munich | Munich — Adamstraße 4 | Free morning; Mike's Classic Bike Tour 11:30 AM–3:30 PM; Hofbräuhaus dinner at 6 PM. |
-| 3 | Tue Jul 14 | Munich → Schönau am Königssee | Villa Alpenrausch | Nymphenburg Palace and park; collect bags; regional trains via Freilassing; taxi to Schönau (Bus 841 backup). |
+| 3 | Tue Jul 14 | Munich → Schönau am Königssee | Villa Alpenrausch | Checkout; Bounce bag storage 8 AM–5 PM; Nymphenburg Palace and park; regional trains via Freilassing; taxi to Schönau (Bus 841 backup). |
 | 4 | Wed Jul 15 | Berchtesgaden area | Villa Alpenrausch | Breakfast and trail lunch pickup; taxi to Wimbachklamm hike; afternoon salt mine; Berchtesgaden dinner. |
 | 5 | Thu Jul 16 | Königssee | Villa Alpenrausch | Zechmeister breakfast and trail lunch; Bus 843B to Königssee; target 8:45 AM boat; Obersee and Röthbachfall; early return. |
 | 6 | Fri Jul 17 | Schönau → Salzburg | Salzburg — Gstättengasse 25 | Checkout; Taxi Angerer at 10:30 AM to Salzburg Bounce storage around 11:15 AM; Altstadt; pick up bags at 6 PM; apartment check-in. |
@@ -72,19 +72,25 @@
 > **Day note:** Hofbräuhaus reservations cannot be seated on the ground floor or outside; arrive before 6:00 PM for the first-floor Bräustüberl table.
 
 ### Day 3 — Tue Jul 14 · Munich → Königssee
-- **~8:10 AM** — Leave packed bags with Lars after checkout and go to Nymphenburg Palace.
-  - **Where / how:** The walk from **Adamstraße 4** to the palace entrance is about **4 km; allow 45–50 minutes**. Transit alternative: walk 15–20 minutes to **Rotkreuzplatz**, take **Tram 12 to Romanplatz**, then transfer to **Tram 17 toward Amalienburgstraße** and exit at **Schloss Nymphenburg**; allow 30–40 minutes including walking and the transfer. Checkout is by 11 AM; arrange in advance for Lars to hold bags until about 2:00 PM.
+- **~7:30 AM** — Checkout from apartment (Adamstraße 4, deadline 11 AM).
+  - **Where / how:** Prepare luggage for Bounce drop-off; pack only items needed for Nymphenburg Palace in day backpacks.
+- **~7:45–8:00 AM** — Transit to **Bounce (Hotel Isar City, Landwehrstraße 33)** — **BOOKED** (Ref. CAA1W9FR).
+  - **Where / how:** Walk 15–20 min or take U-Bahn/transit from apartment area to Landwehrstraße 33 (Ludwigsvorstadt-Isarvorstadt district).
+- **8:00 AM** — Drop all 4 regular + 4 small bags at Bounce. Keep only day backpacks for palace.
+  - **Where / how:** Show booking code CAA1W9FR from the Bounce app to staff. Pick-up window: 5:00 PM same day (plan to pick up ~2:15 PM for train).
+- **~8:30–9:00 AM** — Transit to Nymphenburg Palace.
+  - **Where / how:** From Bounce, take transit or taxi to **Schloss Nymphenburg, 80638 München**. Walk 15–20 minutes to Rotkreuzplatz, then take **Tram 12 to Romanplatz**, transfer to **Tram 17 toward Amalienburgstraße**, exit at **Schloss Nymphenburg**; allow 30–40 minutes total.
 - **9:00–10:00 AM** — Nymphenburg Palace state rooms — **BOOKED** (Order #42616; entry from 9 AM).
-  - **Where / how:** Schloss Nymphenburg, 80638 München. Use the main palace entrance and keep all four combination tickets accessible.
+  - **Where / how:** Schloss Nymphenburg, 80638 München. Use the main palace entrance.
 - **10:00–10:35 AM** — Marstallmuseum: royal carriages and the Nymphenburg Porcelain collection.
 - **10:35–11:30 AM** — Walk through the park to Amalienburg and visit the rococo hunting lodge; prioritize the silver Hall of Mirrors.
 - **11:30 AM–12:30 PM** — See remaining park castles if energy allows, or take a slow walk back along the canal.
 - **12:30–1:15 PM** — Lunch at Palmenhaus café in the Orangery.
-- **1:15–2:05 PM** — Return to Adamstraße 4 and collect bags from Lars.
-  - **Where / how:** Allow 45–50 minutes to walk back. Alternatively, take **Tram 17 from Schloss Nymphenburg to Romanplatz**, transfer to **Tram 12 toward Schwabing Nord**, exit at **Rotkreuzplatz**, and walk 15–20 minutes to the apartment.
-- **~2:05–2:30 PM** — Use the schedule buffer to collect bags and prepare for the trip to München Hbf.
-- **~2:30 PM** — Take Bus 51 toward München Hbf.
-  - **Where / how:** Board Bus 51 in the Rotkreuzplatz area and allow about 20 minutes. At München Hbf, follow departure boards for the booked regional train; the ticket lists tracks **Gl. 5–10**, so confirm the exact platform at the station.
+- **~1:30–2:15 PM** — Transit back to Bounce (Hotel Isar City, Landwehrstraße 33) to collect bags.
+  - **Where / how:** Tram 17 from Schloss Nymphenburg to Romanplatz, transfer to Tram 12 south, walk to Landwehrstraße 33 area (~45 min total). ⚠️ **Confirm pick-up can happen at 2:15 PM**—scheduled window is until 5:00 PM, but contact Bounce via app if picking up early.
+- **~2:15 PM** — Collect all bags from Bounce.
+- **~2:30 PM** — Take transit to München Hbf or taxi directly to station.
+  - **Where / how:** U-Bahn from nearby station to Hauptbahnhof (allow 15–20 min), or taxi directly. At München Hbf, follow departure boards for the booked regional train; the ticket lists tracks **Gl. 5–10**, so confirm the exact platform.
 - **3:47 PM** — Regional train departs München Hbf — **BOOKED** (Bayern-Ticket, Conf. 342448586457; Ticketcode GMYV89JG).
   - **Where / how:** München Hbf, exact track within Gl. 5–10 to be confirmed on the departure board. Take the regional train toward Salzburg/Freilassing.
 - **5:34 PM** — Arrive Freilassing; make the 11-minute connection.
@@ -92,7 +98,7 @@
 - **5:45 PM** — Train departs Freilassing for Berchtesgaden Hbf.
 - **6:38 PM** — Arrive Berchtesgaden Hbf, take a taxi to Villa Alpenrausch, and check in. **Bus 841 is the backup.**
   - **Where / how:** Default: use the taxi rank outside Berchtesgaden Hbf for **Villa Alpenrausch, Waldhauserstraße 29, 83471 Schönau am Königssee**. Backup: board **Bus 841** toward Königssee/Schönau and exit at the nearest stop. Host Philipp: +49 176 21421010. Check-in is from 4 PM.
-> **Day note:** The Bayern-Ticket covers the regional trains and backup Bus 841. Confirm the exact Munich platform and taxi availability on the day.
+> **Day note:** The Bayern-Ticket covers the regional trains and backup Bus 841. Confirm the exact Munich platform and taxi availability on the day. **⚠️ Before Day 3, confirm via the Bounce app that bags can be picked up by 2:15 PM** (scheduled pick-up window is until 5:00 PM).
 
 ### Day 4 — Wed Jul 15 · Wimbachklamm + Salt Mine
 - **7:00–8:00 AM** — Breakfast at **Café Konditorei Confiserie Kaffeesatz**.
