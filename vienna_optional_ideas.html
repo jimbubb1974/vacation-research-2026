@@ -1,0 +1,442 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vienna Optional Ideas</title>
+  <style>
+    :root {
+      --ink: #18212b;
+      --muted: #5b6673;
+      --line: #d9e0e7;
+      --paper: #ffffff;
+      --soft: #f4f8fb;
+      --blue: #1d5f88;
+      --green: #2f6b55;
+      --gold: #8a6426;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: #edf2f6;
+      font: 15px/1.5 "Segoe UI", Arial, sans-serif;
+    }
+
+    main {
+      width: min(100%, 980px);
+      margin: 0 auto;
+      padding: 32px 24px 48px;
+      background: var(--paper);
+    }
+
+    header {
+      border-bottom: 3px solid var(--blue);
+      padding-bottom: 18px;
+      margin-bottom: 24px;
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: 34px;
+      line-height: 1.12;
+      letter-spacing: 0;
+    }
+
+    h2 {
+      margin: 30px 0 12px;
+      font-size: 21px;
+      line-height: 1.2;
+      color: var(--blue);
+      letter-spacing: 0;
+    }
+
+    h3 {
+      margin: 0 0 10px;
+      font-size: 17px;
+      line-height: 1.25;
+      letter-spacing: 0;
+    }
+
+    p {
+      margin: 0 0 10px;
+    }
+
+    a {
+      color: var(--blue);
+      text-decoration: none;
+      overflow-wrap: anywhere;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .lede {
+      max-width: 760px;
+      color: var(--muted);
+      font-size: 16px;
+    }
+
+    .meta {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+      margin: 18px 0 4px;
+    }
+
+    .meta div {
+      padding: 12px;
+      background: var(--soft);
+      border: 1px solid var(--line);
+      border-radius: 6px;
+    }
+
+    .label {
+      display: block;
+      margin-bottom: 2px;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: .04em;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0 18px;
+      font-size: 14px;
+    }
+
+    th,
+    td {
+      vertical-align: top;
+      padding: 9px 10px;
+      border: 1px solid var(--line);
+      text-align: left;
+    }
+
+    th {
+      background: #eaf3f8;
+      color: #17394d;
+      font-weight: 700;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+    }
+
+    .card {
+      break-inside: avoid;
+      border: 1px solid var(--line);
+      border-left: 5px solid var(--blue);
+      border-radius: 6px;
+      padding: 15px 16px;
+      background: #fff;
+    }
+
+    .card.water {
+      border-left-color: var(--green);
+    }
+
+    .card.evening {
+      border-left-color: var(--gold);
+    }
+
+    .slot {
+      margin: 8px 0 10px;
+      color: var(--muted);
+      font-weight: 600;
+    }
+
+    ul,
+    ol {
+      margin: 8px 0 10px 22px;
+      padding: 0;
+    }
+
+    li {
+      margin: 3px 0;
+    }
+
+    .sources {
+      margin-top: 10px;
+      padding-top: 9px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .day-shape {
+      break-inside: avoid;
+      padding: 14px 16px;
+      margin: 12px 0;
+      background: var(--soft);
+      border: 1px solid var(--line);
+      border-radius: 6px;
+    }
+
+    .note {
+      padding: 14px 16px;
+      background: #fff8e8;
+      border: 1px solid #ead5a3;
+      border-radius: 6px;
+    }
+
+    code {
+      font-family: Consolas, "Courier New", monospace;
+      font-size: .95em;
+    }
+
+    @media (max-width: 760px) {
+      main {
+        padding: 22px 16px 36px;
+      }
+
+      h1 {
+        font-size: 28px;
+      }
+
+      .grid,
+      .meta {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media print {
+      body {
+        background: #fff;
+      }
+
+      main {
+        width: auto;
+        padding: 0;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      .card,
+      .day-shape,
+      .note {
+        break-inside: avoid;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Vienna Optional Ideas</h1>
+      <p class="lede">Optional substitutions or add-ons for Vienna, not a replacement for the main itinerary. The goal is to keep room for conventional Vienna while adding choices that may land better with the kids.</p>
+      <div class="meta">
+        <div>
+          <span class="label">Base</span>
+          Operngasse, near the Opera / Karlsplatz / Naschmarkt
+        </div>
+        <div>
+          <span class="label">Use</span>
+          Train-ride discussion sheet before choosing any changes
+        </div>
+      </div>
+    </header>
+
+    <section>
+      <h2>Dates In Play</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Current Plan</th>
+            <th>Optional Pivot Idea</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Sun Jul 19</td>
+            <td>Arrive Vienna, Old Town, KHM, check in</td>
+            <td>Keep light; maybe use Donaukanal, Badeschiff, or Rathausplatz as an evening drive-by</td>
+          </tr>
+          <tr>
+            <td>Mon Jul 20</td>
+            <td>Naschmarkt, Schonbrunn palace/gardens/maze/Gloriette</td>
+            <td>Keep Schonbrunn, but make it shorter; consider Popfest Warm-Up or Donaukanal in the evening</td>
+          </tr>
+          <tr>
+            <td>Tue Jul 21</td>
+            <td>Upper Belvedere, Prater/Riesenrad</td>
+            <td>Consider swapping or shortening Belvedere for Danube water / views, then keep Prater</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>Short List To Run By The Kids</h2>
+      <div class="grid">
+        <article class="card evening">
+          <h3>1. Donaukanal Street Art + Beach Bars</h3>
+          <p><strong>Why it might work:</strong> Still Vienna, but not imperial Vienna. The Danube Canal has street art, summer bars, food, people-watching, and a less formal city feel.</p>
+          <p class="slot">Best slot: Sun Jul 19 after dinner, or Mon Jul 20 evening after Schonbrunn.</p>
+          <ul>
+            <li>Walk or transit from Operngasse toward Schwedenplatz / Urania.</li>
+            <li>Walk the canal path for street art and summer atmosphere.</li>
+            <li>Stop somewhere casual instead of doing another formal Old Town stroll.</li>
+          </ul>
+          <p><strong>Decision point:</strong> Easiest low-risk add-on. If everyone is tired, it can be just 45-60 minutes.</p>
+          <p class="sources">Sources: <a href="https://www.wien.info/en/recommendations/summer-scene-on-the-danube-canal">Danube Canal summer scene</a>; <a href="https://www.wien.info/en/art-culture/museums-exhibitions/street-art-wien-425620">Vienna street art</a></p>
+        </article>
+
+        <article class="card water">
+          <h3>2. Old Danube Boat Rental</h3>
+          <p><strong>Why it might work:</strong> A real Vienna summer thing: get out on the water, see a different side of the city, and break up the palace/museum sequence.</p>
+          <p class="slot">Best slot: Tue Jul 21 late morning / early afternoon, before Prater.</p>
+          <ul>
+            <li>From Karlsplatz, take U1 toward Leopoldau to Alte Donau.</li>
+            <li>Rent an electric boat, pedal boat, kayak, or SUP.</li>
+            <li>Keep it to 60-90 minutes so the day still has room for Prater.</li>
+          </ul>
+          <p><strong>Decision point:</strong> Probably the best candidate if the kids want something active but not exhausting.</p>
+          <p class="sources">Sources: <a href="https://alte-donau.info/">Alte Donau</a>; <a href="https://www.wien.info/en/livable-vienna/water-in-vienna/summer-at-old-danube-360430">Old Danube overview</a></p>
+        </article>
+
+        <article class="card water">
+          <h3>3. Danube Tower + Exterior Slide</h3>
+          <p><strong>Why it might work:</strong> Vienna from above, with enough novelty/adrenaline to avoid feeling like another viewpoint. The exterior slide runs from the upper tower level down to the viewing level.</p>
+          <p class="slot">Best slot: Tue Jul 21, paired with Old Danube or Prater.</p>
+          <ul>
+            <li>Use as the viewpoint replacement for part of Belvedere or another formal stop.</li>
+            <li>Pair with Donaupark / Old Danube if the weather is good.</li>
+            <li>Then go to Prater later in the afternoon or evening.</li>
+          </ul>
+          <p><strong>Decision point:</strong> Good if the kids like heights. Skip if the slide is not interesting.</p>
+          <p class="sources">Sources: <a href="https://www.donauturm.at/en/">Danube Tower</a>; <a href="https://www.donauturm.at/en/restaurants-and-shop/turm-slide/">Tower slide</a></p>
+        </article>
+
+        <article class="card evening">
+          <h3>4. Popfest Warm-Up At Stadtkino</h3>
+          <p><strong>Why it might work:</strong> A better cultural evening option than the Rathausplatz opera films if the kids are more music / film / art oriented. It is tied to Popfest Wien.</p>
+          <p class="slot">Best slot: Mon Jul 20 or Tue Jul 21 at 8:30 PM.</p>
+          <table>
+            <tbody>
+              <tr>
+                <th>Mon Jul 20</th>
+                <td><code>Downtown '81</code>: Jean-Michel Basquiat, NYC art/music scene</td>
+              </tr>
+              <tr>
+                <th>Tue Jul 21</th>
+                <td><code>Gimme Danger</code>: Jim Jarmusch documentary about Iggy Pop and The Stooges</td>
+              </tr>
+            </tbody>
+          </table>
+          <p><strong>Decision point:</strong> More niche than the Danube options, but maybe the best not-opera, not-palace culture option.</p>
+          <p class="sources">Sources: <a href="https://popfest.at/warm-up/">Popfest Warm-Up</a>; <a href="https://presse.wien.gv.at/presse/2026/06/25/das-17-popfest-wien-praesentiert-sein-programm">City of Vienna press note</a></p>
+        </article>
+
+        <article class="card water">
+          <h3>5. Danube Island / Copa Beach</h3>
+          <p><strong>Why it might work:</strong> Vienna as a summer city rather than Vienna as a museum city. The area has swimming, cycling, skating, beach volleyball, water access, food, and places to hang out.</p>
+          <p class="slot">Best slot: Tue Jul 21 as part of a Danube-focused day.</p>
+          <ul>
+            <li>Combine with Danube Tower and/or Old Danube.</li>
+            <li>Use as a flexible get-out-of-the-historic-center block.</li>
+            <li>Good if the boat rental feels too organized.</li>
+          </ul>
+          <p><strong>Decision point:</strong> Good if everyone wants unstructured time. Less compelling if the group wants one clear ticketed activity.</p>
+          <p class="sources">Source: <a href="https://www.wien.info/en/see-do/families/outdoor/danube-island-344064">Danube Island overview</a></p>
+        </article>
+
+        <article class="card evening">
+          <h3>6. Badeschiff Pool / Bar / Food</h3>
+          <p><strong>Why it might work:</strong> An easy city-center summer reset: pool, casual food, drinks, and canal atmosphere on a converted ship.</p>
+          <p class="slot">Best slot: Sun Jul 19 evening, Mon Jul 20 evening, or as a fallback.</p>
+          <ul>
+            <li>Works naturally with the Donaukanal street art / beach bar idea.</li>
+            <li>Could replace a formal dinner if everyone wants something casual.</li>
+            <li>Pool access is the differentiator; otherwise treat it as a canal hangout.</li>
+          </ul>
+          <p><strong>Decision point:</strong> Best as a flexible fallback. Check pool logistics before promising it.</p>
+          <p class="sources">Sources: <a href="https://www.badeschiff.at/">Badeschiff</a>; <a href="https://www.badeschiff.at/pool/">Pool info</a></p>
+        </article>
+
+        <article class="card evening">
+          <h3>7. Rathausplatz Film Festival Drive-By</h3>
+          <p><strong>Why it might work:</strong> The specific films may not connect, but the setting can still be worth seeing: City Hall, huge outdoor screen, food stands, summer crowd, and free entry.</p>
+          <p class="slot">Best slot: Sun Jul 19 or Mon Jul 20 evening if nearby and energy is decent.</p>
+          <ul>
+            <li>Go after dinner or on the way back from an evening walk.</li>
+            <li>Browse food stands, look at the setup, stay 15-30 minutes.</li>
+            <li>Combine with a Ringstrasse / Rathaus / Parliament exterior walk.</li>
+          </ul>
+          <p><strong>Decision point:</strong> Do not make this the anchor unless the group is into the night's program.</p>
+          <p class="sources">Sources: <a href="https://filmfestival-rathausplatz.at/en/">Official festival site</a>; <a href="https://www.wien.info/en/art-culture/music-stage-shows/film-festival-rathausplatz-353152">Vienna tourism overview</a></p>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <h2>Optional Day Shapes</h2>
+      <div class="day-shape">
+        <h3>Option A: Conventional Vienna, But Less Heavy</h3>
+        <p><strong>Sun Jul 19:</strong> Arrive, lunch near Naschmarkt, short Old Town orientation. Keep KHM only if energy is good; otherwise shorten it. Evening: Donaukanal walk, Badeschiff, or Rathausplatz drive-by.</p>
+        <p><strong>Mon Jul 20:</strong> Naschmarkt breakfast. Schonbrunn palace/gardens/maze/Gloriette, but do not force every component. Evening: Popfest Warm-Up if one film lands; otherwise simple dinner, Donaukanal, or downtime.</p>
+        <p><strong>Tue Jul 21:</strong> Short Belvedere visit or skip if everyone is done with palaces. Old Danube boat rental or Danube Tower + slide. Prater / Riesenrad as the main late-afternoon/evening event.</p>
+      </div>
+
+      <div class="day-shape">
+        <h3>Option B: Water + Views + Prater</h3>
+        <p><strong>Sun Jul 19:</strong> Keep arrival day practical: bags, lunch, check-in. Do a short central walk, not a full museum push. Optional Donaukanal / Badeschiff evening if energy allows.</p>
+        <p><strong>Mon Jul 20:</strong> Keep Schonbrunn because it is already central to the original plan. Bias toward gardens, maze, Gloriette, snacks, and downtime. Optional Popfest Warm-Up at night if the kids want a film/music evening.</p>
+        <p><strong>Tue Jul 21:</strong> Skip or heavily shorten Belvedere. Old Danube boat rental. Danube Tower + slide if there is still appetite for a viewpoint. Danube Island / Copa Beach if a looser water hangout sounds better. Prater in the evening.</p>
+      </div>
+
+      <div class="day-shape">
+        <h3>Option C: Let The Kids Pick One Anchor</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Option</th>
+              <th>Quick Pitch</th>
+              <th>Best Day</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>Donaukanal</td><td>Street art, canal walk, summer bars</td><td>Sun or Mon evening</td></tr>
+            <tr><td>Old Danube boat</td><td>Rent something on the water</td><td>Tue midday</td></tr>
+            <tr><td>Danube Tower slide</td><td>City view plus a short high-altitude slide</td><td>Tue midday/afternoon</td></tr>
+            <tr><td>Popfest Warm-Up</td><td>Basquiat or Iggy Pop film tied to local music festival</td><td>Mon or Tue evening</td></tr>
+            <tr><td>Danube Island / Copa Beach</td><td>Water, casual food, swimming/hangout vibe</td><td>Tue midday/afternoon</td></tr>
+            <tr><td>Badeschiff</td><td>Pool/bar/food on the canal</td><td>Sun or Mon evening</td></tr>
+            <tr><td>Rathausplatz drive-by</td><td>Big free outdoor summer festival scene</td><td>Sun or Mon evening</td></tr>
+            <tr><td>Prater</td><td>Amusement park and Riesenrad</td><td>Tue afternoon/evening</td></tr>
+          </tbody>
+        </table>
+        <p>Then keep one conventional Vienna anchor each day: Old Town / Stephansdom / Hofburg exterior on Sunday, Schonbrunn on Monday, and Belvedere or a final central walk on Tuesday.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Practical Notes</h2>
+      <div class="note">
+        <ul>
+          <li>Keep the active itinerary intact until an option is actually chosen.</li>
+          <li>Recheck same-day weather for Old Danube and Danube Tower.</li>
+          <li>Recheck operator hours before leaving the apartment.</li>
+          <li>Recheck Popfest tickets and language/subtitle details before committing.</li>
+          <li>Avoid stacking all the Danube ideas unless everyone is enthusiastic; Old Danube plus Prater may be enough.</li>
+          <li>If the group is tired, choose Donaukanal, Badeschiff, or Rathausplatz drive-by because they have the lowest logistics burden.</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
